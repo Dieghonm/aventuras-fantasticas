@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/aventuras-fantasticas/static/css/main.a1106b2c.chunk.css",
+    "main.js": "/aventuras-fantasticas/static/js/main.d2b14121.chunk.js",
+    "main.js.map": "/aventuras-fantasticas/static/js/main.d2b14121.chunk.js.map",
+    "runtime-main.js": "/aventuras-fantasticas/static/js/runtime-main.b2670acd.js",
+    "runtime-main.js.map": "/aventuras-fantasticas/static/js/runtime-main.b2670acd.js.map",
+    "static/js/2.53e70aaa.chunk.js": "/aventuras-fantasticas/static/js/2.53e70aaa.chunk.js",
+    "static/js/2.53e70aaa.chunk.js.map": "/aventuras-fantasticas/static/js/2.53e70aaa.chunk.js.map",
+    "static/js/3.13a9a044.chunk.js": "/aventuras-fantasticas/static/js/3.13a9a044.chunk.js",
+    "static/js/3.13a9a044.chunk.js.map": "/aventuras-fantasticas/static/js/3.13a9a044.chunk.js.map",
+    "index.html": "/aventuras-fantasticas/index.html",
+    "static/css/main.a1106b2c.chunk.css.map": "/aventuras-fantasticas/static/css/main.a1106b2c.chunk.css.map",
+    "static/js/2.53e70aaa.chunk.js.LICENSE.txt": "/aventuras-fantasticas/static/js/2.53e70aaa.chunk.js.LICENSE.txt",
+    "static/media/TryB-X+ header.05ed59a7.png": "/aventuras-fantasticas/static/media/TryB-X+ header.05ed59a7.png",
+    "static/media/TryB-X+ logo.ccd1e7f6.png": "/aventuras-fantasticas/static/media/TryB-X+ logo.ccd1e7f6.png",
+    "static/media/Trybe Logo.1bcc6d78.svg": "/aventuras-fantasticas/static/media/Trybe Logo.1bcc6d78.svg",
+    "static/media/css.39769a8b.svg": "/aventuras-fantasticas/static/media/css.39769a8b.svg",
+    "static/media/github.3ec61b93.png": "/aventuras-fantasticas/static/media/github.3ec61b93.png",
+    "static/media/hook.34bedb66.png": "/aventuras-fantasticas/static/media/hook.34bedb66.png",
+    "static/media/html.8664168d.svg": "/aventuras-fantasticas/static/media/html.8664168d.svg",
+    "static/media/jest.f6fa228a.png": "/aventuras-fantasticas/static/media/jest.f6fa228a.png",
+    "static/media/js.4c1b5332.svg": "/aventuras-fantasticas/static/media/js.4c1b5332.svg",
+    "static/media/mysql.aa790b3c.png": "/aventuras-fantasticas/static/media/mysql.aa790b3c.png",
+    "static/media/nodejs.7b7c4003.png": "/aventuras-fantasticas/static/media/nodejs.7b7c4003.png",
+    "static/media/react.73ac128a.png": "/aventuras-fantasticas/static/media/react.73ac128a.png",
+    "static/media/redux.d25c5f47.svg": "/aventuras-fantasticas/static/media/redux.d25c5f47.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2670acd.js",
+    "static/js/2.53e70aaa.chunk.js",
+    "static/css/main.a1106b2c.chunk.css",
+    "static/js/main.d2b14121.chunk.js"
+  ]
+}
