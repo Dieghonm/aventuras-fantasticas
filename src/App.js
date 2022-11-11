@@ -16,8 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          styled-components
-          react-icons
+          crypto-js
         </a>
       </header>
     </div>
