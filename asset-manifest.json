@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/aventuras-fantasticas/static/css/main.073c9b0a.css",
-    "main.js": "/aventuras-fantasticas/static/js/main.cbbbbfd5.js",
+    "main.css": "/aventuras-fantasticas/static/css/main.e6c13ad2.css",
+    "main.js": "/aventuras-fantasticas/static/js/main.04897184.js",
     "static/js/787.db9d463f.chunk.js": "/aventuras-fantasticas/static/js/787.db9d463f.chunk.js",
-    "static/media/logo.svg": "/aventuras-fantasticas/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/aventuras-fantasticas/index.html",
-    "main.073c9b0a.css.map": "/aventuras-fantasticas/static/css/main.073c9b0a.css.map",
-    "main.cbbbbfd5.js.map": "/aventuras-fantasticas/static/js/main.cbbbbfd5.js.map",
+    "main.e6c13ad2.css.map": "/aventuras-fantasticas/static/css/main.e6c13ad2.css.map",
+    "main.04897184.js.map": "/aventuras-fantasticas/static/js/main.04897184.js.map",
     "787.db9d463f.chunk.js.map": "/aventuras-fantasticas/static/js/787.db9d463f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.cbbbbfd5.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.04897184.js"
   ]
 }
