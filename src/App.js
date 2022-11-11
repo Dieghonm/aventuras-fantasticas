@@ -17,6 +17,7 @@ function App() {
           rel="noopener noreferrer"
         >
           styled-components
+          react-icons
         </a>
       </header>
     </div>
