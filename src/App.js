@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { GiHamburgerMenu } from "react-icons/gi";
+
+import Aside from './pages/Aside';
+import Footer from './pages/Footer';
+
+import * as S from './styles/App'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          crypto-js
-        </a>
-      </header>
-    </div>
+    <S.AppDiv>
+      <BrowserRouter>
+        <S.Icon><GiHamburgerMenu /></S.Icon>
+        <Routes>
+          <Route path="/" component={Aside} />
+        </Routes>
+      </BrowserRouter>
+      <Footer />
+    </S.AppDiv>
   );
 }
 

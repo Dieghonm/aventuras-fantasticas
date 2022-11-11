@@ -3,6 +3,7 @@ Iniciando projeto
 instalaçoes 
 
 React
+react-router-dom
 gh-pages
 eslint
 styled-components
