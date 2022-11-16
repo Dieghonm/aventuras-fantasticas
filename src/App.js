@@ -15,6 +15,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Aside />} />
+          <Route path="*" element={<Aside />} />
         </Routes>
       </BrowserRouter>
       <Main />
