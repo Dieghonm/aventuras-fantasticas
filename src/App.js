@@ -14,8 +14,8 @@ function App() {
       <S.Icon><GiHamburgerMenu /></S.Icon>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Aside />} />
-          <Route path="*" element={<Aside />} />
+          <Route path="/aventuras-fantasticas" element={<Aside />} />
+          {/* <Route path="*" element={<Aside />} /> */}
         </Routes>
       </BrowserRouter>
       <Main />
