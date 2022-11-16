@@ -6,16 +6,18 @@ import Aside from './pages/Aside';
 import Footer from './pages/Footer';
 
 import * as S from './styles/App'
+import Main from './pages/Main';
 
 function App() {
   return (
     <S.AppDiv>
+      <S.Icon><GiHamburgerMenu /></S.Icon>
       <BrowserRouter>
-        <S.Icon><GiHamburgerMenu /></S.Icon>
         <Routes>
-          <Route path="/" component={Aside} />
+          <Route path="/" element={<Aside />} />
         </Routes>
       </BrowserRouter>
+      <Main />
       <Footer />
     </S.AppDiv>
   );

@@ -1,10 +1,12 @@
 import React, { Component } from "react"
+import AsideLogin from "../components/AsideLogin"
+
 
 class Aside extends Component {
   render() {
     return(
       <div>
-        <p>Asideasddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</p>
+        <AsideLogin/>
       </div>
     )
   }
