@@ -10,20 +10,22 @@ import Project from './pages/Project';
 import SobreNos from './pages/SobreNos';
 import NovoJogo from './pages/NovoJogo';
 import JogosSalvos from './pages/JogosSalvos';
+import ComoJogar from './pages/ComoJogar';
 
 function App() {
   return (
     <S.AppDiv>
       <S.Icon><GiHamburgerMenu /></S.Icon>
-      <Aside />
       <BrowserRouter>
+      <Aside />
         <Routes>
+          <Route path="/aventuras-fantasticas/novo-jogo" element={<NovoJogo />} />
+          <Route path="/aventuras-fantasticas/jogos-salvos" element={<JogosSalvos />} />
+          <Route path="/aventuras-fantasticas/como-jogar" element={<ComoJogar />} />
+          <Route path="/aventuras-fantasticas/sobre-nos" element={<SobreNos />} />
           <Route path="/aventuras-fantasticas" element={<Project />} />
         </Routes>
       </BrowserRouter>
-      <SobreNos />
-      <NovoJogo />
-      <JogosSalvos />
       <Footer />
     </S.AppDiv>
   );

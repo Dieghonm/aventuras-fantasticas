@@ -1,12 +1,13 @@
 import React, { Component } from "react"
 import AsideButtons from "../components/AsideButtons";
 import AsideLogin from "../components/AsideLogin"
+import PropTypes from 'prop-types';
 
 import Logo from '../imgs/logo.png'
 import * as S from '../styles/pages/Aside'
 
-
 class Aside extends Component {
+  
   state = {
     showButtons: false
   }
@@ -18,6 +19,7 @@ class Aside extends Component {
   }
 
   render() {
+ 
     const { showButtons } = this.state
     return(
       <S.AsideDiv>
@@ -30,5 +32,10 @@ class Aside extends Component {
     )
   }
 }
+
+Aside.propTypes = {
+  history: PropTypes.object,
+  push: PropTypes.string,
+};
 
 export default Aside
