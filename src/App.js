@@ -15,7 +15,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/aventuras-fantasticas" element={<Aside />} />
-          {/* <Route path="*" element={<Aside />} /> */}
         </Routes>
       </BrowserRouter>
       <Main />

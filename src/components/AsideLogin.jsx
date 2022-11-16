@@ -1,6 +1,7 @@
 import React, { Component } from "react"
+import PropTypes from 'prop-types';
+import { GetGravatar } from "../helpers/Gravatar"
 import { GetLocalStorage, SetLocalStorage } from "../helpers/LocalStorage"
-import md5 from 'crypto-js/md5';
 
 import LogoApp from '../imgs/logo.png'
 import * as S from '../styles/components/AsideLogin'
@@ -21,12 +22,10 @@ class AsideLogin extends Component {
     this.setState({
       [name]:value
     }, () => {
-      console.log(regex.test(Email));
       if (Name && regex.test(Email)) {
-        console.log('entrei');
         this.setState({
           disabledButton: false
-        }, console.log(this.state))
+        })
       }
     })
   }
@@ -34,7 +33,7 @@ class AsideLogin extends Component {
   enterButton = async() => {
     const { Name, Email } = this.state;
     SetLocalStorage({ [Name]: {Email}  })
-    // logica pos clicar no botão, trocar de tela
+    this.iniciar(Name, Email)
   }
   
   componentDidMount(){
@@ -47,15 +46,22 @@ class AsideLogin extends Component {
     }
   }
 
+  iniciar = (name, email) => {
+    const { changeLogin } = this.props
+    console.log(name, email);
+    changeLogin(true)
+  }
+
   iconMaker = (bill) => {
     const { data } = this.state
-    const emailGravatar = md5(data[bill].Email).toString();
-    const avatar = `https://www.gravatar.com/avatar/${emailGravatar}`;
     return (
-      <div key={bill}>
+      <div
+        key={bill}
+        onClick={ () => this.iniciar(bill, data[bill].Email) }
+      >
         <img
           height="45"
-          src={ avatar }
+          src={ GetGravatar(data[bill].Email) }
           alt="Avatar"
         />
         <h5>{bill}</h5>
@@ -104,5 +110,9 @@ class AsideLogin extends Component {
     )
   }
 }
+
+AsideLogin.propTypes = {
+  changeLogin: PropTypes.func
+};
 
 export default AsideLogin
