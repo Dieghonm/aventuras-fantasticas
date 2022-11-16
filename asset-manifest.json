@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/aventuras-fantasticas/static/css/main.e6c13ad2.css",
-    "main.js": "/aventuras-fantasticas/static/js/main.b98922bf.js",
+    "main.js": "/aventuras-fantasticas/static/js/main.99be4477.js",
     "static/js/787.db9d463f.chunk.js": "/aventuras-fantasticas/static/js/787.db9d463f.chunk.js",
     "static/media/logo.png": "/aventuras-fantasticas/static/media/logo.9cfde937cc4d171f6df8.png",
     "index.html": "/aventuras-fantasticas/index.html",
     "main.e6c13ad2.css.map": "/aventuras-fantasticas/static/css/main.e6c13ad2.css.map",
-    "main.b98922bf.js.map": "/aventuras-fantasticas/static/js/main.b98922bf.js.map",
+    "main.99be4477.js.map": "/aventuras-fantasticas/static/js/main.99be4477.js.map",
     "787.db9d463f.chunk.js.map": "/aventuras-fantasticas/static/js/787.db9d463f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.b98922bf.js"
+    "static/js/main.99be4477.js"
   ]
 }
