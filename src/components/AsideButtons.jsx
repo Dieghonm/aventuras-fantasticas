@@ -2,15 +2,19 @@ import React, { Component } from "react"
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
+import * as S from '../styles/components/AsideButtons'
+
 class AsideButtons extends Component {
   render() {
-    const { user }= this.props
-    console.log(user);
+    // const { user }= this.props
+    // console.log(user);
     return(
-      <div>
-        <p>AsideButtons</p>
-        <h1>user</h1>
-      </div>
+      <>
+        <S.AsideButtons>Novo Jogo</S.AsideButtons>
+        <S.AsideButtons>Jogos Salvos</S.AsideButtons>
+        <S.AsideButtons>Como Jogar</S.AsideButtons>
+        <S.AsideButtons>Sobre Nós</S.AsideButtons>
+      </>
     )
   }
 }

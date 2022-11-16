@@ -1,13 +1,13 @@
 import React, { Component } from "react"
 
-class Main extends Component {
+class ComoJogar extends Component {
   render() {
     return(
       <div>
-        <p>Main</p>
+        <p>ComoJogar</p>
       </div>
     )
   }
 }
 
-export default Main
+export default ComoJogar

@@ -2,6 +2,10 @@ import React, { Component } from "react"
 import AsideButtons from "../components/AsideButtons";
 import AsideLogin from "../components/AsideLogin"
 
+import Logo from '../imgs/logo.png'
+import * as S from '../styles/pages/Aside'
+
+
 class Aside extends Component {
   state = {
     showButtons: false
@@ -16,12 +20,13 @@ class Aside extends Component {
   render() {
     const { showButtons } = this.state
     return(
-      <div>
+      <S.AsideDiv>
+        <S.Logo src={Logo} alt="Logo" />
         {showButtons ?
           <AsideButtons /> :
           <AsideLogin changeLogin={this.changeLogin} />
         }
-      </div>
+      </S.AsideDiv>
     )
   }
 }

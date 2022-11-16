@@ -5,7 +5,6 @@ import { actionLogin } from '../redux/actions/index';
 import { GetGravatar } from "../helpers/Gravatar"
 import { GetLocalStorage, SetLocalStorage } from "../helpers/LocalStorage"
 
-import LogoApp from '../imgs/logo.png'
 import * as S from '../styles/components/AsideLogin'
 
 class AsideLogin extends Component {
@@ -74,8 +73,7 @@ class AsideLogin extends Component {
   render() {
     const { disabledButton, Name, Email, bills } = this.state
     return(
-      <S.LoginDiv>
-        <S.Logo src={LogoApp} alt="Logo" />
+      <>
         <S.CriarPerfilDiv>
           <h4>Criar novo perfil</h4>
           <input
@@ -108,7 +106,7 @@ class AsideLogin extends Component {
           </h4>
           {bills.map((bill) => this.iconMaker(bill))}
         </S.EscolherPerfilDiv>
-      </S.LoginDiv>
+      </>
     )
   }
 }
