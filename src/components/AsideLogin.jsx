@@ -1,5 +1,7 @@
 import React, { Component } from "react"
 import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import { actionLogin } from '../redux/actions/index';
 import { GetGravatar } from "../helpers/Gravatar"
 import { GetLocalStorage, SetLocalStorage } from "../helpers/LocalStorage"
 
@@ -46,9 +48,9 @@ class AsideLogin extends Component {
     }
   }
 
-  iniciar = (name, email) => {
-    const { changeLogin } = this.props
-    console.log(name, email);
+  iniciar = (user, email) => {
+    const { changeLogin, login } = this.props
+    login({ user, email });
     changeLogin(true)
   }
 
@@ -112,7 +114,12 @@ class AsideLogin extends Component {
 }
 
 AsideLogin.propTypes = {
-  changeLogin: PropTypes.func
+  changeLogin: PropTypes.func,
+  login: PropTypes.func,
 };
 
-export default AsideLogin
+const mapDispatchToProps = (dispatch) => ({
+  login: (data) => dispatch(actionLogin(data)),
+});
+
+export default connect(null, mapDispatchToProps)(AsideLogin);
