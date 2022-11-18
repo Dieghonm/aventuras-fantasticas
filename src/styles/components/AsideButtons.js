@@ -1,9 +1,5 @@
 import styled from "styled-components";
-
-const media ={
-  mobileM: '@media(max-width:375px)',
-  laptop: '@media(max-width:768px)',
-}
+import { media } from "../media";
 
 export const AsideButtons = styled.button`
   margin: 0.5em;

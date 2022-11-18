@@ -1,9 +1,6 @@
 import styled from "styled-components";
+import { media } from "../media";
 
-const media ={
-  mobileM: '@media(max-width:375px)',
-  laptop: '@media(max-width:768px)',
-}
 
 export const AsideDiv = styled.div`
   display: flex ;

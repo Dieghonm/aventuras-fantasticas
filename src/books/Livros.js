@@ -1,6 +1,10 @@
+// import capas from './capas'
+import Acidadeladocaos from '../imgs/Acidadeladocaos.png'
+
 const Livros = {
-  cidadela : {
+  cidadelaDoCaos : {
     name:'A CIDADELA DO CAOS',
+    img: Acidadeladocaos,
     sinipse:`Nas profundezas da Cidadela do Caos, o terrivel feiticeiro, Balthus Dire, esta conspirando e planejando a derrocada do povo generoso do Vale dos Salgueiros. Seus planos de combate estao prontos, seu exercito assustador equipado, e o ataque e indiscutivelmente iminente.
     Convocado	por  uma  suplica  desesperada  de  ajuda,  VOCE"
     e  a  unica  esperan a  do  Vale  dos
@@ -9,6 +13,13 @@ const Livros = {
     Muitos perigos  existem  a sua frente, e seu  sucesso  nao esta  de forma  alguma  garantido.  Ha
     adversarios poderosos nas fileiras do inimigo e muitas vezes sua unica alternativa sera matar ou ser morto!
     'Steve Jackson'`
+  },
+  oFeiticeiroDaMontanhaDeFogo : {
+    name:'O Feiticeiro da Montanha de Fogo',
+  },
+  Modelo : {
+    name: '',
+    Sinopse :''
   }
 }
 

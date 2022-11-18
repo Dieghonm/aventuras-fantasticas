@@ -13,3 +13,12 @@ Redux
 redux-devtools
 redux-thunk
 
+
+
+
+
+
+
+
+
+https://dieghonm.github.io/aventuras-fantasticas/

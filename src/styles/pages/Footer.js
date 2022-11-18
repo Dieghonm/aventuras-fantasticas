@@ -5,6 +5,6 @@ export const InitialDiscl = styled('p')({
   bottom: '1%',
   right: '1%',
   color: 'black',
-  fontSize: '8px',
+  fontSize: '6px',
 })
 
