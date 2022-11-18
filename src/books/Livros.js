@@ -1,10 +1,17 @@
 // import capas from './capas'
-import Acidadeladocaos from '../imgs/Acidadeladocaos.png'
+import ACidadeladoCaos from '../imgs/ACidadeladoCaos.png'
+import OFeiticeirodaMontanhadeFogo from '../imgs/OFeiticeirodaMontanhadeFogo.png'
+
+import AcidadedosLadroes from '../imgs/AcidadedosLadroes.png'
+import OCalaboucodaMorte from '../imgs/OCalaboucodaMorte.png'
+import OTemplodoTerror from '../imgs/OTemplodoTerror.png'
+
+
 
 const Livros = {
   cidadelaDoCaos : {
-    name:'A CIDADELA DO CAOS',
-    img: Acidadeladocaos,
+    name:'A Cidadela do Caos',
+    img: ACidadeladoCaos,
     sinipse:`Nas profundezas da Cidadela do Caos, o terrivel feiticeiro, Balthus Dire, esta conspirando e planejando a derrocada do povo generoso do Vale dos Salgueiros. Seus planos de combate estao prontos, seu exercito assustador equipado, e o ataque e indiscutivelmente iminente.
     Convocado	por  uma  suplica  desesperada  de  ajuda,  VOCE"
     e  a  unica  esperan a  do  Vale  dos
@@ -14,13 +21,53 @@ const Livros = {
     adversarios poderosos nas fileiras do inimigo e muitas vezes sua unica alternativa sera matar ou ser morto!
     'Steve Jackson'`
   },
-  oFeiticeiroDaMontanhaDeFogo : {
+  OFeiticeirodaMontanhadeFogo : {
     name:'O Feiticeiro da Montanha de Fogo',
+    img:OFeiticeirodaMontanhadeFogo,
+    sinopse:'',
   },
-  Modelo : {
-    name: '',
-    Sinopse :''
-  }
+  AcidadedosLadroes : {
+    name: 'A Cidade dos Ladrões',
+    img: AcidadedosLadroes,
+    sinopse :'',
+  },
+  OCalaboucodaMorte : {
+    name: 'O Calabouço da Morte',
+    img: OCalaboucodaMorte,
+    sinopse :'',
+  },
+  OTemplodoTerror : {
+    name: 'O Templo do terror',
+    img: OTemplodoTerror,
+    sinopse :'',
+  },
+  OFeiticeirodaMontanhadeFogo2 : {
+    name:'O Feiticeiro da Montanha de Fogo',
+    img:OFeiticeirodaMontanhadeFogo,
+    sinopse:'',
+  },
+  AcidadedosLadroes2 : {
+    name: 'A Cidade dos Ladrões',
+    img: AcidadedosLadroes,
+    sinopse :'',
+  },
+  OCalaboucodaMorte2 : {
+    name: 'O Calabouço da Morte',
+    img: OCalaboucodaMorte,
+    sinopse :'',
+  },
+  OTemplodoTerror2 : {
+    name: 'O Templo do terror',
+    img: OTemplodoTerror,
+    sinopse :'',
+  },
+  
 }
 
 export default Livros;
+
+// Modelo : {
+//   name: '',
+//   img: '',
+//   sinopse :'',
+// },
