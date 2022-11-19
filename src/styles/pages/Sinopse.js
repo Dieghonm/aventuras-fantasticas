@@ -1,21 +1,11 @@
 import styled from "styled-components";
 import { media } from "../media";
 
-export const NewGame = styled.div`
-  display: flex ;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 3em;
-` 
-
-export const BookDiv = styled.div`
-  display: flex ;
-  flex-direction: column;
-
-  width: 13em;
-  height: 20em;
-  margin: 0.5em;
+export const SinopseDiv = styled.div`
+  /* display: flex ; */
+  /* flex-direction: column; */
+  /* height: 20em; */
+  /* margin: 0.5em; */
 
   word-break: break-word;
 

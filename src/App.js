@@ -8,9 +8,10 @@ import Footer from './pages/Footer';
 import * as S from './styles/App'
 import Project from './pages/Project';
 import SobreNos from './pages/SobreNos';
-import NovoJogo from './pages/NovoJogo';
+import NewGame from './pages/NewGame';
 import JogosSalvos from './pages/JogosSalvos';
 import ComoJogar from './pages/ComoJogar';
+import Sinopse from './pages/Sinopse';
 
 function App() {
   return (
@@ -19,11 +20,13 @@ function App() {
       <BrowserRouter>
       <Aside />
         <Routes>
-          <Route path="/aventuras-fantasticas/novo-jogo" element={<NovoJogo />} />
+          <Route path="/aventuras-fantasticas/novo-jogo" element={<NewGame />} />
           <Route path="/aventuras-fantasticas/jogos-salvos" element={<JogosSalvos />} />
           <Route path="/aventuras-fantasticas/como-jogar" element={<ComoJogar />} />
           <Route path="/aventuras-fantasticas/sobre-nos" element={<SobreNos />} />
+          <Route path="/aventuras-fantasticas/sinopse/:book" element={<Sinopse />} />
           <Route path="/aventuras-fantasticas" element={<Project />} />
+          <Route path="*" element={<Project />} />
         </Routes>
       </BrowserRouter>
       <Footer />
