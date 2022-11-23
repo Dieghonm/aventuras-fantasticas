@@ -13,7 +13,7 @@ export const SinopseDiv = styled.div`
     /* width: 15em ;
     height: 47em; */
   }
-  ${ media.mobileM }{ 
+  ${ media.mobileG }{ 
     /* width: 80% ;
     padding: 3em 2em; */
   }

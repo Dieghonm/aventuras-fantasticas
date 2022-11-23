@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { media } from "../media";
+import img from '../../imgs/BRIDGE.png'
 
 
 export const AsideDiv = styled.div`
@@ -8,11 +9,15 @@ export const AsideDiv = styled.div`
   align-items: center;
   width: 15em ;
   height: 57em;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(${img});
   ${ media.laptop }{ 
     width: 15em ;
     height: 47em;
   }
-  ${ media.mobileM }{ 
+  ${ media.mobileG }{ 
     width: 80% ;
     padding: 3em 2em;
   }
@@ -23,7 +28,7 @@ export const Logo = styled.img`
   /* text-align: center; */
   ${ media.laptop }{ 
   }
-  ${ media.mobileM }{ 
+  ${ media.mobileG }{ 
     width: 90%;
     margin-bottom: 1em;
   }

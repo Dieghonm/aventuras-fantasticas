@@ -1,13 +1,13 @@
 import React, { Component } from "react"
 
-class JogosSalvos extends Component {
+class SaveGame extends Component {
   render() {
     return(
       <div>
-        <p>JogosSalvos</p>
+        <p>SaveGame</p>
       </div>
     )
   }
 }
 
-export default JogosSalvos
+export default SaveGame

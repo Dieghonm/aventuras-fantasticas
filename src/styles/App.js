@@ -1,9 +1,5 @@
 import styled from "styled-components";
-
-const media ={
-  mobileM: '@media(max-width:375px)',
-  laptop: '@media(max-width:768px)',
-}
+import { media } from "./media";
 
 export const Icon = styled.div`
   font-size : 2em;
@@ -11,14 +7,14 @@ export const Icon = styled.div`
   position: fixed;
   margin: 0.2em;
   z-index: top;
-  ${ media.mobileM }{ 
+  ${ media.mobileG }{ 
     display : inline;
   }
 `;
 
 export const AppDiv = styled.div`
   display : flex;
-  ${ media.mobileM }{ 
+  ${ media.mobileG }{ 
     display: block ;
   }
 `;

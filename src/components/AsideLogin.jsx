@@ -61,11 +61,10 @@ class AsideLogin extends Component {
         onClick={ () => this.iniciar(bill, data[bill].Email) }
       >
         <img
-          height="45"
           src={ GetGravatar(data[bill].Email) }
           alt="Avatar"
         />
-        <h5>{bill}</h5>
+        <p>{bill}</p>
       </div>
     )
   }
@@ -104,7 +103,9 @@ class AsideLogin extends Component {
           <h4>
             Escolher perfil
           </h4>
-          {bills.map((bill) => this.iconMaker(bill))}
+          <S.ProfileIconDiv>
+            {bills.map((bill) => this.iconMaker(bill))}
+          </S.ProfileIconDiv>
         </S.EscolherPerfilDiv>
       </>
     )

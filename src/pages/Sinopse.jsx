@@ -1,6 +1,7 @@
 import React from "react"
-import PropTypes from 'prop-types';
+import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
+import PropTypes from 'prop-types';
 import Livros from '../books/Livros'
 
 import * as S from '../styles/pages/Sinopse' 
@@ -13,7 +14,9 @@ function Sinopse() {
         <h5>{Livros[book].name}</h5>
         <img src={ Livros[book].img } alt={Livros[book].name} />
         <p>{Livros[book].sinopse}</p>
-        <button>Jogar</button>
+        <Link to="/aventuras-fantasticas/CreateCharacter">
+          <button>Jogar</button>
+        </Link>
       </S.SinopseDiv>
     )
 }

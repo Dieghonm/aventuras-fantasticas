@@ -33,7 +33,7 @@ export const EscolherPerfilDiv = styled.div`
   flex-direction: column;
   align-items: center;
   width: 17em;
-  height: 10em ;
+  height: 10em;
   ${ media.laptop }{ 
 
   }
@@ -44,3 +44,28 @@ export const EscolherPerfilDiv = styled.div`
     }
   }
 `
+
+export const ProfileIconDiv = styled.div`
+  display: flex ;
+  flex-wrap: wrap;
+  width: 12em;
+  height: 12em;
+  div {
+    display: flex ;
+    flex-direction: column;
+    width: 6em;
+    height: 6em;
+    align-items: center;
+  }
+  img {
+    height: 3em;
+    margin: 5% ;
+  }
+  p {
+    margin: 0em
+  }
+`
+
+
+// flex-direction: row;
+

@@ -1,4 +1,4 @@
 export const media ={
-  mobileM: '@media(max-width:375px)',
+  mobileG: '@media(max-width:425px)',
   laptop: '@media(max-width:768px)',
 }

@@ -7,11 +7,12 @@ import Footer from './pages/Footer';
 
 import * as S from './styles/App'
 import Project from './pages/Project';
-import SobreNos from './pages/SobreNos';
+import AboutUs from './pages/AboutUs';
 import NewGame from './pages/NewGame';
-import JogosSalvos from './pages/JogosSalvos';
-import ComoJogar from './pages/ComoJogar';
+import SaveGame from './pages/SaveGame';
+import HowToPlay from './pages/HowToPlay';
 import Sinopse from './pages/Sinopse';
+import CreateCharacter from './pages/CreateCharacter';
 
 function App() {
   return (
@@ -20,11 +21,12 @@ function App() {
       <BrowserRouter>
       <Aside />
         <Routes>
-          <Route path="/aventuras-fantasticas/novo-jogo" element={<NewGame />} />
-          <Route path="/aventuras-fantasticas/jogos-salvos" element={<JogosSalvos />} />
-          <Route path="/aventuras-fantasticas/como-jogar" element={<ComoJogar />} />
-          <Route path="/aventuras-fantasticas/sobre-nos" element={<SobreNos />} />
+          <Route path="/aventuras-fantasticas/NewGame" element={<NewGame />} />
+          <Route path="/aventuras-fantasticas/SaveGame" element={<SaveGame />} />
+          <Route path="/aventuras-fantasticas/HowToPlay" element={<HowToPlay />} />
+          <Route path="/aventuras-fantasticas/AboutUs" element={<AboutUs />} />
           <Route path="/aventuras-fantasticas/sinopse/:book" element={<Sinopse />} />
+          <Route path="/aventuras-fantasticas/CreateCharacter" element={<CreateCharacter />} />
           <Route path="/aventuras-fantasticas" element={<Project />} />
           <Route path="*" element={<Project />} />
         </Routes>

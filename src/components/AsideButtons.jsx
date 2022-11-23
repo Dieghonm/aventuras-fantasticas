@@ -11,16 +11,16 @@ class AsideButtons extends Component {
     const { changeLogin }= this.props
     return(
       <>
-        <Link to="/aventuras-fantasticas/novo-jogo">
+        <Link to="/aventuras-fantasticas/NewGame">
           <S.AsideButtons>Novo Jogo</S.AsideButtons>
         </Link>
-        <Link to="/aventuras-fantasticas/jogos-salvos">
+        <Link to="/aventuras-fantasticas/SaveGame">
           <S.AsideButtons>Jogos Salvos</S.AsideButtons>
         </Link>
-        <Link to="/aventuras-fantasticas/como-jogar">
+        <Link to="/aventuras-fantasticas/HowToPlay">
           <S.AsideButtons>Como Jogar</S.AsideButtons>
         </Link>
-        <Link to="/aventuras-fantasticas/sobre-nos">
+        <Link to="/aventuras-fantasticas/AboutUs">
           <S.AsideButtons>Sobre Nós</S.AsideButtons>
         </Link>
         <Link to="/aventuras-fantasticas">
@@ -36,7 +36,7 @@ const mapStateToProps = (state) => ({
 });
 
 AsideButtons.propTypes = {
-  changeLogin: PropTypes.object,
+  changeLogin: PropTypes.func,
 };
 
 export default connect(mapStateToProps)(AsideButtons);
