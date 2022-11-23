@@ -8,8 +8,7 @@ import { Link } from "react-router-dom";
 
 class AsideButtons extends Component {
   render() {
-    // const { user }= this.props
-    // console.log(user);
+    const { changeLogin }= this.props
     return(
       <>
         <Link to="/aventuras-fantasticas/novo-jogo">
@@ -24,6 +23,9 @@ class AsideButtons extends Component {
         <Link to="/aventuras-fantasticas/sobre-nos">
           <S.AsideButtons>Sobre Nós</S.AsideButtons>
         </Link>
+        <Link to="/aventuras-fantasticas">
+          <S.AsideButtons onClick={() => changeLogin(false)}>Sair</S.AsideButtons>
+        </Link>
       </>
     )
   }
@@ -34,7 +36,7 @@ const mapStateToProps = (state) => ({
 });
 
 AsideButtons.propTypes = {
-  user: PropTypes.object,
+  changeLogin: PropTypes.object,
 };
 
 export default connect(mapStateToProps)(AsideButtons);

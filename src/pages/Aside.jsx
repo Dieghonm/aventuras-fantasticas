@@ -25,7 +25,7 @@ class Aside extends Component {
       <S.AsideDiv>
         <S.Logo src={Logo} alt="Logo" />
         {showButtons ?
-          <AsideButtons /> :
+          <AsideButtons changeLogin={this.changeLogin} /> :
           <AsideLogin changeLogin={this.changeLogin} />
         }
       </S.AsideDiv>

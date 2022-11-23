@@ -16,7 +16,6 @@ function Sinopse() {
         <button>Jogar</button>
       </S.SinopseDiv>
     )
-
 }
 
 Sinopse.propTypes = {

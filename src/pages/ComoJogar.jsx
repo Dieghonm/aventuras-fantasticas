@@ -4,7 +4,8 @@ class ComoJogar extends Component {
   render() {
     return(
       <div>
-        <p>ComoJogar</p>
+        <h3>ComoJogar</h3>
+        <h6></h6>
       </div>
     )
   }
