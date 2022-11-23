@@ -1,4 +1,4 @@
-export const [LOGIN] = ['LOGIN'];
+export const [LOGIN, BOOK] = ['LOGIN', 'BOOK'];
 
 export function actionLogin(dataAction) {
   return {
@@ -6,3 +6,11 @@ export function actionLogin(dataAction) {
     payload: dataAction,
   };
 }
+
+export function bookChoice(dataAction) {
+  return {
+    type: BOOK,
+    payload: dataAction,
+  };
+}
+

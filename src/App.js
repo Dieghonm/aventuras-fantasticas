@@ -3,9 +3,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { GiHamburgerMenu } from "react-icons/gi";
 
 import Aside from './pages/Aside';
-import Footer from './pages/Footer';
+import Footer from './components/Footer';
 
-import * as S from './styles/App'
 import Project from './pages/Project';
 import AboutUs from './pages/AboutUs';
 import NewGame from './pages/NewGame';
@@ -13,6 +12,8 @@ import SaveGame from './pages/SaveGame';
 import HowToPlay from './pages/HowToPlay';
 import Sinopse from './pages/Sinopse';
 import CreateCharacter from './pages/CreateCharacter';
+
+import * as S from './styles/App'
 
 function App() {
   return (
