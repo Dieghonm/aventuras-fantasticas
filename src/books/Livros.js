@@ -29,31 +29,31 @@ const Livros = {
     Ha adversarios poderosos nas fileiras do inimigo e muitas vezes sua unica alternativa sera matar ou ser morto!
     
     'Steve Jackson'
-    
-
-    Em parte um romance, com sua história emocionante, e em parte um jogo, com seu elaborado sistema de combate, 
-este livro traz muitas aventuras dentro dele para você.
-Cada página apresenta desafios diferentes, e as decisões que você tomar o levarão a diferentes caminhos e diferentes batalhas.
-
-
-Você é o aluno brilhante do Grande Mago de Yore. Possui um bom conhecimento de magia, que não é perfeito, mas, 
-com um pouco de sorte, será adequado para esta empreitada. Você possui também uma espada e tem praticado bastante como espadachim. 
-Está muito bem fisicamente e tem se exercitado para aumentar a sua energia.
-
-
-Primeiro que tudo, você tem que usar os dados para determinar os seus índices iniciais de HABILIDADE e ENERGIA. 
-Na página 11 há uma Folha de Aventuras, na qual você pode registrar
-os detalhes de HABILIDADE e
-uma aventura. Nela você encontrará quadros para registrar seus índices de ENERGIA.
     `,
-    atributos:{
-      Energia:'O seu índice de ENERGIA reflete a sua constituição física geral, vontade de sobreviver, determinação e condição física como um todo; quanto mais alto for o seu índice de ENERGIA, mais tempo você conseguirá sobreviver.',
+    character:{
+      introducao: {
+        text:[`Em parte um romance, com sua história emocionante, e em parte um jogo, com seu elaborado sistema de combate, 
+        esta historia traz muitas aventuras dentro dele para você.
+        Cada parte ira apresentar desafios diferentes, e as decisões que você tomar o levarão a diferentes caminhos 
+        e diferentes batalhas.`,
+        `Você é o aluno brilhante do Grande Mago de Yore. Possui um bom conhecimento de magia, que não é perfeito, mas, 
+        com um pouco de sorte, será adequado para esta empreitada. Você possui também uma espada e tem praticado bastante como espadachim. 
+        Está muito bem fisicamente e tem se exercitado para aumentar a sua energia.`],
+        roll: 0},
+      Energia:{text:[
+        `O seu índice de ENERGIA reflete a sua constituição física geral, vontade de sobreviver, 
+          determinação e condição física como um todo;`, 
+        `Quanto mais alto for o seu índice de ENERGIA, mais tempo você conseguirá sobreviver`,
+        `Vamos determinar qual o seu valor inicial de energia, este valor sera o valor sorteado em 2 dados mais 12 pontos`,
+      ],
+        roll:2
+      },
       Habilidade: 'O seu índice de HABILIDADE reflete a sua capacidade como espadachim e sua aptidão geral como lutador.',
       Sorte:'O seu índice de SORTE indica o quanto você é uma pessoa naturalmente de sorte. Sorte - e magia - são fatos da vida no reino da fantasia que você está prestes a explorar.',
       Magia: ''
     },
     Batalhas:'',
-    E1uipamento:{
+    Equipamento:{
       descrição: 'Você começará a sua aventura com um mínimo essencial de equipamento. Você está armado com uma espada e vestido com uma armadura de couro. Você está levando uma lanterna para iluminar o seu caminho, e uma mochila para guardar quaisquer tesouros ou artefatos que possa encontrar no caminho. Não se esqueça de registrar tudo que você achar no quadro de Equipamento da sua Folha de Aventuras. Quando eles forem usados em qualquer encontro específico, a história dirá a você se aquele item deve ser destruído ou deixado para trás. Se for perdido dessa forma, você terá que riscá-lo de sua lista de Equipamentos e não poderá usá-lo mais tarde durante a sua aventura.'
     },
     Unicos: [

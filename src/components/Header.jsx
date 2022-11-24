@@ -4,11 +4,14 @@ import PropTypes from 'prop-types';
 import {Navigate} from 'react-router-dom';
 import { GetGravatar } from "../helpers/Gravatar"
 
+import Livros from '../books/Livros'
+
+import * as S from '../styles/components/Header'
+
 class Header extends Component {
   render() {
-    const { globalState } = this.props
-    const { user, book } = globalState
-    console.log(user, book);
+    const { user, book } = this.props.globalState
+    // console.log(user, book);
     if (!user.user) {
       return(
         <Navigate to="/aventuras-fantasticas" />
@@ -19,12 +22,13 @@ class Header extends Component {
         <Navigate to="/aventuras-fantasticas/NewGame" />
       )
     }
+
     return(
-      <div>
-        <p>Header</p>
+      <S.HeaderDiv>
+        <h4>{Livros[book.book].name}</h4>
         <img src={GetGravatar(user.email)} alt={user.user} />
         <h6>{user.user}</h6>
-      </div>
+      </S.HeaderDiv>
     )
   }
 }
@@ -34,7 +38,7 @@ const mapStateToProps = (state) => ({
 });
 
 Header.propTypes = {
-  globalState: PropTypes.func,
+  globalState: PropTypes.object,
 };
 
 export default connect(mapStateToProps)(Header);

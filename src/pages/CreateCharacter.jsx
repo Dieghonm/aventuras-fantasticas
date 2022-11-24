@@ -2,13 +2,41 @@ import React, { Component } from "react"
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Header from "../components/Header";
+import Attributes from "../components/ Attributes";
+import {Navigate} from 'react-router-dom';
+
+import Livros from '../books/Livros'
 
 class CreateCharacter extends Component {
+  state={
+    index:0,
+  }
+
+  nextAtribute = () => {
+    const { index } = this.state
+    this.setState({
+      index: index + 1
+    })
+  }
+
+  callAtribute = () => {
+    const { book } = this.props.globalState
+    const { index } = this.state
+    if (!book.book) {
+      return (
+        <Navigate to="/aventuras-fantasticas/NewGame" />
+      )
+    }
+    const atributes = Livros[book.book].character
+    const list = Object.keys(atributes)
+    return <Attributes atribute={[list[index], atributes[list[index]]]} indexFunc={this.nextAtribute} />
+  }
+
   render() {
     return(
       <div>
         <Header />
-        <p>CriacaoPersonagem</p>
+        {this.callAtribute()}
       </div>
     )
   }
