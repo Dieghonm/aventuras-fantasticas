@@ -1,15 +1,14 @@
 import React, { Component } from "react";
+import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+
 import Dice from "./Dice";
+import { actionAttributes } from "../redux/actions";
 
 class  Attributes extends Component {
   state={
     rolled:0,
     diceNum:0,
-  }
-
-  buttonDisabled = () => {
-    console.log();
   }
 
   roll = (number) => {
@@ -20,8 +19,16 @@ class  Attributes extends Component {
     })
   }
 
+  nextButton = () => {
+    const { indexFunc, changeAtribute, atribute } = this.props
+    const { diceNum } = this.state
+    indexFunc()
+    this.setState({ rolled:0, diceNum:0})
+    changeAtribute([atribute[0], diceNum + atribute[1].sum])
+  }
+
   render() {
-    const { atribute, indexFunc } = this.props
+    const { atribute } = this.props
     const { rolled } = this.state
     const dicesNum = atribute[1].roll
     return (
@@ -29,16 +36,21 @@ class  Attributes extends Component {
         <h3>{atribute[0]}</h3>
         {atribute[1].text.map((text, i) => <h5 key={atribute + i}>{text}</h5>)}
         {Array.from({ length: dicesNum }).map((_, i) => <Dice roll={this.roll}  key={atribute[0]+i}/>)}
-        <button disabled={ rolled !== dicesNum } onClick={()=>{indexFunc(),this.setState({ rolled:0, number:0})}}>Proximo</button>
+        <button disabled={ rolled !== dicesNum } onClick={this.nextButton}>Proximo</button>
       </div>
     )
   }
 }
 
+const mapDispatchToProps = (dispatch) => ({
+  changeAtribute: (data) => dispatch(actionAttributes (data)),
+});
+
 Attributes.propTypes = {
   atribute: PropTypes.array,
   book: PropTypes.string,
   indexFunc: PropTypes.func,
+  changeAtribute:PropTypes.func,
 };
 
-export default  Attributes
+export default connect(null, mapDispatchToProps)(Attributes);

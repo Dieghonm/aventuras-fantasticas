@@ -1,4 +1,4 @@
-export const [LOGIN, BOOK] = ['LOGIN', 'BOOK'];
+export const [LOGIN, BOOK, ATTRIBUTES] = ['LOGIN', 'BOOK', 'ATTRIBUTES'];
 
 export function actionLogin(dataAction) {
   return {
@@ -7,9 +7,16 @@ export function actionLogin(dataAction) {
   };
 }
 
-export function bookChoice(dataAction) {
+export function actionbookChoice(dataAction) {
   return {
     type: BOOK,
+    payload: dataAction,
+  };
+}
+
+export function actionAttributes(dataAction) {
+  return {
+    type: ATTRIBUTES,
     payload: dataAction,
   };
 }

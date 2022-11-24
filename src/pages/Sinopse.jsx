@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import Livros from '../books/Livros'
 
 import * as S from '../styles/pages/Sinopse' 
-import { bookChoice } from "../redux/actions";
+import { actionbookChoice } from "../redux/actions";
 
 
 function Sinopse(props) {
@@ -29,7 +29,7 @@ function Sinopse(props) {
 }
 
 const mapDispatchToProps = (dispatch) => ({
-  bookName: (data) => dispatch(bookChoice(data)),
+  bookName: (data) => dispatch(actionbookChoice(data)),
 });
 
 Sinopse.propTypes = {

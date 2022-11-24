@@ -39,28 +39,35 @@ const Livros = {
         `Você é o aluno brilhante do Grande Mago de Yore. Possui um bom conhecimento de magia, que não é perfeito, mas, 
         com um pouco de sorte, será adequado para esta empreitada. Você possui também uma espada e tem praticado bastante como espadachim. 
         Está muito bem fisicamente e tem se exercitado para aumentar a sua energia.`],
-        roll: 0},
-      Energia:{text:[
+        roll: 0,
+        sum: 0,
+      },
+      Energia:{
+        text:[
         `O seu índice de ENERGIA reflete a sua constituição física geral, vontade de sobreviver, 
           determinação e condição física como um todo;`, 
         `Quanto mais alto for o seu índice de ENERGIA, mais tempo você conseguirá sobreviver`,
         `Vamos determinar qual o seu valor inicial de energia, este valor sera o valor sorteado em 2 dados mais 12 pontos`,
       ],
-        roll:2
+        roll:2,
+        sum: 12,
       },
       Habilidade: {
         text:[`O seu índice de HABILIDADE reflete a sua capacidade como espadachim e sua aptidão geral como lutador.`,
         ``],
-        roll:1
+        roll:1,
+        sum: 6,
       },
       Sorte: {
         text:[`O seu índice de SORTE indica o quanto você é uma pessoa naturalmente de sorte. Sorte - e magia - são fatos da vida no reino da fantasia que você está prestes a explorar.`
         ,``],
-        roll:1
+        roll:1,
+        sum: 6,
       },
       Magia: {
         text:[],
-        roll:0
+        roll:0,
+        sum: 0,
       },
       Equipamento: {
         text:[`Você começará a sua aventura com um mínimo essencial de equipamento. 
@@ -71,7 +78,8 @@ const Livros = {
         dirá a você se aquele item deve ser destruído ou deixado para trás. Se for perdido dessa forma, você terá que 
         riscá-lo de sua lista de Equipamentos e não poderá usá-lo mais tarde durante a sua aventura.`,
         ``],
-        roll:0
+        roll:0,
+        sum: 0,
       }
     },
     Batalhas:'',

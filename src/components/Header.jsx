@@ -9,9 +9,18 @@ import Livros from '../books/Livros'
 import * as S from '../styles/components/Header'
 
 class Header extends Component {
+  criateAttribute = (att, value) => {
+    return(
+    <div key={att}>
+      <h4>{att}</h4>
+      <h3>{value}</h3>
+    </div>
+    )
+  }
+
   render() {
-    const { user, book } = this.props.globalState
-    // console.log(user, book);
+    const { user, book, game } = this.props.globalState
+    console.log(user, book, game);
     if (!user.user) {
       return(
         <Navigate to="/aventuras-fantasticas" />
@@ -26,6 +35,7 @@ class Header extends Component {
     return(
       <S.HeaderDiv>
         <h4>{Livros[book.book].name}</h4>
+        {Object.keys(game).map((att) => this.criateAttribute(att, game[att]))}
         <img src={GetGravatar(user.email)} alt={user.user} />
         <h6>{user.user}</h6>
       </S.HeaderDiv>
