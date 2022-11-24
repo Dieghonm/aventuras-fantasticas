@@ -11,6 +11,7 @@ import NewGame from './pages/NewGame';
 import SaveGame from './pages/SaveGame';
 import HowToPlay from './pages/HowToPlay';
 import Sinopse from './pages/Sinopse';
+import Play from './pages/Play';
 import CreateCharacter from './pages/CreateCharacter';
 
 import * as S from './styles/App'
@@ -28,6 +29,7 @@ function App() {
           <Route path="/aventuras-fantasticas/AboutUs" element={<AboutUs />} />
           <Route path="/aventuras-fantasticas/sinopse/:book" element={<Sinopse />} />
           <Route path="/aventuras-fantasticas/CreateCharacter" element={<CreateCharacter />} />
+          <Route path="/aventuras-fantasticas/Play" element={<Play />} />
           <Route path="/aventuras-fantasticas" element={<Project />} />
           <Route path="*" element={<Project />} />
         </Routes>

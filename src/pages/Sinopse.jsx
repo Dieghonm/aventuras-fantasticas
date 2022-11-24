@@ -6,14 +6,15 @@ import PropTypes from 'prop-types';
 import Livros from '../books/Livros'
 
 import * as S from '../styles/pages/Sinopse' 
-import { actionbookChoice } from "../redux/actions";
+import { actionAttributes, actionbookChoice } from "../redux/actions";
 
 
 function Sinopse(props) {
   const { book } = useParams();
   const gameSelect = () => {
-    const { bookName } = props;
+    const { bookName, changeAtribute } = props;
     bookName(book)
+    changeAtribute('clean')
   }
   return(
     <S.SinopseDiv>
@@ -30,11 +31,13 @@ function Sinopse(props) {
 
 const mapDispatchToProps = (dispatch) => ({
   bookName: (data) => dispatch(actionbookChoice(data)),
+  changeAtribute: (data) => dispatch(actionAttributes(data)),
 });
 
 Sinopse.propTypes = {
   match: PropTypes.string,
   bookName: PropTypes.func,
+  changeAtribute: PropTypes.func,
 };
 
 export default connect(null, mapDispatchToProps)(Sinopse);

@@ -43,7 +43,7 @@ class  Attributes extends Component {
 }
 
 const mapDispatchToProps = (dispatch) => ({
-  changeAtribute: (data) => dispatch(actionAttributes (data)),
+  changeAtribute: (data) => dispatch(actionAttributes(data)),
 });
 
 Attributes.propTypes = {

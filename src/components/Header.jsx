@@ -20,7 +20,6 @@ class Header extends Component {
 
   render() {
     const { user, book, game } = this.props.globalState
-    console.log(user, book, game);
     if (!user.user) {
       return(
         <Navigate to="/aventuras-fantasticas" />
@@ -36,8 +35,10 @@ class Header extends Component {
       <S.HeaderDiv>
         <h4>{Livros[book.book].name}</h4>
         {Object.keys(game).map((att) => this.criateAttribute(att, game[att]))}
-        <img src={GetGravatar(user.email)} alt={user.user} />
-        <h6>{user.user}</h6>
+        <S.PlayerDiv>
+          <img src={GetGravatar(user.email)} alt={user.user} />
+          <h6>{user.user}</h6>
+        </S.PlayerDiv>
       </S.HeaderDiv>
     )
   }

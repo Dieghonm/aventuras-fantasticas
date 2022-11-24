@@ -5,9 +5,11 @@ const initialState = {
 };
 
 export default (state = initialState, action) => {
-  console.log(action.payload);
   switch (action.type) {
     case ATTRIBUTES:
+      if(action.payload === 'clean') {
+        return {}
+      }
       if (action.payload[1] !== 0) {
         return {
           ...state,

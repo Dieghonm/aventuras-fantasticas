@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Header from "../components/Header";
-import Attributes from "../components/ Attributes";
+import Attributes from "../components/Attributes";
 import {Navigate} from 'react-router-dom';
 
 import Livros from '../books/Livros'
@@ -23,9 +23,12 @@ class CreateCharacter extends Component {
     const { book } = this.props.globalState
     const { index } = this.state
     if (!book.book) {
-      return (
-        <Navigate to="/aventuras-fantasticas/NewGame" />
-      )
+      return <Navigate to="/aventuras-fantasticas/NewGame" />
+    }
+    const total = Object.keys(Livros[book.book].character).length;
+    console.log(index, total);
+    if (index === total) {
+      return <Navigate to="/aventuras-fantasticas/Play" />
     }
     const atributes = Livros[book.book].character
     const list = Object.keys(atributes)
