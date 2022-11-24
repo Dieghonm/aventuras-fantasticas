@@ -48,14 +48,33 @@ const Livros = {
       ],
         roll:2
       },
-      Habilidade: 'O seu índice de HABILIDADE reflete a sua capacidade como espadachim e sua aptidão geral como lutador.',
-      Sorte:'O seu índice de SORTE indica o quanto você é uma pessoa naturalmente de sorte. Sorte - e magia - são fatos da vida no reino da fantasia que você está prestes a explorar.',
-      Magia: ''
+      Habilidade: {
+        text:[`O seu índice de HABILIDADE reflete a sua capacidade como espadachim e sua aptidão geral como lutador.`,
+        ``],
+        roll:1
+      },
+      Sorte: {
+        text:[`O seu índice de SORTE indica o quanto você é uma pessoa naturalmente de sorte. Sorte - e magia - são fatos da vida no reino da fantasia que você está prestes a explorar.`
+        ,``],
+        roll:1
+      },
+      Magia: {
+        text:[],
+        roll:0
+      },
+      Equipamento: {
+        text:[`Você começará a sua aventura com um mínimo essencial de equipamento. 
+        Você está armado com uma espada e vestido com uma armadura de couro. 
+        Você está levando uma lanterna para iluminar o seu caminho, e uma mochila para guardar quaisquer tesouros 
+        ou artefatos que possa encontrar no caminho. Não se esqueça de registrar tudo que você achar no quadro de 
+        Equipamento da sua Folha de Aventuras. Quando eles forem usados em qualquer encontro específico, a história 
+        dirá a você se aquele item deve ser destruído ou deixado para trás. Se for perdido dessa forma, você terá que 
+        riscá-lo de sua lista de Equipamentos e não poderá usá-lo mais tarde durante a sua aventura.`,
+        ``],
+        roll:0
+      }
     },
     Batalhas:'',
-    Equipamento:{
-      descrição: 'Você começará a sua aventura com um mínimo essencial de equipamento. Você está armado com uma espada e vestido com uma armadura de couro. Você está levando uma lanterna para iluminar o seu caminho, e uma mochila para guardar quaisquer tesouros ou artefatos que possa encontrar no caminho. Não se esqueça de registrar tudo que você achar no quadro de Equipamento da sua Folha de Aventuras. Quando eles forem usados em qualquer encontro específico, a história dirá a você se aquele item deve ser destruído ou deixado para trás. Se for perdido dessa forma, você terá que riscá-lo de sua lista de Equipamentos e não poderá usá-lo mais tarde durante a sua aventura.'
-    },
     Unicos: [
       ['Encantos Magicos', 'ainda nao sei'],
       ['Cópia de Criatura', 'Este encanto permitirá que você faça aparecer uma réplica perfeita de qualquer criatura contra a qual você esteja lutando. A réplica terá os mesmos índices de HABILIDADE e ENERGIA e os mesmos poderes do original. Mas a réplica estará sob seu controle, e você poderá, por exemplo, instruí-la para que ataque a criatura original e ficar assistindo a batalha de camarote!'],
@@ -93,27 +112,6 @@ const Livros = {
     img: OTemplodoTerror,
     sinopse :'',
   },
-  OFeiticeirodaMontanhadeFogo2 : {
-    name:'O Feiticeiro da Montanha de Fogo 2',
-    img:OFeiticeirodaMontanhadeFogo,
-    sinopse:'',
-  },
-  AcidadedosLadroes2 : {
-    name: 'A Cidade dos Ladrões 2',
-    img: AcidadedosLadroes,
-    sinopse :'',
-  },
-  OCalaboucodaMorte2 : {
-    name: 'O Calabouço da Morte 2',
-    img: OCalaboucodaMorte,
-    sinopse :'',
-  },
-  OTemplodoTerror2 : {
-    name: 'O Templo do terror 2',
-    img: OTemplodoTerror,
-    sinopse :'',
-  },
-  
 }
 
 export default Livros;
