@@ -119,8 +119,40 @@ const Livros = {
       },
     },
     Batalhas:'',
+    Pagina:{
+      0:{
+        text:`HISTORIA
+        0 ordeiro e generoso  povo do Vale dos Salgueiros  vive ha oito anos sob o terror e medo do feiticeiro Balthus Dire. Terror - porque o poder dele e realmente aterrorizante  - e medo causados pela noticia que acabou chegando aos ouvidos desse povo, vinda dos dominios do feiticeiro, de que seus ambiciosos planos de conquista comec;ariam pelo pr6prio Vale.
+        Um fiel Semi-Elfo enviado em uma missao de espionagem a Torre Negra voltou galopando para o Vale ha tres dias com uma mensagem desesperada. Do interior das cavernas de Rocha Escarpada, Balthus Dire tinha recrutado um exercito de Ca6ticos e se preparava para atacar com eles o Vale dentro de uma semana.
+        0 born Rei Salamon era um homem de ac;ao. Foram enviados mensageiros por todo o Vale no mesmo dia para preparar as defesas e convocar os homens para a guerra. Foram enviados tambem cavaleiros a Grande Floresta de Yore para avisar aos Semi-Elfos que moravam la e fazer um apelo para que se aliassem as forc;as. 0 Rei Salamon era tambem um homem sabio. Ele sabia muito bem que as noticias inevitavelmente chegariam aos ouvidos do Grande Mago de Yore, um mestre da magia branca de grandes poderes, que vivia nas profundezas da floresta. 0 mago era velho e nao resistiria a uma batalha destas proporc;oes. Mas ele havia ensinado suas artes a varios jovens magos, e talvez um de seus discipulos de magia ajudasse o rei e seus suditos com coragem e ambic;ao.
+        Voce e o aluno brilhante do Grande Mago de Yore. Ele tern sido um Mestre duro, e sua pr6pria impaciencia muitas vezes foi mais forte do que voce. Talvez  um pouco precipitadamente, voce partiu de imediato para a corte de Salamon. 0 rei recebeu-o entusiasticamente e explicou seu plano. A batalha poderia ser evitada sem derramamento de sangue se Balthus fosse assassinado antes que seu exercito pudesse ser reunido.
+        A missao que voce tern pela frente e extremamente perigosa. Balthus Dire esta cercado, em sua Cidadela, por uma multidao de criaturas assombrosas. Embora a Magia seja a sua arma mais forte, havera momentos em que voce tera que confiar em sua espada para sobreviver.
+        0 Rei Salamon expos a voce como seria a sua missao e o advertiu dos perigos que estavam a sua frente. Ha um caminho melhor para atravessar a Cidadela. Se voce o descobrir, tera exito com um mfnimo de risco para a sua pessoa. Talvez voce precise de varias viagens para descobrir o caminho mais facil para atravessar a Cidadela.
+        Voce deixa o Vale dos Salgueiros na longa caminhada para a Torre Negra. No sope da colina de Rocha Escarpada, voce pode ver sua silhueta contra o ceu escuro...
+        `,
+        options:[{
+          text:`Continuar`,
+          goTo: 1,
+      }]
+      },
+      1:{
+        text:`0 sol se p6e. Enquanto o crepusculo se transforma em escuridao, voce come9a a subir a colina na dire9ao da amea9adora forma que se desenha contra o ceu notumo. A Cidadela fica a menos de uma hora de escalada.
+          A uma certa distancia de seus muros, voce para para descansar - um erro, uma vez que, dessa posi9ao, ela parece um espectro medonho do qual nao se pode escapar. Os cabelos no seu pesco90 se arrepiam enquanto voce a observa.
+          Mas voce se envergonha de seus medos. Com inflexfvel decisao, voce marcha adiante na dire9ao do portao principal, onde voce sabe que encontrara guardas a sua espera. Voce considera suas op96es.
+          Ja pensou em se apresentar como um especialista em plantas medicinais que veio tratar de um guarda com febre. Poderia tambem se dizer um comerciante ou artesao - talvez um carpinteiro. Poderia ate mesmo ser um nomade que buscasse abrigo para a noite.
+          Enquanto voce pondera as possibilidades, e as hist6rias que tera que contar aos guardas, acaba chegando a trilha principal que conduz aos port6es. Duas lanternas brilham em cada um dos lados
+          da porta levadi9a.
+          Voce ouve grunhidos abafados ao se aproximar, eve duas criaturas de aparencia absurda. Do lado esquerdo esta uma criatura horrfvel, com a cabe9a de um cachorro e o corpo de um grande macaco, flexionando seus  bra9os fortissimos.  Do outro lado, encontra-se  de fato o seu oposto, com a cabe9a de um macaco no corpo de um cachorro grande. Este ultimo guarda se aproxima nas suas quatro patas. Para a alguns metros de distancia diante de voce, ergue-se sobre as patas traseiras e dirige a palavra a voce.
+          Por qual das hist6rias voce optara?`
+        },
+        options: [
+          {text:`Voce se apresentara como um especialista em plantas medicinais?`, goTo:261},
+          {text:`Voce dirá que e um comerciante?`, goTo:230},
+          {text:`Voce pedirá abrigo para pernoitar?`, goTo:20}
+        ]
+      },
+      400:{text:``,options: [{text:``, goTo:0},]},
   },
-
   OFeiticeirodaMontanhadeFogo : {
     name:'O Feiticeiro da Montanha de Fogo',
     img:OFeiticeirodaMontanhadeFogo,
@@ -145,8 +177,22 @@ const Livros = {
 
 export default Livros;
 
-// Modelo : {
-//   name: '',
-//   img: '',
-//   sinopse :'',
+// modelo: {
+//   name:'',
+//   img: ,
+//   sinopse:``,
+//   character:{
+//     introducao: {
+//       text:[``],
+//       roll: 0,
+//       sum: 0,
+//     },
+//     Encantamentos: {text: [
+//       ['Encantos Magicos', 'ainda nao sei'],
+//      ],
+//     roll:0,
+//     sum: 0,
+//     },
+//   },
+//   Batalhas:'',
 // },

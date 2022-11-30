@@ -7,8 +7,9 @@ export const AsideDiv = styled.div`
   display: flex ;
   flex-direction: column;
   align-items: center;
-  width: 15em ;
-  height: 57em;
+  width: 300px ;
+  height: 100vh;
+  background-color: white;
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
@@ -24,12 +25,15 @@ export const AsideDiv = styled.div`
 `
 
 export const Logo = styled.img`
-  width: 70%;
-  /* text-align: center; */
+  width: 13em;
+  padding: 0em 4em;
+
   ${ media.laptop }{ 
+    width: 10em;
+    padding: 0em 2em;
   }
   ${ media.mobileG }{ 
-    width: 90%;
-    margin-bottom: 1em;
+    width: 13em;
+    padding: 0em 4em;
   }
 `;
