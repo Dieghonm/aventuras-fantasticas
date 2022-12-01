@@ -1,38 +1,9 @@
-// import capas from './capas'
-import ACidadeladoCaos from '../imgs/ACidadeladoCaos.png'
-import OFeiticeirodaMontanhadeFogo from '../imgs/OFeiticeirodaMontanhadeFogo.png'
-
-import AcidadedosLadroes from '../imgs/AcidadedosLadroes.png'
-import OCalaboucodaMorte from '../imgs/OCalaboucodaMorte.png'
-import OTemplodoTerror from '../imgs/OTemplodoTerror.png'
-
-
-
-const Livros = {
-  cidadelaDoCaos : {
+const model = {
+    cidadelaDoCaos : {
     name:'A Cidadela do Caos',
     img: ACidadeladoCaos,
     sinopse:[
-      ` Nas profundezas da Cidadela do Caos, o terrivel feiticeiro, Balthus Dire, esta conspirando e planejando 
-      a derrocada do povo generoso do Vale dos Salgueiros. Seus planos de combate estao prontos, seu exercito assustador 
-      equipado, e o ataque e indiscutivelmente iminente.`,
-
-      ` Convocado	por  uma  suplica  desesperada  de  ajuda, "VOCE" e a unica esperan a do Vale dos Salgueiros.
-      Aluno brilhante do Grande Mago de Yore e um mestre da magia, só voce pode empreender uma missao que atinja 
-      o próprio coração do mundo de pesadelo de Balthus Dire. Que criaturas monstruosas esperam por voce la?`,
-
-      ` Muitos perigos  existem  a sua frente, e seu  sucesso  nao esta  de forma  alguma  garantido.  
-      Ha adversarios poderosos nas fileiras do inimigo e muitas vezes sua unica alternativa sera matar ou ser morto!`,
-      
-      ` Em parte um romance, com sua história emocionante, e em parte um jogo, com seu elaborado sistema de combate, 
-      esta historia traz muitas aventuras dentro dele para você.
-      Cada parte ira apresentar desafios diferentes, e as decisões que você tomar o levarão a diferentes caminhos 
-      e diferentes batalhas.`,
-
-      ` Você é o aluno brilhante do Grande Mago de Yore. Possui um bom conhecimento de magia, que não é perfeito, mas, 
-      com um pouco de sorte, será adequado para esta empreitada. Você possui também uma espada e tem praticado bastante como 
-      espadachim. 
-      Está muito bem fisicamente e tem se exercitado para aumentar a sua energia.`
+      ``, ``, ``, ``, ``
     ],
     character:{
       Energia:{
@@ -115,106 +86,18 @@ const Livros = {
     },
     Batalhas:'',
     Pagina:{
-      0:{
-        text:`HISTORIA
-        0 ordeiro e generoso  povo do Vale dos Salgueiros  vive ha oito anos sob o terror e medo do feiticeiro Balthus Dire. Terror - porque o poder dele e realmente aterrorizante  - e medo causados pela noticia que acabou chegando aos ouvidos desse povo, vinda dos dominios do feiticeiro, de que seus ambiciosos planos de conquista comec;ariam pelo pr6prio Vale.
-        Um fiel Semi-Elfo enviado em uma missao de espionagem a Torre Negra voltou galopando para o Vale ha tres dias com uma mensagem desesperada. Do interior das cavernas de Rocha Escarpada, Balthus Dire tinha recrutado um exercito de Ca6ticos e se preparava para atacar com eles o Vale dentro de uma semana.
-        0 born Rei Salamon era um homem de ac;ao. Foram enviados mensageiros por todo o Vale no mesmo dia para preparar as defesas e convocar os homens para a guerra. Foram enviados tambem cavaleiros a Grande Floresta de Yore para avisar aos Semi-Elfos que moravam la e fazer um apelo para que se aliassem as forc;as. 0 Rei Salamon era tambem um homem sabio. Ele sabia muito bem que as noticias inevitavelmente chegariam aos ouvidos do Grande Mago de Yore, um mestre da magia branca de grandes poderes, que vivia nas profundezas da floresta. 0 mago era velho e nao resistiria a uma batalha destas proporc;oes. Mas ele havia ensinado suas artes a varios jovens magos, e talvez um de seus discipulos de magia ajudasse o rei e seus suditos com coragem e ambic;ao.
-        Voce e o aluno brilhante do Grande Mago de Yore. Ele tern sido um Mestre duro, e sua pr6pria impaciencia muitas vezes foi mais forte do que voce. Talvez  um pouco precipitadamente, voce partiu de imediato para a corte de Salamon. 0 rei recebeu-o entusiasticamente e explicou seu plano. A batalha poderia ser evitada sem derramamento de sangue se Balthus fosse assassinado antes que seu exercito pudesse ser reunido.
-        A missao que voce tern pela frente e extremamente perigosa. Balthus Dire esta cercado, em sua Cidadela, por uma multidao de criaturas assombrosas. Embora a Magia seja a sua arma mais forte, havera momentos em que voce tera que confiar em sua espada para sobreviver.
-        0 Rei Salamon expos a voce como seria a sua missao e o advertiu dos perigos que estavam a sua frente. Ha um caminho melhor para atravessar a Cidadela. Se voce o descobrir, tera exito com um mfnimo de risco para a sua pessoa. Talvez voce precise de varias viagens para descobrir o caminho mais facil para atravessar a Cidadela.
-        Voce deixa o Vale dos Salgueiros na longa caminhada para a Torre Negra. No sope da colina de Rocha Escarpada, voce pode ver sua silhueta contra o ceu escuro...
-        `,
-        options:[{
-          text:`Continuar`,
-          goTo: 1,
-      }]
-      },
-      1:{
-        text:`0 sol se p6e. Enquanto o crepusculo se transforma em escuridao, voce come9a a subir a colina na dire9ao da amea9adora forma que se desenha contra o ceu notumo. A Cidadela fica a menos de uma hora de escalada.
-          A uma certa distancia de seus muros, voce para para descansar - um erro, uma vez que, dessa posi9ao, ela parece um espectro medonho do qual nao se pode escapar. Os cabelos no seu pesco90 se arrepiam enquanto voce a observa.
-          Mas voce se envergonha de seus medos. Com inflexfvel decisao, voce marcha adiante na dire9ao do portao principal, onde voce sabe que encontrara guardas a sua espera. Voce considera suas op96es.
-          Ja pensou em se apresentar como um especialista em plantas medicinais que veio tratar de um guarda com febre. Poderia tambem se dizer um comerciante ou artesao - talvez um carpinteiro. Poderia ate mesmo ser um nomade que buscasse abrigo para a noite.
-          Enquanto voce pondera as possibilidades, e as hist6rias que tera que contar aos guardas, acaba chegando a trilha principal que conduz aos port6es. Duas lanternas brilham em cada um dos lados
-          da porta levadi9a.
-          Voce ouve grunhidos abafados ao se aproximar, eve duas criaturas de aparencia absurda. Do lado esquerdo esta uma criatura horrfvel, com a cabe9a de um cachorro e o corpo de um grande macaco, flexionando seus  bra9os fortissimos.  Do outro lado, encontra-se  de fato o seu oposto, com a cabe9a de um macaco no corpo de um cachorro grande. Este ultimo guarda se aproxima nas suas quatro patas. Para a alguns metros de distancia diante de voce, ergue-se sobre as patas traseiras e dirige a palavra a voce.
-          Por qual das hist6rias voce optara?`,
-        options: [
-          {text:`Voce se apresentara como um especialista em plantas medicinais?`, goTo:261},
-          {text:`Voce dirá que e um comerciante?`, goTo:230},
-          {text:`Voce pedirá abrigo para pernoitar?`, goTo:20}
-        ]
-      },
-      2:{
-        text:`Um pouco adiante na passagem ha uma porta do lado direito.
-          Esta porta esta coberta por estranhos caracteres, em uma linguagem que voce nao compreende.`,
-        options: [
-          {text:`Voce tentara abrir a porta`, goTo:142},
-          {text:`continuara seguindo a passagem`, goTo:343}]
-      },
-      3:{
-        text:`0 que voce oferecera a eles?`,
-        options: [
-          {text:`Uma Mirfade de Bolso?`, goTo:327, ex:['item', 'mirfade']},
-          {text:`Uma Aranha em um Vidro?`, goTo:59, ex:['item', 'aranha']},
-          {text:`Um punhado de Pequenas Amoras?`, goTo:236, ex:['item', 'amoras']},
-          {text:`desembainhar a sua espada`, goTo:286},
-          {text:`se dirigir para a porta mais distante`, goTo:366},]
-      },
-      4:{
-        text:`Voce faz aparecer uma bola de fogo ea manda voando no rosto da criatura. 
-          Porem, fica assistindo desanimado ao ve-la ricochetear sem nenhum efeito!`,
-        options: [
-          {text:`Voce pode lançar rapidamente um Encanto de Cópia de Criatura`, goTo:190, ex:['encanto','copia']},
-          {text:`ou desembainhar a sua espada`, goTo:303},]
-        },
-      5:{
-        text:`Voce experimenta a maçaneta da porta e ela gira, abrindo para um outro corredor. Logo adiante, 
-          a passagem vira para a direita e termina pouco depois em outra porta. Nesta porta ha um letreiro que diz 
-          "Por Favor Toque a Campainha para Chamar o Mordomo". Uma corda - evidentemente a campainha - pende ao lado da porta.`,
-        options: [
-          {text:`Voce toca a campainha conforme indicado`, goTo:40},
-          {text:`ou experimenta a maçaneta da porta`, goTo:361},]
-        },
-      6:{
-        text:`o caminho segue ao longo do rio por varios metros e depois volta a penetrar na rocha.`,
-        options: [{text:`Voce segue o caminho por algum tempo`, goTo:367},]
-      },
-      7:{
-        text:`A porta esta trancada.`,
-        options: [
-          {text:`Voce pode tentar po-la abaixo, batendo nela com o ombro`, goTo:268},
-          {text:`ou pode lançar um Encanto da Força sobre voce mesmo e tentar arrancar a porta das suas dobradiças`, goTo:116, ex:['encanto','forca']}]
-      },
-      8:{
-        text:`Ela observa espantada o aparecimento de uma replica perfeita dela mesma entre voces dois. 
-          Ela recua um pouco, e voce orienta a sua criação para o ataque. Mas, quando elas se aproximam uma da outra, 
-          acontece uma coisa estranha. Elas parecem ser incapazes de chegar perto uma da outra, como duas extremidades 
-          giratórias, e sempre separam-se bruscamente de um salto. `,
-        options: [{text:`Porem, sua própria cópia pelo menos forçou a criatura a 
-          se afastar de voce para uma certa distancia, permitindo que voce corra para a entrada principal da Cidadela.`, goTo:218},]
-      },
-      9:{
-        text:`Sob o seu Encanto da ilusão, a multidao de espectadores olha voce começar a jogar.
-          Voce observa umas duas rodadas e a tensão cresce.`,
-        options: [{text:`Voce resolve que e melhor sair do aposento sem mais perda de tempo.`, goTo:31},]
-      },
-      10:{
-        text:` Voce tateia pela rocha e acaba por encontrar uma pequena alavanca. Ao puxar esta alavanca, a face 
-          da rocha esfarela um pouco e aparece uma pequena abertura.`,
-        options: [{text:`Voce sobe por esta abertura e chega a uma passagem. Descendo a passagem para a esquerda, voce pode ver uma porta e resolve investigar`, goTo:249},]
-      },
-      11:{
-        text:`Voce pode usar:`,
-        options: [
-          {text:`Um Encanto do Ouro dos Tolos`, goTo:36, ex:['encanto','ouro']},
-          {text:`Um Encanto de Cópia de Criatura`, goTo:262, ex:['encanto','copia']},
-          {text:`Um Encanto da Percepção Extra-sensorial`, goTo:128, ex:['encanto','percepção']},
-          {text:`Um Encanto da Fraqueza`, goTo:152, ex:['encanto','fraqueza']},
-          {text:`Se voce nao tiver nenhum desses encantos, tera que desembainhar a sua espada e lutar`, goTo:16},
-        ]
-      },
-      
+      0:{text:``,options:[{text:`Continuar`, goTo: 1,}]},
+      1:{text:``,options: [{text:``, goTo:0},]},
+      2:{text:``,options: [{text:``, goTo:0},]},
+      3:{text:``,options: [{text:``, goTo:0},]},
+      4:{text:``,options: [{text:``, goTo:0},]},
+      5:{text:``,options: [{text:``, goTo:0},]},
+      6:{text:``,options: [{text:``, goTo:0},]},
+      7:{text:``,options: [{text:``, goTo:0},]},
+      8:{text:``,options: [{text:``, goTo:0},]},
+      9:{text:``,options: [{text:``, goTo:0},]},
+      10:{text:``,options: [{text:``, goTo:0},]},
+      11:{text:``,options: [{text:``, goTo:0},]},
       12:{text:``,options: [{text:``, goTo:0},]},
       13:{text:``,options: [{text:``, goTo:0},]},
       14:{text:``,options: [{text:``, goTo:0},]},
@@ -594,82 +477,15 @@ const Livros = {
       388:{text:``,options: [{text:``, goTo:0},]},
       389:{text:``,options: [{text:``, goTo:0},]},
       390:{text:``,options: [{text:``, goTo:0},]},
-      391:{
-        text:``,options: [{text:``, goTo:0},]
-      },
-      392:{
-        text:``,options: [{text:``, goTo:0},]
-      },
-      393:{
-        text:``,options: [{text:``, goTo:0},]
-      },
-      394:{
-        text:``,options: [{text:``, goTo:0},]
-      },
-      395:{
-        text:`Voce lança o Encanto e se concentra, criando uma ilusão de que voce e um poderoso feiticeiro e que esta 
-        começando a se cansar das gozações deles. Mas nada acontece! Mais uma vez, um riso de escarnio chega a voce vindo 
-        de todos os lados. "Nós tambem somos criaturas magicas," diz uma voz, "embora nao sejamos tao amadores quanto voce!" 
-        Repentinamente, voce sente um golpe no meio das costas que joga voce no meio do aposento. Voce perde dois pontos 
-      de ENERGIA.`,
-        options: [
-          {text:`Voce procurara em sua mochila alguma coisa para usar`, goTo:322},
-          {text:`desembainhara a sua espada`, goTo:248},
-          {text:`Se voce nao tiver tentado ainda um Encanto do Fogo sobre eles, poderá fazer isso`, goTo:85},
-        ]
-      },
-      396:{
-        text:``,options: [{text:``, goTo:183, ex:[nda,183]},]
-      },
-      397:{
-        text:`Nao e uma refeição muito farta, mas voce estava com fome e com sede, e esta oferta repõe dois pontos de ENERGIA. `,
-        options: [
-          {text:`Agora voce pode chamar o Calacorm`, goTo:69, ex:[energia, 2]},
-          {text:`ou escolher um Encanto para tentar sair desta situação.`, goTo:193, ex:[energia, 2]},
-        ]
-      },
-      398:{
-        text:`Voce lança o encanto, e sua força retorna, permitindo que voce acabe de subir os degraus. 
-          Quando voce chega no alto, os efeitos desaparecem mais uma vez.`,
-        options: [{text:`Voce pode agora seguir ao longo da muralha na direção da Torre Negra.`, goTo:79},]
-      },
-      399:{
-        text:`Voce lança o Encanto. 0 Elfo se aproxima e, ao faze-lo, a Miriade de Bolso desaparece da sua mao! 
-          Ele fica em pe diante de voce, aparentemente indefeso, nervosamente decidindo se luta ou se foge. 
-          Voce pode se mexer depressa e elimina-lo:`,
-        options: [{text:`Lutar com o ELFO NEGRO`, goTo:272, ex:['combate','ELFO NEGRO']}]
-      },
-      400:{
-        text:`Balthus Dire, caido a seus pes, esta morto. Sua missao foi cumprida! 
-          0	Vale dos Salgueiros esta livre de ataques - por enquanto, pelo menos.`,
-        options: [{text:`Fim?`, goTo:500},]
-      },
+      391:{text:``,options: [{text:``, goTo:0},]},
+      392:{text:``,options: [{text:``, goTo:0},]},
+      393:{text:``,options: [{text:``, goTo:0},]},
+      394:{text:``,options: [{text:``, goTo:0},]},
+      395:{text:``,options: [{text:``, goTo:0},]},
+      396:{text:``,options: [{text:``, goTo:0},]},
+      397:{text:``,options: [{text:``, goTo:0},]},
+      398:{text:``,options: [{text:``, goTo:0},]},
+      399:{text:``,options: [{text:``, goTo:0},]},
+      400:{text:``,options: [{text:``, goTo:0},]},
       },
   },
-
-
-
-
-  OFeiticeirodaMontanhadeFogo : {
-    name:'O Feiticeiro da Montanha de Fogo',
-    img:OFeiticeirodaMontanhadeFogo,
-    sinopse:'',
-  },
-  AcidadedosLadroes : {
-    name: 'A Cidade dos Ladrões',
-    img: AcidadedosLadroes,
-    sinopse :'',
-  },
-  OCalaboucodaMorte : {
-    name: 'O Calabouço da Morte',
-    img: OCalaboucodaMorte,
-    sinopse :'',
-  },
-  OTemplodoTerror : {
-    name: 'O Templo do terror',
-    img: OTemplodoTerror,
-    sinopse :'',
-  },
-}
-
-export default Livros;
