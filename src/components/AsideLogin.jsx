@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { actionLogin } from '../redux/actions/index';
 import { GetGravatar } from "../helpers/Gravatar"
-import { GetLocalStorage, SetLocalStorage } from "../helpers/LocalStorage"
+import { GetLocalStorage, FirtLogin } from "../helpers/LocalStorage"
 
 import * as S from '../styles/components/AsideLogin'
 
@@ -33,7 +33,7 @@ class AsideLogin extends Component {
 
   enterButton = async() => {
     const { Name, Email } = this.state;
-    SetLocalStorage({ [Name]: {Email}  })
+    FirtLogin({ [Name]: {Email}  })
     this.iniciar(Name, Email)
   }
   

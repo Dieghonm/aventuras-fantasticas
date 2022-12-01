@@ -7,15 +7,25 @@ import Livros from '../books/Livros'
 
 import * as S from '../styles/pages/Sinopse' 
 import { actionAttributes, actionbookChoice } from "../redux/actions";
+import { GetLocalStorage, SetNewBook } from "../helpers/LocalStorage";
 
 
 function Sinopse(props) {
   const { book } = useParams();
+  const { user } = props.globalState
+
   const gameSelect = () => {
     const { bookName, changeAtribute } = props;
     bookName(book)
+    SetNewBook(book, user.user)
     changeAtribute('clean')
   }
+
+  const savedEsxist = () => {
+    const storager = Object.keys(GetLocalStorage()[user.user])
+    return storager.includes(book);
+  }
+
   return(
     <S.SinopseDiv>
       <h4>Sinopse</h4>
@@ -25,9 +35,14 @@ function Sinopse(props) {
       <Link to="/aventuras-fantasticas/CreateCharacter">
         <button onClick={gameSelect}>Jogar</button>
       </Link>
+      { savedEsxist()? <button>Jogo salvo</button> : null }
     </S.SinopseDiv>
   )
 }
+
+const mapStateToProps = (state) => ({
+  globalState: state,
+});
 
 const mapDispatchToProps = (dispatch) => ({
   bookName: (data) => dispatch(actionbookChoice(data)),
@@ -38,6 +53,7 @@ Sinopse.propTypes = {
   match: PropTypes.string,
   bookName: PropTypes.func,
   changeAtribute: PropTypes.func,
+  globalState: PropTypes.object,
 };
 
-export default connect(null, mapDispatchToProps)(Sinopse);
+export default connect(mapStateToProps, mapDispatchToProps)(Sinopse);

@@ -6,9 +6,9 @@ import { GetGravatar } from "../helpers/Gravatar"
 
 import Livros from '../books/Livros'
 
-import * as S from '../styles/components/Header'
+import * as S from '../styles/components/Status'
 
-class Header extends Component {
+class Status extends Component {
   criateAttribute = (att, value) => {
     return(
     <div key={att}>
@@ -32,14 +32,14 @@ class Header extends Component {
     }
 
     return(
-      <S.HeaderDiv>
+      <S.StatusDiv>
         <h4>{Livros[book.book].name}</h4>
         {Object.keys(game).map((att) => this.criateAttribute(att, game[att]))}
         <S.PlayerDiv>
           <img src={GetGravatar(user.email)} alt={user.user} />
           <h6>{user.user}</h6>
         </S.PlayerDiv>
-      </S.HeaderDiv>
+      </S.StatusDiv>
     )
   }
 }
@@ -48,8 +48,8 @@ const mapStateToProps = (state) => ({
   globalState: state,
 });
 
-Header.propTypes = {
+Status.propTypes = {
   globalState: PropTypes.object,
 };
 
-export default connect(mapStateToProps)(Header);
+export default connect(mapStateToProps)(Status);

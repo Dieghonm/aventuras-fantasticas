@@ -17,3 +17,9 @@ export const FirtLogin = (data) => {
 // FirtLogin({Fernanda: {Email: "fecine@gmail.com"}})
 // FirtLogin({Diegho: {Email: "dieghonm@gmail.com"}})
 // FirtLogin({Felipe: {Email: "felipe@gmail.com"}})
+
+export const SetNewBook = (book, user) => {
+  let local = GetLocalStorage()
+  local[user][book] = {goTo : 0}
+  SetLocalStorage(local)
+}

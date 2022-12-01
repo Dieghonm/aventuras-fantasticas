@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import Header from "../components/Header";
+import Status from "../components/Status";
 import Attributes from "../components/Attributes";
 import {Navigate} from 'react-router-dom';
 
@@ -26,7 +26,6 @@ class CreateCharacter extends Component {
       return <Navigate to="/aventuras-fantasticas/NewGame" />
     }
     const total = Object.keys(Livros[book.book].character).length;
-    console.log(index, total);
     if (index === total) {
       return <Navigate to="/aventuras-fantasticas/Play" />
     }
@@ -38,7 +37,7 @@ class CreateCharacter extends Component {
   render() {
     return(
       <div>
-        <Header />
+        <Status />
         {this.callAtribute()}
       </div>
     )
