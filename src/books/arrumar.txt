@@ -124,7 +124,7 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 
 //     2. Jogue ambos os dados uma vez para voce. Some o numero obtido a seu indice atual de HABILIDADE. Este total e sua Forra de Ataque.
 
-//     3. Se sua Forra de Ataque for maior do que a da criatura, voce a feriu. Se a For9a de Ataque da criatura for maior do que a sua, ela feriu voce. Se os dois totais de Forra de Ataque forem iguais, voces se defenderam dos golpes - comece a pr6xima Serie de Ataque a partir do item 1 acima.
+//     3. Se sua Forra de Ataque for maior do que a da criatura, voce a feriu. Se a força de Ataque da criatura for maior do que a sua, ela feriu voce. Se os dois totais de Forra de Ataque forem iguais, voces se defenderam dos golpes - comece a pr6xima Serie de Ataque a partir do item 1 acima.
 
 //     4. Se voce tiver ferido a criatura, subtraia 2 pontos de seu fndice de ENERGIA. Voce pode usar sua SORTE aqui para causar maiores danos (ver adiante).
 
@@ -162,7 +162,7 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 // da criatura. Porem, se nao tiver sorte, o ferimento sera um mero arranhao, e voce tera que devolver um ponto a ENERGIA da criatura (isto e, ao inves dos dois pontos normais de danos, voce tera
 // conseguido apenas um).
 
-// Se a criatura tiver acabado de ferir voce, voce podera Testar a sua Sorte para tentar minimizar o ferimento. Se tiver sorte, conseguiu evitar que o golpe o atingisse com toda a for9a. Voce recupera um ponto de ENERGIA (isto e, ao inves de causar os dois pontos de danos, o golpe causa apenas um). Se nao tiver sorte, voce recebeu um ferimento mais grave. Subtraia um ponto extra de ENERGIA.
+// Se a criatura tiver acabado de ferir voce, voce podera Testar a sua Sorte para tentar minimizar o ferimento. Se tiver sorte, conseguiu evitar que o golpe o atingisse com toda a força. Voce recupera um ponto de ENERGIA (isto e, ao inves de causar os dois pontos de danos, o golpe causa apenas um). Se nao tiver sorte, voce recebeu um ferimento mais grave. Subtraia um ponto extra de ENERGIA.
 
 // Lembre-se que voce tern que subtrair um ponto da sua pr6pria SORTE a cada vez que Testar a sua Sorte.
 
@@ -207,7 +207,7 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 
 // Fogo
 
-// Todas as criaturas tern medo do fogo, e este encanto da o poder de fazer aparecer fogo segundo a sua vontade.  Voce podera causar uma pequena explosao no chao que queimara  por varios segundos ou criar uma barreira de fogo para manter criaturas a distancia.
+// Todas as criaturas tern medo do fogo, e este encanto da o poder de fazer aparecer fogo segundo a sua vontade.  Voce podera causar uma pequena explosao no chão que queimara  por varios segundos ou criar uma barreira de fogo para manter criaturas a distancia.
 
 // Ouro dos Tolos
 
@@ -216,7 +216,7 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 
 // Ilusao
 
-// Este e um encanto poderoso, mas que nao e muito confiavel. Atraves deste encanto, voce podera criar uma ilusao convincente (por exemplo, que voce se transformou em serpente, ou que o chao esta coberto de carvao em brasa) para enganar uma criatura. 0 encanto ficara imediatamente sem efeito se acontecer qualquer coisa que desfa9a a ilusao (por exemplo, voce convence uma criatura
+// Este e um encanto poderoso, mas que nao e muito confiavel. Atraves deste encanto, voce podera criar uma ilusao convincente (por exemplo, que voce se transformou em serpente, ou que o chão esta coberto de carvao em brasa) para enganar uma criatura. 0 encanto ficara imediatamente sem efeito se acontecer qualquer coisa que desfa9a a ilusao (por exemplo, voce convence uma criatura
 // que se  tran,, sformou  em  uma serpente  e  entao imediatamente  atinge  sua cabe9a  com  um  golpe de espada!). E eficiente sobre tudo com criaturas inteligentes.
 
 // Levita ao
@@ -239,7 +239,7 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 
 // Forc;a
 
-// Este encanto tern o efeito de aumentar muito a sua for9a, e e muito util quando se luta contra criaturas fortes. Porem, deve ser utilizado com cautela, ja que e diffcil controlar a sua pr6pria for9a quando ela aumenta demais!
+// Este encanto tern o efeito de aumentar muito a sua força, e e muito util quando se luta contra criaturas fortes. Porem, deve ser utilizado com cautela, ja que e diffcil controlar a sua pr6pria força quando ela aumenta demais!
 
 // Fraqueza
 // Criaturas fortes sao reduzidas por este encanto a miseraveis fracotes. Nao tern efeito contra todas as criaturas, mas, quando tern efeito, a criatura se toma fragil e muito menos perigosa em uma batalha.
