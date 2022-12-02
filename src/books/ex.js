@@ -18,6 +18,7 @@ const ex = {
     fogo,
     ilusao,
     escudo,
+    levitacao
   ],
   combate:{
     'ELFO NEGRO':{
@@ -32,6 +33,7 @@ const ex = {
   },
   'fugir': 'quantidade de ataques',
   'energia':'cura ou perde x pontos',
+  'sorteAdd': 'ganhar ou perder ponto de sorte',
   'nda':'vai direto para outra pagina',
   'sorte':[sim, nao], //410
   'dado':[1,2,3,4,5,6],
@@ -46,7 +48,7 @@ const ex = {
 
   },
   'jogo':{
-    'Faca­ Faquinha': 'sorteie uma de 6 facas, se for a sorteada voce morre, 365'
+    'Faca­ Faquinha': 'sorteie uma de 6 facas, se for a sorteada você morre, 365'
   }
 
 

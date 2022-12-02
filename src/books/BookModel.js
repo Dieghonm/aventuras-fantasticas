@@ -18,7 +18,7 @@ const model = {
       },
       Habilidade: {
         text:[` O seu índice de HABILIDADE reflete a sua capacidade como espadachim e sua aptidão geral como lutador.`,
-        ` Quanto maior for o seu nivel de HABILIDADE melhor voce vai se sair em combates`,
+        ` Quanto maior for o seu nivel de HABILIDADE melhor você vai se sair em combates`,
         `Para determinar o seu nivel de HABILIDADE, sortearemos um dado e somaremos 6 ao seu resiltado`],
         roll:1,
         sum: 6,
