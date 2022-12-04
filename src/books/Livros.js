@@ -6,8 +6,6 @@ import AcidadedosLadroes from '../imgs/AcidadedosLadroes.png'
 import OCalaboucodaMorte from '../imgs/OCalaboucodaMorte.png'
 import OTemplodoTerror from '../imgs/OTemplodoTerror.png'
 
-
-
 const Livros = {
   cidadelaDoCaos : {
     name:'A Cidadela do Caos',
@@ -263,7 +261,7 @@ const Livros = {
           aposento.`,
         options: [
           {text:`Fugir`, goTo:90, ex:['fugir', 4]},
-          {text:`se vençer`, goTo:180, ex:['combate', GARK]},
+          {text:`se vençer`, goTo:180, ex:['combate', 'GARK']},
         ]
       },
       17:{
@@ -917,7 +915,7 @@ const Livros = {
         text:`Quando você lan a o encanto, as duas criaturas ficam olhando espantadas enquanto você flutua no
         // ar, passa sobre suas cabe<;as na dire<;ao do portao, sobre a muralha e para o interior da Cidadela.
         // você aterrissa do lado de dentro e olha a sua	volta. Va para 251.
-        // l\1as tome cuida do! Eles com certeza avisarao os guardas da Cidadela.
+        // Mas tome cuida do! Eles com certeza avisarao os guardas da Cidadela.
         // Risque o Encanto da Levita<;ao que  acabou de usar na sua Folha de Aventuras.
         `,
         options: [
@@ -2490,7 +2488,7 @@ const Livros = {
         ]
       },
       256:{
-        text:`0	feiticeiro sorri. "Entao você se juntara a mim!" ele ri. " l\1as primeiro eu preciso garantir a sua lealdade genuina." A mão dele pousa em sua testa. Ele fecha os olhos e se concentra. você sente a
+        text:`0	feiticeiro sorri. "Entao você se juntara a mim!" ele ri. " Mas primeiro eu preciso garantir a sua lealdade genuina." A mão dele pousa em sua testa. Ele fecha os olhos e se concentra. você sente a
         // sua vontade se esvaindo. Seu espirito de luta esta abandonando você. Depois de alguns momentos, ele retira a mao.
         // você esta livre na frente dele. você se inclinara para sauda-lo como seu mestre (volte para 65) ou pegara sua espada e cravara nele (volte para 155)'?
         `,
@@ -3714,7 +3712,7 @@ const Livros = {
         rasga a sua tunica, arranhando o seu antebraço. você ainda nao consegue ver ninguem, nem ver de onde as flechas estao 
         vindo. Depois de mais alguns passos, surge mais uma flecha, mas esta rasga a sua perna. você grita alto - e perde quatro 
         pontos de ENERGIA  - mas você ja esta quase no monumento, que servira de proteção para você.`,
-        options: [{text:`você salta para frente e se esconde atras dele ate que as flechas parem de vir.`, goTo:209, ex:[energia, -4]},]
+        options: [{text:`você salta para frente e se esconde atras dele ate que as flechas parem de vir.`, goTo:209, ex:['energia', -4]},]
       },
       379:{
         text:`você solta a corda e flutua no ar. Pousando de volta no chão, na borda do fosso, você xinga a armadilha demoniaca
@@ -3851,7 +3849,7 @@ const Livros = {
         ]
       },
       396:{
-        text:``,options: [{text:``, goTo:183, ex:[nda,183]},]
+        text:``,options: [{text:``, goTo:183, ex:['nda',183]},]
       },
       397:{
         text:`Nao e uma refeição muito farta, mas você estava com fome e com sede, e esta oferta repõe dois pontos de ENERGIA. `,
@@ -3876,7 +3874,7 @@ const Livros = {
           0	Vale dos Salgueiros esta livre de ataques - por enquanto, pelo menos.`,
         options: [{text:`Fim?`, goTo:500},]
       },
-      },
+    },
   },
 
 
