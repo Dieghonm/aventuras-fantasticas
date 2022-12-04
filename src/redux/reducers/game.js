@@ -1,7 +1,7 @@
 import { ATTRIBUTES } from '../actions';
 
 const initialState = {
-
+  goTo:0
 };
 
 export default (state = initialState, action) => {

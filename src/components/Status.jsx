@@ -7,6 +7,7 @@ import { GetGravatar } from "../helpers/Gravatar"
 import Livros from '../books/Livros'
 
 import * as S from '../styles/components/Status'
+import { AtributeChange } from "../helpers/LocalStorage";
 
 class Status extends Component {
   criateAttribute = (att, value) => {
@@ -16,6 +17,11 @@ class Status extends Component {
       <h3>{value}</h3>
     </div>
     )
+  }
+
+  componentDidUpdate(){
+    const { user, book, game } = this.props.globalState
+    AtributeChange(user.user, book.book, game);
   }
 
   render() {

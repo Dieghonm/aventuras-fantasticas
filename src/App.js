@@ -15,6 +15,7 @@ import Play from './pages/Play';
 import CreateCharacter from './pages/CreateCharacter';
 
 import * as S from './styles/App'
+import Error from './pages/Error';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/aventuras-fantasticas/sinopse/:book" element={<Sinopse />} />
           <Route path="/aventuras-fantasticas/CreateCharacter" element={<CreateCharacter />} />
           <Route path="/aventuras-fantasticas/Play" element={<Play />} />
+          <Route path="/aventuras-fantasticas/makeLogin" element={<Error />} />
           <Route path="/aventuras-fantasticas" element={<Project />} />
           <Route path="*" element={<Project />} />
         </Routes>

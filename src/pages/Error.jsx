@@ -4,7 +4,7 @@ class Error extends Component {
   render() {
     return(
       <div>
-        <p>Error</p>
+        <p>faça o login</p>
       </div>
     )
   }

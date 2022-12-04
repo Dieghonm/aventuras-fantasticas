@@ -13,12 +13,11 @@ class SaveGame extends Component {
   saveCards = (book) => {
     if (book === 'Email'){
       return (
-        <h3>Jogos salvos</h3>
+        <h3 key={book}>Jogos salvos</h3>
       )
     }
-    console.log(Livros[book]);
     return (
-      <S.BookDiv>
+      <S.BookDiv key={book}>
         <img src={Livros[book].img} alt={Livros[book].name} />
         <h4>{Livros[book].name}</h4>
         <p>livro</p>
@@ -44,9 +43,6 @@ const mapStateToProps = (state) => ({
 
 SaveGame.propTypes = {
   globalState: PropTypes.object,
-  book: PropTypes.object,
-  user: PropTypes.object, 
-  game: PropTypes.object
 };
 
 export default connect(mapStateToProps)(SaveGame);
