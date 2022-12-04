@@ -27,7 +27,7 @@ class CreateCharacter extends Component {
     }
     const total = Object.keys(Livros[book.book].character).length;
     if (index === total) {
-      return <Navigate to="/aventuras-fantasticas/Play" />
+      return <Navigate to="/aventuras-fantasticas/Play/0" />
     }
     const atributes = Livros[book.book].character
     const list = Object.keys(atributes)

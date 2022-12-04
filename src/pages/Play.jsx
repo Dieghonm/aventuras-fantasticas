@@ -1,23 +1,32 @@
-import React, { Component } from "react"
+import React from "react"
 import { connect } from 'react-redux';
+import { Link, useParams } from "react-router-dom";
 import PropTypes from 'prop-types';
 
 import Status from "../components/Status"
 
 import Livros from '../books/Livros'
 
-class Play extends Component {
-  render() {
-    const { user, game, book } = this.props.globalState
-    console.log(user, game);
-    console.log(Livros[book.book].Pagina);
+function Play(props) {
+  const options = (option) => {
+    console.log(option);
     return(
-      <div>
-        <Status />
-        <p>Play</p>
-      </div>
+      <Link to={`/aventuras-fantasticas/Play/${option.goTo}`}>
+        <button>{option.text}</button>
+      </Link>
     )
+
   }
+  const { user, game, book } = props.globalState
+  const { goTo } = useParams ();
+  console.log(user, game, goTo);
+  return(
+    <div>
+      <Status />
+      <p>{Livros[book.book].Pagina[goTo].text}</p>
+      {Livros[book.book].Pagina[goTo].options.map((option) => options(option))}
+    </div>
+  )
 }
 
 const mapStateToProps = (state) => ({

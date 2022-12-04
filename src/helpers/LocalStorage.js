@@ -25,7 +25,6 @@ export const SetNewBook = (book, user) => {
 }
 
 export const AtributeChange = (user, book, game) => {
-  console.log(user, book, game);
   let local = GetLocalStorage()
   local[user][book] = {...local[user][book],...game}
   SetLocalStorage(local)

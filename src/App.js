@@ -30,7 +30,7 @@ function App() {
           <Route path="/aventuras-fantasticas/AboutUs" element={<AboutUs />} />
           <Route path="/aventuras-fantasticas/sinopse/:book" element={<Sinopse />} />
           <Route path="/aventuras-fantasticas/CreateCharacter" element={<CreateCharacter />} />
-          <Route path="/aventuras-fantasticas/Play" element={<Play />} />
+          <Route path="/aventuras-fantasticas/Play/:goTo" element={<Play />} />
           <Route path="/aventuras-fantasticas/makeLogin" element={<Error />} />
           <Route path="/aventuras-fantasticas" element={<Project />} />
           <Route path="*" element={<Project />} />
