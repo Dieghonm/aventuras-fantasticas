@@ -25,4 +25,9 @@ export const AppDiv = styled.div`
   ${ media.mobileG }{ 
     display: block ;
   }
+  button {
+    background: rgba(51, 51, 51, 1) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: rgba(255, 255, 255, 1);
+  }
 `;

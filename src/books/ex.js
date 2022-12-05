@@ -1,33 +1,33 @@
 const ex = {
-  item:[
-    mirfade,
-    aranha,
-    amoras,
-    ouro
+  'item':[
+    'mirfade',
+    'aranha',
+    'amoras',
+    'ouro'
   ],
   itemAdd:{
     'adaga encantada':`adaga de arremesso encantada que nunca erra, p15, 2 pontos de dano, 1vez`
   },
 
-  encanto:[
-    copia,
-    forca,
-    fraqueza,
-    percepção,
-    ouro,
-    fogo,
-    ilusao,
-    escudo,
-    levitacao
+  'encanto':[
+    'copia',
+    'forca',
+    'fraqueza',
+    'percepcao',
+    'ouro',
+    'fogo',
+    'ilusao',
+    'escudo',
+    'levitacao'
   ],
   combate:{
     'ELFO NEGRO':{
-      energia: 4,
-      habilidade: 4
+      'energia': 4,
+      'habilidade': 4
     },
     'GARK':{
-      energia: 11,
-      habilidade: 7
+      'energia': 11,
+      'habilidade': 7
     },
 
   },
@@ -35,7 +35,7 @@ const ex = {
   'energia':'cura ou perde x pontos',
   'sorteAdd': 'ganhar ou perder ponto de sorte',
   'nda':'vai direto para outra pagina',
-  'sorte':[sim, nao], //410
+  'sorte':['sim', 'nao'], //410
   'dado':[1,2,3,4,5,6],
   't-soete': 'teste de sorte', // ver o q fazer com o anel 381
 

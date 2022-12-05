@@ -7,6 +7,10 @@ export const StatusDiv = styled.div`
   justify-content:space-between;
   border: 1px solid black;
 
+  h3 {
+    margin: 0px 0px ;
+  }
+
   ${ media.laptop }{ 
 
   }
@@ -18,7 +22,7 @@ export const StatusDiv = styled.div`
   }
 `
 export const PlayerDiv = styled.div`
-margin: 1em;
+margin: 0.5em;
   img {
     height: 3em
   }

@@ -1,7 +1,6 @@
-import { ATTRIBUTES } from '../actions';
+import { ATTRIBUTES, KILLMAGIC } from '../actions';
 
 const initialState = {
-
 };
 
 export default (state = initialState, action) => {
@@ -16,8 +15,14 @@ export default (state = initialState, action) => {
           [action.payload[0]]: action.payload[1],
         };
       }
-    return state
+      return state
+    case KILLMAGIC:
+      delete state.Magia
+      return state;
   default:
     return state;
   }
 };
+
+
+// delete meuObjeto.propriedade3

@@ -29,3 +29,16 @@ export const AtributeChange = (user, book, game) => {
   local[user][book] = {...local[user][book],...game}
   SetLocalStorage(local)
 }
+
+export const StorageCharmList = (charmList, user, book) => {
+  let local = GetLocalStorage()
+  local[user][book] = {...local[user][book], charmList}
+  SetLocalStorage(local)
+}
+
+export const ItensList = () => {
+  // let local = GetLocalStorage()
+  // console.log(local[user][book], charmList, book);
+  // local[user][book] = {...local[user][book], charmList}
+  // SetLocalStorage(local)
+}

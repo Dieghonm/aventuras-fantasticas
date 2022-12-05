@@ -1,4 +1,4 @@
-export const [LOGIN, BOOK, ATTRIBUTES, GOTO] = ['LOGIN', 'BOOK', 'ATTRIBUTES', 'GOTO'];
+export const [LOGIN, BOOK, ATTRIBUTES, GOTO, CHARMS, KILLMAGIC] = ['LOGIN', 'BOOK', 'ATTRIBUTES', 'GOTO', 'CHARMS', 'KILLMAGIC'];
 
 export function actionLogin(dataAction) {
   return {
@@ -14,13 +14,6 @@ export function actionbookChoice(dataAction) {
   };
 }
 
-export function actionGoTo(dataAction) {
-  return {
-    type: GOTO,
-    payload: dataAction,
-  };
-}
-
 export function actionAttributes(dataAction) {
   return {
     type: ATTRIBUTES,
@@ -28,3 +21,23 @@ export function actionAttributes(dataAction) {
   };
 }
 
+export function actionGoTo(dataAction) {
+  return {
+    type: GOTO,
+    payload: dataAction,
+  };
+}
+
+export function actionCharms(dataAction) {
+  return {
+    type: CHARMS,
+    payload: dataAction,
+  };
+}
+
+export function actionKillMagic(dataAction) {
+  return {
+    type: KILLMAGIC,
+    payload: dataAction,
+  };
+}

@@ -9,7 +9,6 @@ import Livros from '../books/Livros'
 
 function Play(props) {
   const options = (option) => {
-    console.log(option);
     return(
       <Link to={`/aventuras-fantasticas/Play/${option.goTo}`}>
         <button>{option.text}</button>
