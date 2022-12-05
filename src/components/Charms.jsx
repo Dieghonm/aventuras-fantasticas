@@ -2,28 +2,35 @@ import React, { Component } from "react";
 import PropTypes from 'prop-types';
 import { connect } from "react-redux";
 
+import * as S from '../styles/components/Charms'
+
 import Livros from '../books/Livros'
+import Dice from "./Dice";
 
 class  Charms extends Component {
   state = {
     isHiden: true
   }
 
+  roll = (num, charm) => {
+    console.log('rolar', num, charm);
+  }
 
   showCharm = () => {
     const { charms, book } = this.props.globalState
     const { isHiden } = this.state
     const list = Object.keys(charms)
     const data = Livros[book.book].character.Encantamentos
+    const roll = ['sorte', 'habilidade', 'energia']
     return(
-      <div hidden={isHiden}>
+      <S.CharmsDiv hidden={isHiden}>
         {list.map((charm) => (
           <div key={charm}>
-            {console.log(data[charm])}
             <p>{data[charm][0]} - {charms[charm]}</p> 
+            {roll.includes(charm)? <Dice roll={ this.roll } stats={charm}/>: null}
           </div>
         ))}
-      </div>
+      </S.CharmsDiv>
     )
   }
 

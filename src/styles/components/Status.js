@@ -21,6 +21,7 @@ export const StatusDiv = styled.div`
 
   }
 `
+
 export const PlayerDiv = styled.div`
 margin: 0.5em;
   img {

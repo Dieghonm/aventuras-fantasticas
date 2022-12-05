@@ -7,11 +7,12 @@ class  Dice extends Component {
   }
 
   roll = () => {
-    const { roll } = this.props
+    const { roll, stats } = this.props
     const value = Math.ceil (Math.random() * 6)
     this.setState({value})
-    roll(value)
+    roll(value, stats)
   }
+  
   render() {
     const { value } = this.state
     return (
@@ -22,6 +23,7 @@ class  Dice extends Component {
 
 Dice.propTypes = {
   roll: PropTypes.func,
+  stats: PropTypes.string,
 };
 
 export default  Dice
