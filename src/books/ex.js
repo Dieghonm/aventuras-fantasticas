@@ -29,6 +29,19 @@ const ex = {
       'energia': 11,
       'habilidade': 7
     },
+    'FERA DAS GARRAS':{
+      'energia': 14,
+      'habilidade': 9,
+      'extra':'Depois que você tiver atingido a criatura pela quarta vez, goTo:241, 30'
+    },
+    'Macaco-Cachorro':{
+      'energia': 7,
+      'habilidade': 4,
+    },//combate duplo 288
+    'Cachorro-Macaco':{
+      'energia': 6,
+      'habilidade': 6,
+    }
 
   },
   'fugir': 'quantidade de ataques',

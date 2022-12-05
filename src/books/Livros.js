@@ -15,11 +15,11 @@ const Livros = {
       a derrocada do povo generoso do Vale dos Salgueiros. Seus planos de combate estao prontos, seu exercito assustador 
       equipado, e o ataque e indiscutivelmente iminente.`,
 
-      ` Convocado	por  uma  suplica  desesperada  de  ajuda, "você" e a unica esperan a do Vale dos Salgueiros.
+      ` Convocado	por uma suplica desesperada de ajuda, "você" e a unica esperan a do Vale dos Salgueiros.
       Aluno brilhante do Grande Mago de Yore e um mestre da magia, só você pode empreender uma missão que atinja 
       o próprio coração do mundo de pesadelo de Balthus Dire. Que criaturas monstruosas esperam por você la?`,
 
-      ` Muitos perigos  existem  a sua frente, e seu  sucesso  nao esta  de forma  alguma  garantido.  
+      ` Muitos perigos existem a sua frente, e seu sucesso nao esta de forma alguma garantido.
       Ha adversarios poderosos nas fileiras do inimigo e muitas vezes sua unica alternativa sera matar ou ser morto!`,
       
       ` Em parte um romance, com sua história emocionante, e em parte um jogo, com seu elaborado sistema de combate, 
@@ -160,11 +160,11 @@ const Livros = {
     Pagina:{
       0:{
         text:`HISTORIA - 
-        0 ordeiro e generoso  povo do Vale dos Salgueiros  vive ha oito anos sob o terror e medo do feiticeiro Balthus Dire. Terror - porque o poder dele e realmente aterrorizante  - e medo causados pela noticia que acabou chegando aos ouvidos desse povo, vinda dos dominios do feiticeiro, de que seus ambiciosos planos de conquista comec;ariam pelo pr6prio Vale.
+        0 ordeiro e generoso povo do Vale dos Salgueiros vive ha oito anos sob o terror e medo do feiticeiro Balthus Dire. Terror - porque o poder dele e realmente aterrorizante  - e medo causados pela noticia que acabou chegando aos ouvidos desse povo, vinda dos dominios do feiticeiro, de que seus ambiciosos planos de conquista comec;ariam pelo pr6prio Vale.
         Um fiel Semi-Elfo enviado em uma missão de espionagem a Torre Negra voltou galopando para o Vale ha tres dias com uma mensagem desesperada. Do interior das cavernas de Rocha Escarpada, Balthus Dire tinha recrutado um exercito de Ca6ticos e se preparava para atacar com eles o Vale dentro de uma semana.
-        0 born Rei Salamon era um homem de ac;ao. Foram enviados mensageiros por todo o Vale no mesmo dia para preparar as defesas e convocar os homens para a guerra. Foram enviados tambem cavaleiros a Grande Floresta de Yore para avisar aos Semi-Elfos que moravam la e fazer um apelo para que se aliassem as forc;as. 0 Rei Salamon era tambem um homem sabio. Ele sabia muito bem que as noticias inevitavelmente chegariam aos ouvidos do Grande Mago de Yore, um mestre da magia branca de grandes poderes, que vivia nas profundezas da floresta. 0 mago era velho e nao resistiria a uma batalha destas proporc;oes. Mas ele havia ensinado suas artes a varios jovens magos, e talvez um de seus discipulos de magia ajudasse o rei e seus suditos com coragem e ambic;ao.
-        você e o aluno brilhante do Grande Mago de Yore. Ele tern sido um Mestre duro, e sua pr6pria impaciencia muitas vezes foi mais forte do que você. Talvez  um pouco precipitadamente, você partiu de imediato para a corte de Salamon. 0 rei recebeu-o entusiasticamente e explicou seu plano. A batalha poderia ser evitada sem derramamento de sangue se Balthus fosse assassinado antes que seu exercito pudesse ser reunido.
-        A missão que você tern pela frente e extremamente perigosa. Balthus Dire esta cercado, em sua Cidadela, por uma multidao de criaturas assombrosas. Embora a Magia seja a sua arma mais forte, havera momentos em que você tera que confiar em sua espada para sobreviver.
+        0bomRei Salamon era um homem de ac;ao. Foram enviados mensageiros por todo o Vale no mesmo dia para preparar as defesas e convocar os homens para a guerra. Foram enviados tambem cavaleiros a Grande Floresta de Yore para avisar aos Semi-Elfos que moravam la e fazer um apelo para que se aliassem as Forças. 0 Rei Salamon era tambem um homem sabio. Ele sabia muito bem que as noticias inevitavelmente chegariam aos ouvidos do Grande Mago de Yore, um mestre da magia branca de grandes poderes, que vivia nas profundezas da floresta. 0 mago era velho e nao resistiria a uma batalha destas proporc;oes. Mas ele havia ensinado suas artes a varios jovens magos, e talvez um de seus discipulos de magia ajudasse o rei e seus suditos com coragem e ambic;ao.
+        você e o aluno brilhante do Grande Mago de Yore. Ele tem sido um Mestre duro, e sua pr6pria impaciencia muitas vezes foi mais forte do que você. Talvez  um pouco precipitadamente, você partiu de imediato para a corte de Salamon. 0 rei recebeu-o entusiasticamente e explicou seu plano. A batalha poderia ser evitada sem derramamento de sangue se Balthus fosse assassinado antes que seu exercito pudesse ser reunido.
+        A missão que você tem pela frente e extremamente perigosa. Balthus Dire esta cercado, em sua Cidadela, por uma multidao de criaturas assombrosas. Embora a Magia seja a sua arma mais forte, havera momentos em que você tera que confiar em sua espada para sobreviver.
         0 Rei Salamon expos a você como seria a sua missão e o advertiu dos perigos que estavam a sua frente. Ha um caminho melhor para atravessar a Cidadela. Se você o descobrir, tera exito com um mfnimo de risco para a sua pessoa. Talvez você precise de varias viagens para descobrir o caminho mais facil para atravessar a Cidadela.
         você deixa o Vale dos Salgueiros na longa caminhada para a Torre Negra. No sope da colina de Rocha Escarpada, você pode ver sua silhueta contra o ceu escuro...
         `,
@@ -174,9 +174,9 @@ const Livros = {
       }]
       },
       1:{
-        text:`0 sol se p6e. Enquanto o crepusculo se transforma em escuridao, você começa a subir a colina na direçao da ameaçadora forma que se desenha contra o ceu notumo. A Cidadela fica a menos de uma hora de escalada.
+        text:`0 sol se p6e. Enquanto o crepusculo se transforma em escuridão, você começa a subir a colina na direçao da ameaçadora forma que se desenha contra o ceu notumo. A Cidadela fica a menos de uma hora de escalada.
           A uma certa distancia de seus muros, você para para descansar - um erro, uma vez que, dessa posiçao, ela parece um espectro medonho do qual nao se pode escapar. Os cabelos no seu pesco90 se arrepiam enquanto você a observa.
-          Mas você se envergonha de seus medos. Com inflexfvel decisao, você marcha adiante na direçao do portao principal, onde você sabe que encontrara guardas a sua espera. você considera suas op96es.
+          Mas você se envergonha de seus medos. Com inflexfvel decisao, você marcha adiante na direçao do portão principal, onde você sabe que encontrara guardas a sua espera. você considera suas op96es.
           Ja pensou em se apresentar como um especialista em plantas medicinais que veio tratar de um guarda com febre. Poderia tambem se dizer um comerciante ou artesao - talvez um carpinteiro. Poderia ate mesmo ser um nomade que buscasse abrigo para a noite.
           Enquanto você pondera as possibilidades, e as histórias que tera que contar aos guardas, acaba chegando a trilha principal que conduz aos port6es. Duas lanternas brilham em cada um dos lados
           da porta levadiça.
@@ -270,7 +270,7 @@ const Livros = {
          com narizes e queixos compridos, circulam pelo aposento - que parece ser alguma especie de cozinha - pegando 
          varios ingredientes dos armarios e acrescentando-os a um caldo dentro de um grande caldeirão. Ha um pedaço de 
          carne assando em um espeto, embaixo de uma grande chamine. Olhando mais atentamente, você descobre que a came, 
-         na verdade, nao e de um animal, mas sim um Anao inteiro que escurece ao fogo. Uma das mulheres olha para você e 
+         na verdade, nao e de um animal, mas sim um Anão inteiro que escurece ao fogo. Uma das mulheres olha para você e 
          diz: "Ah, você deve ser o novo empregado... ou e a próxima refeição?", com o que todas as tres começam a dar 
          gargalhadas e gritos enquanto riem.`,
         options: [
@@ -288,11 +288,11 @@ const Livros = {
         ]
       },
       15:{
-        text:`A adaga e realmente uma obra de arte e sem duvida valia um born preço. A lamina e feita de metal brilhante, 
+        text:`A adaga e realmente uma obra de arte e sem duvida valia umbompreço. A lamina e feita de metal brilhante, 
         e o cabo e de um couro verde peculiar, com pedras incrustadas. você le uma inscrição que diz que esta e uma adaga 
         de arremesso encantada que nunca erra. Em um combate futuro, você podera usar esta adaga para arremessar em um 
         adversario. Ela causara automaticamente a perda de dois pontos de ENERGIA sem necessidade de jogar dados para 
-        conhecer a Forrça de Ataque. Mas você só  podera usa-la uma vez.`,
+        conhecer a Forrça de Ataque. Mas você só podera usa-la uma vez.`,
         options: [
           {
             text:`você póe a adaga em seu cinturão e parte na direção da Cidadela.`,
@@ -406,118 +406,141 @@ const Livros = {
         ]
       },
       27:{
-        text:`Quando você mostra as Peças de  Ouro,  as tres  criaturas interrompem  seu  caminho. Eles engasgam ao olhar para suas moedas. Uma mão invisfvel as agarra e coloca no chão. Elas olham para você, e
-        // uma voz pede mais. você pega todas as suas Peças de Ouro e joga no centro do aposento. Uma voz soa, dizendo: "Bern, estranho, você e realmente bem-vindo na casa dos MIKS. Agradecemos o seu
-        // presente. Se esta seguindo adiante, va pela porta a sua frente, mas tome cuidado com os Ganjees.
-        // Desejamos sorte para você na sua jomada."  você pode acrescentar  um ponto de SORTE pelos votos de sucesso dos Miks e sair pela porta a sua frente. Va para 206.
-        `,
+        text:`Quando você mostra as Peças de Ouro, as tres criaturas interrompem seu caminho. Eles engasgam ao olhar para 
+        suas moedas. Uma mão invisfvel as agarra e coloca no chão. Elas olham para você, e uma voz pede mais. você pega 
+        todas as suas Peças de Ouro e joga no centro do aposento. Uma voz soa, dizendo: "Bern, estranho, você e realmente 
+        bem-vindo na casa dos MIKS. Agradecemos o seu presente. Se esta seguindo adiante, va pela porta a sua frente, 
+        mas tome cuidado com os Ganjees. Desejamos sorte para você na sua jomada.`,
         options: [
-          {text:``, goTo:0},
+          {text:`você ganha um ponto de SORTE pelos votos de sucesso dos Miks e sai pela porta a sua frente.`, goTo:206, ex:['sorteAdd', 1]},
         ]
       },
       28:{
-        text:`você lança o Encanto e faz aparecer uma bola de fogo nas suas maos. Eles interrompem seu caminho e observam você atentamente. você joga a bola na direçao deles, e eles gritam de medo, rolando aterrorizados para longe de você, com medo de seus 6bvios poderes. Enquanto você ainda tern controle sobre o Encanto, cria mais tres bolas de fogo menores e as arremessa sobre cada um deles. Eles uivam e se dispersam, rolando pelo corredor para longe de você. você pode agora prosseguir pela passagem da esquerda (va para 243) ou pela passagem da direita (volte para 2).
-        `,
+        text:`você lança o Encanto e faz aparecer uma bola de fogo nas suas maos. Eles interrompem seu caminho e observam 
+        você atentamente. você joga a bola na direçao deles, e eles gritam de medo, rolando aterrorizados para longe de você,
+        com medo de seus óbvios poderes. Enquanto você ainda tem controle sobre o Encanto, cria mais tres bolas de fogo 
+        menores e as arremessa sobre cada um deles. Eles uivam e se dispersam, rolando pelo corredor para longe de você.`,
         options: [
-          {text:``, goTo:0},
+          {text:`você pode agora prosseguir pela passagem da esquerda`, goTo:243},
+          {text:`ou pela passagem da direita`, goTo:2},
         ]
       },
       29:{
-        text:`Cautelosamente, você se aproxima do homenzinho. Ao chegar perto, um unico olho se abre e olha diretamente no seu rosto. Um sorriso largo se espalha de orelha a orelha na criatura e ela desaparece! "Born dia para você!" diz uma vozinha chilreante atras de você, e, ao voltar-se, você o ve ali, ainda sorrindo. "Sou O'Seamus, o Duende!", ele diz, dando risinhos, e estende a mão para você. Ele parece suficientemente amigavel -  você aperta a mão dele e tenta fazer amizade (va para 271) ou desembainha sua espada (va para 131)?
-        `,
+        text:`Cautelosamente, você se aproxima do homenzinho. Ao chegar perto, um unico olho se abre e olha diretamente no 
+        seu rosto. Um sorriso largo se espalha de orelha a orelha na criatura e ela desaparece! "Bom dia para você!" diz uma 
+        vozinha chilreante atras de você, e, ao voltar-se, você o ve ali, ainda sorrindo. "Sou O'Seamus, o Duende!", ele diz,
+        dando risinhos, e estende a mão para você. Ele parece suficientemente amigavel`,
         options: [
-          {text:``, goTo:0},
+          {text:`você aperta a mão dele e tenta fazer amizade`, goTo:271},
+          {text:`ou desembainha sua espada`, goTo:131},
         ]
       },
       30:{
         text:`A fera e imensamente poderosa. você desembainha a sua espada e a batalha começa:
-        // FERA DAS GARRAS	HABILIDADE 9	ENERGIA 14
-        
-        // Depois que você tiver atingido a criatura pela quarta vez, va para 241.
-        `,
+        // FERA DAS GARRAS	HABILIDADE 9	ENERGIA 14`,
         options: [
-          {text:``, goTo:0},
+        // FERA DAS GARRAS	HABILIDADE 9	ENERGIA 14`,
+          {text:`Depois que você tiver atingido a criatura pela quarta vez`, goTo:241, ex:['combate', 'FERA DAS GARRAS']},
         ]
       },
       31:{
-        text:`você sai do aposento pela porta do outro lado, a qual abre para uma passagem curta que termina em uma grande porta de madeira. A maçaneta desta porta gira, deixando que você entre em uma grande camara. Va para 169.
-        `,
+        text:`você sai do aposento pela porta do outro lado, a qual abre para uma passagem curta que termina em uma grande 
+        porta de madeira.`,
         options: [
-          {text:``, goTo:0},
+          {text:`A maçaneta desta porta gira, deixando que você entre em uma grande camara.`, goTo:169},
         ]
       },
       32:{
-        text:`Passando por sobre os corpos, você se aproxima do portao e chama o porteiro, para em seguida se esconder na escuridao quando ele se aproxima. Ele ve os corpos e sai para investigar, e, enquanto isso, você aproveita para esgueirar-se rapidamente pelo portao e tranca-lo do lado de fora. Va para 251.
-        `,
+        text:`Passando por sobre os corpos, você se aproxima do portão e chama o porteiro, para em seguida se esconder na 
+        escuridão quando ele se aproxima. Ele ve os corpos e sai para investigar, e, enquanto isso:`,
         options: [
-          {text:``, goTo:0},
+          {text:`você aproveita para esgueirar-se rapidamente pelo portão e tranca-lo do lado de fora`, goTo:251},
         ]
       },
       33:{
-        text:`Quando você tenta se levantar, o Orea e o Goblin agarram você e o seguram no chão, enquanto o Anao avanc;a com sua clava. Va para 213.
-        `,
+        text:`Quando você tenta se levantar, o Ork e o Goblin agarram você e o seguram no chão`,
         options: [
-          {text:``, goTo:0},
+          {text:`enquanto o Anão avança com sua clava`, goTo:213},
         ]
       },
       34:{
-        text:`A chave gira e, retirando a tranca, você abre a caixa, encontrando outra chave, dessa vez talhada em um metal verde cintilante. você experimentara esta nova chave na terceira caixa (va para 89) ou saira do aposento com as duas chaves (va para 237)?
+        text:`A chave gira e, retirando a tranca, você abre a caixa, encontrando outra chave, dessa vez talhada em um metal 
+        verde cintilante.  (va para 89)  (va para 237)?
         `,
         options: [
-          {text:``, goTo:0},
+          {text:`você experimentara esta nova chave na terceira caixa`, goTo:89},
+          {text:`ou saira do aposento com as duas chaves`, goTo:237},
         ]
       },
       35:{
-        text:`você se concentra na sua Ilusao. você pode convence-lo de que ele esta sendo atacado por um inimigo (va para 364), ou fazer com que você desapareça, na esperança de que ele vira procurar por você (va para 246).
-        `,
+        text:`você se concentra na sua Ilusão.`,
         options: [
-          {text:``, goTo:0},
+          {text:`você pode convence-lo de que ele esta sendo atacado por um inimigo`, goTo:364},
+          {text:`ou fazer com que você desapareça, na esperança de que ele vira procurar por você`, goTo:246},
         ]
       },
       36:{
-        text:`"Bah!", diz o Gark," nao e tao facil me enganar. Jogue fora estes peda<;os de latao." A criatura tern a ideia de que, se você esta oferecendo um suborno, deve ser um invasor, o que - para um Gark - e uma demonstra<;ao assombrosa de raciocfnio 16gico! Ele da um tapa em você com sua mão enorme, jogando você sem sentidos no chão. As ultimas palavras que você se lembra antes de desmaiar sao ditas pelo Gark orgulhoso: "Para a cadeia com esse aqui!" Va para 234. E nao se esque<;a de deduzir o Encanto do Ouro dos Tolos desperdi<;ado.
-        `,
+        text:`"Bah!", diz o Gark," nao e tao facil me enganar. Jogue fora estes pedaços de latão." A criatura tem a ideia 
+        de que, se você esta oferecendo um suborno, deve ser um invasor, o que - para um Gark - e uma demonstração assombrosa
+        de raciocínio 1ógico! Ele da um tapa em você com sua mão enorme, jogando você sem sentidos no chão. 
+        As ultimas palavras que você se lembra antes de desmaiar sao ditas pelo Gark orgulhoso:`,
         options: [
-          {text:``, goTo:0},
+          {text:`"Para a cadeia com esse aqui!"`, goTo:234},
         ]
       },
       37:{
-        text:`você puxa a pele e a criatura solta silvos altos. Todas as suas cabe<;as recuam,e ela permanece quieta, observando você. Ha uma porta do outro lado do aposento, e você lentamente se desloca na dire<;ao dela. Quando você esta na metade do caminho, uma das cabe<;as se projeta e arranca o velo das suas maos. Mas, ao inves de atacar você, a Hidra se encolhe de volta em um dos cantos. você segue para a porta cautelosamente. Va para 229 .
-        `,
+        text:`você puxa a pele e a criatura solta silvos altos. Todas as suas cabeças recuam,e ela permanece quieta, 
+        observando você. Ha uma porta do outro lado do aposento, e você lentamente se desloca na direção dela. 
+        Quando você esta na metade do caminho, uma das cabeças se projeta e arranca o velo das suas maos. Mas, ao inves de 
+        atacar você, a Hidra se encolhe de volta em um dos cantos.`,
         options: [
-          {text:``, goTo:0},
+          {text:`você segue para a porta cautelosamente.`, goTo:229},
         ]
       },
       38:{
-        text:`A porta abre para uma passagem curta, cal<;ada com pedras  pequenas.  A uma pequena  distancia mais adiante, uma porta elaboradamente entalhada assinala o fim da passagem. Mas, logo antes da porta, uma passagem lateral sai para a esquerda. você se aproximada porta,  tentando  escutar quaisquer sinais de vida do lado de dentro. Quando sua mão toca a  ma<;aneta,  uma voz diz: "Nao bata; simplesmente entre!" vinda de dentro. você entrara no aposento, conforme as instru<;6es  (va para 132) ou resolvera desistir desse aposento e tomar a passagem que sai para a esquerda (va para 306)?
-        `,
+        text:`A porta abre para uma passagem curta, calçada com pedras pequenas. A uma pequena distancia mais adiante, 
+        uma porta elaboradamente entalhada assinala o fim da passagem. Mas, logo antes da porta, uma passagem lateral sai 
+        para a esquerda. você se aproximada porta, tentando escutar quaisquer sinais de vida do lado de dentro. 
+        Quando sua mão toca a maçaneta, uma voz diz: "Nao bata; simplesmente entre!" vinda de dentro.`,
         options: [
-          {text:``, goTo:0},
+          {text:`você entrara no aposento, conforme as instruções`, goTo:132},
+          {text:`ou resolvera desistir desse aposento e tomar a passagem que sai para a esquerda`, goTo:306},
         ]
       },
       39:{
-        text:`você pega o Vidro e, ao fazer isso, os Ganjees ficam ofegantes. "Racknee!" diz uma voz. "você voltou!" E com estas palavras; uma mão invisfvel arranca o vidro das suas maos, coloca-o no chão e abre a tampa. 0 Homem-Aranha volta-se na sua dire<;ao e sol ta um pequeno grunhido. você desembainha a sua espada quando a fera avan<;a a passos rapidos para você, furiosamente. você tera que lutar contra esta criatura:
+        text:`você pega o Vidro e, ao fazer isso, os Ganjees ficam ofegantes. "Racknee!" diz uma voz. "você voltou!" 
+        E com estas palavras; uma mão invisfvel arranca o vidro das suas maos, coloca-o no chão e abre a tampa. 
+        0 Homem-Aranha volta-se na sua direção e solta um pequeno grunhido. você desembainha a sua espada quando a fera
+        avança a passos rapidos para você, furiosamente. você tera que lutar contra esta criatura:
 
         // HOMEM-ARANHA	HABILIDADE 7	ENERGIA5
         
-        // Logo que o Homem-Aranha conseguir atingir você pela primeira vez, va para 208. Se  você veneer sem que ele o fira, tera entao que lutar contra os Ganjees com a sua espada. Va para 248.
+        // Logo que o Homem-Aranha conseguir atingir você pela primeira vez, va para 208. Se você vençer sem que ele o fira,
+         tera entao que lutar contra os Ganjees com a sua espada. Va para 248.
         `,
         options: [
           {text:``, goTo:0},
         ]
       },
       40:{
-        text:`Depois de varios minutos, a porta se abre lentamente, e uma criatura corcunda e deformada, com dentes podres, cabelos desgrenhados e roupas esfarrapadas, aparece na sua frente. "Sim senhor (heh, heh) - o que posso fazer pelo senhor?" rosna a criatura semi-humana."Estou sendo esperado", você responde e passa por ele, atravessando a porta com confiança. Ele fica um pouco surpreso com seu comportamento e gagueja, sem saber se entra em conflito com você ou nao. "Onde ea recepçao?" você pergunta. Ele olha para você de soslaio com um dos olhos e faz um gesto na direçao de uma bifurcaçao para a esquerda, a pouca distancia dali. você acreditara nele e tomara a bifurcaçao para a esquerda (va para 243) ou nao confiara nesta criatura imprevisfvel e tomara a bifurcaçao da direita (volte para 2)?
-        `,
+        text:`Depois de varios minutos, a porta se abre lentamente, e uma criatura corcunda e deformada, com dentes podres,
+         cabelos desgrenhados e roupas esfarrapadas, aparece na sua frente. "Sim senhor (heh, heh) - o que posso fazer pelo
+         senhor?" rosna a criatura semi-humana."Estou sendo esperado", você responde e passa por ele, atravessando a porta 
+         com confiança. Ele fica um pouco surpreso com seu comportamento e gagueja, sem saber se entra em conflito com você
+         ou nao. "Onde e a recepçao?" você pergunta. Ele olha para você de soslaio com um dos olhos e faz um gesto na 
+         direçao de uma bifurcaçao para a esquerda, a pouca distancia dali.`,
         options: [
-          {text:``, goTo:0},
+          {text:`você acreditara nele e tomara a bifurcaçao para a esquerda`, goTo:243},
+          {text:`ou nao confiara nesta criatura imprevisível e tomara a bifurcaçao da direita`, goTo:2},
         ]
       },
       41:{
-        text:`As tres mulheres se juntam, fazendo um cfrculo, e sussurram umas com as outras. Com um risinho, uma delas volta-separa  você e diz: "Esta  bem, estranho,  n6s vamos ajuda-lo  no seu caminho." Ela fita você com olhos frios de pedra e aponta primeiro para você, e depois para a parede atras dela. 0 aposento fica escuro, você sente uma sensaçao de movimento  e, quando  a escuridao  clareia,  você esta em outro aposento. Va para 257.
-        `,
+        text:`As tres mulheres se juntam, fazendo um círculo, e sussurram umas com as outras. Com um risinho, uma delas 
+        volta-se para você e diz: "Esta bem, estranho, nós vamos ajuda-lo no seu caminho." Ela fita você com olhos frios 
+        de pedra e aponta primeiro para você, e depois para a parede atras dela. 0 aposento fica escuro, você sente uma 
+        sensaçao de movimento e, quando  a escuridão  clareia,`,
         options: [
-          {text:``, goTo:0},
+          {text:`você esta em outro aposento`, goTo:257},
         ]
       },
       42:{
@@ -572,17 +595,20 @@ const Livros = {
         ]
       },
       46:{
-        text:`Com um gesto, você estica a mão para frente e aponta o chão sob os pes do feiticeiro. Fumac;a e chamas irrompem do chão. Balthus Dire salta para tras, um pouco admirado, e em seguida fecha os olhos para se concentrar.  Ao se abrirem, você ve um fogo que queima dentro das pr6prias pupilas, e ele avanc;a por entre as chamas que você criou. Pegando um punhado de pedras em brasa, ele atira isso em você. você se abaixa para se desviar (va para 195) ou pula para o lado (va para 74)?
-        `,
+        text:`Com um gesto, você estica a mão para frente e aponta o chão sob os pes do feiticeiro. Fumaça e chamas irrompem 
+        do chão. Balthus Dire salta para tras, um pouco admirado, e em seguida fecha os olhos para se concentrar. Ao se 
+        abrirem, você ve um fogo que queima dentro das próprias pupilas, e ele avança por entre as chamas que você criou. 
+        Pegando um punhado de pedras em brasa, ele atira isso em você.`,
         options: [
-          {text:``, goTo:0},
+          {text:`você se abaixa para se desviar`, goTo:195},
+          {text:`ou pula para o lado`, goTo:74},
         ]
       },
       47:{
         text:`Que Encanto você usara:
 
-        // Encanto de Cópia de Criatura? Encanto da Ilusao?
-        // Encanto da Levitac;ao?
+        // Encanto de Cópia de Criatura? Encanto da Ilusão?
+        // Encanto da Levitação?
         // 47
         
         
@@ -591,7 +617,7 @@ const Livros = {
         // Va para 259
         
         
-        // Se você nao possuir nenhum <lesses encantos,  tera que recuar na direc;ao do  monumento  no centro do patio e se esconder dela (va para 209).
+        // Se você nao possuir nenhum desses encantos, tera que recuar na direc;ao do monumento no centro do pátio e se esconder dela (va para 209).
         `,
         options: [
           {text:``, goTo:0},
@@ -599,7 +625,7 @@ const Livros = {
       },
       48:{
         text:`"Nunca!" grita o feiticeiro, voltando das sombras para enfrentar você. Dessa vez, e você quern sente
-        // o tremor do medo, ao ver que ele tambem se transformou - mas em uma criatura que poderia  fazer com que um Demonio do Fogo ficasse paralisado. 0  rosto de Balthus Dire tomou-se feio e com feic;6es de bruxa, e seus cabelos agora sao pequenas serpentes  que se contorcem  e soltam silvos. você fugira desta criatura (va para 232) ou avanc;ara com seu Tridente (va para 199)?
+        // o tremor do medo, ao ver que ele tambem se transformou - mas em uma criatura que poderia fazer com que um Demonio do Fogo ficasse paralisado. 0  rosto de Balthus Dire tomou-se feio e com feic;6es de bruxa, e seus cabelos agora sao pequenas serpentes  que se contorcem  e soltam silvos. você fugira desta criatura (va para 232) ou avançara com seu Tridente (va para 199)?
         `,
         options: [
           {text:``, goTo:0},
@@ -621,7 +647,7 @@ const Livros = {
       },
       51:{
         text:`você distribui loucamente golpes com sua espada, mas nao consegue atingir a criatura. Ou ela e
-        // extremamente rapida, ou nao possui um corpo s6lido que possa ser atingido. Seus dentes estao agora rasgando a sua came, e você sente sangue na pema. você tera que se proteger com sua magica ou enfrentar uma morte certa, trazida por esta criatura que nao se ve. você lanc;ara um Encanto da Forc;a (va para 301), um Encanto da Fraqueza (va para 159) ou, se nao quiser ou nao puder lanc;ar nenhum dos dois, ira para 280.
+        // extremamente rapida, ou nao possui um corpo s6lido que possa ser atingido. Seus dentes estao agora rasgando a sua came, e você sente sangue na pema. você tera que se proteger com sua magica ou enfrentar uma morte certa, trazida por esta criatura que nao se ve. você lançara um Encanto da Força (va para 301), um Encanto da Fraqueza (va para 159) ou, se nao quiser ou nao puder lançar nenhum dos dois, ira para 280.
         
         `,
         options: [
@@ -714,10 +740,10 @@ const Livros = {
         ]
       },
       60:{
-        text:`As criaturas ficam desconfiadas quando você as pressiona, buscando informações. 0 Anao salta rapidamente de pe, brandindo uma clava de madeira, enquanto o Goblin e o Orea pegam espadas e olham com raiva para você. A namorada do Goblin grita e recua varios passos, enquanto os outros avançam na sua direçao. você tera que lutar contra eles. você pode usar um Encanto Magico:
+        text:`As criaturas ficam desconfiadas quando você as pressiona, buscando informações. 0 Anão salta rapidamente de pe, brandindo uma clava de madeira, enquanto o Goblin e o Ork pegam espadas e olham com raiva para você. A namorada do Goblin grita e recua varios passos, enquanto os outros avançam na sua direçao. você tera que lutar contra eles. você pode usar um Encanto Magico:
 
 
-        // Encanto da Levitação Encanto da Ilusao
+        // Encanto da Levitação Encanto da Ilusão
         // Va para 33
         // Va para 295
         
@@ -730,7 +756,7 @@ const Livros = {
       },
       61:{
         text:`você avan<;a com sua espada. 0  Devlin para... e  salta sobre você!.  você golpeia com sua espada, mas nao consegue fazer nenhum mal a criatura, que esta agora em cima de você. 0 corpo
-        // incandescente dele esta queimando a sua came e você esta em grande agonia. Ainda assim, ele se mantem firme e você desmaia em choque. você cai no chão para nunca mais acordar, e o Devlin s6 larga quando ja tern certeza de que seu corpo esta queimado alem de qualquer possibilidade de recuperaçao. Afinal, você sera mesmo a pr6xima refeiçao das criaturas da Torre Negra...
+        // incandescente dele esta queimando a sua came e você esta em grande agonia. Ainda assim, ele se mantem firme e você desmaia em choque. você cai no chão para nunca mais acordar, e o Devlin s6 larga quando ja tem certeza de que seu corpo esta queimado alem de qualquer possibilidade de recuperaçao. Afinal, você sera mesmo a pr6xima refeiçao das criaturas da Torre Negra...
         `,
         options: [
           {text:``, goTo:0},
@@ -755,7 +781,7 @@ const Livros = {
         text:`você ouve junto a porta e consegue escutar vozes esganiçadas rindo e brigando. você experimenta
         // a maçaneta ea  porta abre. 0 lado de dentro e um aposento de cores vivas. Ha umas poucas camas
         // pequenas em um canto, e, espalhados  pelo chão, ha pequenos bonecos de  varias criaturas  brutas. Junto a parede do  lado direito  ha uma caixa, e  logo  adiante da caixa  uma  porta.  No meio  do
-        // assoalho, e olhando para você com curiosidade, estao tres pequenas criaturas. Tern aparencia humana, mas possuem pele verde, orelhas pontudas e olhos muito apertados. Qual sera a sua atitude? você:
+        // assoalho, e olhando para você com curiosidade, estao tres pequenas criaturas. tem aparencia humana, mas possuem pele verde, orelhas pontudas e olhos muito apertados. Qual sera a sua atitude? você:
         
         
         // Desembainhara a sua espada e se preparara para lutar contra eles? Procurara em sua mochila alguma coisa para oferecer a eles?
@@ -852,10 +878,12 @@ const Livros = {
         ]
       },
       74:{
-        text:`Ao pular de lado, os olhos do feiticeiro seguem você - e a bola de fogo dele tambem. Ela atinge você no peito, derrubando-o no chão. A queimadura custara 4 pontos de ENERGIA. Se você ainda estiver vivo, podera preparar outro Encanto para o seu contra-ataque. Va para 377.
+        text:`Ao pular de lado, os olhos do feiticeiro seguem você - e a bola de fogo dele tambem. Ela atinge você no peito, 
+        derrubando-o no chão. A queimadura custara 4 pontos de ENERGIA. 
+         Va para 377.
         `,
         options: [
-          {text:``, goTo:0},
+          {text:`Se você ainda estiver vivo, podera preparar outro Encanto para o seu contra-ataque.`, goTo:377, ex:['energia', -4]},
         ]
       },
       75:{
@@ -873,20 +901,13 @@ const Livros = {
         ]
       },
       77:{
-        text:`Balthus Dire fica surpreso com seu sucesso. "Entao!" ele exclama. "você se acha mais forte do que os outros, hein?" você pode agir rapidamente e lanc;ar um Encanto sobre ele. Qual você escolhera:
-
-
-        // Um Encanto da Percepc;ao Extra-Sensorial? Um Encanto do Fogo?
-        // Um Encanto de Cópia de Criatura?
-        // Va para 187
-        // Volte para 46
-        // Va para 349
-        
-        
-        // Se nao tiver nenhum <lesses, ou preferir nao lanc;ar um encanto, va para 355.
-        `,
+        text:`Balthus Dire fica surpreso com seu sucesso. "Entao!" ele exclama. "você se acha mais forte do que os outros, 
+        hein?" você pode agir rapidamente e lançar um Encanto sobre ele. Qual você escolhera:`,
         options: [
-          {text:``, goTo:0},
+          {text:`Um Encanto da Percepção Extra-Sensorial?`, goTo:187, ex:['encanto', 'percepcao']},
+          {text:`Um Encanto do Fogo?`, goTo:46, ex:['encanto', 'fogo']},
+          {text:`Um Encanto de Cópia de Criatura?`, goTo:349, ex:['encanto', 'copia']},
+          {text:`Se nao tiver nenhum desses, ou preferir nao lançar um encanto`, goTo:355},
         ]
       },
       78:{
@@ -903,7 +924,7 @@ const Livros = {
         ]
       },
       79:{
-        text:`No canto mais distante do patio, você encontra  um  arbusto  diferente,  com galhos contorcidos  a partir da haste central, como se estivesse em agonia. As folhas tern a forma de diamantes, com pequenas amoras por baixo, chatas e com forma de pastilhas. você pode levar algumas amoras com você na sua aventura e avanc;ar um pouco mais ao longo do muro para a entrada principal  da Cidadela. Va para 218.
+        text:`No canto mais distante do pátio, você encontra  um  arbusto  diferente,  com galhos contorcidos  a partir da haste central, como se estivesse em agonia. As folhas tem a forma de diamantes, com pequenas amoras por baixo, chatas e com forma de pastilhas. você pode levar algumas amoras com você na sua aventura e avançar um pouco mais ao longo do muro para a entrada principal  da Cidadela. Va para 218.
         `,
         options: [
           {text:``, goTo:0},
@@ -950,7 +971,7 @@ const Livros = {
       85:{
         text:`você lan<;a seu Feiti<;o e espera que a bola de fogo apare<;a na  ponta da sua tocha. A tocha se acende, apenas o suficiente para que você veja que ha uma porta do outro lado do aposento, mas depois se apaga de novo. Os Ganjees riem mais uma vez dos seus esfor os para engana-los. você sente uma pancada na cabe a que volta a derruba-lo no chão. você perde dois pontos de ENERGIA. você:
 
-        // Tentara um Encanto da Ilusao'? Va para 395 Pegara alguma coisa na sua mochila? Va para 322 Desembainhara a sua espada? Va para 248
+        // Tentara um Encanto da Ilusão'? Va para 395 Pegara alguma coisa na sua mochila? Va para 322 Desembainhara a sua espada? Va para 248
         `,
         options: [
           {text:``, goTo:0},
@@ -958,7 +979,7 @@ const Livros = {
       },
       86:{
         text:`Quando você lan a o encanto, as duas criaturas ficam olhando espantadas enquanto você flutua no
-        // ar, passa sobre suas cabe<;as na dire<;ao do portao, sobre a muralha e para o interior da Cidadela.
+        // ar, passa sobre suas cabeças na direção do portão, sobre a muralha e para o interior da Cidadela.
         // você aterrissa do lado de dentro e olha a sua	volta. Va para 251.
         // Mas tome cuida do! Eles com certeza avisarao os guardas da Cidadela.
         // Risque o Encanto da Levita<;ao que  acabou de usar na sua Folha de Aventuras.
@@ -985,7 +1006,7 @@ const Livros = {
       89:{
         text:`A chave gira, a fechadura se abre e você olha dentro da caixa.
         // La dentro ha um vidro grande que contem uma aranha.
-        // Mas naoe uma aranha comum; esta criatura tern o rosto de um velho. Ele
+        // Mas naoe uma aranha comum; esta criatura tem o rosto de um velho. Ele
         // esta falando com você, mas você nao consegue entender o que ele esta dizendo. Um barulho chama a sua aten ao, você se vira eve que a porta por onde você entrou esta come ando a abrir. você põe o vidro na sua mochila e parte para a outra porta. Va para 237.
         `,
         options: [
@@ -993,7 +1014,7 @@ const Livros = {
         ]
       },
       90:{
-        text:`A passagem se alarga, e você esta agora andando ao longo de um rio que corre. Bern a frente, ha uma mulher que parece estar lavando roupa. Ela tern uma cesta com roupas a seu lado, e ha varios
+        text:`A passagem se alarga, e você esta agora andando ao longo de um rio que corre. Bern a frente, ha uma mulher que parece estar lavando roupa. Ela tem uma cesta com roupas a seu lado, e ha varios
         // conjuntos de ceroula e camiseta de baixo pendurados em um varal atras dela. você:
         
         
@@ -1019,7 +1040,7 @@ const Livros = {
         ]
       },
       92:{
-        text:`0 lfquido leitoso cheira  bem. você toma  um gole e começa  a sorrir.  Da um gole maior  e  explode em gargalhadas - por motivo nenhum! Nao e de se estranhar que os pequenos Grernlins estivessem gostando tanto. Com a cabeça leve e de born humor, você sai do aposento para continuar em seu caminho para a Cidadela . Va para 156 e acrescente dois pontos de ENERGIA por este incidente reconfortante.
+        text:`0 lfquido leitoso cheira  bem. você toma  um gole e começa  a sorrir.  Da um gole maior  e  explode em gargalhadas - por motivo nenhum! Nao e de se estranhar que os pequenos Grernlins estivessem gostando tanto. Com a cabeça leve e debomhumor, você sai do aposento para continuar em seu caminho para a Cidadela . Va para 156 e acrescente dois pontos de ENERGIA por este incidente reconfortante.
         `,
         options: [
           {text:``, goTo:0},
@@ -1055,7 +1076,7 @@ const Livros = {
         ]
       },
       97:{
-        text:`0 pao esta bastante seco e sem gosto. Na verdade, esta muito seco - tao seco que logo você esta desesperado por alguma coisa para beber! Sua boca esta ressequida e você procura freneticamente entre os alimentos do aposento algum lfquido. Mas nao ha nada para aplacar a sua sede. você tern que deduzir um ponto de HABILIDADE de seu fndice atual, ate que você encontre algum tipo de lfquido que possa beber (beber o lfquido mencionado nao precisa ser necessariamente dado como
+        text:`0 pao esta bastante seco e sem gosto. Na verdade, esta muito seco - tao seco que logo você esta desesperado por alguma coisa para beber! Sua boca esta ressequida e você procura freneticamente entre os alimentos do aposento algum lfquido. Mas nao ha nada para aplacar a sua sede. você tem que deduzir um ponto de HABILIDADE de seu fndice atual, ate que você encontre algum tipo de lfquido que possa beber (beber o lfquido mencionado nao precisa ser necessariamente dado como
           // uma opçao -  pode ser descrito apenas como estando presente em um aposento). você pode agora sair do aposento, ou pela porta da parede do lado esquerdo (volte para 13), ou pela porta oposta a
           // que você usou para entrar (va para 281).
           `,
@@ -1087,7 +1108,7 @@ const Livros = {
         ]
       },
       100:{
-        text:`você tern um Encanto da Levitação? Se tiver, e melhor você usa-lo agora para flutuar para fora do po90. Se você levitar, podera continuar pela muralha  na direçao do canto do patio (volte para 79). Se nao, va para 276.
+        text:`você tem um Encanto da Levitação? Se tiver, e melhor você usa-lo agora para flutuar para fora do po90. Se você levitar, podera continuar pela muralha  na direçao do canto do pátio (volte para 79). Se nao, va para 276.
         `,
         options: [
           {text:``, goTo:0},
@@ -1106,7 +1127,7 @@ const Livros = {
         text:`Eles simpatizam com o seu pedido. Tres deles voltam-se na direçao do outro e, com 6bvia
         // relutancia,  e,  ste  ultimo  tira  um amuleto  que esta em seu  pesco90.  "Isso",  ele  diz,  "e  um  Amuleto
         // Encantado. E feito de metal, mas ha uma J6ia de Luz incrustada nele. Os Ganjees temem este
-        // talisma, mas sem duvida tentarao enganar  você  para que  o  perca. Ele tern sido por algum  tempo uma propriedade da qual me orgulho, mas n6s, Escoteiros, somos obrigados por nossos deuses a ajudar, por isso eu o dou a você." você lhe agradece e  coloca  o  Amuleto  Encantado  em seu pescovo. você pode agora sair do aposento, mas talvez  se sinta  na obrigaçao,  por  causa  deste grande presente, de dar a ele alguma coisa em troca. Se  você tiver Pevas de  Ouro, resolva quantas você dara a ele, retire-as da sua lista e va para 183. Se você nao tiver ouro, mas der a ele um artefato que tiver recolhido, risque isso da sua lista e va para 396. Se  você nao puder ou nao quiser dar a ele um presente em troca, va para 270.
+        // talisma, mas sem duvida tentarao enganar  você  para que  o  perca. Ele tem sido por algum  tempo uma propriedade da qual me orgulho, mas nós, Escoteiros, somos obrigados por nossos deuses a ajudar, por isso eu o dou a você." você lhe agradece e  coloca  o  Amuleto  Encantado  em seu pescovo. você pode agora sair do aposento, mas talvez  se sinta  na obrigaçao,  por  causa  deste grande presente, de dar a ele alguma coisa em troca. Se  você tiver Pevas de  Ouro, resolva quantas você dara a ele, retire-as da sua lista e va para 183. Se você nao tiver ouro, mas der a ele um artefato que tiver recolhido, risque isso da sua lista e va para 396. Se  você nao puder ou nao quiser dar a ele um presente em troca, va para 270.
         `,
         options: [
           {text:``, goTo:0},
@@ -1120,7 +1141,7 @@ const Livros = {
         ]
       },
       104:{
-        text:`você experimenta a mavaneta, e ela gira. A porta esta empenada, e você tern que empurra-la para que abra. 0 aposento no interior e algum tipo de sala de estar, com mesas, cadeiras, estantes e uma
+        text:`você experimenta a mavaneta, e ela gira. A porta esta empenada, e você tem que empurra-la para que abra. 0 aposento no interior e algum tipo de sala de estar, com mesas, cadeiras, estantes e uma
         // colevao de cabevas de,  animais empalhados na parede. De repente, uma das cabevas de animais se
         // vira e olha para você. E alguma especie de cachorro e late alto, em tom de advertencia, tanto para
         // você quanto para qualquer um de seus semelhantes que possa estar suficientemente pr6ximo. Enquanto você esta olhando para a cabeva, nao ve um tapete que levanta voo do chão e passa zunindo por você, raspando no seu ouvido. você se vira rapidamente e ve uma das cadeiras lentamente se reconstituir na forma de um homem alto. "O que você veio fazer aqui?", ele pergunta, com voz retumbante. você:
@@ -1139,21 +1160,21 @@ const Livros = {
         ]
       },
       105:{
-        text:`0 vinho e bastante amargo e, ao saborea-lo em sua boca, você sente uma sensaçao de ardencia. você cospe o vinho no chão e, para sua surpresa, um jato de chamas irrompe dos seus labios! você pode levar uma amostra do vinho com você e usa-lo ao inves de lanvar um Encanto do Fogo, sempre que a opvao de Encanto do Fogo for dada. você segue adiante na direçao de uma porta que leva mais para o interior da adega. Volte para 95.
+        text:`0 vinho e bastante amargo e, ao sabOrk-lo em sua boca, você sente uma sensaçao de ardencia. você cospe o vinho no chão e, para sua surpresa, um jato de chamas irrompe dos seus labios! você pode levar uma amostra do vinho com você e usa-lo ao inves de lanvar um Encanto do Fogo, sempre que a opvao de Encanto do Fogo for dada. você segue adiante na direçao de uma porta que leva mais para o interior da adega. Volte para 95.
         `,
         options: [
           {text:``, goTo:0},
         ]
       },
       106:{
-        text:`Ela ri outra vez e diz a você que gosta de ver pessoas ficarem zangadas. De born humor, ela acompanha você por alguns metros. A conversa e dificil. Ela ve alguma coisa nas sombras distantes e sai subitamente para investigar, permitindo que você avance para a entrada principal da Cidadela. Va para 218.
+        text:`Ela ri outra vez e diz a você que gosta de ver pessoas ficarem zangadas. Debomhumor, ela acompanha você por alguns metros. A conversa e dificil. Ela ve alguma coisa nas sombras distantes e sai subitamente para investigar, permitindo que você avance para a entrada principal da Cidadela. Va para 218.
         `,
         options: [
           {text:``, goTo:0},
         ]
       },
       107:{
-        text:`você pegou uma, duas, tres ou quatro cabec;as no seu lac;o. Estas cabec;as lutam para se libertar, mas a criatura continua a avanc;ar. você comec;a a  entrar em panico, enquanto  tenta decidir o que fazer em seguida. Va para 184.
+        text:`você pegou uma, duas, tres ou quatro cabec;as no seu lac;o. Estas cabec;as lutam para se libertar, mas a criatura continua a avançar. você comec;a a  entrar em panico, enquanto  tenta decidir o que fazer em seguida. Va para 184.
         `,
         options: [
           {text:``, goTo:0},
@@ -1167,14 +1188,14 @@ const Livros = {
         ]
       },
       109:{
-        text:`A criatura faz força contra a barreira de seu Encanto do Escudo. Para seu horror, ela e tao forte que realmente consegue romper o escudo! Esta agora em cima de você, e você tern que desembainhar a sua espada. Volte para 30.
+        text:`A criatura faz força contra a barreira de seu Encanto do Escudo. Para seu horror, ela e tao forte que realmente consegue romper o escudo! Esta agora em cima de você, e você tem que desembainhar a sua espada. Volte para 30.
         `,
         options: [
           {text:``, goTo:0},
         ]
       },
       110:{
-        text:`Teste a sua Sorte. Se tiver sorte, você escolhe outro nome que e conhecido deles e eles chamam o porteiro, que acaba aparecendo para deixar você entrar (va para 251). Se nao tiver sorte, fez outra tentativa errada, e eles avanc;am na sua direc;ao com suas armas prontas. você tera que lutar contra eles (va para 288).
+        text:`Teste a sua Sorte. Se tiver sorte, você escolhe outro nome que e conhecido deles e eles chamam o porteiro, que acaba aparecendo para deixar você entrar (va para 251). Se nao tiver sorte, fez outra tentativa errada, e eles avançam na sua direc;ao com suas armas prontas. você tera que lutar contra eles (va para 288).
         `,
         options: [
           {text:``, goTo:0},
@@ -1271,7 +1292,7 @@ const Livros = {
         text:`você se concentra, e imagens do Calacorm atravessam a sua mente. você ve um prato cheio de serpentes mortas, depois uma criatura de aparencia semelhante com pele cinzenta - possivelmente a
         // femea de sua especie -	depois sente uma grande sensaçao de prazer ao ver uma infeliz criatura amarrada a parede e tendo seus pes queimados por uma tocha incandescente. Em seguida, você ve o
         // prato de serpentes de novo. Esta criatura evidentemente pensa sobre pouca co, isa alem dos prazeres simples de sua vida miseravel, e você nao sabera muito sobre como escapar. E melhor você tentar
-        // um Encanto do Ouro dos Tolos (va para 211) ou um Encanto da Ilusao (volte para 35). Se nao tiver nenhum deles, va para 283.
+        // um Encanto do Ouro dos Tolos (va para 211) ou um Encanto da Ilusão (volte para 35). Se nao tiver nenhum deles, va para 283.
         `,
         options: [
           {text:``, goTo:0},
@@ -1280,7 +1301,7 @@ const Livros = {
       124:{
         text:`Quando a cortina cai, a luz do dia penetra atraves da janela. você compreende que perdeu toda a
         // noçao de tempo desde que entrou na Cidadela. 0 sole um alfvio bendito depois das muitas horas
-        // que passou na escuridao. Um baque faz com que se volte na direçao de seu adversario. Ele esta cafdo como um fardo no chão. você da um passo a frente, e ele solta um grito de gelar o sangue nas
+        // que passou na escuridão. Um baque faz com que se volte na direçao de seu adversario. Ele esta cafdo como um fardo no chão. você da um passo a frente, e ele solta um grito de gelar o sangue nas
         // veias!  "A  cortina!  ... S, eu  idiota!"...  ele  diz,  ofegante,  com  uma  voz  que  evidencia  fraqueza  e  a proximidade da morte. E 6bvio que a luz do dia que você deixou entrar esta minando suas forças
         // rapidamente,e ele tenta em desespero se arrastar ate as sombras. Mas esta fraco demais para ir longe, e desaba no chão de bru9os. Va para 400.
         `,
@@ -1351,14 +1372,14 @@ const Livros = {
         ]
       },
       130:{
-        text:`0  encanto nao tern qualquer efeito. Risque-o da sua lista e desembainhe a sua espada. Va para 333.
+        text:`0  encanto nao tem qualquer efeito. Risque-o da sua lista e desembainhe a sua espada. Va para 333.
         `,
         options: [
           {text:``, goTo:0},
         ]
       },
       131:{
-        text:`você rapidamente desembainha a sua espada, apontando-a na dire<;ao do Duende. Ele lan<;a um olhar para a laminae, para seu horror, ela verga molemente a partir do cabo, pendendo para baixo como se fosse um cinto de couro. Parece que você nao ira muito longe agindo com agressividade. Talvez seja melhor você perguntar a ele o caminho para seguir adiante. Va para 348.
+        text:`você rapidamente desembainha a sua espada, apontando-a na direção do Duende. Ele lan<;a um olhar para a laminae, para seu horror, ela verga molemente a partir do cabo, pendendo para baixo como se fosse um cinto de couro. Parece que você nao ira muito longe agindo com agressividade. Talvez seja melhor você perguntar a ele o caminho para seguir adiante. Va para 348.
         `,
         options: [
           {text:``, goTo:0},
@@ -1378,28 +1399,28 @@ const Livros = {
         ]
       },
       133:{
-        text:`você lan<;a seu Encanto. Com sua for<;a recentemente adquirida, você salta facilmente para o centro do aposento por cima do fosso e rompe a fechadura da área. você xinga ao ver que nao ha nada la dentro, a nao ser uma boa quantidade de chumbo para espingarda.  você salta, de volta rapidamente por cima do fosso na dire<;ao da outra porta, uma vez que o encanto esta se acabando. Teste a sua Sorte. Se você tiver sorte, va para 206. Se nao tiver, volte para 82.
+        text:`você lan<;a seu Encanto. Com sua for<;a recentemente adquirida, você salta facilmente para o centro do aposento por cima do fosso e rompe a fechadura da área. você xinga ao ver que nao ha nada la dentro, a nao ser uma boa quantidade de chumbo para espingarda.  você salta, de volta rapidamente por cima do fosso na direção da outra porta, uma vez que o encanto esta se acabando. Teste a sua Sorte. Se você tiver sorte, va para 206. Se nao tiver, volte para 82.
         `,
         options: [
           {text:``, goTo:0},
         ]
       },
       134:{
-        text:`Eles ficam admirados com sua audacia. Ao inves de esperar que eles falem, você age agressivamente e exige saber como entrar na Cidadela. Eles apontam para a entrada principal, obviamente um tanto espantados com seus modos confiantes, e cochicham entre eles. 0 Orea diz a você que sera preciso uma senha, "Cimitarra", para entrar. você pergunta a respeito do frasco de liquido dentro da caixa, o que faz com que eles fiquem agitados. você os pressionara mais para obter maiores informa<;6es sobre o frasco (volte para 60), vai deixa-los de lado para ir na dire<;ao dos dois homens que você viu antes (va para 269) ou seguira adiante na dire<;ao da Torre Negra (va para 245)?
+        text:`Eles ficam admirados com sua audacia. Ao inves de esperar que eles falem, você age agressivamente e exige saber como entrar na Cidadela. Eles apontam para a entrada principal, obviamente um tanto espantados com seus modos confiantes, e cochicham entre eles. 0 Ork diz a você que sera preciso uma senha, "Cimitarra", para entrar. você pergunta a respeito do frasco de liquido dentro da caixa, o que faz com que eles fiquem agitados. você os pressionara mais para obter maiores informa<;6es sobre o frasco (volte para 60), vai deixa-los de lado para ir na direção dos dois homens que você viu antes (va para 269) ou seguira adiante na direção da Torre Negra (va para 245)?
         `,
         options: [
           {text:``, goTo:0},
         ]
       },
       135:{
-        text:`Os Miks sao mestres da ilusao, capazes de se transformarem em qualquer  forma  ou  ser  que quiserem. Nao se sabe ao certo qual ea sua verdadeira natureza, pois muito poucos os viram em sua forma natural, mas eles foram descritos por fontes bastante confiaveis como criaturas magras com aparencia de Elfos. Sao uma especie agressiva, mas sua arma favorita e o Punhal-Agulha (uma faca fina, como um estilete), como qual eles s6 podem atacar a curta distancia. Embora eles possam se transformar em qualquer coisa - homem, animal ou objeto - nao sao capazes de usar metais em seus disfarces. Eles tambem sao incapazes de lan<;ar suas ilus6es sobre outros objetos. Va para 326.
+        text:`Os Miks sao mestres da Ilusão, capazes de se transformarem em qualquer  forma  ou  ser  que quiserem. Nao se sabe ao certo qual ea sua verdadeira natureza, pois muito poucos os viram em sua forma natural, mas eles foram descritos por fontes bastante confiaveis como criaturas magras com aparencia de Elfos. Sao uma especie agressiva, mas sua arma favorita e o Punhal-Agulha (uma faca fina, como um estilete), como qual eles s6 podem atacar a curta distancia. Embora eles possam se transformar em qualquer coisa - homem, animal ou objeto - nao sao capazes de usar metais em seus disfarces. Eles tambem sao incapazes de lan<;ar suas ilus6es sobre outros objetos. Va para 326.
         `,
         options: [
           {text:``, goTo:0},
         ]
       },
       136:{
-        text:`Todas elas protestam veementemente, mas você explica que tern suas ordens e comec;a a circular pela cozinha.
+        text:`Todas elas protestam veementemente, mas você explica que tem suas ordens e comec;a a circular pela cozinha.
 
         // você investigara:
         
@@ -1415,24 +1436,24 @@ const Livros = {
         ]
       },
       137:{
-        text:`0 homem e velho e foi atingido na cabec;a por algum tipo de porrete. Ele pede remedio, mas você nao tern nenhum. você poderia usar um Encanto da Energia para recupera-lo, e ele se oferece para ajuda-lo se você o fizer. Se você usar a sua magia, va para 383. Se  nao, tera que deixa-lo e continuar ao longo da muralha (volte para 14).
+        text:`0 homem e velho e foi atingido na cabec;a por algum tipo de porrete. Ele pede remedio, mas você nao tem nenhum. você poderia usar um Encanto da Energia para recupera-lo, e ele se oferece para ajuda-lo se você o fizer. Se você usar a sua magia, va para 383. Se  nao, tera que deixa-lo e continuar ao longo da muralha (volte para 14).
         `,
         options: [
           {text:``, goTo:0},
         ]
       },
       138:{
-        text:`"Para que eu quero isso?" ela exclama. Mais uma  vez, seus olhos ficam  vermelhos  e  os  jatos  de fogo sao disparados na sua direc;ao. você lanc;ara um Encanto do Escudo (va para 376) ou deixara o aposento e se encaminhara pelo corredor para o aposento do meio (volte para 64)?
+        text:`"Para que eu quero isso?" ela exclama. Mais uma  vez, seus olhos ficam  vermelhos  e  os  jatos  de fogo sao disparados na sua direc;ao. você lançara um Encanto do Escudo (va para 376) ou deixara o aposento e se encaminhara pelo corredor para o aposento do meio (volte para 64)?
         `,
         options: [
           {text:``, goTo:0},
         ]
       },
       139:{
-        text:`Todas as tres facas erram e  se cravam  profundamente  na porta atras de você. Os Giras estao  quase em cima de você, e e preciso decidir se você vai lutar contra eles (va para 346) ou lanc;ara  um Encanto. você podera lanc;ar:
+        text:`Todas as tres facas erram e  se cravam  profundamente  na porta atras de você. Os Giras estao  quase em cima de você, e e preciso decidir se você vai lutar contra eles (va para 346) ou lançara  um Encanto. você podera lançar:
 
 
-        // Um Encanto da Ilusao Um Encanto do Fogo
+        // Um Encanto da Ilusão Um Encanto do Fogo
         // Va para 244
         // Volte para 28
         `,
@@ -1450,7 +1471,7 @@ const Livros = {
         ]
       },
       141:{
-        text:`0 lfquido tern um gosto salgado, e você come<;a a suar frio quando engole. Em seguida, você tern tremores e tenta se  aprumar  no altar. Porem, você cai para frente, derrubando  os outros dois calices no chão e derramando os outros lfquidos. você tambem acaba caindo no chão, sentindo-se extremamente mal e com os olhos turvos. Como em um sonho,  você  tern  uma  visao  de  uma estranha criatura musculosa com duas cabe<;as, uma cauda comprida e uma pele de  escamas cinzentas. Tern nas maos um grande molho de chaves. Um rato atravessa a mesa em que ela esta sentada e ela grita alto... 0  grito acorda você com um sobressalto e  você toma consciencia de onde esta. você reune suas for<;as e  tateia em busca da ma<;aneta da porta - você precisa de ar fresco! você sai da camara, descansa alguns momentos e parte na dire<;ao da Cidadela. Va para 156.
+        text:`0 lfquido tem um gosto salgado, e você come<;a a suar frio quando engole. Em seguida, você tem tremores e tenta se  aprumar  no altar. Porem, você cai para frente, derrubando  os outros dois calices no chão e derramando os outros lfquidos. você tambem acaba caindo no chão, sentindo-se extremamente mal e com os olhos turvos. Como em um sonho,  você  tem  uma  visao  de  uma estranha criatura musculosa com duas cabeças, uma cauda comprida e uma pele de  escamas cinzentas. tem nas maos um grande molho de chaves. Um rato atravessa a mesa em que ela esta sentada e ela grita alto... 0  grito acorda você com um sobressalto e  você toma consciencia de onde esta. você reune suas for<;as e  tateia em busca da ma<;aneta da porta - você precisa de ar fresco! você sai da camara, descansa alguns momentos e parte na direção da Cidadela. Va para 156.
         `,
         options: [
           {text:``, goTo:0},
@@ -1473,7 +1494,7 @@ const Livros = {
         ]
       },
       144:{
-        text:`A porta abre e você entra em um corredor estreito. você segue por ele algum tempo,  ate que finalmente chega a uma outra porta: desta vez e  uma porta larga entalhada, com a inscri<;ao "Adega de Vinhos" gravada nela. você experimenta a ma<;aneta e ela abre. você espia do lado de dentro, esticando o pesco<;o, e ve filas e mais filas de prateleiras cheias de garrafas contendo... vinho? 0 aposento e pouco iluminado pela luz de varias velas. 0 fato de você abrir a porta fez com que uma pequena sineta soasse, e uma figura vem se arrastando na sua dire<;ao por um dos corredores. você desembainhara a sua espada e se preparara para se defender (va para 154) ou vera o que este sujeito pode ter a dizer (volte para 56)?
+        text:`A porta abre e você entra em um corredor estreito. você segue por ele algum tempo,  ate que finalmente chega a uma outra porta: desta vez e  uma porta larga entalhada, com a inscri<;ao "Adega de Vinhos" gravada nela. você experimenta a ma<;aneta e ela abre. você espia do lado de dentro, esticando o pesco<;o, e ve filas e mais filas de prateleiras cheias de garrafas contendo... vinho? 0 aposento e pouco iluminado pela luz de varias velas. 0 fato de você abrir a porta fez com que uma pequena sineta soasse, e uma figura vem se arrastando na sua direção por um dos corredores. você desembainhara a sua espada e se preparara para se defender (va para 154) ou vera o que este sujeito pode ter a dizer (volte para 56)?
         `,
         options: [
           {text:``, goTo:0},
@@ -1528,7 +1549,7 @@ const Livros = {
         ]
       },
       149:{
-        text:`Eles nao estao interessados em sua companhia e sugerem que você siga o seu caminho. você pode prosseguir na dire ao da Torre (va para 245), virar para a esquerda, a fim de investigar o monumento no centro do patio (va para 209)  ou sentar-se  ao fogo de qualquer  maneira (va para 380)
+        text:`Eles nao estao interessados em sua companhia e sugerem que você siga o seu caminho. você pode prosseguir na dire ao da Torre (va para 245), virar para a esquerda, a fim de investigar o monumento no centro do pátio (va para 209)  ou sentar-se  ao fogo de qualquer  maneira (va para 380)
         `,
         options: [
           {text:``, goTo:0},
@@ -1571,7 +1592,7 @@ const Livros = {
         ]
       },
       154:{
-        text:`Quando você puxa a espada, a figura para e pega alguma coisa da bolsa em sua cintura. Quando ele se aproxima mais, você pode ver que a criatura e um ELFO NEGRO; alto e magro, com orelhas em forma de ponta de flecha e uma perna aleijada. Na sua mao, ele traz um pequeno mecanismo de algum tipo. Ele ve você, manipula o mecanismo que subitamente se torna uma espada tipo estilete na sua mao! você avanc;ara e lutara (va para 275) ou abaixara a espada e conversara com ele (volte para 56)?
+        text:`Quando você puxa a espada, a figura para e pega alguma coisa da bolsa em sua cintura. Quando ele se aproxima mais, você pode ver que a criatura e um ELFO NEGRO; alto e magro, com orelhas em forma de ponta de flecha e uma perna aleijada. Na sua mao, ele traz um pequeno mecanismo de algum tipo. Ele ve você, manipula o mecanismo que subitamente se torna uma espada tipo estilete na sua mao! você avançara e lutara (va para 275) ou abaixara a espada e conversara com ele (volte para 56)?
         `,
         options: [
           {text:``, goTo:0},
@@ -1585,10 +1606,10 @@ const Livros = {
         ]
       },
       156:{
-        text:`Enquanto você caminha pelo patio ao ar livre, repara que esta andando ao longo de uma pequena elevac;ao, quase que como um encanamento  enterrado  que fosse da Torre  Negra  para o  templo. você se abaixa para investigar isso; poderia ter sido feito por algum tipo de toupeira? Quando você toca na elevac;ao, ela se retrai e, para seu horror, um longo tentaculo cinzento irrompe do solo e se enrosca em tomo de sua perna! Como você lutara contra esta "coisa"':
+        text:`Enquanto você caminha pelo pátio ao ar livre, repara que esta andando ao longo de uma pequena elevac;ao, quase que como um encanamento  enterrado  que fosse da Torre  Negra  para o  templo. você se abaixa para investigar isso; poderia ter sido feito por algum tipo de toupeira? Quando você toca na elevac;ao, ela se retrai e, para seu horror, um longo tentaculo cinzento irrompe do solo e se enrosca em tomo de sua perna! Como você lutara contra esta "coisa"':
 
 
-        // Desembainhara a sua espada? lançara um Encanto da Levitac;ao? lançara um Encanto do Fogo?
+        // Desembainhara a sua espada? lançara um Encanto da Levitação? lançara um Encanto do Fogo?
         // Volte para 71
         // Va para 284
         // Volte para 114
@@ -1605,7 +1626,7 @@ const Livros = {
         ]
       },
       158:{
-        text:`A fera geme quando o encanto faz efeito. 0 peso imenso e de fato um fardo sem sua forc;a normal. Ela desaba sem energia, incapaz ate mesmo de se levantar do chão. você caminha ate ela e enterra a espada em seu peito. A infeliz criaturajaz morta a seus pes. Volte para 77.
+        text:`A fera geme quando o encanto faz efeito. 0 peso imenso e de fato um fardo sem sua Força normal. Ela desaba sem energia, incapaz ate mesmo de se levantar do chão. você caminha ate ela e enterra a espada em seu peito. A infeliz criaturajaz morta a seus pes. Volte para 77.
         `,
         options: [
           {text:``, goTo:0},
@@ -1621,14 +1642,14 @@ const Livros = {
         ]
       },
       160:{
-        text:`A Cabe<;a de Cachorro voa na sua direçao e arranca o engenho de sua mao. Ao examina-lo, as outras duas criaturas parecem fascinadas. Enquanto eles estao ocupados com isso, você pode atravessar furtivamente o aposento na dire<;ao da porta no outro canto. Va para 206.
+        text:`A Cabe<;a de Cachorro voa na sua direçao e arranca o engenho de sua mao. Ao examina-lo, as outras duas criaturas parecem fascinadas. Enquanto eles estao ocupados com isso, você pode atravessar furtivamente o aposento na direção da porta no outro canto. Va para 206.
         `,
         options: [
           {text:``, goTo:0},
         ]
       },
       161:{
-        text:`Ela fica profundamente ofendida com sua indiferen<;a. 0 Redemoinho se ergue mais uma vez, e agora ela joga você no chão. você tenta engatinhar para longe, mas ela se coloca bem na sua frente, seja qual for a dire<;ao que você tome. você tera que tentar engana-la com astucia, mas como come<;ara?
+        text:`Ela fica profundamente ofendida com sua indiferen<;a. 0 Redemoinho se ergue mais uma vez, e agora ela joga você no chão. você tenta engatinhar para longe, mas ela se coloca bem na sua frente, seja qual for a direção que você tome. você tera que tentar engana-la com astucia, mas como come<;ara?
 
 
         // Tornando sua raiva evidente para ela? Conversando com ela para tentar acalma-la?
@@ -1665,7 +1686,7 @@ const Livros = {
       },
       163:{
         text:`você da um gole e engasga. Esse vinho e horrivel! 0 Elfo esta olhando para você com expectativa,
-        // e você nao deve insulta-lo, por isso você toma mais um gole, fazendo caretas enquanto o lfquido desce. você agradece muito a ele, mas explica rapidamente que precisa ir voltando. você parte na dire<;ao do outro lado do aposento, mas seu estomago nao consegue aguentar mais o sabor detestavel. você fica terrivelmente enjoado ao sair. Perde um ponto de HABILIDADE  e  dois pontos de ENERGIA pela sua nausea. Volte para 95.
+        // e você nao deve insulta-lo, por isso você toma mais um gole, fazendo caretas enquanto o lfquido desce. você agradece muito a ele, mas explica rapidamente que precisa ir voltando. você parte na direção do outro lado do aposento, mas seu estomago nao consegue aguentar mais o sabor detestavel. você fica terrivelmente enjoado ao sair. Perde um ponto de HABILIDADE  e  dois pontos de ENERGIA pela sua nausea. Volte para 95.
         `,
         options: [
           {text:``, goTo:0},
@@ -1700,7 +1721,7 @@ const Livros = {
       },
       167:{
         text:`você se inclina sobre o caldo e cheira. Argh! E de embrulhar o estomago! você pergunta a elas que
-        // diabo e aquilo e, ao levantar os olhos, você ve que uma delas esta silenciosamente fazendo sinais na dire<;ao do caldo. você tira a cabe<;a de perto rapidamente, mas ja e tarde demais. Um grande PEIXE ABOCANHADOR salta do caldo e da um bote com seus dentes afiados na dire<;ao da sua cabeça. Teste a sua Sorte. Se você tiver sorte, va para 224. Se nao tiver, va para 331.
+        // diabo e aquilo e, ao levantar os olhos, você ve que uma delas esta silenciosamente fazendo sinais na direção do caldo. você tira a cabe<;a de perto rapidamente, mas ja e tarde demais. Um grande PEIXE ABOCANHADOR salta do caldo e da um bote com seus dentes afiados na direção da sua cabeça. Teste a sua Sorte. Se você tiver sorte, va para 224. Se nao tiver, va para 331.
         `,
         options: [
           {text:``, goTo:0},
@@ -1708,7 +1729,7 @@ const Livros = {
       },
       168:{
         text:`você tira o Amuleto e o coloca em cima da cabeça. Os Ganjees ficam ofegantes! "Siga viagem,
-        // estranho", diz uma voz. "N6s nao o incomodaremos. Va pela porta no canto mais distante." Com estas palavras, uma porta no canto do aposento cintila levemente. você caminha ate la e abre a porta. Va para 328.
+        // estranho", diz uma voz. "nós nao o incomodaremos. Va pela porta no canto mais distante." Com estas palavras, uma porta no canto do aposento cintila levemente. você caminha ate la e abre a porta. Va para 328.
         `,
         options: [
           {text:``, goTo:0},
@@ -1776,8 +1797,8 @@ const Livros = {
         text:`Quando você se aproxima, ela se volta para olhar para você. Sem se perturbar nem um pouco com a sua arma, ela diz: "Abaixe sua arma, jovem forasteiro. Sou apenas uma velha. Nao farei mal a você." você fara o que ela pede?
 
 
-        // Se você ignorar as palavras dela e continuar avanc;ando Se você abaixar a espada e conversar com ela
-        // Se você parar e usar um Encanto de Percepc;ao Extra-Sensorial
+        // Se você ignorar as palavras dela e continuar avançando Se você abaixar a espada e conversar com ela
+        // Se você parar e usar um Encanto de Percepção Extra-Sensorial
         // Volte para 127
         // Volte para 21
         // Va para 329`,
@@ -1793,19 +1814,19 @@ const Livros = {
         ]
       },
       178:{
-        text:`você corre pela cozinha, perseguido pelo Devlin. você joga cadeiras, comida, facas e terrinas sobre ele, mas nada disso adianta. você atira uma xicara com liquido para o outro lado da cozinha e, para sua surpresa, o Devlin berra quando ela atinge seu corpo incandescente! Entao, você tern uma ideia. Aproximando-se do caldeirao de caldo, você se esquiva da criatura ate que vocês dois ficam correndo em volta do caldeirao, quase a ponto de se tocarem. Os dois param, se encarando com o caldeirao fumegante entre vocês. Com um grande impulso, você vira o conteudo do caldeirao - tudo por cima da criatura, que solta um grito e desaparece, quando suas chamas se extinguem. Agora você pode verificar os armarios (volte para 17), ou sair do aposento pela porta do lado oposto da cozinha (va para 265).
+        text:`você corre pela cozinha, perseguido pelo Devlin. você joga cadeiras, comida, facas e terrinas sobre ele, mas nada disso adianta. você atira uma xicara com liquido para o outro lado da cozinha e, para sua surpresa, o Devlin berra quando ela atinge seu corpo incandescente! Entao, você tem uma ideia. Aproximando-se do caldeirao de caldo, você se esquiva da criatura ate que vocês dois ficam correndo em volta do caldeirao, quase a ponto de se tocarem. Os dois param, se encarando com o caldeirao fumegante entre vocês. Com um grande impulso, você vira o conteudo do caldeirao - tudo por cima da criatura, que solta um grito e desaparece, quando suas chamas se extinguem. Agora você pode verificar os armarios (volte para 17), ou sair do aposento pela porta do lado oposto da cozinha (va para 265).
         `,
         options: [
           {text:``, goTo:0},
         ]
       },
       179:{
-        text:`Quando você sai das sombras na direc;ao do  centro do patio, uma voz no vento grita: "Pare! Fique onde esta!" você olha a sua volta, mas nao consegue ver ninguem que esteja se dirigindo a você.
+        text:`Quando você sai das sombras na direc;ao do  centro do pátio, uma voz no vento grita: "Pare! Fique onde esta!" você olha a sua volta, mas nao consegue ver ninguem que esteja se dirigindo a você.
         // você da mais dois passos. A voz sinistra ordena de novo que você pare, e dessa vez uma flecha zune pelo are cai pr6ximo a seu pé esquerdo. você pula para tras. Mas ainda assim nao ve ninguem. Porem, nao pode se mexer. você:
         
         
         // Seguira adiante, muito cuidadosamente?
-        // Disparara na direc;ao do  monumento,  no centro do patio? Lanc;ara um Encanto do Escudo a sua volta e seguira avanc;ando?
+        // Disparara na direc;ao do  monumento,  no centro do pátio? lançara um Encanto do Escudo a sua volta e seguira avançando?
         // Va para 378
         // Volte para 125
         // Va para 341
@@ -1833,13 +1854,13 @@ const Livros = {
         // tremula e se apaga. 0 aposento esta escuro como breu. De nenhum lugar, mas ainda assim de toda parte, vem um riso de escamio que enche o aposento. "Aventureiro tolo", diz uma outra voz, que
         // altera o tom de alto para baixo enquanto fala, "Bem-vindo a casa dos GANJEES! Infelizmente, sera
         // o ultimo lugar que você vera na sua vida... Ah, mas e claro, você nao esta vendo nada, esta?' Mas
-        // n6s estamos vendo você, nao estamos irmaos?" Vozes que riem chegam de toda parte a sua volta.
+        // nós estamos vendo você, nao estamos irmaos?" Vozes que riem chegam de toda parte a sua volta.
         // De repente, um rosto luminoso, branco e fantasmag6rico, vem voando na sua direc;ao. você se encolhe horrorizado, atira-se no chão e comec;a a se se ntir muito assustado. você perde 1 ponto de HABILIDADE, 2 de ENERGIA e I de sorte pelo medo.
         
         // 0 que você pode fazer aqui:
         
         
-        // Criar um Encanto do Fogo? Tentar um Encanto da Ilusao?
+        // Criar um Encanto do Fogo? Tentar um Encanto da Ilusão?
         // Procurar em sua mochila algum artefato?
         // Desembainhar a sua espada?
         // Volte para 85 Vapara395 Va para 322
@@ -1857,7 +1878,7 @@ const Livros = {
         ]
       },
       184:{
-        text:`Enquanto você esta decidindo o que fazer em seguida, a Hidra avanc;a. Duas das suas cabec;as se projetam e mordem você; uma no brac;o e  outra no pescoc;o. Seus dedos aguc;ados rasgam a sua pele e penetram fundo. Tudo esta perdido. você falhou na sua missão.
+        text:`Enquanto você esta decidindo o que fazer em seguida, a Hidra avança. Duas das suas cabec;as se projetam e mordem você; uma no brac;o e  outra no pescoc;o. Seus dedos aguc;ados rasgam a sua pele e penetram fundo. Tudo esta perdido. você falhou na sua missão.
         `,
         options: [
           {text:``, goTo:0},
@@ -1886,7 +1907,7 @@ const Livros = {
         // no chão - nao de susto, mas porque o chão sob seus pes esta sacudindo violentamente. 0 aposento inteiro parece estar jogando como um navio em uma tempestade. Embora ele esteja firmemente equilibrado e venha agora andando na sua direc;ao, você nao consegue se levantar de jeito nenhum. Sua unica chance e um Encanto, se você ainda tiver algum. Em caso afirmativo, você usara:
         
         
-        // Um Encanto da Levitac;ao? Um Encanto da Ilusao?
+        // Um Encanto da Levitação? Um Encanto da Ilusão?
         // Va para 279 Vapara314
         
         
@@ -1901,7 +1922,7 @@ const Livros = {
         // mas nao consegue ver nada! você entra em panico  ao ouvir  um ruido como um rosnado  baixo. Passos de pes  peludos  se  aproximam,  e  você grita de dor quando esta criatura que  você nao pode ver ruge e crava seus dentes aguc;ados na sua perna.você:
         
         
-        // Lanc;a um Encanto da Forc;a? Lanc;a um encanto da Fraqueza?
+        // Lanc;a um Encanto da Força? Lanc;a um encanto da Fraqueza?
         // Desembainha a sua espada e desfere golpes na criatura?
         // Va para 301
         // Volte para 159
@@ -1916,7 +1937,7 @@ const Livros = {
         // 189-195
         
         
-        // Encanto da Ilusao Encanto do Escudo Encanto da Fraqueza
+        // Encanto da Ilusão Encanto do Escudo Encanto da Fraqueza
         // Va para 319
         // Volte para 130
         // Volte para 43
@@ -1955,7 +1976,7 @@ const Livros = {
       },
       193:{
         text:`Escolha um Encanto: Ouro dos Tolos
-        // Percep ao Extra-Sensorial Ilusao
+        // Percep ao Extra-Sensorial Ilusão
         // 193
         
         
@@ -2010,7 +2031,7 @@ const Livros = {
         ]
       },
       199:{
-        text:`0 feiticeiro se transformou em uma GORGONA, uma criatura extremamente perigosa, que tern o
+        text:`0 feiticeiro se transformou em uma GORGONA, uma criatura extremamente perigosa, que tem o
         // poder de transformar em pedra qualquer um que olhar em seus olhos. Ao avançar, você olha diretamente em seu  rosto, e o Encanto dela e lançado.  você sente suas juntas endurecerem. você cai no chão. Sua consciencia some aos poucos, enquanto você vai se tornando uma estatua de pedra, morto aos pes de Balthus Dire... você falhou na sua missão.
         `,
         options: [
@@ -2060,7 +2081,7 @@ const Livros = {
         text:`0	homem alto fica revoltado com seu pre90, mas o outro concorda. A discussao torna-se mais
         // intensa, e o homem alto desembainha a sua,, espada. 0  homem mais baixo faz a mesma coisa e,
         // vendo-se ameaçado, você age igualmente. E você e o homem mais baixo contra o homem alto.
-        // você tern que resolver esta batalha. Antes de começar cada Serie de Ataque, jogue um dado. Se o numero for impar, o homem alto atacara o mais baixo primeiro, e  você, pessoalmente, podera ignorar essa Serie de Ataque. (Embora você tenha que jogar os dados para o homem baixo mesmo assim). Se o numero for par, o homem alto parte para cima de você (e o mais baixo podera ignorar a Serie de Ataque). Se o homem mais baixo morrer durante a batalha, o mais alto terminara lutando contra você.
+        // você tem que resolver esta batalha. Antes de começar cada Serie de Ataque, jogue um dado. Se o numero for impar, o homem alto atacara o mais baixo primeiro, e  você, pessoalmente, podera ignorar essa Serie de Ataque. (Embora você tenha que jogar os dados para o homem baixo mesmo assim). Se o numero for par, o homem alto parte para cima de você (e o mais baixo podera ignorar a Serie de Ataque). Se o homem mais baixo morrer durante a batalha, o mais alto terminara lutando contra você.
         
         
         
@@ -2085,7 +2106,7 @@ const Livros = {
         ]
       },
       207:{
-        text:`você abre a porta e espia a escuridao a sua frente. você da uns dois passos adiante, dando tempo
+        text:`você abre a porta e espia a escuridão a sua frente. você da uns dois passos adiante, dando tempo
         // para que seus olhos se acostumem ao escuro. você fecha a porta atras de você, dizendo adeus ao
         // Duende. Volte para 188.
         `,
@@ -2130,11 +2151,11 @@ const Livros = {
         ]
       },
       213:{
-        text:`você desembainha a sua espada bem a tempo, ja que o Anao esta quase em cima de você. Lute contra um de cada vez:
+        text:`você desembainha a sua espada bem a tempo, ja que o Anão esta quase em cima de você. Lute contra um de cada vez:
 
 
 
-        // ANA~ O GOBLIN ORCA
+        // ANA~ O GOBLIN ORK
         // HABILIDADE
         // 5
         // 6
@@ -2145,7 +2166,7 @@ const Livros = {
         // 5
         
         
-        // Se você veneer, va para 235. você pode Fugir durante a batalha, escapando para o monumento no centro do patio (volte para 209).
+        // Se você veneer, va para 235. você pode Fugir durante a batalha, escapando para o monumento no centro do pátio (volte para 209).
         `,
         options: [
           {text:``, goTo:0},
@@ -2178,7 +2199,7 @@ const Livros = {
       },
       217:{
         text:`você gira a maçaneta o mais cuidadosamente possivel, de maneira a surpreender o que quer que esteja a s ua espera. Lentamente, a porta abre e você entra no aposento, que esta escuro, iluminado
-        // por uma unica vela tremula. Seu sangue gela ao ver um TRIDENTE de tres pontas dirigindo-se diretamente a sua garganta! Num relance, você tern que decidir o que fazer. você:
+        // por uma unica vela tremula. Seu sangue gela ao ver um TRIDENTE de tres pontas dirigindo-se diretamente a sua garganta! Num relance, você tem que decidir o que fazer. você:
         
         
         // lançara um Feiti90 do Escudo imediatamente? Tentara rapidamente desviar-se da arma?
@@ -2253,7 +2274,7 @@ const Livros = {
         ]
       },
       225:{
-        text:`Ele concorda inteiramente.  Este artefato e extremamente  valioso. 0  homem mais baixo explica que ele simplesmente nao tern tanto dinheiro, e se afasta na escuridao. 0 homem alto oferece o punhal a você pelo pre90 de ocasiao de nove Peças de Ouro. você pode usar um Encanto de Ouro dos Tolos para fazer aparecer ouro suficiente para comprar a faca (desconte este encanto e volte para 15), ou você pode desculpar-se e seguir adiante (va para 245).
+        text:`Ele concorda inteiramente.  Este artefato e extremamente  valioso. 0  homem mais baixo explica que ele simplesmente nao tem tanto dinheiro, e se afasta na escuridão. 0 homem alto oferece o punhal a você pelo pre90 de ocasiao de nove Peças de Ouro. você pode usar um Encanto de Ouro dos Tolos para fazer aparecer ouro suficiente para comprar a faca (desconte este encanto e volte para 15), ou você pode desculpar-se e seguir adiante (va para 245).
         `,
         options: [
           {text:``, goTo:0},
@@ -2315,7 +2336,7 @@ const Livros = {
         ]
       },
       231:{
-        text:`você bate na porta com o ombro. Teste a sua Sorte. Se tiver sorte, a porta cede e abre (volte para 196). Se você nao tiver, você machuca o ombro - perde um ponto de ENERGIA - e tern que Testar a sua Sorte - outra vez, repetindo este procedimento ate que você tenha sorte. você perde um ponto
+        text:`você bate na porta com o ombro. Teste a sua Sorte. Se tiver sorte, a porta cede e abre (volte para 196). Se você nao tiver, você machuca o ombro - perde um ponto de ENERGIA - e tem que Testar a sua Sorte - outra vez, repetindo este procedimento ate que você tenha sorte. você perde um ponto
         // de ENERGIA por cada tentativa sem exito. Quando você finalmente conseguir arrombar a porta, volte para 196. Do contrario, se seu ombro comec;ar a doer demais, você pode retornar a primeira
         // encruzilhada que você encontrou e seguir pela outra passagem a qualquer momento (va para 243).
         `,
@@ -2326,7 +2347,7 @@ const Livros = {
       232:{
         text:`você recua horrorizado diante da criatura que esta a sua frente. Lembrando-se das lendas que você
         // ouviu contar quando crianc;a, você compreende que esta enfrentando uma GORGONA, cujo olhar
-        // tern o poder de transformar você em pedra! Teste a sua Sorte. Se tiver sorte, volte para 111. Se nao tiver, volte para 72.
+        // tem o poder de transformar você em pedra! Teste a sua Sorte. Se tiver sorte, volte para 111. Se nao tiver, volte para 72.
         `,
         options: [
           {text:``, goTo:0},
@@ -2340,21 +2361,21 @@ const Livros = {
         ]
       },
       234:{
-        text:`você acorda em um aposento sujo, com paredes asperas cortadas na rocha. As barras de ferro na janela e na porta confirmam que você esta em algum tipo de cela de prisao, conforme você desconfiava. Nao ha muito que você possa fazer, alem de ficar sentado no colchão de palha que esta em um canto ate que alguem aparec;a. Mais ou menos uma hora depois, você ouve o barulho de alguma coisa que se arrasta do lado de fora. Olhando atraves das barras da porta, você pode ver uma criatura com aparencia de lagarto que se arrasta descendo o corredor, trazendo nas maos uma moringa e uma terrina. 0 animal tern duas cabec;as que conversam entre si enquanto ele caminha. Sua pele e cinzenta e coberta de escamas, e uma cauda longa se estende pela passagem atras dele. Ele para na sua porta e empurra a moringa e a terrina por uma pequena abertura para dentro de sua cela, e depois se afasta para sentar-se a uma mesa do outro lado do corredor. você recebeu pao e caldo. você vai comer e beber ou vai chamar esta criatura, um CALACORM? Para se servir da sua comida, va para 397. Se quiser gritar para o Calacorm, volte para 69.
+        text:`você acorda em um aposento sujo, com paredes asperas cortadas na rocha. As barras de ferro na janela e na porta confirmam que você esta em algum tipo de cela de prisao, conforme você desconfiava. Nao ha muito que você possa fazer, alem de ficar sentado no colchão de palha que esta em um canto ate que alguem aparec;a. Mais ou menos uma hora depois, você ouve o barulho de alguma coisa que se arrasta do lado de fora. Olhando atraves das barras da porta, você pode ver uma criatura com aparencia de lagarto que se arrasta descendo o corredor, trazendo nas maos uma moringa e uma terrina. 0 animal tem duas cabec;as que conversam entre si enquanto ele caminha. Sua pele e cinzenta e coberta de escamas, e uma cauda longa se estende pela passagem atras dele. Ele para na sua porta e empurra a moringa e a terrina por uma pequena abertura para dentro de sua cela, e depois se afasta para sentar-se a uma mesa do outro lado do corredor. você recebeu pao e caldo. você vai comer e beber ou vai chamar esta criatura, um CALACORM? Para se servir da sua comida, va para 397. Se quiser gritar para o Calacorm, volte para 69.
         `,
         options: [
           {text:``, goTo:0},
         ]
       },
       235:{
-        text:`Temeroso de que a agitac;ao possa ter atraido atenc;ao, você espia na escuridao. Nada parece estar acontecendo. Examinando os bolsos das criaturas, você acha oito Pec;as de Ouro, uma chave cor de cobre e um vidro contendo um unguento escuro e cremoso. você pode levar dois <lesses com você: Voltando-se para o frasco de liquido, você consegue identificar uma inscric;ao na tampa, em caracteres runicos. Seu corac;ao salta quando você compreende que isto e uma Poc;ao de Magik, muito rara. Ha o suficiente para duas doses no frasco, e cada uma delas tern o efeito de aumentar o seu indice de MAGIA em um ponto, permitindo que você tenha poderes para  usar mais  um Encanto. você pode levar esta Poc;ao com você para usar depois de lanc;ar qualquer Encanto. Ao beber a Poçao, você nao precisa riscar esse Encanto da sua lista. Lembre-se de que esta Poçao s6 funcionara duas vezes. Agora você pode seguir adiante, tanto na direc;ao da Cidadela (va para 245) quanto na dos dois homens que estao conversando sob a luz da tocha (va para 269).
+        text:`Temeroso de que a agitac;ao possa ter atraido atenc;ao, você espia na escuridão. Nada parece estar acontecendo. Examinando os bolsos das criaturas, você acha oito Pec;as de Ouro, uma chave cor de cobre e um vidro contendo um unguento escuro e cremoso. você pode levar dois desses com você: Voltando-se para o frasco de liquido, você consegue identificar uma inscric;ao na tampa, em caracteres runicos. Seu corac;ao salta quando você compreende que isto e uma Poc;ao de Magik, muito rara. Ha o suficiente para duas doses no frasco, e cada uma delas tem o efeito de aumentar o seu indice de MAGIA em um ponto, permitindo que você tenha poderes para  usar mais  um Encanto. você pode levar esta Poc;ao com você para usar depois de lançar qualquer Encanto. Ao beber a Poçao, você nao precisa riscar esse Encanto da sua lista. Lembre-se de que esta Poçao s6 funcionara duas vezes. Agora você pode seguir adiante, tanto na direc;ao da Cidadela (va para 245) quanto na dos dois homens que estao conversando sob a luz da tocha (va para 269).
         `,
         options: [
           {text:``, goTo:0},
         ]
       },
       236:{
-        text:`Eles aceitam as suas Amoras de born grado, jogando-as para dentro da boca e mastigando. Alguns segundos depois, eles adormecem um por um. Quando todos os tres estao dormindo, você caminha ate a caixa para investigar. A tampa se abre, revelando diversas outras bonecas do lado de dentro, iguais as que estao no chão, e varios outros brinquedos de madeira. Nao parece haver nada verdadeiramente de valor ali, por isso você sai do aposento pela porta do outro lado. Volte para 140.
+        text:`Eles aceitam as suas Amoras debomgrado, jogando-as para dentro da boca e mastigando. Alguns segundos depois, eles adormecem um por um. Quando todos os tres estao dormindo, você caminha ate a caixa para investigar. A tampa se abre, revelando diversas outras bonecas do lado de dentro, iguais as que estao no chão, e varios outros brinquedos de madeira. Nao parece haver nada verdadeiramente de valor ali, por isso você sai do aposento pela porta do outro lado. Volte para 140.
         `,
         options: [
           {text:``, goTo:0},
@@ -2385,7 +2406,7 @@ const Livros = {
         ]
       },
       239:{
-        text:`você tern uma ideia. você fazum la o coma corda, com um no corredi o na ponta.
+        text:`você tem uma ideia. você fazum la o coma corda, com um no corredi o na ponta.
         // Girando a corda acima de sua cabe a, você tenta la ar a área. Depois de diversas tentativas, seu la o circunda a área, e o no corredi o se aperta em torno dela. você puxa ea área se mexe. você puxa mais, e ela cai pela borda dentro
         // do fosso - mas, para sua decep ao, o peso da caixa e enorme e arrasta você
         // junto com ela! Se você tiver um Encanto da Levita ao, use-o e va para 379.
@@ -2404,13 +2425,17 @@ const Livros = {
         ]
       },
       241:{
-        text:`você atinge a criatura com um golpe que causa danos. Mas, para sua infelicidade, a espada flea enroscada nos pelos compridos da fera. você tenta puxa-la, mas a criatura golpeia a espada ea arranca das suas maos, mandando-a para o outro lado do aposento. você agora esta indefeso. você
-        // pode tentar continuar a luta com as maos nuas ou lan ar um Encanto da For a. Se você lutar com sua for a normal sem uma arma, tera que descontar tres pontos de seu indice de HABILIDADE pelo resto da luta.
-        // Se usar um Encanto da For a, podera continuar com a HABILIDADE normal. Se
-        // você veneer, podera recuperar a sua espada e ir para 77.
+        text:`você atinge a criatura com um golpe que causa danos. Mas, para sua infelicidade, a espada fíca enroscada nos 
+        pelos compridos da fera. você tenta puxa-la, mas a criatura golpeia a espada e a arranca das suas maos, mandando-a 
+        para o outro lado do aposento. você agora esta indefeso.
+        você pode tentar continuar a luta com as maos nuas ou lan ar um Encanto da Força.
+        Se você lutar com sua for a normal sem uma arma, tera que descontar tres pontos de seu indice de HABILIDADE pelo 
+        resto da luta.
+        Se usar um Encanto da Força, podera continuar com a HABILIDADE normal. Se
+        você vençer, podera recuperar a sua espada e ir para 77.
         `,
         options: [
-          {text:``, goTo:0},
+          {text:``, goTo:77},
         ]
       },
       242:{
@@ -2430,7 +2455,7 @@ const Livros = {
         ]
       },
       244:{
-        text:`Quando você se concentra no seu Encanto, os Giras param. Eles estao evidentemente apreensivos em relaçao ao que você esta planejando. De repente, diante de seus olhos peludos, você desaparece! Eles tagarelam novamente excitados. Para onde você foi? Sob a sua Ilusao da Invisibilidade , você pode continuar, escolhendo ou a passagem do lado direito (volte para 2), ou a do lado esquerdo (volte para 243), deixando os Giras procurando por você em vao.
+        text:`Quando você se concentra no seu Encanto, os Giras param. Eles estao evidentemente apreensivos em relaçao ao que você esta planejando. De repente, diante de seus olhos peludos, você desaparece! Eles tagarelam novamente excitados. Para onde você foi? Sob a sua Ilusão da Invisibilidade , você pode continuar, escolhendo ou a passagem do lado direito (volte para 2), ou a do lado esquerdo (volte para 243), deixando os Giras procurando por você em vao.
         `,
         options: [
           {text:``, goTo:0},
@@ -2464,7 +2489,7 @@ const Livros = {
         ]
       },
       248:{
-        text:`Um silencio se espalha pelo aposento. Subitamente,  um grito de gelar o sangue nas veias  vem de um dos cantos, e um rosto horrivel surge no ar, voando na sua direçao e gritando enquanto se aproxima. Seus cabelos ficam em pe, e suas pernas tornam-se bambas. De algum modo, você consegue chegar ate a porta, abri-la violentamente e disparar por ela. Porem, você se esqueceu que esta no alto de uma torre, e que a sacada nao tern corrimao... você se precipita pela borda e cai diretamente. Se você tiver um Encanto da Levitação, volte para 103. Do contrario, você se estatela como um pacote na base da torre, e seu corpo despedaçado solta o ultimo suspiro...
+        text:`Um silencio se espalha pelo aposento. Subitamente,  um grito de gelar o sangue nas veias  vem de um dos cantos, e um rosto horrivel surge no ar, voando na sua direçao e gritando enquanto se aproxima. Seus cabelos ficam em pe, e suas pernas tornam-se bambas. De algum modo, você consegue chegar ate a porta, abri-la violentamente e disparar por ela. Porem, você se esqueceu que esta no alto de uma torre, e que a sacada nao tem corrimao... você se precipita pela borda e cai diretamente. Se você tiver um Encanto da Levitação, volte para 103. Do contrario, você se estatela como um pacote na base da torre, e seu corpo despedaçado solta o ultimo suspiro...
         `,
         options: [
           {text:``, goTo:0},
@@ -2480,23 +2505,20 @@ const Livros = {
         ]
       },
       250:{
-        text:`você se concentra e, diante de seus olhos, começa a se formar um ciclone que cresce e devasta o aposento. Cadeiras, livros e todo tipo de objetos voam pelo ar e sao postos a girar em torno do aposento, deixando você intacto. você da um passo adiante, mas para repentinamente ao ouvir um som de uma risada alta. você olha para o aposento e ve que o Tapete Voador e a cabeça de Cachorro se transformaram em estatuas de pedra. Um deles provoca você. "N6s, meu querido aventureiro, somos MIKS. Somos mestres da ilusao. Seus truques primarios nao podem nos enganar!" 0 homem, que agora se transformou em uma Cobra, deslizou pelo tapete nesse meio tempo, enroscou-se em volta da sua perna e esta cravando os dentes nas suas nadegas. A dor e insuportavel, e você desaba no chão, ja consciente de que a mordida era venenosa. Tome cuidado com os Miks na sua pr6xima aventura. Esta terminou aqui...
+        text:`você se concentra e, diante de seus olhos, começa a se formar um ciclone que cresce e devasta o aposento. Cadeiras, livros e todo tipo de objetos voam pelo ar e sao postos a girar em torno do aposento, deixando você intacto. você da um passo adiante, mas para repentinamente ao ouvir um som de uma risada alta. você olha para o aposento e ve que o Tapete Voador e a cabeça de Cachorro se transformaram em estatuas de pedra. Um deles provoca você. "nós, meu querido aventureiro, somos MIKS. Somos mestres da Ilusão. Seus truques primarios nao podem nos enganar!" 0 homem, que agora se transformou em uma Cobra, deslizou pelo tapete nesse meio tempo, enroscou-se em volta da sua perna e esta cravando os dentes nas suas nadegas. A dor e insuportavel, e você desaba no chão, ja consciente de que a mordida era venenosa. Tome cuidado com os Miks na sua pr6xima aventura. Esta terminou aqui...
         `,
         options: [
           {text:``, goTo:0},
         ]
       },
       251:{
-        text:`você caminha em frente, entrando em um patio aberto e espa9oso, circundado por grandes muros. Ha varias tochas queimando, e grupos de figuras se movimentam na escuridao. Ha um monumento de algum tipo no centro do patio - talvez uma fonte. Olhando para o outro lado do patio, você consegue ver o que parece ser a entrada principal da torre. você:
-
-
-        // Esgueira-se pela parede na direçao da torre, contornando o patio? Caminha decididamente, atravessando o patio?
-        // Vai na ponta dos pes pelas sombras, na direçao de um dos grupos?
-        // Volte para 222
-        // Volte para 179
-        // Va para 321`,
+        text:`você caminha em frente, entrando em um pátio aberto e espaçoso, circundado por grandes muros. Ha varias tochas
+        queimando, e grupos de figuras se movimentam na escuridão. Ha um monumento de algum tipo no centro do pátio - talvez
+        uma fonte. Olhando para o outro lado do pátio, você consegue ver o que parece ser a entrada principal da torre. você:`,
         options: [
-          {text:``, goTo:0},
+          {text:`Esgueira-se pela parede na direçao da torre, contornando o pátio?`, goTo:222},
+          {text:`Caminha decididamente, atravessando o pátio?`, goTo:179},
+          {text:`Vai na ponta dos pes pelas sombras, na direçao de um dos grupos?`, goTo:321},
         ]
       },
       252:{
@@ -2558,7 +2580,7 @@ const Livros = {
         ]
       },
       258:{
-        text:`Nenhuma de suas ofertas e particularmente interessante para estas criaturas, que estao muito mais interessadas em você do que em seus presentes. você tenta impressiona-las com um Encanto da Ilusao, criando um arco-fris com todas as cores de lado a lado do aposento. Eles ficam fascinados e permitem que você passe para a porta do outro lado - volte para 140. Se você nao tiver um Encanto da Ilusao, tera que usar um dos seus outros Encantos para impressiona-los. Se você nao possuir nenhum outro Encanto, tera que se aproximar deles - va para 366.
+        text:`Nenhuma de suas ofertas e particularmente interessante para estas criaturas, que estao muito mais interessadas em você do que em seus presentes. você tenta impressiona-las com um Encanto da Ilusão, criando um arco-fris com todas as cores de lado a lado do aposento. Eles ficam fascinados e permitem que você passe para a porta do outro lado - volte para 140. Se você nao tiver um Encanto da Ilusão, tera que usar um dos seus outros Encantos para impressiona-los. Se você nao possuir nenhum outro Encanto, tera que se aproximar deles - va para 366.
         `,
         options: [
           {text:``, goTo:0},
@@ -2725,7 +2747,7 @@ const Livros = {
 
         // ELFONEGRO	HABILIDADE 8	ENERGIA4
         
-        // Ou você pode lançar um Encanto. Se você lançar um Encanto da Fraqueza, a HABILIDADE dele fica reduzida a cinco. Se  você lançar um Encanto de Cópia de Criatura, um Elfo Negro identico, com uma Miriade de Bolso, lutam contra o Elfo (resolva a batalha entre eles e, se o Elfo Negro original veneer, você tera que liquida-lo pessoalmente). Se você quiser lançar  um Encanto  da Ilusao, va para 399. Se você lutar contra ele e veneer, volte para 272.
+        // Ou você pode lançar um Encanto. Se você lançar um Encanto da Fraqueza, a HABILIDADE dele fica reduzida a cinco. Se  você lançar um Encanto de Cópia de Criatura, um Elfo Negro identico, com uma Miriade de Bolso, lutam contra o Elfo (resolva a batalha entre eles e, se o Elfo Negro original veneer, você tera que liquida-lo pessoalmente). Se você quiser lançar  um Encanto  da Ilusão, va para 399. Se você lutar contra ele e veneer, volte para 272.
         `,
         options: [
           {text:``, goTo:0},
@@ -2739,7 +2761,7 @@ const Livros = {
         ]
       },
       277:{
-        text:`você sem duvida recolheu diversos artefatos no seu caminho atraves da Cidadela. você tern alguma das seguintes coisas? Se tiver, podera usar uma delas agora:
+        text:`você sem duvida recolheu diversos artefatos no seu caminho atraves da Cidadela. você tem alguma das seguintes coisas? Se tiver, podera usar uma delas agora:
 
 
         // Uma Aranha em um vidro Uma Mirfade de Bolso Pequenas Amoras
@@ -2756,10 +2778,10 @@ const Livros = {
       },
       278:{
         text:`Pedras Magicas e um jogo um tanto perigoso, mas os Premios sao altos. Antes do jogo começar, seu Mestre de Jogos, que e um aprendiz de feiticeiro, lança um encanto sobre uma rocha, que fara com
-        // que ela exploda em algum momento posterior. Os jogadores ficam em circulo e passam a pedra de um para o outro, percorrendo a roda. Quando a pedra explode, o  jogador que a estiver segurando esta fora do jogo - e termina com as maos bastante machucadas! Os jogadores que permanecem recebem outra Pedra Magica para passar de um para o outro, e o jogo continua ate que s6 reste um jogador. Os espectadores apostam nos jogadores, mas, antes de apostar, eles tern que contribuir com tres Peças de Ouro para o dinheiro do premio. Neste jogo, você podera ganhar trinta e seis Peças de Ouro, com risco de feriras suas maos. Tendo escolhido esta opçao, você tera que participar do jogo pelo menos uma vez, mas podera continuar  a jogar por tanto tempo quanto quiser. Se  veneer, podera tomar posse de trinta e seis Peças de Ouro por cada um dos jogos que participar. Se perder, tera que deduzir dois pontos de HABILIDADE e quatro pontos de ENERGIA por cada jogo.
+        // que ela exploda em algum momento posterior. Os jogadores ficam em circulo e passam a pedra de um para o outro, percorrendo a roda. Quando a pedra explode, o  jogador que a estiver segurando esta fora do jogo - e termina com as maos bastante machucadas! Os jogadores que permanecem recebem outra Pedra Magica para passar de um para o outro, e o jogo continua ate que s6 reste um jogador. Os espectadores apostam nos jogadores, mas, antes de apostar, eles tem que contribuir com tres Peças de Ouro para o dinheiro do premio. Neste jogo, você podera ganhar trinta e seis Peças de Ouro, com risco de feriras suas maos. Tendo escolhido esta opçao, você tera que participar do jogo pelo menos uma vez, mas podera continuar  a jogar por tanto tempo quanto quiser. Se  veneer, podera tomar posse de trinta e seis Peças de Ouro por cada um dos jogos que participar. Se perder, tera que deduzir dois pontos de HABILIDADE e quatro pontos de ENERGIA por cada jogo.
         // Joga-se da seguinte maneira: lance um dado para saber quantos outros jogadores se juntarao a você. De uma letra para cada jogador (A, B, C, etc. - você e o jogador A) e escreva tudo em uma folha de papel, na forma de um circulo. Depois, jogue outro dado para cada jogador para ver quern começa com a pedra (o numero maior começa).
         
-        // Jogue dois dados para o primeiro jogador, que tern que obter menos de doze. Siga adiante para o pr6ximo jogador, que tern que tirar menos de onze. 0  terceiro jogador tern que obter menos de dez, e assim por diante. Desloque o seu lapi s de letra para letra em volta do circulo para ter controle de quern esta coma Pedra Magica. Quando um jogador obtiver um numero maior do que o limite estabelecido, a pedra explode, e este jogador esta fora.
+        // Jogue dois dados para o primeiro jogador, que tem que obter menos de doze. Siga adiante para o pr6ximo jogador, que tem que tirar menos de onze. 0  terceiro jogador tem que obter menos de dez, e assim por diante. Desloque o seu lapi s de letra para letra em volta do circulo para ter controle de quern esta coma Pedra Magica. Quando um jogador obtiver um numero maior do que o limite estabelecido, a pedra explode, e este jogador esta fora.
         
         // Começa entao tudo de novo (isto e, o numero limite volta a ser doze), sem o perdedor. Se algum jogador tirar um numero igual ao limite, a pedra explode na passagem, e você tera que repetir a rodada.
         
@@ -2856,31 +2878,12 @@ const Livros = {
         ]
       },
       288:{
-        text:`As duas criaturas avanc;am. 0	Macaco-Cachorro ataca você primeiro, seguido pelo Cachorro­ Macaco. você lanc;ara um encanto ou se mantera firme e lutara?
-
-        // você podera lançar:
-        
-        
-        // Um Encanto da Forc;a Um Encanto da Levitac;ao
-        
-        // Ou podera lutar com um de cada vez:
-        // Volte para 162
-        // Volte para 86
-        
-        
-        
-        // Macaco-Cachorro Cachorro-Macaco
-        // HABILIDADE
-        // 7
-        // 6
-        // ENERGIA
-        // 4
-        // 6
-        
-        
-        // Se você matar os dois na batalha, volte para 32.`,
+        text:`As duas criaturas avançam. 0	Macaco-Cachorro ataca você primeiro, seguido pelo Cachorro­ Macaco. 
+        você lançara um encanto ou se mantera firme e lutara?`,
         options: [
-          {text:``, goTo:0},
+          {text:`Um Encanto da Força`, goTo:162},
+          {text:`Um Encanto da Levitação`, goTo:86},
+          {text:`Ou podera lutar com um de cada vez`, goTo:32, ex:['combate',['Macaco-Cachorro','Cachorro-Macaco']]},
         ]
       },
       289:{
@@ -2904,10 +2907,10 @@ const Livros = {
         ]
       },
       290:{
-        text:`0 HOMEM-RINO da um passo adiante e desfere uma estocada com sua lanc;a na sua direc;ao. você pula rapidamente e se desvia. Embora ele nao esteja usando uma armadura, seu couro grosso parece ser proteçao suficiente. você tern que decidir se o enfrenta em combate ou usa a sua magia. você desembainha a sua espada (va para 325) ou tenta um encanto? você pode usar:
+        text:`0 HOMEM-RINO da um passo adiante e desfere uma estocada com sua lanc;a na sua direc;ao. você pula rapidamente e se desvia. Embora ele nao esteja usando uma armadura, seu couro grosso parece ser proteçao suficiente. você tem que decidir se o enfrenta em combate ou usa a sua magia. você desembainha a sua espada (va para 325) ou tenta um encanto? você pode usar:
 
 
-        // Um Encanto da Fraqueza Um Encanto da Levitac;ao Um Encanto da Forc;a
+        // Um Encanto da Fraqueza Um Encanto da Levitação Um Encanto da Força
         // Va para 307
         // Volte para 70
         // Volte para 264
@@ -2927,7 +2930,7 @@ const Livros = {
         ]
       },
       292:{
-        text:`0  aposento e um elegante quarto de dormir suntuosamente decorado com rendas finas e um tapete de pele. No centro do aposento, ha uma grande cama de quatro colunas. Sentada e recostada na cama, evidentemente acordada pela agitaçao toda, esta uma linda mulher, com uma aparencia de sflfide, longos cabelos negros e olhos profundos e penetrantes. "Que direito você tern de entrar aqui?" ela grita. Com estas palavras seus olhos ficam vermelhos como sangue e dois jatos de fogo lfquido jorram deles diretamente sobre você. você:
+        text:`0  aposento e um elegante quarto de dormir suntuosamente decorado com rendas finas e um tapete de pele. No centro do aposento, ha uma grande cama de quatro colunas. Sentada e recostada na cama, evidentemente acordada pela agitaçao toda, esta uma linda mulher, com uma aparencia de sflfide, longos cabelos negros e olhos profundos e penetrantes. "Que direito você tem de entrar aqui?" ela grita. Com estas palavras seus olhos ficam vermelhos como sangue e dois jatos de fogo lfquido jorram deles diretamente sobre você. você:
 
 
         // Cria um Encanto do Escudo para se proteger?
@@ -2956,7 +2959,7 @@ const Livros = {
         ]
       },
       295:{
-        text:`você se concentra e começa a se transformar em um Escorpiao Gigante. 0 Anao e o Goblin interrompem seus passos, mas o Orea se comporta como se nada tivesse acontecido. Os outros dois veem  você picar o Orea com sua cauda, mas o Orea nem se abala e chama os outros dois. Vendo que você nao causou mal algum, eles sacodem suas cabeças e olham de novo, vendo entao o verdadeiro você. 0 Orea tenta segurar você. Volte para 213.
+        text:`você se concentra e começa a se transformar em um Escorpiao Gigante. 0 Anão e o Goblin interrompem seus passos, mas o Ork se comporta como se nada tivesse acontecido. Os outros dois veem  você picar o Ork com sua cauda, mas o Ork nem se abala e chama os outros dois. Vendo que você nao causou mal algum, eles sacodem suas cabeças e olham de novo, vendo entao o verdadeiro você. 0 Ork tenta segurar você. Volte para 213.
         `,
         options: [
           {text:``, goTo:0},
@@ -2977,7 +2980,7 @@ const Livros = {
         ]
       },
       298:{
-        text:`Quando suas maos se fecham em torno do ca.lice, ele começa a efervescer e espumar, respingando em você quando você o ergue ate seus labios. você tern certeza de que quer provar isso? Se nao, volte para 58 e escolha outra coisa - mas se você estiver determinado, volte para 141.
+        text:`Quando suas maos se fecham em torno do ca.lice, ele começa a efervescer e espumar, respingando em você quando você o ergue ate seus labios. você tem certeza de que quer provar isso? Se nao, volte para 58 e escolha outra coisa - mas se você estiver determinado, volte para 141.
         `,
         options: [
           {text:``, goTo:0},
@@ -2992,7 +2995,7 @@ const Livros = {
         ]
       },
       300:{
-        text:`Jogue um dado. Se você tirar um, dois ou tres, entao este numero de facas atinge você (cada faca significa dois pontos a menos de ENERGIA). Se tirar um quatro, cinco ou seis, entao elas nao acertam você. você tern que preparar-se para contra-atacar, seja com um Encanto da Ilusao (volte para 244), seja desembainhando a sua espada (va para 346).
+        text:`Jogue um dado. Se você tirar um, dois ou tres, entao este numero de facas atinge você (cada faca significa dois pontos a menos de ENERGIA). Se tirar um quatro, cinco ou seis, entao elas nao acertam você. você tem que preparar-se para contra-atacar, seja com um Encanto da Ilusão (volte para 244), seja desembainhando a sua espada (va para 346).
         `,
         options: [
           {text:``, goTo:0},
@@ -3030,7 +3033,7 @@ const Livros = {
         // entalhada em pedra. Quando você entra no aposento, a criatura faz ruido ao virar a cabec;a na sua direc;ao. Lentamente, ele desperta para a vida, descendo do seu pedestal. Esta bloqueando o seu caminho pelo aposento para uma porta do outro lado. você vai:
         
         
-        // Desembainhar a sua espada e avanc;ar? Preparar-se para lanc;ar um Encanto?
+        // Desembainhar a sua espada e avançar? Preparar-se para lançar um Encanto?
         // Procurar em sua mochila alguma coisa para usar?
         // Sair rapidamente deste aposento e tentar a porta de meio?
         // Volte para 172
@@ -3057,7 +3060,7 @@ const Livros = {
         ]
       },
       307:{
-        text:`Quando você lanc;a o Encanto, a criatura  avanc;a sobre você e fere seu brac;o coma lanc;a. você perde dois pontos de ENERGIA.  Depois o Encanto  da Fraqueza comec;a  a fazer efeito. A criatura fica lenta e comec;a a bufar e ofegar. você desembainha a sua espada e avanc;a para liquida-la.
+        text:`Quando você lanc;a o Encanto, a criatura  avança sobre você e fere seu brac;o coma lanc;a. você perde dois pontos de ENERGIA.  Depois o Encanto  da Fraqueza comec;a  a fazer efeito. A criatura fica lenta e comec;a a bufar e ofegar. você desembainha a sua espada e avança para liquida-la.
 
         // HOMEM-RINO	HABILIDADE 4	ENERGIA 7
         
@@ -3084,8 +3087,8 @@ const Livros = {
       310:{
         text:`você usara:
 
-        // Um Encanto de Cópia de Criatura? Um Encanto da Ilusao?
-        // Um Encanto de Percepc;ao Extra-S ensori al ?
+        // Um Encanto de Cópia de Criatura? Um Encanto da Ilusão?
+        // Um Encanto de Percepção Extra-S ensori al ?
         // 310
         
         
@@ -3095,7 +3098,7 @@ const Livros = {
         // Va para 393
         
         
-        // Se você nao possuir nenhum <lesses, retome para 104 e escolha de novo.`,
+        // Se você nao possuir nenhum desses, retome para 104 e escolha de novo.`,
         options: [
           {text:``, goTo:0},
         ]
@@ -3125,7 +3128,7 @@ const Livros = {
         ]
       },
       314:{
-        text:`você tenta se concentrar, criando a ilusao de que o feiticeiro esta igualmente em um aposento que sacode. 0 Encanto e lançado (e você tern que elimina-lo de sua lista), mas nao faz efeito; você nao consegue se concentrar totalmente. Balthus Dire esta quase em cima de você. Va para 373.
+        text:`você tenta se concentrar, criando a Ilusão de que o feiticeiro esta igualmente em um aposento que sacode. 0 Encanto e lançado (e você tem que elimina-lo de sua lista), mas nao faz efeito; você nao consegue se concentrar totalmente. Balthus Dire esta quase em cima de você. Va para 373.
         `,
         options: [
           {text:``, goTo:0},
@@ -3163,22 +3166,22 @@ const Livros = {
         ]
       },
       319:{
-        text:`você se concentra no seu brac;o. Ele comec;a a endurecer e adquire a cor metalica e fosca do ferro. Os olhos do velho ficam arregalados ao ver seu antebra90 de ferro. você luta para se livrar, mas ainda assim os dentes dele continuam cravados. você perde dois pontos de ENERGIA e tern que eliminar o Encanto da Ilusao. A sua ilusao evidentemente foi pouco convincente. você lanc;a mão da sua espada. Va para 333.
+        text:`você se concentra no seu brac;o. Ele comec;a a endurecer e adquire a cor metalica e fosca do ferro. Os olhos do velho ficam arregalados ao ver seu antebra90 de ferro. você luta para se livrar, mas ainda assim os dentes dele continuam cravados. você perde dois pontos de ENERGIA e tem que eliminar o Encanto da Ilusão. A sua Ilusão evidentemente foi pouco convincente. você lanc;a mão da sua espada. Va para 333.
         `,
         options: [
           {text:``, goTo:0},
         ]
       },
       320:{
-        text:`você se concentra fortemente, mas, por mais que tente, nao consegue interceptar nenhum dos pensamentos de Balthus Dire - ele esta bloqueando o seu Encanto! você pode continuar com um Encanto da Ilusao (va para 332), um Encanto da Fraqueza (volte para 113) ou pode desembainhar a sua espada para ataca-lo (va para 351).
+        text:`você se concentra fortemente, mas, por mais que tente, nao consegue interceptar nenhum dos pensamentos de Balthus Dire - ele esta bloqueando o seu Encanto! você pode continuar com um Encanto da Ilusão (va para 332), um Encanto da Fraqueza (volte para 113) ou pode desembainhar a sua espada para ataca-lo (va para 351).
         `,
         options: [
           {text:``, goTo:0},
         ]
       },
       321:{
-        text:`Cautelosamente, e mantendo-se fora da área visivel, você se esgueira pelas bordas do patio na
-        // escuridao.  Ha dois  grupos  de criaturas  a sua frente.  'A  direita,  você  pode  ver duas  figuras  de
+        text:`Cautelosamente, e mantendo-se fora da área visivel, você se esgueira pelas bordas do pátio na
+        // escuridão.  Ha dois  grupos  de criaturas  a sua frente.  'A  direita,  você  pode  ver duas  figuras  de
         // aparencia humana conversando sob uma tocha presa a parede. 'A esquerda,  um grupo de quatro
         // criaturas, de variadas formas e tamanhos, esta sentado em volta de uma fogueira, comendo. você
         // abordara os dois embaixo da tocha (volte para 269) ou o grupo em volta da fogueira (va para 339)?`,
@@ -3207,7 +3210,7 @@ const Livros = {
         text:`você desperta e olha em torno de si.'A medida que sua mem6ria volta, você fica admirado de estar
         // vendo. A sua perna esta sensivel, mas nao ha ferimento! você ouve um risinho frouxo vindo de um lugar acima de você e subitamente a coisa toda faz sentido...
         
-        // Autuando acima de você esta O'Seamus, agora rindo alto. A coisa toda foi uma grande brincadeira! você fica furioso e salta de pe, mas, ao olhar para o engrac;ado homenzinho que rola pelo ar em gargalhadas histericas,  você nao tern remedios e  nao ver o lado engrac;ado  da coisa tambem.  você da um risinho, depois mais uma risada, e acaba rindo alto. Por algum tempo, vocês dois se acabam de dar gargalhadas, ate que as lagrimas rolam pelos seus rostos.
+        // Autuando acima de você esta O'Seamus, agora rindo alto. A coisa toda foi uma grande brincadeira! você fica furioso e salta de pe, mas, ao olhar para o engrac;ado homenzinho que rola pelo ar em gargalhadas histericas,  você nao tem remedios e  nao ver o lado engrac;ado  da coisa tambem.  você da um risinho, depois mais uma risada, e acaba rindo alto. Por algum tempo, vocês dois se acabam de dar gargalhadas, ate que as lagrimas rolam pelos seus rostos.
         
         // Quando os dois conseguem se controlar, vocês acabam se sentando para conversar. Ele e um homenzinho agradavel. Antes de você sair, ele diz: "você e realmente um cara legal. 0 caminho a
         // sua frente, porem, esta cheio de perigos. Mas talvez estas coisas possam ajuda-lo." Com um movimento da mao, ele faz com que aparec;am uma espada e um prato na mesa. A espada e uma espada magica de batalha que acrescentara um ponto ao resultado dos dados quando você estiver determinando a sua For<;a de Ataque. 0 prato e, na realidade, um Espelho de Prata de excelente qualidade. você pode levar essas coisas com você, mas tera que deixar a sua espada velha para tras. Saia do aposento pela:
@@ -3282,7 +3285,7 @@ const Livros = {
         ]
       },
       330:{
-        text:`0 feiticeiro  grita de pavor quando você exibe o Vidro. Sentindo que esta pequena  criatura  pode ser um aliado valioso, você abre o  Vidro e a solta. A expressao  do feiticeiro  se  transforma  em um sorriso dissimulado e, enquanto você observa, o pequeno Homem-Aranha avanc;a, nao na direc;ao de Balthus Dire, mas na sua direc;ao! você tera que lutar contra ele:
+        text:`0 feiticeiro  grita de pavor quando você exibe o Vidro. Sentindo que esta pequena  criatura  pode ser um aliado valioso, você abre o  Vidro e a solta. A expressao  do feiticeiro  se  transforma  em um sorriso dissimulado e, enquanto você observa, o pequeno Homem-Aranha avança, nao na direc;ao de Balthus Dire, mas na sua direc;ao! você tera que lutar contra ele:
 
         // HOMEM-ARANHA	HABILIDADE 7	ENERGIA5
         
@@ -3301,7 +3304,7 @@ const Livros = {
       },
       332:{
         text:`0  queixo de Balthus Dire cai quando acontece uma transformac;ao diante dos olhos dele. Seu corpo
-        // cresce de tamanho e forc;a. Sua pele passa a ser de um vermelho vivo, e nascem chifres da pele esticada de sua testa. Seus dentes sao afiados espinhos negros, e sua lingua, agora bipartida, silva ameac;adoramente na direc;ao dele. você agora aparece diante dele como  um  DEMONIO  DO FOGO, e  você agarra o Tridente  que esta no chão para servir de arma para  você.  0  feiticeiro  foge de você horrorizado.  você pode saltar  por sobre a mesa para ataca-lo  (volte para 80)  ou exigir que ele cancele seus planos de conquista e se renda a você (volte para 48).
+        // cresce de tamanho e Força. Sua pele passa a ser de um vermelho vivo, e nascem chifres da pele esticada de sua testa. Seus dentes sao afiados espinhos negros, e sua lingua, agora bipartida, silva ameac;adoramente na direc;ao dele. você agora aparece diante dele como  um  DEMONIO  DO FOGO, e  você agarra o Tridente  que esta no chão para servir de arma para  você.  0  feiticeiro  foge de você horrorizado.  você pode saltar  por sobre a mesa para ataca-lo  (volte para 80)  ou exigir que ele cancele seus planos de conquista e se renda a você (volte para 48).
         `,
         options: [
           {text:``, goTo:0},
@@ -3341,7 +3344,7 @@ const Livros = {
         ]
       },
       337:{
-        text:`0 feiticeiro e de fato tao born espadachim quanto magico. Resolva sua batalha: BALTHUSDIRE	HABILIDADE 12	ENERGIA 19
+        text:`0 feiticeiro e de fato taobomespadachim quanto magico. Resolva sua batalha: BALTHUSDIRE	HABILIDADE 12	ENERGIA 19
         // Se você tiver conseguido roubar o anel do feiticeiro, podera descontar 2 pontos da sua HABILIDADE, pois ele estava usando o Anel dos Espadachins. Se você derrotar Balthus Dire, va para 400.
         `,
         options: [
@@ -3356,7 +3359,7 @@ const Livros = {
         ]
       },
       339:{
-        text:`Ha um time ecletico sentado em volta do fogo. Um Orea como rosto coberto de verrugas esta distribuindo magros bocados de came mal passada para os outros. Um Anao de pele verde rosna e reclama do tamanho de seu peda<;o, enquanto dois Goblins - homem e mulher - estao se acariciando. Eles riem e se sacodem, e de vez em quando ela da um tapa na cara feia do macho, causando ainda mais risos. Quando você se aproxima, eles param e olham para você com rostos pouco amigaveis. Olham com desprezo para a sua aparencia asseada, e a Goblin femea cochicha algum comentario para seu companheiro. Na frente do Anao, você pode ver uma caixa aberta. você distingue com dificuldade um frasco de lfquido dentro dela. você:
+        text:`Ha um time ecletico sentado em volta do fogo. Um Ork como rosto coberto de verrugas esta distribuindo magros bocados de came mal passada para os outros. Um Anão de pele verde rosna e reclama do tamanho de seu peda<;o, enquanto dois Goblins - homem e mulher - estao se acariciando. Eles riem e se sacodem, e de vez em quando ela da um tapa na cara feia do macho, causando ainda mais risos. Quando você se aproxima, eles param e olham para você com rostos pouco amigaveis. Olham com desprezo para a sua aparencia asseada, e a Goblin femea cochicha algum comentario para seu companheiro. Na frente do Anão, você pode ver uma caixa aberta. você distingue com dificuldade um frasco de lfquido dentro dela. você:
 
 
         // Sentara com eles em torno do fogo? Perguntara se você pode se unir a eles?
@@ -3375,7 +3378,7 @@ const Livros = {
         ]
       },
       341:{
-        text:`você lan<;a o Encanto em tomo de si mesmo e avan<;a. Quatro ou cinco flechas voam na sua dire<;ao, mas param no ar a um metro de distancia antes de atingir você, caindo inofensivamente ao chão. você chega ate o monumento. Lembre-se de eliminar o Encanto do Escudo da sua lista. Volte para 209.
+        text:`você lan<;a o Encanto em tomo de si mesmo e avan<;a. Quatro ou cinco flechas voam na sua direção, mas param no ar a um metro de distancia antes de atingir você, caindo inofensivamente ao chão. você chega ate o monumento. Lembre-se de eliminar o Encanto do Escudo da sua lista. Volte para 209.
         `,
         options: [
           {text:``, goTo:0},
@@ -3437,7 +3440,7 @@ const Livros = {
         ]
       },
       348:{
-        text:`"Oh, eu nao iria nesta  direçao",  diz O'Seamus.  "Nao e  uma regiao  agradavel."  Estas tres portas sao o unico caminho para seguir adiante. Duas delas sao muito perigosas,  e  a terceira  tern um cheiro muito forte. No lado oposto do aposento, ha tres portas. Uma tern uma maçaneta de latao, outra tern uma mac;aneta de cobre, e a terceira tern uma mac;aneta de bro nze. Qual delas você escolhera:
+        text:`"Oh, eu nao iria nesta  direçao",  diz O'Seamus.  "Nao e  uma regiao  agradavel."  Estas tres portas sao o unico caminho para seguir adiante. Duas delas sao muito perigosas,  e  a terceira  tem um cheiro muito forte. No lado oposto do aposento, ha tres portas. Uma tem uma maçaneta de latao, outra tem uma mac;aneta de cobre, e a terceira tem uma mac;aneta de bro nze. Qual delas você escolhera:
 
 
         // A porta de maçaneta de latao? A porta de maçaneta de cobre? A porta de maçaneta de bronze? Ou você pedira o conselho dele?
@@ -3450,7 +3453,7 @@ const Livros = {
         ]
       },
       349:{
-        text:`Uma replica de Balthus Dire se materializa na sua frente. 0 pr6prio Dire levanta uma sobrancelha. "Ataque!" você ordena ao s6sia, que se volta para o centro do aposento e avanc;a. A dois metros do feiticeiro, ele para e segura a cabec;a com as maos, atordoado, vira-se e vem na sua direc;ao! 0 feiticeiro ri. "Este jogo pode ter dois participantes!" diz Dire. você se concentra, e a replica recebe suas ordens de retornar na direc;ao de Dire. 0 s6sia acaba por interromper a sua aproximac;ao e age conforme as suas ordens. Isso continua por algum tempo, e você compreende que vocês dois tern o poder de controlar a criatura, mas somente dentro de uma certa distancia. A coisa continua para frente e para tras, ate que o Encanto comec;a a perder o efeito. 0	s6sia pouco a pouco vai desaparecendo. A concentrac;ao foi de certa forma exaustiva para você. você levanta os olhos eve Balthus Dire erguer as maos para o teto e depois deixa-las cair com forc;a sobre a mesa. Que magia ele estara usando agora? Volte para 157.
+        text:`Uma replica de Balthus Dire se materializa na sua frente. 0 pr6prio Dire levanta uma sobrancelha. "Ataque!" você ordena ao s6sia, que se volta para o centro do aposento e avança. A dois metros do feiticeiro, ele para e segura a cabec;a com as maos, atordoado, vira-se e vem na sua direc;ao! 0 feiticeiro ri. "Este jogo pode ter dois participantes!" diz Dire. você se concentra, e a replica recebe suas ordens de retornar na direc;ao de Dire. 0 s6sia acaba por interromper a sua aproximac;ao e age conforme as suas ordens. Isso continua por algum tempo, e você compreende que vocês dois tem o poder de controlar a criatura, mas somente dentro de uma certa distancia. A coisa continua para frente e para tras, ate que o Encanto comec;a a perder o efeito. 0	s6sia pouco a pouco vai desaparecendo. A concentrac;ao foi de certa forma exaustiva para você. você levanta os olhos eve Balthus Dire erguer as maos para o teto e depois deixa-las cair com Força sobre a mesa. Que magia ele estara usando agora? Volte para 157.
         `,
         options: [
           {text:``, goTo:0},
@@ -3464,7 +3467,7 @@ const Livros = {
         ]
       },
       351:{
-        text:`Quando você avanc;a com sua espada desembainhada, o feiticeiro puxa uma cimitarra do seu cinto. "Sim", ele diz com prazer, "ficarei muito contente de terminar isso com armas!" E,  com  estas palavras, ele salta por sobre a mesa na sua direc;ao . A  batalha que se seguira sera uma luta ate a morte:
+        text:`Quando você avança com sua espada desembainhada, o feiticeiro puxa uma cimitarra do seu cinto. "Sim", ele diz com prazer, "ficarei muito contente de terminar isso com armas!" E,  com  estas palavras, ele salta por sobre a mesa na sua direc;ao . A  batalha que se seguira sera uma luta ate a morte:
 
         // BALTHUS DIRE	HABILIDADE 12	ENERGIA 19
         
@@ -3493,7 +3496,7 @@ const Livros = {
 
         // BALTHUS DIRE	HABILIDADE 12	ENERGIA 19
         
-        // A sua nova arma e uma espada encantada  que acrescentara 2 pontos ao resultado de seus dados jogados para determinar a sua Forc;a do Ataque.
+        // A sua nova arma e uma espada encantada  que acrescentara 2 pontos ao resultado de seus dados jogados para determinar a sua Força do Ataque.
         
         // Se você veneer, va para 400.
         `,
@@ -3516,7 +3519,7 @@ const Livros = {
         ]
       },
       356:{
-        text:`Eles ficam um tanto aliviados por saber que você nao tern inten ao de fazer mal a eles e voltam a sentar-se no chão, convidando você para se juntar a eles. 0 aposento e pequeno e simples, com folhagens espalhadas pelas paredes, possivelmente com o intuito de servir de decora ao, embora as
+        text:`Eles ficam um tanto aliviados por saber que você nao tem inten ao de fazer mal a eles e voltam a sentar-se no chão, convidando você para se juntar a eles. 0 aposento e pequeno e simples, com folhagens espalhadas pelas paredes, possivelmente com o intuito de servir de decora ao, embora as
         // folhas estejam agora murchas e ha muito tempo mortas. Um pequeno fogo arde em um dos cantos, embaixo de um orificio no teto. Ha duas portas na parede de fronte a  você;  uma a esquerda,  a outra a direita. você senta para bater um papo. você descobre que as pequenas criaturas magerrimas se
         // denominam ESCOTEIROS e sao de fato um grupo agradavel, que brinca e ri com você. você resolve nao se arriscar a dizer muito sobre a sua missão, mas faz perguntas genericas sobre o lugar. Balthus Dire e o senhor da casa e passa a maior parte do tempo la no alto na Cidadela. A senhora sua esposa e uma feiticeira lindissima que e muito vaidosa e aprecia as coisas que o dinheiro e o poder podem proporcionar. Ha muitas criaturas crueis no interior da Cidadela, mas e preciso tomar
         // cuidado  especial  com  os  Ganjees,  que  vagueiam  pela  Torre  a noite.  você  acaba  levantando,
@@ -3607,11 +3610,11 @@ const Livros = {
         ]
       },
       365:{
-        text:`você escolheu um jogo de azar mortal que e proibido por lei na maioria  dos reinos. Uma vez que você escolheu 
-        jogar, tera que participar de pelo  menos um jogo, mas podera continuar, se quiser. Seu Mestre de Jogos e um aprendiz
+        text:`você escolheu um jogo de azar mortal que e proibido por lei na maioria dos reinos. Uma vez que você escolheu 
+        jogar, tera que participar de pelo menos um jogo, mas podera continuar, se quiser. Seu Mestre de Jogos e um aprendiz
         de feiticeiro e selecionou uma variedade de premios para você. Se você sobreviver, podera ter direito a: 
-        dois Encantos  extras (os quais  você pode escolher da lista no começo do livro), ou cinquenta Peças de Ouro, 
-        ou um Escudo  de Armas Encantado (que permitira que você desconte dois pontos do numero obtido nos dados jogados 
+        dois Encantos extras (os quais você pode escolher da lista no começo do livro), ou cinquenta Peças de Ouro, 
+        ou um Escudo de Armas Encantado (que permitira que você desconte dois pontos do numero obtido nos dados jogados 
         para uma criatura, quando se estiver determinando a sua Fortça de Ataque).
 
         0 jogo consiste no seguinte: ha seis punhais sobre uma mesa. Uma e a arma verdadeira, enquanto as outras cinco 
@@ -3624,7 +3627,7 @@ const Livros = {
         Quando um de vocês obtiver um seis, a verdadeira adaga foi escolhida. Se for você, tera se matado!`,
         options: [
           {text:`Agora que sabe as regras do jogo, você só pode fugir de participar do jogo pelo menos uma vez lançando 
-          um Encanto de Ilusao, Do contrario, você tera que jogar`, goTo:9, ex:['encanto','ilusao']},
+          um Encanto de Ilusão, Do contrario, você tera que jogar`, goTo:9, ex:['encanto','ilusao']},
           {text:`Escolher uma faca`, goTo:450, ex:['jogo', 'Faca­ Faquinha']},
           {text:`você pode jogar Escolha de Seis`, goTo:171,ex:['jogo', 'Faca­ Faquinha']},
           {text:`você pode jogar Pedras Magicas`, goTo:278,ex:['jogo', 'Faca­ Faquinha']},
@@ -3765,12 +3768,12 @@ const Livros = {
         options: [{text:`você segue ate a porta oposta a da sua entrada e experimenta a maçaneta.`, goTo:206},]
       },
       380:{
-        text:`Quando você senta, eles se levantam. 0 Anao pega uma clava e salta sobre você, enquanto o Goblin e o Orca 
+        text:`Quando você senta, eles se levantam. 0 Anão pega uma clava e salta sobre você, enquanto o Goblin e o Orca 
         apanham espadas.`,
-        options: [{text:`A namorada do Goblin da um grito e sai do caminho, retirando-se para a escuridao.`, goTo:213},]
+        options: [{text:`A namorada do Goblin da um grito e sai do caminho, retirando-se para a escuridão.`, goTo:213},]
       },
       381:{
-        text:`Teste a sua Sorte. Se você tiver sorte, o anel desliza para fora do dedo dele, e você agora o tern em suas maos.
+        text:`Teste a sua Sorte. Se você tiver sorte, o anel desliza para fora do dedo dele, e você agora o tem em suas maos.
           Se você nao tiver sorte, o anel prende e nao sai. Ao puxar o anel, você faz com que Balthus Dire entre em ação e se 
           volte contra você com sua espada. Volte para 337.`,
         options: [{text:`Sorte`, goTo:337, ex:['t-sorte', 'anel']}, ]
@@ -3786,7 +3789,7 @@ const Livros = {
       },
       383:{
         text:`A força do velho começa a retornar a medida em que o Encanto da Energia vai fazendo efeito.
-        Ele conta para você que foi espancado na cabeça por crueis Ganjees, que tern prazer em fazer maldades.
+        Ele conta para você que foi espancado na cabeça por crueis Ganjees, que tem prazer em fazer maldades.
         você conduz a conversa no sentido da Cidadela propriamente dita. De repente, sem nenhuma razao visfvel, uma pontada
         de dor o atinge por dentro. Seus olhos ficam estreitos e ele se atira para frente, cravando seus dentes
         - dentes afiados, diga-se de passagem - no seu braço. você perde dois pontos de ENERGIA.`,
@@ -3839,7 +3842,7 @@ const Livros = {
       389:{
         text:`Quando você se aproxima do espeto, uma das velhas joga um pó no fogo, e as tres se afastam, dando risadas.
           você esta em guarda. você observa o fogo começando a rugir, e as chamas crescendo ameaçadoramente. Subitamente, 
-          varias das labaredas saltam do fogo e tomam a forma de um DEVLIN, uma criatura do tamanho de um Anao, feita do 
+          varias das labaredas saltam do fogo e tomam a forma de um DEVLIN, uma criatura do tamanho de um Anão, feita do 
           próprio fogo! As tres bruxas apontam para você, e o Devlin avança. você:`,
         options: [
           {text:`Desembainha a sua espada e se prepara para lutar contra ele?`, goTo:61},

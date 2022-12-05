@@ -93,10 +93,10 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 // Cada pagina apresenta desafios diferentes, e as decisoes que você tomar o levarao a diferentes
 // caminhos e diferentes batalhas.
 
-// você e o aluno brilhante do Grande Mago de Yore. Possui um born conhecimento de magia, que nao e perfeito, mas, com um pouco de sorte, sera adequado para esta empreitada. você possui
-// tambem uma espada e tern praticado bastante como espadachim. Esta muito bem fisicamente e tern se exercitado para aumentar a sua energia.
+// você e o aluno brilhante do Grande Mago de Yore. Possui umbomconhecimento de magia, que nao e perfeito, mas, com um pouco de sorte, sera adequado para esta empreitada. você possui
+// tambem uma espada e tem praticado bastante como espadachim. Esta muito bem fisicamente e tem se exercitado para aumentar a sua energia.
 
-// Primeiro que tudo, você tern que usar os dados para determinar os seus indices iniciais de HABILIDADE e ENERGIA. Na pagina 11 ha uma Folha de Aventuras, na qual você pode registrar os detalhes de uma aventura. Nela você encontrara quadros para registrar seus indices de HABILIDADE e ENERGIA.
+// Primeiro que tudo, você tem que usar os dados para determinar os seus indices iniciais de HABILIDADE e ENERGIA. Na pagina 11 ha uma Folha de Aventuras, na qual você pode registrar os detalhes de uma aventura. Nela você encontrara quadros para registrar seus indices de HABILIDADE e ENERGIA.
 
 
 // Habilidade, Energia e Sorte
@@ -116,7 +116,7 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 // Frequentemente você encontrara paginas  no livro que o instruirao  para que lute contra algum tipo de criatura.
 
 // Talvez haja a altemativa de fugir ou usar um encanto magico, mas se  nao houver - ou se você decidir atacar a criatura de qualquer maneira - você tera que resolver a batalha conforme descrito abaixo.
-// Primeiro registre os indices de HABILIDADE e ENERGIA da criatura no primeiro quadro vazio de Encontro com Monstro na sua Folha de Aventuras. Os indices de cada criatura sao dados no livro a cada vez que você tern um encontro.
+// Primeiro registre os indices de HABILIDADE e ENERGIA da criatura no primeiro quadro vazio de Encontro com Monstro na sua Folha de Aventuras. Os indices de cada criatura sao dados no livro a cada vez que você tem um encontro.
 // A seqtiencia de combate e a seguinte:
 
 //     1. Jogue os dois dados uma vez para a criatura. Some a seu fndice de HABILIDADE. Este total ea
@@ -149,7 +149,7 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 
 // Sorte
 
-// Em diversos momentos da sua aventura, tanto durante as batalhas quanto nas situa96es em que você pode ter ou nao sorte (detalhes sobre elas sao dados nas pr6prias paginas), você pode apelar para a sua sorte para tornar o resultado mais favoravel. Mas tome cuidado! Usar a sorte e um neg6cio arriscado e, se você nao tiver sorte, os resultados podem ser desastrosos.
+// Em diversos momentos da sua aventura, tanto durante as batalhas quanto nas situa96es em que você pode ter ou nao sorte (detalhes sobre elas sao dados nas próprias paginas), você pode apelar para a sua sorte para tornar o resultado mais favoravel. Mas tome cuidado! Usar a sorte e um neg6cio arriscado e, se você nao tiver sorte, os resultados podem ser desastrosos.
 // 0 procedimento para usar a sua sorte e o seguinte: jogue dois dados. Seo	numero obtido for igual ou menor do que o seu fndice de SORTE atual, você teve sorte, e o resultado sera a seu favor. Seo numero obtido for maior do que o seu fndice de SORTE atual, você nao teve sorte e sofrera as
 // consequ"enc1.as.
 // Este procedimento e conhecido como Testar a sua Sorte. Cada vez que você Testar a sua Sorte, tera que subtrair um ponto do seu fndice de SORTE atual. Portanto, você logo compreendera que quanto mais confiar na sua sorte, mais arriscado isso se tornara.
@@ -164,7 +164,7 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 
 // Se a criatura tiver acabado de ferir você, você podera Testar a sua Sorte para tentar minimizar o ferimento. Se tiver sorte, conseguiu evitar que o golpe o atingisse com toda a força. você recupera um ponto de ENERGIA (isto e, ao inves de causar os dois pontos de danos, o golpe causa apenas um). Se nao tiver sorte, você recebeu um ferimento mais grave. Subtraia um ponto extra de ENERGIA.
 
-// Lembre-se que você tern que subtrair um ponto da sua pr6pria SORTE a cada vez que Testar a sua Sorte.
+// Lembre-se que você tem que subtrair um ponto da sua pr6pria SORTE a cada vez que Testar a sua Sorte.
 
 // Recuperac;ao de Habilidade, Energia e Sorte
 
@@ -187,12 +187,12 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 
 // 0 seu indice de MAGIA determina quantos Encantos Magicos você podera usar durante a sua empreitada. Estes encantos podem ser escolhidos da lista que se encontra ap6s esta sec;ao. Depois de considerar os encantos disponiveis, assinale as suas escolhas no quadro de Encantos Magicos da sua Folha de Aventuras.
 
-// Se, por exemplo, você tirar um 4 e um 3, seu indice de MAGIA sera 13 (isto e, 4 + 3 + 6), o que significa que você podera usar 13 encantos durante a sua aventura. Da lista de encantos dada a seguir, você podera escolher 13 encantos  da sua preferencia.  Talvez você queira levar tres Encantos de Energia, cinco Encantos da Percepc;ao Extra-Sensorial e cinco Encantos do Fogo - ou talvez você prefira um encanto de cada um dos 12 existentes, mais um Encanto de Cópia de Criatura extra. A escolha e sua.
+// Se, por exemplo, você tirar um 4 e um 3, seu indice de MAGIA sera 13 (isto e, 4 + 3 + 6), o que significa que você podera usar 13 encantos durante a sua aventura. Da lista de encantos dada a seguir, você podera escolher 13 encantos  da sua preferencia.  Talvez você queira levar tres Encantos de Energia, cinco Encantos da Percepção Extra-Sensorial e cinco Encantos do Fogo - ou talvez você prefira um encanto de cada um dos 12 existentes, mais um Encanto de Cópia de Criatura extra. A escolha e sua.
 
 // Cada vez que você usar um encanto durante a aventura, tera que risca-lo da sua lista (mesmo que ele nao tenha efeito). Se você tiver levado mais de um de qualquer dos encantos, tera que reduzir o
 // ....
 // restante em um, a cada vez que usa-lo. As vezes você tera a opc;ao de usar encantos e descobrira que
-// nao os tern com você, ou que ja usou tudo que tinha. Nestes casos, você nao podera escolher estas opc;oes.
+// nao os tem com você, ou que ja usou tudo que tinha. Nestes casos, você nao podera escolher estas opc;oes.
 
 // Como você nao tera ideia dos perigos que espreitam  no interior da Cidadela na primeira vez que entrar, sem duvida escolhera encantos que nao terao o efeito que você esperava  que tivessem.  Mas, nas aventuras subsequentes, você escolhera os seus encantos de maneira mais sabia. Tambem nao se preocupe se o seu indice de MAGIA for baixo. Mesmo o indice mais baixo possfvel fomecera um numero de encantos suficiente para que você chegue ao fim de sua empreitada, se você fizer as escolhas certas e for abenc;oado com um pouco de sorte!
 // ENCANTOS MA.GICOS
@@ -207,16 +207,16 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 
 // Fogo
 
-// Todas as criaturas tern medo do fogo, e este encanto da o poder de fazer aparecer fogo segundo a sua vontade.  você podera causar uma pequena explosao no chão que queimara  por varios segundos ou criar uma barreira de fogo para manter criaturas a distancia.
+// Todas as criaturas tem medo do fogo, e este encanto da o poder de fazer aparecer fogo segundo a sua vontade.  você podera causar uma pequena explosao no chão que queimara  por varios segundos ou criar uma barreira de fogo para manter criaturas a distancia.
 
 // Ouro dos Tolos
 
-// Este encanto transformara pedra comum em uma pilha do que parece ser ouro. Contudo, o encanto e apenas uma forma de encanto da ilusao - embora mais confiavel do que o Encanto da ilusao abaixo
+// Este encanto transformara pedra comum em uma pilha do que parece ser ouro. Contudo, o encanto e apenas uma forma de encanto da Ilusão - embora mais confiavel do que o Encanto da Ilusão abaixo
 // - ea pilha de ouro logo voltara a ser pedra.
 
-// Ilusao
+// Ilusão
 
-// Este e um encanto poderoso, mas que nao e muito confiavel. Atraves deste encanto, você podera criar uma ilusao convincente (por exemplo, que você se transformou em serpente, ou que o chão esta coberto de carvao em brasa) para enganar uma criatura. 0 encanto ficara imediatamente sem efeito se acontecer qualquer coisa que desfaça a ilusao (por exemplo, você convence uma criatura
+// Este e um encanto poderoso, mas que nao e muito confiavel. Atraves deste encanto, você podera criar uma Ilusão convincente (por exemplo, que você se transformou em serpente, ou que o chão esta coberto de carvao em brasa) para enganar uma criatura. 0 encanto ficara imediatamente sem efeito se acontecer qualquer coisa que desfaça a Ilusão (por exemplo, você convence uma criatura
 // que se  tran,, sformou  em  uma serpente  e  entao imediatamente  atinge  sua cabeça  com  um  golpe de espada!). E eficiente sobre tudo com criaturas inteligentes.
 
 // Levita ao
@@ -227,7 +227,7 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 
 // Este encanto, juntamente com os encantos de Habilidade e Energia, e especial porque pode ser lançado a qualquer momento durante a sua aventura, a nao ser durante uma batalha. você nao precisa esperar que apareça a opçao em uma pagina. Uma vez lançado, recuperara o seu indice de SORTE em metade de seu indice de SORTE lnicial (se a sua SORTE inicial for um numero impar, subtraia o ½ de sobra). Este encanto nunca levara o seu indice de SORTE a um numero superior a seu nivel lnicial Portanto, se você lançar dois encantos da SORTE juntos, o seu indice de SORTE voltara apenas a ser igual a seu nivel lnicial.
 // Escudo
-// Ao lançar este encanto, você cria um escudo invisf vel a sua frente que o protegera de objetos ffsicos, por exemplo flechas, espadas ou criaturas. 0 escudo nao tern efeito contra a magia e, evidentemente, se nada fora dele pode tocar em você, você tambem nao podera tocar em nada fora dele.
+// Ao lançar este encanto, você cria um escudo invisf vel a sua frente que o protegera de objetos ffsicos, por exemplo flechas, espadas ou criaturas. 0 escudo nao tem efeito contra a magia e, evidentemente, se nada fora dele pode tocar em você, você tambem nao podera tocar em nada fora dele.
 
 // Habilidade
 
@@ -237,12 +237,12 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 
 // Este encanto recuperara o seu fndice de Energia, aumentando-o em metade de seu valor Inicial, e pode ser lançado a qualquer momento durante a sua aventura. Veja o Encanto da Sorte  para conhecer as regras completas.
 
-// Forc;a
+// Força
 
-// Este encanto tern o efeito de aumentar muito a sua força, e e muito util quando se luta contra criaturas fortes. Porem, deve ser utilizado com cautela, ja que e diffcil controlar a sua pr6pria força quando ela aumenta demais!
+// Este encanto tem o efeito de aumentar muito a sua força, e e muito util quando se luta contra criaturas fortes. Porem, deve ser utilizado com cautela, ja que e diffcil controlar a sua pr6pria força quando ela aumenta demais!
 
 // Fraqueza
-// Criaturas fortes sao reduzidas por este encanto a miseraveis fracotes. Nao tern efeito contra todas as criaturas, mas, quando tern efeito, a criatura se toma fragil e muito menos perigosa em uma batalha.
+// Criaturas fortes sao reduzidas por este encanto a miseraveis fracotes. Nao tem efeito contra todas as criaturas, mas, quando tem efeito, a criatura se toma fragil e muito menos perigosa em uma batalha.
 
 
 
