@@ -26,6 +26,18 @@ function Sinopse(props) {
     return storager.includes(book);
   }
 
+  const concluzao = () => {
+    const goTo = Livros[book].Pagina
+    let cont = 0
+    for (const key in goTo) {
+      console.log()
+      if (goTo[key].options[0].goTo === 0) {
+        cont++
+      }
+    }
+    return <p>{cont}/400 ou {cont/4}%</p>
+  }
+
   return(
     <S.SinopseDiv>
       <h4>Sinopse</h4>
@@ -36,6 +48,7 @@ function Sinopse(props) {
         <button onClick={gameSelect}>Jogar</button>
       </Link>
       { savedEsxist()? <button>Jogo salvo</button> : null }
+      {concluzao()}
     </S.SinopseDiv>
   )
 }

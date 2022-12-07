@@ -1,9 +1,14 @@
 const ex = {
-  'item':[
-    'mirfade',
-    'aranha',
-    'amoras',
-    'ouro'
+  'item':[//itemAdd
+    'Miríade de Bolso',
+    'Aranha em um Vidro',
+    'Pequenas Amoras',
+    'Espelho de Prata',
+    'Escova de Cabelo',
+    'Vidro contendo o Homem-Aranha',
+    'Amuleto Encantado',
+    'Vidro de Unguento',
+    'ouro',
   ],
   itemAdd:{
     'adaga encantada':`adaga de arremesso encantada que nunca erra, p15, 2 pontos de dano, 1vez`

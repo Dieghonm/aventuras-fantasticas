@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { media } from "../media";
 
 export const NewGameDiv = styled.div`
-  background:grey;
+
 ` 
 
 export const BooksCards = styled.div`
