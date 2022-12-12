@@ -1,4 +1,20 @@
-export const [LOGIN, BOOK, ATTRIBUTES, GOTO, CHARMS, KILLMAGIC] = ['LOGIN', 'BOOK', 'ATTRIBUTES', 'GOTO', 'CHARMS', 'KILLMAGIC'];
+export const [
+  LOGIN,
+  BOOK,
+  ATTRIBUTES,
+  GOTO,
+  CHARMS,
+  KILLMAGIC,
+  EQUIP
+] = [
+  'LOGIN',
+  'BOOK',
+  'ATTRIBUTES',
+  'GOTO',
+  'CHARMS',
+  'KILLMAGIC',
+  'EQUIP'
+];
 
 export function actionLogin(dataAction) {
   return {
@@ -38,6 +54,14 @@ export function actionCharms(dataAction) {
 export function actionKillMagic(dataAction) {
   return {
     type: KILLMAGIC,
+    payload: dataAction,
+  };
+}
+
+export function actionEquipADD(dataAction) {
+  console.log('action');
+  return {
+    type: EQUIP,
     payload: dataAction,
   };
 }

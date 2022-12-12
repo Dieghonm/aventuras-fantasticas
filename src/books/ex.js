@@ -13,6 +13,7 @@ const ex = {
   itemAdd:{
     'adaga encantada':`adaga de arremesso encantada que nunca erra, p15, 2 pontos de dano, 1vez`
   },
+  'inicial':['espada', 'armadura de couro','lanterna', 'mochila'],
 
   'encanto':[
     'copia',
@@ -46,8 +47,19 @@ const ex = {
     'Cachorro-Macaco':{
       'energia': 6,
       'habilidade': 6,
-    }
-
+    },
+    'Primeiro GIRA':{
+      'energia': 7,
+      'habilidade': 6,
+    },//combate duplo 346
+    'Segundo GIRA':{
+      'energia': 6,
+      'habilidade': 5,
+    },
+    '':{
+      'energia': 0,
+      'habilidade': 0,
+    },
   },
   'fugir': 'quantidade de ataques',
   'energia':'cura ou perde x pontos',
@@ -62,7 +74,7 @@ const ex = {
     420: 'rolada de dado 384' ,
     450: 'Faca­ Faquinha',
     500:'fim do jogo 400',
-    600: 'morte 376, 369',
+    600: 'morte 376, 369, 82, 342, 72',
 
   },
   'jogo':{

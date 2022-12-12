@@ -10,15 +10,13 @@ import Livros from '../books/Livros'
 function Play(props) {
   const options = (option) => {
     return(
-      <Link to={`/aventuras-fantasticas/Play/${option.goTo}`}>
+      <Link key={option.text} to={`/aventuras-fantasticas/Play/${option.goTo}`}>
         <button>{option.text}</button>
       </Link>
     )
-
   }
-  const { user, game, book } = props.globalState
+  const { book } = props.globalState
   const { goTo } = useParams ();
-  console.log(user, game, goTo);
   return(
     <div>
       <Status />

@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
 import Dice from "./Dice";
-import { actionAttributes } from "../redux/actions";
+import { actionAttributes, actionEquipADD } from "../redux/actions";
 
 class  Attributes extends Component {
   state={
@@ -20,8 +20,11 @@ class  Attributes extends Component {
   }
 
   nextButton = () => {
-    const { indexFunc, changeAtribute, atribute } = this.props
+    const { indexFunc, changeAtribute, atribute, equipAdd } = this.props
     const { diceNum } = this.state
+    if (atribute[0] === 'Equipamento') {
+      equipAdd(atribute[1].equipAdd)
+    }
     indexFunc()
     this.setState({ rolled:0, diceNum:0})
     changeAtribute([atribute[0], diceNum + atribute[1].sum])
@@ -44,13 +47,16 @@ class  Attributes extends Component {
 
 const mapDispatchToProps = (dispatch) => ({
   changeAtribute: (data) => dispatch(actionAttributes(data)),
+  equipAdd: (data) => dispatch(actionEquipADD(data)),
+  
 });
 
 Attributes.propTypes = {
   atribute: PropTypes.array,
   book: PropTypes.string,
   indexFunc: PropTypes.func,
-  changeAtribute:PropTypes.func,
+  changeAtribute: PropTypes.func,
+  equipAdd: PropTypes.func,
 };
 
 export default connect(null, mapDispatchToProps)(Attributes);

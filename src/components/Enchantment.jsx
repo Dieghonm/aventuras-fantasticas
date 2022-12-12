@@ -24,7 +24,7 @@ class Enchantment extends Component {
     this.setState({charms: game.Magia})
     const data = Livros[book.book].character.Encantamentos;
     const list = Object.keys(data)
-      list.fOrkch((enchant) => {
+      list.forEach((enchant) => {
         this.setState({[enchant]: 0})
       }
     )
@@ -49,7 +49,7 @@ class Enchantment extends Component {
     const { user, book } = globalState
     const data = Object.keys(this.state).filter((att) =>this.state[att] !== 0 )
     const obj = {}
-    data.fOrkch((att) => obj[att]= this.state[att] )
+    data.forEach((att) => obj[att]= this.state[att] )
     charmsToRedux(obj);
     StorageCharmList(obj, user.user, book.book)
     killMagic()
