@@ -16,24 +16,6 @@ Primeiro registre os índices de HABILIDADE e ENERGIA da criatura no primeiro qu
 sua Folha de Aventuras. Os índices de cada criatura são dados no livro a cada vez que você tem um encontro.
 
 
-A segiiência de combate é a seguinte:
-
-
-1. Jogue os dois dados uma vez para a criatura. Some a seu índice de HABILIDADE. Este total é a Força de Ataque da criatura.
-2. Jogue ambos os dados uma vez para você. Some o número obtido a seu índice atual de HABILIDADE. Este total é sua Força de Ataque.
-3. Se sua Força de Ataque for maior do que a da criatura, você a feriu. Se a Força de Ataque da criatura for maior do que a sua, 
-ela feriu você. Se os dois totais de Força de Ataque forem iguais, vocês se defenderam dos golpes — comece a próxima Série de 
-Ataque a partir do item 1 acima.
-4. Se você tiver ferido a criatura, subtraia 2 pontos de seu índice de ENERGIA. Você pode usar sua SORTE aqui para causar maiores 
-danos (ver adiante).
-5. Se a criatura tiver ferido você, subtraia 2 pontos de seu próprio índice de ENERGIA. Também neste momento você pode usar a sua 
-SORTE (ver adiante).
-6. Faça os ajustes apropriados nos índices de ENERGIA, seu ou da criatura (e em seu índice de SORTE, se você tiver usado a SORTE 
-- ver adiante).
-7. Comece a próxima Série de Ataque retornando a seu índice de HABILIDADE atual, e depois repita os itens de 1 a 6.
-Esta sequência continua até que o índice de ENERGIA seu ou da criatura contra quem você está lutando tenha sido reduzido a 
-zero (morte).
-
 Fuga
 Em algumas páginas, pode ser dada a você a alternativa de fugir de uma batalha, caso as coisas estejam indo mal para o seu lado. 
 Porém, se você realmente escapar, sofrerá automaticamente um ferimento causado pela criatura (subtraia 2 pontos de ENERGIA) na sua 
@@ -110,31 +92,6 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 // mudam constantemente durante uma aventura. você deve fazer um registro preciso destes indices e, por este motivo, e aconselhavel que você escreva numeros pequenos nos quadros, ou tenha uma borracha sempre a mao. Mas nunca apague os seus indices lniciais. Embora você possa conquistar
 // pontos adicionais de HABILIDADE, ENERGIA e SORTE, estes totais nunca poderao exceder seus indices lniciais, a não ser em rarfssimas ocasioes, quando havera instru96es  especificas para você em uma determinada pagina.
 // 0 seu indice de HABILIDADE reflete a sua capacidade como espadachim e sua aptidao geral como lutador. 0 seu índice de ENERGIA reflete a sua constituição fisica geral, vontade de sobreviver, determinação  e condição fisica como um todo; quanto mais alto for o seu indice de ENERGIA, mais tempo você conseguira sobreviver. 0 seu indice de SORTE indica o quanto você e uma pessoa naturalmente de sorte. Sorte - e magia - são fatos da vida no reino da fantasia que você esta prestes a explorar.
-
-// Batalhas
-
-// Frequentemente você encontrara paginas  no livro que o instruirao  para que lute contra algum tipo de criatura.
-
-// Talvez haja a altemativa de fugir ou usar um encanto magico, mas se  não houver - ou se você decidir atacar a criatura de qualquer maneira - você tera que resolver a batalha conforme descrito abaixo.
-// Primeiro registre os indices de HABILIDADE e ENERGIA da criatura no primeiro quadro vazio de Encontro com Monstro na sua Folha de Aventuras. Os indices de cada criatura são dados no livro a cada vez que você tem um encontro.
-// A seqtiencia de combate e a seguinte:
-
-//     1. Jogue os dois dados uma vez para a criatura. Some a seu índice de HABILIDADE. Este total ea
-// Forra de Ataque da criatura.
-
-//     2. Jogue ambos os dados uma vez para você. Some o numero obtido a seu indice atual de HABILIDADE. Este total e sua Forra de Ataque.
-
-//     3. Se sua Forra de Ataque for maior do que a da criatura, você a feriu. Se a força de Ataque da criatura for maior do que a sua, ela feriu você. Se os dois totais de Forra de Ataque forem iguais, vocês se defenderam dos golpes - comece a próxima Serie de Ataque a partir do item 1 acima.
-
-//     4. Se você tiver ferido a criatura, subtraia 2 pontos de seu índice de ENERGIA. você pode usar sua SORTE aqui para causar maiores danos (ver adiante).
-
-//     5. Se a criatura tiver ferido você, subtraia 2 pontos de seu pr6prio índice de ENERGIA. Tambem neste momento você pode usar a sua SORTE (ver adiante).
-
-//     6. Faça os ajustes apropriados nos indices de ENERGIA, seu ou da criatura (e em seu índice de SORTE, se você tiver usado a SORTE - ver adiante).
-
-//     7. Comece a próxima Serie de Ataque retomando a seu índice de HABILIDADE atual, e depois repita os itens de 1 a 6.
-
-// Esta sequencia continua ate que o índice de ENERGIA seu ou da criatura contra quern você esta lutando tenha sido reduzido a zero (morte).
 
 // Fuga
 

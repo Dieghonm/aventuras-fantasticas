@@ -8,6 +8,7 @@ const ex = {
     'Vidro contendo o Homem-Aranha',
     'Amuleto Encantado',
     'Vidro de Unguento',
+    'Essencia de Erva de Porco',
     'ouro',
   ],
   itemAdd:{

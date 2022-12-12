@@ -155,7 +155,30 @@ const Livros = {
         equipAdd:['espada', 'armadura de couro','lanterna', 'mochila']
       },
     },
-    Batalhas:'',
+    Batalhas:`Frequentemente você tera que lutar contra algum tipo de criatura.
+      Talvez haja a altemativa de fugir ou usar um encanto magico, mas se não houver - ou se você decidir atacar a criatura 
+      de qualquer maneira - você tera que resolver a batalha conforme descrito abaixo.
+      Ao entrar no combate voce podera ver os indices de HABILIDADE e ENERGIA da criatura.
+
+      O combate segue da seguinte forma:
+
+     1. Sera jogado dois dados e somaremos ao indice de HABILIDADE da criatura. Este total e a Força de Ataque da criatura.
+
+     2. Sera jogado dois dados e somaremos ao seu indice de HABILIDADE. Este total e sua a Força de Ataque .
+
+     3. Se sua Forra de Ataque for maior do que a da criatura, você a feriu. Se a força de Ataque da criatura for maior do que
+      a sua, ela feriu você. Se os dois totais de Forra de Ataque forem iguais, vocês se defenderam dos golpes - 
+      e iniciara a proxima Serie de Ataque a partir do item 1 acima.
+
+     4. Se você tiver ferido a criatura, ela perderá 2 pontos de seu índice de ENERGIA. você pode usar sua SORTE aqui para causar maiores danos.
+
+     5. Se a criatura tiver ferido você, voce perderá 2 pontos de seu próprio índice de ENERGIA. Tambem neste momento você pode usar a sua SORTE.
+
+     6. Comece a próxima Serie de Ataque retomando a seu índice de HABILIDADE atual, e depois repita os itens de 1 a 6.
+
+    Esta sequencia continua ate que o índice de ENERGIA seu ou da criatura contra quern você esta lutando tenha sido reduzido a zero (morte).
+
+    `,
     Pagina:{
       0:{
         text:`HISTORIA - 
@@ -2871,16 +2894,16 @@ const Livros = {
         text:`As duas criaturas avançam. 0	Macaco-Cachorro ataca você primeiro, seguido pelo Cachorro­ Macaco. 
         você lançara um encanto ou se mantera firme e lutara?`,
         options: [
-          {text:`Um Encanto da Força`, goTo:162},
-          {text:`Um Encanto da Levitação`, goTo:86},
+          {text:`Um Encanto da Força`, goTo:162, ex:['encanto','forca']},
+          {text:`Um Encanto da Levitação`, goTo:86, ex:['encanto','levitacao']},
           {text:`Ou podera lutar com um de cada vez`, goTo:32, ex:['combate',['Macaco-Cachorro','Cachorro-Macaco']]},
         ]
       },
       289:{
         text:`0 que você tirara de sua mochila?
 
-        // Um Espelho de Prata?
-        // Um Frasco de Essencia de Erva de Porco? Um Vidro de Unguento?
+        // 
+        //  
         // 289
         
         
@@ -2890,23 +2913,25 @@ const Livros = {
         // Va para 305
         
         
-        // Se você não tiver nenhuma dessas coisas, va para 304 e escolha de novo.
+        // , va para 304 e escolha de novo.
         `,
         options: [
-          {text:``, goTo:0},
+          {text:`Um Espelho de Prata?`, goTo:340, ex:['item', 'Espelho de Prata']},
+          {text:`Um Frasco de Essencia de Erva de Porco?`, goTo:214, ex:['item', 'Essencia de Erva de Porco']},
+          {text:`Um Vidro de Unguento?`, goTo:305, ex:['item', 'Vidro de Unguento']},
+          {text:`Se você não tiver nenhuma dessas coisas`, goTo:304},
         ]
       },
       290:{
-        text:`0 HOMEM-RINO da um passo adiante e desfere uma estocada com sua lança na sua direção. você pula rapidamente e se desvia. Embora ele não esteja usando uma armadura, seu couro grosso parece ser proteção suficiente. você tem que decidir se o enfrenta em combate ou usa a sua magia. você desembainha a sua espada (va para 325) ou tenta um encanto? você pode usar:
-
-
-        // Um Encanto da Fraqueza Um Encanto da Levitação Um Encanto da Força
-        // Va para 307
-        // Volte para 70
-        // Volte para 264
-        `,
+        text:`0 HOMEM-RINO da um passo adiante e desfere uma estocada com sua lança na sua direção. você pula rapidamente 
+        e se desvia. Embora ele não esteja usando uma armadura, seu couro grosso parece ser proteção suficiente. você tem que
+        decidir se o enfrenta em combate ou usa a sua magia. 
+        você desembainha a sua espada ou tenta um encanto?`,
         options: [
-          {text:``, goTo:0},
+          {text:`Espada`, goTo:325},
+          {text:`Um Encanto da Fraqueza`, goTo:307, ex:['encanto', 'fraqueza']},
+          {text:`Um Encanto da Levitação`, goTo:70, ex:['encanto', 'levitacao']},
+          {text:`Um Encanto da Força`, goTo:264, ex:['encanto', 'forca']},
         ]
       },
       291:{
@@ -2920,7 +2945,9 @@ const Livros = {
         ]
       },
       292:{
-        text:`0  aposento e um elegante quarto de dormir suntuosamente decorado com rendas finas e um tapete de pele. No centro do aposento, ha uma grande cama de quatro colunas. Sentada e recostada na cama, evidentemente acordada pela agitação toda, esta uma linda mulher, com uma aparencia de sflfide, longos cabelos negros e olhos profundos e penetrantes. "Que direito você tem de entrar aqui?" ela grita. Com estas palavras seus olhos ficam vermelhos como sangue e dois jatos de fogo lfquido jorram deles diretamente sobre você. você:
+        text:`0 aposento e um elegante quarto de dormir suntuosamente decorado com rendas finas e um tapete de pele.
+        No centro do aposento, ha uma grande cama de quatro colunas. Sentada e recostada na cama, evidentemente acordada pela 
+        agitação toda, esta uma linda mulher, com uma aparencia de sflfide, longos cabelos negros e olhos profundos e penetrantes. "Que direito você tem de entrar aqui?" ela grita. Com estas palavras seus olhos ficam vermelhos como sangue e dois jatos de fogo lfquido jorram deles diretamente sobre você. você:
 
 
         // Cria um Encanto do Escudo para se proteger?

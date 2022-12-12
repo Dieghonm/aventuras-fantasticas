@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import Livros from '../books/Livros'
 
 import * as S from '../styles/pages/Sinopse' 
-import { actionAttributes, actionbookChoice } from "../redux/actions";
+import { actionAttributes, actionbookChoice, actionCharms } from "../redux/actions";
 import { GetLocalStorage, SetNewBook } from "../helpers/LocalStorage";
 
 
@@ -15,10 +15,11 @@ function Sinopse(props) {
   const { user } = props.globalState
 
   const gameSelect = () => {
-    const { bookName, changeAtribute } = props;
+    const { bookName, changeAtribute, charmsToRedux } = props;
     bookName(book)
     SetNewBook(book, user.user)
     changeAtribute('clean')
+    charmsToRedux('clean')
   }
 
   const savedEsxist = () => {
@@ -60,6 +61,7 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = (dispatch) => ({
   bookName: (data) => dispatch(actionbookChoice(data)),
   changeAtribute: (data) => dispatch(actionAttributes(data)),
+  charmsToRedux: (data) => dispatch(actionCharms (data)),
 });
 
 Sinopse.propTypes = {
@@ -67,6 +69,7 @@ Sinopse.propTypes = {
   bookName: PropTypes.func,
   changeAtribute: PropTypes.func,
   globalState: PropTypes.object,
+  charmsToRedux: PropTypes.func,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Sinopse);
