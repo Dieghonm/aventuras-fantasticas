@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aventuras-fantasticas/static/css/main.e6c13ad2.css",
-    "main.js": "/aventuras-fantasticas/static/js/main.cbf6a26f.js",
+    "main.js": "/aventuras-fantasticas/static/js/main.bc23e08b.js",
     "static/js/787.db9d463f.chunk.js": "/aventuras-fantasticas/static/js/787.db9d463f.chunk.js",
     "static/media/ACidadeladoCaos.png": "/aventuras-fantasticas/static/media/ACidadeladoCaos.496c1b8bb9e5696a709d.png",
     "static/media/FOTO-FELIPE.png": "/aventuras-fantasticas/static/media/FOTO-FELIPE.2f1a5415321c073cec8b.png",
@@ -17,11 +17,11 @@
     "static/media/logo.png": "/aventuras-fantasticas/static/media/logo.9cfde937cc4d171f6df8.png",
     "index.html": "/aventuras-fantasticas/index.html",
     "main.e6c13ad2.css.map": "/aventuras-fantasticas/static/css/main.e6c13ad2.css.map",
-    "main.cbf6a26f.js.map": "/aventuras-fantasticas/static/js/main.cbf6a26f.js.map",
+    "main.bc23e08b.js.map": "/aventuras-fantasticas/static/js/main.bc23e08b.js.map",
     "787.db9d463f.chunk.js.map": "/aventuras-fantasticas/static/js/787.db9d463f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.cbf6a26f.js"
+    "static/js/main.bc23e08b.js"
   ]
 }
