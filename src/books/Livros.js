@@ -152,7 +152,7 @@ const Livros = {
         dirá a você se aquele item foi destruído ou deixado para trás.`],
         roll:0,
         sum: 0,
-        equipAdd:['espada', 'armadura de couro','lanterna', 'mochila']
+        equipAdd:['Espada', 'Armadura de couro','Lanterna', 'Mochila']
       },
     },
     Batalhas:`Frequentemente você tera que lutar contra algum tipo de criatura.
@@ -208,7 +208,7 @@ const Livros = {
           {text:`você se apresentara como um especialista em plantas medicinais?`, goTo:261},
           {text:`você dirá que e um comerciante?`, goTo:230},
           {text:`você pedirá abrigo para pernoitar?`, goTo:20},
-          {text:`testes de extras`, goTo:20, ex:['itemRemov', 'espadas']}
+          // {text:`testes de extras`, goTo:20, ex:['itemRemov', 'espadas']}
         ]
       },
       2:{
