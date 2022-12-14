@@ -207,7 +207,8 @@ const Livros = {
         options: [
           {text:`você se apresentara como um especialista em plantas medicinais?`, goTo:261},
           {text:`você dirá que e um comerciante?`, goTo:230},
-          {text:`você pedirá abrigo para pernoitar?`, goTo:20}
+          {text:`você pedirá abrigo para pernoitar?`, goTo:20},
+          {text:`testes de extras`, goTo:20, ex:['energia', -1, 'sorteMod', -1]}
         ]
       },
       2:{
@@ -378,7 +379,7 @@ const Livros = {
          que você encontrou ate agora não se comparam com as que habitam o interior da Torre da Cidadela propriamente dita. 
          Ela diz que você jamais encontrara o senhor sem conseguir primeiro o Velo e deseja sorte para você em sua missão.`,
         options: [
-          {text:`Você ganha 2 pontos de SORTE pelas informações que obteve e segue adiante.`, goTo:6, ex:['sorteAdd', 2]},
+          {text:`Você ganha 2 pontos de SORTE pelas informações que obteve e segue adiante.`, goTo:6, ex:['sorteMod', 2]},
         ]
       },
       22:{
@@ -434,7 +435,7 @@ const Livros = {
         bem-vindo na casa dos MIKS. Agradecemos o seu presente. Se esta seguindo adiante, va pela porta a sua frente, 
         mas tome cuidado com os Ganjees. Desejamos sorte para você na sua jomada.`,
         options: [
-          {text:`você ganha um ponto de SORTE pelos votos de sucesso dos Miks e sai pela porta a sua frente.`, goTo:206, ex:['sorteAdd', 1]},
+          {text:`você ganha um ponto de SORTE pelos votos de sucesso dos Miks e sai pela porta a sua frente.`, goTo:206, ex:['sorteMod', 1]},
         ]
       },
       28:{
@@ -1438,17 +1439,11 @@ const Livros = {
       136:{
         text:`Todas elas protestam veementemente, mas você explica que tem suas ordens e começa a circular pela cozinha.
 
-        // você investigara:
-        
-        
-        // Os armarios?
-        // 0 caldo no caldeirao?
-        // 0 espeto que esta assando?
-        // Volte para 17
-        // Va para 167
-        // Va para 389`,
+        você investigara:`,
         options: [
-          {text:``, goTo:0},
+          {text:`Os armarios?`, goTo:17},
+          {text:`O caldo no caldeirao?`, goTo:167},
+          {text:`O espeto que esta assando?`, goTo:389},
         ]
       },
       137:{
@@ -1459,38 +1454,39 @@ const Livros = {
         ]
       },
       138:{
-        text:`"Para que eu quero isso?" ela exclama. Mais uma  vez, seus olhos ficam  vermelhos  e  os  jatos  de fogo são disparados na sua direção. você lançara um Encanto do Escudo (va para 376) ou deixara o aposento e se encaminhara pelo corredor para o aposento do meio (volte para 64)?
-        `,
+        text:`"Para que eu quero isso?" ela exclama. Mais uma vez, seus olhos ficam vermelhos e os jatos de fogo são disparados na sua direção.`,
         options: [
-          {text:``, goTo:0},
+          {text:`Lançar um Encanto do Escudo`, goTo:376},
+          {text:`Deixar o aposento e se encaminhara pelo corredor para o aposento do meio`, goTo:64},
         ]
       },
       139:{
-        text:`Todas as tres facas erram e  se cravam  profundamente  na porta atras de você. Os Giras estao  quase em cima de você, e e preciso decidir se você vai lutar contra eles (va para 346) ou lançara  um Encanto. você podera lançar:
-
-
-        // Um Encanto da Ilusão Um Encanto do Fogo
-        // Va para 244
-        // Volte para 28
-        `,
+        text:`Todas as tres facas erram e se cravam profundamente na porta atras de você. Os Giras estão quase em cima de você, e é preciso decidir 
+        se você vai Lutar contra eles ou lançara um Encanto.`,
         options: [
-          {text:``, goTo:0},
+          {text:`Lutar contra eles`, goTo:346},
+          {text:`Um Encanto da Ilusão`, goTo:244},
+          {text:`Um Encanto do Fogo`, goTo:28},
         ]
       },
       140:{
-        text:`você sai do apose,,nto e segue por um corredor curto. Alguns metros adiante, você se encontra ao pé de uma escada. E uma escada em espiral que leva diretamente ao interior da Torre da Cidadela. você sobe os degraus cautelosamente e acaba chegando em uma pequena plataforma com duas
-        // portas a s ua frente. você ira pela porta da esquerda (volte para 25) ou pela porta da direita (volte
-        // para 104)?
-        `,
+        text:`você sai do aposento e segue por um corredor curto. Alguns metros adiante, você se encontra ao pé de uma escada. E uma escada em espiral
+        que leva diretamente ao interior da Torre da Cidadela. você sobe os degraus cautelosamente e acaba chegando em uma pequena plataforma com duas
+        portas a sua frente.`,
         options: [
-          {text:``, goTo:0},
+          {text:`Ir pela porta da esquerda`, goTo:25},
+          {text:`Ir pela porta da direita`, goTo:104},
         ]
       },
       141:{
-        text:`0 lfquido tem um gosto salgado, e você começa a suar frio quando engole. Em seguida, você tem tremores e tenta se  aprumar  no altar. Porem, você cai para frente, derrubando  os outros dois calices no chão e derramando os outros lfquidos. você tambem acaba caindo no chão, sentindo-se extremamente mal e com os olhos turvos. Como em um sonho,  você  tem  uma  visao  de  uma estranha criatura musculosa com duas cabeças, uma cauda comprida e uma pele de  escamas cinzentas. tem nas maos um grande molho de chaves. Um rato atravessa a mesa em que ela esta sentada e ela grita alto... 0  grito acorda você com um sobressalto e  você toma consciencia de onde esta. você reune suas forças e  tateia em busca da maçaneta da porta - você precisa de ar fresco! você sai da camara, descansa alguns momentos e parte na direção da Cidadela. Va para 156.
-        `,
+        text:`O líquido tem um gosto salgado, e você começa a suar frio quando engole. Em seguida, você tem tremores e tenta se aprumar no altar. 
+        Porem, você cai para frente, derrubando os outros dois calices no chão e derramando os outros lfquidos. você tambem acaba caindo no chão, 
+        sentindo-se extremamente mal e com os olhos turvos. Como em um sonho, você tem uma visão de uma estranha criatura musculosa com duas cabeças,
+        uma cauda comprida e uma pele de escamas cinzentas. tem nas mãos um grande molho de chaves. Um rato atravessa a mesa em que ela esta sentada 
+        e ela grita alto... O grito acorda você com um sobressalto e você toma consciencia de onde esta. você reune suas forças e tateia em busca da 
+        maçaneta da porta - você precisa de ar fresco! você sai da camara, descansa alguns momentos e parte na direção da Cidadela.`,
         options: [
-          {text:``, goTo:0},
+          {text:`Continuar`, goTo:156},
         ]
       },
       142:{
@@ -1503,25 +1499,30 @@ const Livros = {
         ]
       },
       143:{
-        text:`você se concentra e lança seu Encanto. Aparece  um tronco de Hidra, mas apenas isso. A criatura e tao grande que um unico Encanto não basta para criar  uma replica. Se  tiver outro Encanto  de Cópia de Criatura, você podera usa-lo (va para 360), do contrario podera procurar em sua mochila alguma coisa que possa utilizar (va para 226). Se você não puder ou não quiser fazer nenhuma dessas duas coisas, va para 184.
-        `,
+        text:`você se concentra e lança seu Encanto. Aparece um tronco de Hidra, mas apenas isso. A criatura e tão grande que um unico Encanto não 
+        basta para criar uma replica.`,
         options: [
-          {text:``, goTo:0},
+          {text:`Se tiver outro Encanto de Cópia de Criatura, você podera usa-lo`, goTo:360, ex:['charms', 'copia']},
+          {text:`do contrario podera procurar em sua mochila alguma coisa que possa utilizar`, goTo:226},
+          {text:`Se você não puder ou não quiser fazer nenhuma dessas duas coisas`, goTo:184},
         ]
       },
       144:{
-        text:`A porta abre e você entra em um corredor estreito. você segue por ele algum tempo,  ate que finalmente chega a uma outra porta: desta vez e  uma porta larga entalhada, com a inscrição "Adega de Vinhos" gravada nela. você experimenta a maçaneta e ela abre. você espia do lado de dentro, esticando o pescoço, e ve filas e mais filas de prateleiras cheias de garrafas contendo... vinho? 0 aposento e pouco iluminado pela luz de varias velas. 0 fato de você abrir a porta fez com que uma pequena sineta soasse, e uma figura vem se arrastando na sua direção por um dos corredores. você desembainhara a sua espada e se preparara para se defender (va para 154) ou vera o que este sujeito pode ter a dizer (volte para 56)?
-        `,
+        text:`A porta abre e você entra em um corredor estreito. você segue por ele algum tempo, ate que finalmente chega a uma outra 
+        porta: desta vez e uma porta larga entalhada, com a inscrição "Adega de Vinhos" gravada nela. você experimenta a maçaneta e ela abre. 
+        você espia do lado de dentro, esticando o pescoço, e ve filas e mais filas de prateleiras cheias de garrafas contendo... vinho? O aposento 
+        e pouco iluminado pela luz de varias velas. O fato de você abrir a porta fez com que uma pequena sineta soasse, e uma figura vem se arrastando
+        na sua direção por um dos corredores.`,
         options: [
-          {text:``, goTo:0},
+          {text:`Desembainhar a sua espada e se preparara para se defender`, goTo:154},
+          {text:`Ver o que este sujeito pode ter a dizer`, goTo:56},
         ]
       },
       145:{
-        text:`você desembainha a sua espada e salta  por cima da mesa sobre ele. Ele, enquanto  isso, esta
-        // evidentemente lutando para resistir ao seu Encanto da Fraqueza... ou nao? Ele esconde a cabe a nas maos e desvia o rosto de você. Volte para 80.
-        `,
+        text:`você desembainha a sua espada e salta por cima da mesa sobre ele. Ele, enquanto isso, esta evidentemente lutando para resistir ao 
+        seu Encanto da Fraqueza... ou nao? Ele esconde a cabe a nas maos e desvia o rosto de você. Volte para 80.`,
         options: [
-          {text:``, goTo:0},
+          {text:`Continuar`, goTo:80},
         ]
       },
       146:{
@@ -2258,31 +2259,34 @@ const Livros = {
         ]
       },
       221:{
-        text:`Quando você se adianta, ela faz um gesto peculiar com as maos e abaixa a cabeça, resmungando muito baixo. Volte para 127.
-        `,
+        text:`Quando você se adianta, ela faz um gesto peculiar com as maos e abaixa a cabeça, resmungando muito baixo.`,
         options: [
-          {text:``, goTo:0},
+          {text:`Continuar`, goTo:127},
         ]
       },
       222:{
-        text:`Ao se esgueirar pela muralha, você ouve um gemido baixo uns poucos metros adiante. Quando se aproxima, você consegue distinguir a forma de um homem no chão, obviamente sentindo <lores . Ele pede socorro. você se aproximara dele para ver o que pode fazer (volte para 137) ou vai ignora-lo e continuar ao longo da muralha (volte para 14)?
-        `,
+        text:`Ao se esgueirar pela muralha, você ouve um gemido baixo uns poucos metros adiante. Quando se aproxima, você 
+        consegue distinguir a forma de um homem no chão, obviamente sentindo dores . Ele pede socorro. `,
         options: [
-          {text:``, goTo:0},
+          {text:`Você se aproximara dele para ver o que pode fazer`, goTo:137},
+          {text:`Ignora-lo e continuar ao longo da muralha`, goTo:14},
         ]
       },
       223:{
-        text:`Ela faz uma careta ao olhar para a coisa pequena e feia, puxando os cobertores ate o pesco90. Volte para 138.
-        `,
+        text:`Ela faz uma careta ao olhar para a coisa pequena e feia, puxando os cobertores ate o pescoço.`,
         options: [
-          {text:``, goTo:0},
+          {text:`Continuar`, goTo:138},
         ]
       },
       224:{
-        text:`você rapidamente joga a cabeça para tras e evita por pouco as mandibulas do Peixe Abocanhador. Mas você bate com a cabeça no suporte no qual pende o caldeirao. você perde dois pontos de ENERGIA. você fica zonzo com o golpe e, enquanto tenta recuperar os sentidos, as tres velhas empurram você na direção da porta do outro lado da cozinha. "Vai e não volta, casca de ferida!" elas gritam enquanto empurram você pela porta. Va para 265.
+        text:`você rapidamente joga a cabeça para tras e evita por pouco as mandibulas do Peixe Abocanhador. 
+        Mas você bate com a cabeça no suporte no qual pende o caldeirão. você perde dois pontos de ENERGIA. 
+        você fica zonzo com o golpe e, enquanto tenta recuperar os sentidos, as tres velhas empurram você na direção da 
+        porta do outro lado da cozinha. "Vai e não volta, casca de ferida!" elas gritam enquanto empurram você pela porta.
+         Va para 265.
         `,
         options: [
-          {text:``, goTo:0},
+          {text:`Continuar`, goTo:265, ex:['energia', -2]},
         ]
       },
       225:{
@@ -2858,10 +2862,11 @@ const Livros = {
         ]
       },
       284:{
-        text:`você lança o Encanto  (elimine-o da sua Lista de Encantos) e começa a sair do chão. 0  tentaculo não solta, e a dor em sua perna se toma insuportavel. você resolve retornar ao solo antes que a sua pema seja arrancada do corpo. você tera que lutar contra ele com sua espada (volte para 71), ou lançar um Encanto do Fogo (volte para 114).
-        `,
+        text:`você lança o Encanto e começa a sair do chão. O tentaculo não solta, e a dor em sua perna se torna 
+        insuportavel. você resolve retornar ao solo antes que a sua pema seja arrancada do corpo.`,
         options: [
-          {text:``, goTo:0},
+          {text:`Você tera que lutar contra ele com sua espada`, goTo:71},
+          {text:`Ou lançar um Encanto do Fogo`, goTo:114, ex: ['charms', 'fogo']},
         ]
       },
       285:{
@@ -3550,9 +3555,9 @@ const Livros = {
         você o direito de receber deles um favor antes de ir embora, pois eles tambem apreciaram a sua companhia. 
         você pode:`,
         options: [
-          {text:`Levar a serio a oferta deles`, goTo:146, ex:['energia','2','sorteAdd','1']},
-          {text:`Decidir não se arriscar e sair pela porta da esquerda`, goTo:185, ex:['energia','2','sorteAdd','1']},
-          {text:`Sair pela porta da direita`, goTo:23, ex:['energia','2','sorteAdd','1']},
+          {text:`Levar a serio a oferta deles`, goTo:146, ex:['energia','2','sorteMod','1']},
+          {text:`Decidir não se arriscar e sair pela porta da esquerda`, goTo:185, ex:['energia','2','sorteMod','1']},
+          {text:`Sair pela porta da direita`, goTo:23, ex:['energia','2','sorteMod','1']},
         ]
       },
       357:{

@@ -1,4 +1,21 @@
 const ex = {
+  'inicial':['espada', 'armadura de couro','lanterna', 'mochila'],
+  'sorteMod': 'ganhar ou perder ponto de sorte',
+  'energia':'cura ou perde x pontos',
+  'charms':[
+    'copia',
+    'forca',
+    'fraqueza',
+    'percepcao',
+    'ouro',
+    'fogo',
+    'ilusao',
+    'escudo',
+    'levitacao'
+  ],
+
+// falta resolver logica
+
   'item':[//itemAdd
     'Miríade de Bolso',
     'Aranha em um Vidro',
@@ -14,19 +31,7 @@ const ex = {
   'itemAdd':{
     'adaga encantada':`adaga de arremesso encantada que nunca erra, p15, 2 pontos de dano, 1vez`
   },
-  'inicial':['espada', 'armadura de couro','lanterna', 'mochila'],
 
-  'charms':[
-    'copia',
-    'forca',
-    'fraqueza',
-    'percepcao',
-    'ouro',
-    'fogo',
-    'ilusao',
-    'escudo',
-    'levitacao'
-  ],
   'combate':{
     'ELFO NEGRO':{
       'energia': 4,
@@ -62,9 +67,8 @@ const ex = {
       'habilidade': 0,
     },
   },
+  
   'fugir': 'quantidade de ataques',
-  'energia':'cura ou perde x pontos',
-  'sorteAdd': 'ganhar ou perder ponto de sorte',
   'nda':'vai direto para outra pagina',
   'sorte':['sim', 'nao'], //410
   'dado':[1,2,3,4,5,6],
