@@ -13,9 +13,6 @@ const ex = {
     'escudo',
     'levitacao'
   ],
-
-// falta resolver logica
-
   'item':[//itemAdd
     'Miríade de Bolso',
     'Aranha em um Vidro',
@@ -31,6 +28,12 @@ const ex = {
   'itemAdd':{
     'adaga encantada':`adaga de arremesso encantada que nunca erra, p15, 2 pontos de dano, 1vez`
   },
+  'itemRemov':{
+  
+  },
+
+// falta resolver logica
+
 
   'combate':{
     'ELFO NEGRO':{

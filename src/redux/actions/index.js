@@ -5,7 +5,8 @@ export const [
   GOTO,
   CHARMS,
   KILLMAGIC,
-  EQUIP
+  EQUIP,
+  GOLD,
 ] = [
   'LOGIN',
   'BOOK',
@@ -13,7 +14,8 @@ export const [
   'GOTO',
   'CHARMS',
   'KILLMAGIC',
-  'EQUIP'
+  'EQUIP',
+  'GOLD',
 ];
 
 export function actionLogin(dataAction) {
@@ -59,9 +61,16 @@ export function actionKillMagic(dataAction) {
 }
 
 export function actionEquipADD(dataAction) {
-  console.log('action');
   return {
     type: EQUIP,
     payload: dataAction,
   };
+}
+
+export function actionGold(dataAction) {
+  return {
+    type: GOLD,
+    payload: dataAction,
+  };
+  
 }

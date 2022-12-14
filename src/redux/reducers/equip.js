@@ -5,7 +5,10 @@ const initialState = [];
 export default (state = initialState, action) => {
   switch (action.type) {
     case EQUIP:
-      console.log(action);
+      if (action.payload[1] === 'remove') {
+        const arr = state.filter((item) => item !== action.payload[0])
+        return arr
+      }
       return [
         ...state,
         ...action.payload,

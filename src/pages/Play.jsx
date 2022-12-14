@@ -6,17 +6,18 @@ import PropTypes from 'prop-types';
 import Status from "../components/Status"
 
 import Livros from '../books/Livros'
-import { actionCharms, actionGoTo, actionAttributes } from "../redux/actions";
+import { actionCharms, actionGoTo, actionAttributes, actionEquipADD } from "../redux/actions";
 import { GetLocalStorage, SetLocalStorage } from '../helpers/LocalStorage'
 
 function Play(props) {
-  const { charmsToRedux, globalState, goToToRedux, attibutesRedux } = props
+  const { charmsToRedux, globalState, goToToRedux, attibutesRedux, equipAddRedux } = props
   const { goTo } = useParams ();
   const {
     book:{book},
     charms,
     game:{Sorte, Energia },
-    user:{user}
+    user:{user},
+    equip,
   } = globalState
   let storage = GetLocalStorage()
 
@@ -36,8 +37,16 @@ function Play(props) {
         const mod = ex[ex.indexOf('energia')+1]
         storage[user][book].Energia = data.Energia + mod
       }
+      if (ex.includes('itemAdd')){
+        const equip = [...data.Equip, ex[ex.indexOf('itemAdd')+1]]
+        storage[user][book].Equip = equip
+      }
+      if (ex.includes('itemRemov')){
+        const equip = data.Equip.filter((item) => item !== ex[ex.indexOf('itemRemov')+1])
+        storage[user][book].Equip = equip
+      }
     }
-    // console.log(storage);
+    console.log(storage);
     SetLocalStorage(storage)
   }
 
@@ -48,7 +57,7 @@ function Play(props) {
         disabledBitton = !(charms[ex[1]] > 0); 
       }
       if (ex.includes('item')){
-        // disabledBitton = !(charms[ex[1]] > 0); 
+        disabledBitton = !equip.includes(ex[1])
       }
       if (ex.includes('combate')){
         // disabledBitton = !(charms[ex[1]] > 0); 
@@ -56,7 +65,6 @@ function Play(props) {
     }
 
     const Selected = (goTo) => {
-
       goToToRedux(goTo)
       if (ex) {
         if (ex.includes('charms')){
@@ -70,7 +78,13 @@ function Play(props) {
           const mod = ex[ex.indexOf('energia')+1]
           attibutesRedux(['Energia', Energia + mod])
         }
-
+        if (ex.includes('itemAdd')){
+          equipAddRedux([ex[ex.indexOf('itemAdd')+1]])
+        }
+        if (ex.includes('itemRemov')){
+          equipAddRedux([ex[ex.indexOf('itemRemov')+1],'remove'])
+        }
+        
       }
       reduxToStorage(goTo, ex)
     }
@@ -99,6 +113,8 @@ const mapDispatchToProps = (dispatch) => ({
   charmsToRedux: (data) => dispatch(actionCharms(data)),
   goToToRedux: (data) => dispatch(actionGoTo(data)),
   attibutesRedux: (data) => dispatch(actionAttributes (data)),
+  equipAddRedux: (data) => dispatch(actionEquipADD (data)),
+  
   
 });
 
@@ -107,6 +123,8 @@ Play.propTypes = {
   charmsToRedux: PropTypes.func,
   goToToRedux: PropTypes.func,
   attibutesRedux: PropTypes.func,
+  equipAddRedux: PropTypes.func,
+  
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Play);

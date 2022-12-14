@@ -36,9 +36,9 @@ export const StorageCharmList = (charmList, user, book) => {
   SetLocalStorage(local)
 }
 
-export const ItensList = () => {
-  // let local = GetLocalStorage()
-  // console.log(local[user][book], charmList, book);
-  // local[user][book] = {...local[user][book], charmList}
-  // SetLocalStorage(local)
+export const ItensInitialAdd = (arr, user, book) => {
+  let local = GetLocalStorage()
+  local[user][book].Equip = arr
+  local[user][book].Ouro = 0
+  SetLocalStorage(local)
 }

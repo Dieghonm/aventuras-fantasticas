@@ -1,8 +1,9 @@
-import { BOOK, GOTO } from '../actions';
+import { BOOK, GOTO, GOLD } from '../actions';
 
 const initialState = {
   book:'',
-  goTo: 0
+  goTo: 0,
+  gold: 0
 };
 
 export default (state = initialState, action) => {
@@ -16,6 +17,11 @@ export default (state = initialState, action) => {
       return {
         ...state,
         goTo: action.payload,
+      };
+    case GOLD:
+      return {
+        ...state,
+        gold: state.gold + action.payload,
       };
 
   default:

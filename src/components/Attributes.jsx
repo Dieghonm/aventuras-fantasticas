@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 import { actionAttributes, actionEquipADD } from "../redux/actions";
 import Dice from "../dice/Dice";
+import { ItensInitialAdd } from "../helpers/LocalStorage";
 
 class  Attributes extends Component {
   state={
@@ -21,10 +22,11 @@ class  Attributes extends Component {
   }
 
   nextButton = () => {
-    const { indexFunc, changeAtribute, atribute, equipAdd } = this.props
+    const { indexFunc, changeAtribute, atribute, equipAdd, globalState:{user,book} } = this.props
     const { diceNum } = this.state
     if (atribute[0] === 'Equipamento') {
       equipAdd(atribute[1].equipAdd)
+      ItensInitialAdd(atribute[1].equipAdd, user.user, book.book )
     }
     indexFunc()
     this.setState({ rolled:0, diceNum:0})
@@ -49,15 +51,18 @@ class  Attributes extends Component {
 const mapDispatchToProps = (dispatch) => ({
   changeAtribute: (data) => dispatch(actionAttributes(data)),
   equipAdd: (data) => dispatch(actionEquipADD(data)),
-  
+});
+
+const mapStateToProps = (state) => ({
+  globalState: state,
 });
 
 Attributes.propTypes = {
   atribute: PropTypes.array,
-  book: PropTypes.string,
   indexFunc: PropTypes.func,
   changeAtribute: PropTypes.func,
   equipAdd: PropTypes.func,
+  globalState: PropTypes.object,
 };
 
-export default connect(null, mapDispatchToProps)(Attributes);
+export default connect(mapStateToProps, mapDispatchToProps)(Attributes);
