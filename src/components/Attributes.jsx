@@ -2,13 +2,14 @@ import React, { Component } from "react";
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import Dice from "./Dice";
 import { actionAttributes, actionEquipADD } from "../redux/actions";
+import Dice from "../dice/Dice";
 
 class  Attributes extends Component {
   state={
     rolled:0,
     diceNum:0,
+
   }
 
   roll = (number) => {
@@ -38,7 +39,7 @@ class  Attributes extends Component {
       <div>
         <h3>{atribute[0]}</h3>
         {atribute[1].text.map((text, i) => <h5 key={atribute + i}>{text}</h5>)}
-        {Array.from({ length: dicesNum }).map((_, i) => <Dice roll={this.roll}  key={atribute[0]+i}/>)}
+        {Array.from({ length: dicesNum }).map((_, i) => <Dice roll={this.roll} value={rolled > i ? 1 : 0} key={atribute[0]+i}/>)}
         <button disabled={ rolled !== dicesNum } onClick={this.nextButton}>Proximo</button>
       </div>
     )

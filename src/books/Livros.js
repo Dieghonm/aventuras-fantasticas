@@ -230,7 +230,7 @@ const Livros = {
         text:`você faz aparecer uma bola de fogo ea manda voando no rosto da criatura. 
           Porem, fica assistindo desanimado ao ve-la ricochetear sem nenhum efeito!`,
         options: [
-          {text:`você pode lançar rapidamente um Encanto de Cópia de Criatura`, goTo:190, ex:['encanto','copia']},
+          {text:`você pode lançar rapidamente um Encanto de Cópia de Criatura`, goTo:190, ex:['charms','copia']},
           {text:`ou desembainhar a sua espada`, goTo:303},]
         },
       5:{
@@ -249,7 +249,7 @@ const Livros = {
         text:`A porta esta trancada.`,
         options: [
           {text:`você pode tentar po-la abaixo, batendo nela com o ombro`, goTo:268},
-          {text:`ou pode lançar um Encanto da Força sobre você mesmo e tentar arrancar a porta das suas dobradiças`, goTo:116, ex:['encanto','forca']}]
+          {text:`ou pode lançar um Encanto da Força sobre você mesmo e tentar arrancar a porta das suas dobradiças`, goTo:116, ex:['charms','forca']}]
       },
       8:{
         text:`Ela observa espantada o aparecimento de uma replica perfeita dela mesma entre vocês dois. 
@@ -272,10 +272,10 @@ const Livros = {
       11:{
         text:`você pode usar:`,
         options: [
-          {text:`Um Encanto do Ouro dos Tolos`, goTo:36, ex:['encanto','ouro']},
-          {text:`Um Encanto de Cópia de Criatura`, goTo:262, ex:['encanto','copia']},
-          {text:`Um Encanto da Percepção Extra-sensorial`, goTo:128, ex:['encanto','percepcao']},
-          {text:`Um Encanto da Fraqueza`, goTo:152, ex:['encanto','fraqueza']},
+          {text:`Um Encanto do Ouro dos Tolos`, goTo:36, ex:['charms','ouro']},
+          {text:`Um Encanto de Cópia de Criatura`, goTo:262, ex:['charms','copia']},
+          {text:`Um Encanto da Percepção Extra-sensorial`, goTo:128, ex:['charms','percepcao']},
+          {text:`Um Encanto da Fraqueza`, goTo:152, ex:['charms','fraqueza']},
           {text:`Se você não tiver nenhum desses encantos, tera que desembainhar a sua espada e lutar`, goTo:16},
         ]
       },
@@ -360,7 +360,7 @@ const Livros = {
          surpresa, todos os degraus: viram para baixo! você esta agora de pé em uma rampa lisa e inclinadissima! Por mais 
          que você tente, não consegue manter o equilibria e acaba escorregando pela rampa, rolando de ponta cabeça.`,
         options: [
-          {text:`Se você quiser usar um Encanto da Levitação, podera voar e descer, fora de perigo, na sacada em cima`, goTo:363, ex:['encanto', 'levitacao']},
+          {text:`Se você quiser usar um Encanto da Levitação, podera voar e descer, fora de perigo, na sacada em cima`, goTo:363, ex:['charms', 'levitacao']},
           {text:`do contrario`, goTo:254},
         ]
       },
@@ -369,7 +369,7 @@ const Livros = {
         você tera que procurar abrigo em outro lugar.`,
         options: [
           {text:`você pode se resignar a lutar`, goTo:288},
-          {text:`Ou pode pegar uma pedra e lançar um Encanto do Ouro dos Tolos sobre ela, oferecendo-a como uma pepita de ouro, para suborna-los, convencendo-os a deixar você entrar.`, goTo:96, ex:['encanto', 'ouro']}
+          {text:`Ou pode pegar uma pedra e lançar um Encanto do Ouro dos Tolos sobre ela, oferecendo-a como uma pepita de ouro, para suborna-los, convencendo-os a deixar você entrar.`, goTo:96, ex:['charms', 'ouro']}
         ]
       },
       21:{
@@ -414,16 +414,16 @@ const Livros = {
          porta do outro lado do aposento, dando para fora dele. você:`,
         options: [
           {text:`Ignora a caixa e contorna o fosso ate a outra porta?`, goTo:206},
-          {text:`Lança um Encanto da força e salta sobre o fosso?`, goTo:133, ex:['encanto', 'forca']},
+          {text:`Lança um Encanto da força e salta sobre o fosso?`, goTo:133, ex:['charms', 'forca']},
           {text:`Pega a corda e formula um piano?`, goTo:239},
         ]
       },
       26:{
         text:`você lançara:`,
         options: [
-          {text:`Um Encanto do Fogo?`, goTo:87, ex:['encanto', 'fogo']},
-          {text:`Um Encanto da Fraqueza?`, goTo:345, ex:['encanto', 'fraquesa']},
-          {text:`Um Encanto de Cópia de Criatura?`, goTo:101, ex:['encanto', 'copia']},
+          {text:`Um Encanto do Fogo?`, goTo:87, ex:['charms', 'fogo']},
+          {text:`Um Encanto da Fraqueza?`, goTo:345, ex:['charms', 'fraquesa']},
+          {text:`Um Encanto de Cópia de Criatura?`, goTo:101, ex:['charms', 'copia']},
           {text:`Se você não possuir nenhum deles`, goTo:304},
         ]
       },
@@ -614,9 +614,9 @@ const Livros = {
       47:{
         text:`Que Encanto você usara:`,
         options: [
-          {text:`Encanto de Cópia de Criatura?`, goTo:8, ex:['encanto', 'copia']},
-          {text:`Encanto da Ilusão?`, goTo:173, ex:['encanto', 'ilusao']},
-          {text:`Encanto da Levitação?`, goTo:259, ex:['encanto', 'levitacao']},
+          {text:`Encanto de Cópia de Criatura?`, goTo:8, ex:['charms', 'copia']},
+          {text:`Encanto da Ilusão?`, goTo:173, ex:['charms', 'ilusao']},
+          {text:`Encanto da Levitação?`, goTo:259, ex:['charms', 'levitacao']},
           {text:`Se você não possuir nenhum desses encantos, tera que recuar na direção do monumento no centro do pátio e se esconder dela`, goTo:209},
         ]
       },
@@ -649,8 +649,8 @@ const Livros = {
         e você sente sangue na perna. você tera que se proteger com sua magica ou enfrentar uma morte certa, trazida por esta 
         criatura que não se ve.`,
         options: [
-          {text:`você lançara um Encanto da Força`, goTo:301, ex:['encanto', 'forca']},
-          {text:`um Encanto da Fraqueza`, goTo:159, ex:['encanto', 'fraqueza']},
+          {text:`você lançara um Encanto da Força`, goTo:301, ex:['charms', 'forca']},
+          {text:`um Encanto da Fraqueza`, goTo:159, ex:['charms', 'fraqueza']},
           {text:`ou, se não quiser ou não puder lançar nenhum dos dois`, goTo:280},
         ]
       },
@@ -739,8 +739,8 @@ const Livros = {
         do Goblin grita e recua varios passos, enquanto os outros avançam na sua direção. você tera que lutar contra eles. 
         você pode usar um Encanto Magico:`,
         options: [
-          {text:`Encanto da Levitação`, goTo:33},
-          {text:`Encanto da Ilusão`, goTo:295},
+          {text:`Encanto da Levitação`, goTo:33, ex:['charm', 'levitacao']},
+          {text:`Encanto da Ilusão`, goTo:295, ex:['charm', 'ilusao']},
           {text:`Ou podera puxar a sua espada e lutar`, goTo:213},
         ]
       },
@@ -835,8 +835,8 @@ const Livros = {
         text:`você voa para cima e mantem-se longe dos botes dele, mas ele não sai do lugar onde esta, e não ha meio de você
         contoma-lo voando para chegar a porta. 0 Encanto acaba por se esgotar e você tem que enfrenta-lo de novo. você:`,
         options: [
-          {text:`Usa um Encanto da Fraqueza?`, goTo:307, ex:['encanto','fraqueza']},
-          {text:`Usa um Encanto da força?`, goTo:264, ex:['encanto','forca']},
+          {text:`Usa um Encanto da Fraqueza?`, goTo:307, ex:['charms','fraqueza']},
+          {text:`Usa um Encanto da força?`, goTo:264, ex:['charms','forca']},
           {text:`Desembainha a sua espada?`, goTo:325},
         ]
       },
@@ -908,9 +908,9 @@ const Livros = {
         text:`Balthus Dire fica surpreso com seu sucesso. "Entao!" ele exclama. "você se acha mais forte do que os outros, 
         hein?" você pode agir rapidamente e lançar um Encanto sobre ele. Qual você escolhera:`,
         options: [
-          {text:`Um Encanto da Percepção Extra-Sensorial?`, goTo:187, ex:['encanto', 'percepcao']},
-          {text:`Um Encanto do Fogo?`, goTo:46, ex:['encanto', 'fogo']},
-          {text:`Um Encanto de Cópia de Criatura?`, goTo:349, ex:['encanto', 'copia']},
+          {text:`Um Encanto da Percepção Extra-Sensorial?`, goTo:187, ex:['charms', 'percepcao']},
+          {text:`Um Encanto do Fogo?`, goTo:46, ex:['charms', 'fogo']},
+          {text:`Um Encanto de Cópia de Criatura?`, goTo:349, ex:['charms', 'copia']},
           {text:`Se não tiver nenhum desses, ou preferir não lançar um encanto`, goTo:355},
         ]
       },
@@ -1082,10 +1082,10 @@ const Livros = {
         ]
       },
       96:{
-        text:`Eles aceitam a sua oferta e convocam o porteiro, que abre uma pequena porta dentro da porta levadiça para deixar você entrar.  você os deixa discutindo  por causa da pepita de ouro. Va para 251.
-        `,
+        text:`Eles aceitam a sua oferta e convocam o porteiro, que abre uma pequena porta dentro da porta levadiça para deixar 
+        você entrar.`,
         options: [
-          {text:``, goTo:0},
+          {text:`você os deixa discutindo por causa da pepita de ouro.`, goTo:251},
         ]
       },
       97:{
@@ -1208,7 +1208,8 @@ const Livros = {
         ]
       },
       110:{
-        text:`Teste a sua Sorte. Se tiver sorte, você escolhe outro nome que e conhecido deles e eles chamam o porteiro, que acaba aparecendo para deixar você entrar (va para 251). Se não tiver sorte, fez outra tentativa errada, e eles avançam na sua direção com suas armas prontas. você tera que lutar contra eles (va para 288).
+        text:`Teste a sua Sorte. Se tiver sorte, você escolhe outro nome que e conhecido deles e eles chamam o porteiro,
+        que acaba aparecendo para deixar você entrar (va para 251). Se não tiver sorte, fez outra tentativa errada, e eles avançam na sua direção com suas armas prontas. você tera que lutar contra eles (va para 288).
         `,
         options: [
           {text:``, goTo:0},
@@ -1351,7 +1352,7 @@ const Livros = {
         options: [
           {text:`Oferecera algumas Pequenas amoras a ela?`, goTo:53, ex:['item', 'Pequenas Amoras']},
           {text:`Oferecera um Espelho de Prata a ela?`, goTo:387, ex:['item', 'Espelho de Prata']},
-          {text:`Usara um Encanto do Fogo?`, goTo:240, ex:['encanto', 'fogo']},
+          {text:`Usara um Encanto do Fogo?`, goTo:240, ex:['charms', 'fogo']},
           {text:`Se você não tiver nenhuma dessas coisas`, goTo:194},
         ]
       },
@@ -1627,8 +1628,8 @@ const Livros = {
         um longo tentaculo cinzento irrompe do solo e se enrosca em tomo de sua perna! Como você lutara contra esta "coisa"':`,
         options: [
           {text:`Desembainhara a sua espada?`, goTo:71},
-          {text:`lançara um Encanto da Levitação?`, goTo:284, ex:['encanto', 'levitacao']},
-          {text:`lançara um Encanto do Fogo?`, goTo:114, ex:['encanto', 'fogo']},
+          {text:`lançara um Encanto da Levitação?`, goTo:284, ex:['charms', 'levitacao']},
+          {text:`lançara um Encanto do Fogo?`, goTo:114, ex:['charms', 'fogo']},
         ]
       },
       157:{
@@ -1841,7 +1842,7 @@ const Livros = {
         options: [
           {text:`Seguira adiante, muito cuidadosamente?`, goTo:378},
           {text:`Disparara na direção do  monumento, no centro do pátio?`, goTo:125},
-          {text:`lançara um Encanto do Escudo a sua volta e seguira avançando?`, goTo:341},
+          {text:`lançara um Encanto do Escudo a sua volta e seguira avançando?`, goTo:341, ex:['charms', 'escudo']},
         ]
       },
       180:{
@@ -2335,7 +2336,7 @@ const Livros = {
         nada para oferecer a eles, pode tirar uma pedra de sua bolsa e lançar um Encanto do Ouro dos Tolos sobre ela, oferecendo uma pepita de ouro 
         a eles ou pode preparar-se para a batalha.`,
         options: [
-          {text:`Encanto do Ouro dos Tolos`, goTo:96, ex:['encanto', 'ouro']},
+          {text:`Encanto do Ouro dos Tolos`, goTo:96, ex:['charms', 'ouro']},
           {text:`Batalha`, goTo:288},
         ]
       },
@@ -2775,7 +2776,7 @@ const Livros = {
         e parece estar inteiro. Mas como você vai sair? 
         Cavar apoios para os pes nas paredes do poço com sua espada levaria um tempo enorme.`,
         options: [
-          {text:`você poderia lançar um Encanto da força para ajuda-lo nessa tarefa`, goTo:165, ex:['encanto','forca']},
+          {text:`você poderia lançar um Encanto da força para ajuda-lo nessa tarefa`, goTo:165, ex:['charms','forca']},
           {text:`ou poderia gritar, pedindo ajuda`, goTo:202},
         ]
       },
@@ -2894,8 +2895,8 @@ const Livros = {
         text:`As duas criaturas avançam. 0	Macaco-Cachorro ataca você primeiro, seguido pelo Cachorro­ Macaco. 
         você lançara um encanto ou se mantera firme e lutara?`,
         options: [
-          {text:`Um Encanto da Força`, goTo:162, ex:['encanto','forca']},
-          {text:`Um Encanto da Levitação`, goTo:86, ex:['encanto','levitacao']},
+          {text:`Um Encanto da Força`, goTo:162, ex:['charms','forca']},
+          {text:`Um Encanto da Levitação`, goTo:86, ex:['charms','levitacao']},
           {text:`Ou podera lutar com um de cada vez`, goTo:32, ex:['combate',['Macaco-Cachorro','Cachorro-Macaco']]},
         ]
       },
@@ -2929,9 +2930,9 @@ const Livros = {
         você desembainha a sua espada ou tenta um encanto?`,
         options: [
           {text:`Espada`, goTo:325},
-          {text:`Um Encanto da Fraqueza`, goTo:307, ex:['encanto', 'fraqueza']},
-          {text:`Um Encanto da Levitação`, goTo:70, ex:['encanto', 'levitacao']},
-          {text:`Um Encanto da Força`, goTo:264, ex:['encanto', 'forca']},
+          {text:`Um Encanto da Fraqueza`, goTo:307, ex:['charms', 'fraqueza']},
+          {text:`Um Encanto da Levitação`, goTo:70, ex:['charms', 'levitacao']},
+          {text:`Um Encanto da Força`, goTo:264, ex:['charms', 'forca']},
         ]
       },
       291:{
@@ -3651,7 +3652,7 @@ const Livros = {
         Quando um de vocês obtiver um seis, a verdadeira adaga foi escolhida. Se for você, tera se matado!`,
         options: [
           {text:`Agora que sabe as regras do jogo, você só pode fugir de participar do jogo pelo menos uma vez lançando 
-          um Encanto de Ilusão, Do contrario, você tera que jogar`, goTo:9, ex:['encanto','ilusao']},
+          um Encanto de Ilusão, Do contrario, você tera que jogar`, goTo:9, ex:['charms','ilusao']},
           {text:`Escolher uma faca`, goTo:450, ex:['jogo', 'Faca­ Faquinha']},
           {text:`você pode jogar Escolha de Seis`, goTo:171,ex:['jogo', 'Faca­ Faquinha']},
           {text:`você pode jogar Pedras Magicas`, goTo:278,ex:['jogo', 'Faca­ Faquinha']},
@@ -3750,8 +3751,8 @@ const Livros = {
         "Ora, acho que você não e adversario nem mesmo para uma FERA DAS GARRAS!" ri Dire. você:`,
         options: [
           {text:`Desembainhara a sua espada para se defender?`, goTo:30},
-          {text:`Lançara um Encanto do Escudo?`, goTo:109, ex:['encanto', 'escudo']},
-          {text:`Lançara um Encanto da Fraqueza?`, goTo:158, ex:['encanto', 'fraqueza']},
+          {text:`Lançara um Encanto do Escudo?`, goTo:109, ex:['charms', 'escudo']},
+          {text:`Lançara um Encanto da Fraqueza?`, goTo:158, ex:['charms', 'fraqueza']},
         ]
       },
       375:{
@@ -3773,9 +3774,9 @@ const Livros = {
       377:{
         text:`você se controla e se concentra. Qual sera o seu próximo	ataque?`,
         options: [
-          {text:`Um Encanto da Ilusão? `, goTo:332, ex:['encanto', 'ilusao']},
-          {text:`Um Encanto da Fraqueza?`, goTo:113, ex:['encanto', 'fraqueza']},
-          {text:`Um Encanto da Percepção Extra-Sensorial?`, goTo:302, ex:['encanto', 'percepcao']},
+          {text:`Um Encanto da Ilusão? `, goTo:332, ex:['charms', 'ilusao']},
+          {text:`Um Encanto da Fraqueza?`, goTo:113, ex:['charms', 'fraqueza']},
+          {text:`Um Encanto da Percepção Extra-Sensorial?`, goTo:302, ex:['charms', 'percepcao']},
           {text:`Nenhum desses?`, goTo:355},
         ]
       },
@@ -3917,7 +3918,7 @@ const Livros = {
         options: [
           {text:`você procurara em sua mochila alguma coisa para usar`, goTo:322, ex:['energia', -2]},
           {text:`desembainhara a sua espada`, goTo:248, ex:['energia', -2]},
-          {text:`Se você não tiver tentado ainda um Encanto do Fogo sobre eles, poderá fazer isso`, goTo:85, ex:['energia', -2, 'encanto', 'fogo']},
+          {text:`Se você não tiver tentado ainda um Encanto do Fogo sobre eles, poderá fazer isso`, goTo:85, ex:['energia', -2, 'charms', 'fogo']},
         ]
       },
       396:{

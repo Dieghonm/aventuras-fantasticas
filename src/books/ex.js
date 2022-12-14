@@ -11,12 +11,12 @@ const ex = {
     'Essencia de Erva de Porco',
     'ouro',
   ],
-  itemAdd:{
+  'itemAdd':{
     'adaga encantada':`adaga de arremesso encantada que nunca erra, p15, 2 pontos de dano, 1vez`
   },
   'inicial':['espada', 'armadura de couro','lanterna', 'mochila'],
 
-  'encanto':[
+  'charms':[
     'copia',
     'forca',
     'fraqueza',
@@ -27,7 +27,7 @@ const ex = {
     'escudo',
     'levitacao'
   ],
-  combate:{
+  'combate':{
     'ELFO NEGRO':{
       'energia': 4,
       'habilidade': 4
@@ -70,7 +70,7 @@ const ex = {
   'dado':[1,2,3,4,5,6],
   't-soete': 'teste de sorte', // ver o q fazer com o anel 381
 
-  'extrapages':{
+  'extraPages':{
     410: 'teste de sorte 390',
     420: 'rolada de dado 384' ,
     450: 'Faca­ Faquinha',

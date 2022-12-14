@@ -5,9 +5,9 @@ import { connect } from "react-redux";
 import * as S from '../styles/components/Charms'
 
 import Livros from '../books/Livros'
-import Dice from "./Dice";
+import Dice from "../dice/Dice";
 
-class  Charms extends Component {
+class Charms extends Component {
   state = {
     isHiden: true
   }
@@ -27,6 +27,7 @@ class  Charms extends Component {
         {list.map((charm) => (
           <div key={charm}>
             <p>{data[charm][0]} - {charms[charm]}</p> 
+            {/* dado pare recuperar atribudo, ainda tenho que implementar */}
             {roll.includes(charm)? <Dice roll={ this.roll } stats={charm}/>: null}
           </div>
         ))}
