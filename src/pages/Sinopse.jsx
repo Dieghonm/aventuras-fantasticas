@@ -8,6 +8,7 @@ import Livros from '../books/Livros'
 import * as S from '../styles/pages/Sinopse' 
 import { actionAttributes, actionbookChoice, actionCharms } from "../redux/actions";
 import { GetLocalStorage, SetNewBook } from "../helpers/LocalStorage";
+import SavedButton from "../components/SavedButton";
 
 
 function Sinopse(props) {
@@ -46,9 +47,9 @@ function Sinopse(props) {
       <img src={ Livros[book].img } alt={Livros[book].name} />
       <p>{Livros[book].sinopse}</p>
       <Link to="/aventuras-fantasticas/CreateCharacter">
-        <button onClick={gameSelect}>Jogar</button>
+        <button onClick={gameSelect}>Novo Jogo</button>
       </Link>
-      { savedEsxist()? <button>Jogo salvo</button> : null }
+      { savedEsxist()? <SavedButton book={book}/> : null }
       {concluzao()}
     </S.SinopseDiv>
   )

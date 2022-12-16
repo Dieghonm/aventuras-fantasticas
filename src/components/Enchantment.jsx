@@ -66,7 +66,7 @@ class Enchantment extends Component {
         <S.EnchantmentsDiv>
           {list.map((encantment) => this.enchantmentCard(encantment, data[encantment]))}
         </S.EnchantmentsDiv>
-        <button disabled={this.state.charms !== 0 } onClick={this.buttonNext} >Proxima</button>
+        <button disabled={this.state.charms !== 0 } onClick={this.buttonNext} >próxima</button>
       </div>
     )
   }

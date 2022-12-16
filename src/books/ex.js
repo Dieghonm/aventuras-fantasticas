@@ -22,7 +22,7 @@ const ex = {
     'Vidro contendo o Homem-Aranha',
     'Amuleto Encantado',
     'Vidro de Unguento',
-    'Essencia de Erva de Porco',
+    'Essência de Erva de Porco',
     'Chave de Cobre',
   ],
   'itemAdd':{
@@ -33,8 +33,7 @@ const ex = {
   },
 
 // falta resolver logica
-  'addGold':'',
-  'removeGold':'',
+  'modGold':'',
   'addCharm':'adciona encantamentos a escolha',
   'combate':{
     'ELFO NEGRO':{

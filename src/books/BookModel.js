@@ -18,8 +18,8 @@ const model = {
       },
       Habilidade: {
         text:[` O seu índice de HABILIDADE reflete a sua capacidade como espadachim e sua aptidão geral como lutador.`,
-        ` Quanto maior for o seu nivel de HABILIDADE melhor você vai se sair em combates`,
-        `Para determinar o seu nivel de HABILIDADE, sortearemos um dado e somaremos 6 ao seu resiltado`],
+        ` Quanto maior for o seu nível de HABILIDADE melhor você vai se sair em combates`,
+        `Para determinar o seu nível de HABILIDADE, sortearemos um dado e somaremos 6 ao seu resultado`],
         roll:1,
         sum: 6,
       },
@@ -41,10 +41,10 @@ const model = {
           13 encantos da sua preferência. Talvez você queira levar três Encantos de Energia, cinco Encantos da Percepção 
           Extra-Sensorial e cinco Encantos do Fogo - ou talvez você prefira um encanto de cada um dos 12 existentes, 
           mais um Encanto de Cópia de Criatura extra. A escolha é sua.`,
-          `Cada vez que você usar um encanto durante a aventura, ele sera removido da sua lisata de encantamentos
+          `Cada vez que você usar um encanto durante a aventura, ele sera removido da sua lista de encantamentos
           (mesmo que ele não tenha efeito). Às vezes você terá a opção de usar encantos e descobrirá que não os tem com você,
           ou que já usou tudo que tinha. Nestes casos, você não poderá escolher estas opções.`,
-          `Como você não terá idéia dos perigos que espreitam no interior da Cidadela na primeira vez que entrar, 
+          `Como você não terá ideia dos perigos que espreitam no interior da Cidadela na primeira vez que entrar, 
           sem dúvida escolherá encantos que não terão o efeito que você esperava que tivessem. Mas, nas aventuras subsequentes,
           você escolherá os seus encantos de maneira mais sábia. Também não se preocupe se o seu índice de MAGIA for baixo. 
           Mesmo o índice mais baixo possível fornecerá um número de encantos suficiente para que você chegue ao fim de sua 

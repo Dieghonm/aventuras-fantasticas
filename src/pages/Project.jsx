@@ -15,8 +15,8 @@ class Project extends Component {
           tudo com a ajuda de um lápis e simples dado.
           <br />  <br />
           Aventuras fantasticas e um jogo de RPG, onde cada livro e um labirinto construido em um mundo fantastico onde
-          se pode encontrar criaturas mitologicas, magos, gladiadores ou ate cientistas malucos.
-          cada livro era unico e sua historia totalmente diferente das outras.
+          se pode encontrar criaturas mitologicas, magos, gladiadores ou até cientistas malucos.
+          cada livro eraúnicoe sua historia totalmente diferente das outras.
           <br />  <br />
           Este projeto e uma tentativa de trazer estes livros de uma forma dinâmica para a nossa atualidade.
           <br /> <br />
