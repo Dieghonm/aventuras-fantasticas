@@ -12,7 +12,7 @@ export const [
   'BOOK',
   'ATTRIBUTES',
   'GOTO',
-  'CHARMS',
+  'charm',
   'KILLMAGIC',
   'EQUIP',
   'GOLD',

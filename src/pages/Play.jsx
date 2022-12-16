@@ -26,7 +26,7 @@ function Play(props) {
     data.goTo = goTo
     // console.log(data);
     if (ex) {
-      if (ex.includes('charms')){
+      if (ex.includes('charm')){
         storage[user][book].charmList[ex[1]] = data.charmList[ex[1]] - 1
       }
       if (ex.includes('sorteMod')){
@@ -53,7 +53,7 @@ function Play(props) {
   const options = ({goTo, text, ex  }) => {
     let disabledBitton = false
     if (ex) {
-      if (ex.includes('charms')){
+      if (ex.includes('charm')){
         disabledBitton = !(charms[ex[1]] > 0); 
       }
       if (ex.includes('item')){
@@ -67,7 +67,7 @@ function Play(props) {
     const Selected = (goTo) => {
       goToToRedux(goTo)
       if (ex) {
-        if (ex.includes('charms')){
+        if (ex.includes('charm')){
           charmsToRedux(ex[1]);
         }
         if (ex.includes('sorteMod')){

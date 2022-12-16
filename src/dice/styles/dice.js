@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const DiceButton = styled.button`
 	margin:2px;
-  background: none;
+  background: none!important;
 	color: inherit;
 	border: none;
 	padding: 0;

@@ -2,7 +2,7 @@ const ex = {
   'inicial':['espada', 'armadura de couro','lanterna', 'mochila'],
   'sorteMod': 'ganhar ou perder ponto de sorte',
   'energia':'cura ou perde x pontos',
-  'charms':[
+  'charm':[
     'copia',
     'forca',
     'fraqueza',
@@ -23,7 +23,7 @@ const ex = {
     'Amuleto Encantado',
     'Vidro de Unguento',
     'Essencia de Erva de Porco',
-    'ouro',
+    'Chave de Cobre',
   ],
   'itemAdd':{
     'adaga encantada':`adaga de arremesso encantada que nunca erra, p15, 2 pontos de dano, 1vez`
@@ -33,41 +33,46 @@ const ex = {
   },
 
 // falta resolver logica
-
-
+  'addGold':'',
+  'removeGold':'',
+  'addCharm':'adciona encantamentos a escolha',
   'combate':{
     'ELFO NEGRO':{
+      'habilidade': 4,
       'energia': 4,
-      'habilidade': 4
     },
     'GARK':{
+      'habilidade': 7,
       'energia': 11,
-      'habilidade': 7
     },
     'FERA DAS GARRAS':{
-      'energia': 14,
       'habilidade': 9,
+      'energia': 14,
       'extra':'Depois que você tiver atingido a criatura pela quarta vez, goTo:241, 30'
     },
     'Macaco-Cachorro':{
-      'energia': 7,
       'habilidade': 4,
+      'energia': 7,
     },//combate duplo 288
     'Cachorro-Macaco':{
-      'energia': 6,
       'habilidade': 6,
+      'energia': 6,
     },
     'Primeiro GIRA':{
-      'energia': 7,
       'habilidade': 6,
+      'energia': 7,
     },//combate duplo 346
     'Segundo GIRA':{
-      'energia': 6,
       'habilidade': 5,
+      'energia': 6,
+    },
+    'COBRA DE ESGOTO':{
+      'habilidade': 6,
+      'energia': 7,
     },
     '':{
-      'energia': 0,
       'habilidade': 0,
+      'energia': 0,
     },
   },
   
@@ -76,17 +81,17 @@ const ex = {
   'sorte':['sim', 'nao'], //410
   'dado':[1,2,3,4,5,6],
   't-soete': 'teste de sorte', // ver o q fazer com o anel 381
-
+  'atackAdd':'aumenta o valor da habilidade durante o combate',
   'extraPages':{
     410: 'teste de sorte 390',
     420: 'rolada de dado 384' ,
-    450: 'Faca­ Faquinha',
+    450: 'Faca  Faquinha',
     500:'fim do jogo 400',
-    600: 'morte 376, 369, 82, 342, 72',
+    600: 'morte 376, 369, 82, 342, 72, 199, 202, 103',
 
   },
   'jogo':{
-    'Faca­ Faquinha': 'sorteie uma de 6 facas, se for a sorteada você morre, 365'
+    'Faca  Faquinha': 'sorteie uma de 6 facas, se for a sorteada você morre, 365'
   }
 
 

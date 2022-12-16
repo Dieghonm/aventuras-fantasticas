@@ -91,7 +91,7 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 // Por  razoes  que serao  explicadas  adiante,  os indices  de  HABILIDADE,  ENERGIA  e  SORTE
 // mudam constantemente durante uma aventura. você deve fazer um registro preciso destes indices e, por este motivo, e aconselhavel que você escreva numeros pequenos nos quadros, ou tenha uma borracha sempre a mao. Mas nunca apague os seus indices lniciais. Embora você possa conquistar
 // pontos adicionais de HABILIDADE, ENERGIA e SORTE, estes totais nunca poderao exceder seus indices lniciais, a não ser em rarfssimas ocasioes, quando havera instru96es  especificas para você em uma determinada pagina.
-// 0 seu indice de HABILIDADE reflete a sua capacidade como espadachim e sua aptidao geral como lutador. 0 seu índice de ENERGIA reflete a sua constituição fisica geral, vontade de sobreviver, determinação  e condição fisica como um todo; quanto mais alto for o seu indice de ENERGIA, mais tempo você conseguira sobreviver. 0 seu indice de SORTE indica o quanto você e uma pessoa naturalmente de sorte. Sorte - e magia - são fatos da vida no reino da fantasia que você esta prestes a explorar.
+// 0 seu indice de HABILIDADE reflete a sua capacidade como espadachim e sua aptidao geral como lutador. O seu índice de ENERGIA reflete a sua constituição fisica geral, vontade de sobreviver, determinação  e condição fisica como um todo; quanto mais alto for o seu indice de ENERGIA, mais tempo você conseguira sobreviver. O seu indice de SORTE indica o quanto você e uma pessoa naturalmente de sorte. Sorte - e magia - são fatos da vida no reino da fantasia que você esta prestes a explorar.
 
 // Fuga
 
@@ -100,7 +100,7 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 // Lota Contra mais de uma Criatura
 
 // Se você se defrontar com mais de uma criatura em um determinado encontro, as instru96es na
-// pagina em questao dirao como lidar com a batalha. 'As vezes você as tratara como se fossem um
+// pagina em questão dirao como lidar com a batalha. 'As vezes você as tratara como se fossem um
 // unico monstro; as vezes lutara contra um de cada vez.
 
 
@@ -109,14 +109,14 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 // Em diversos momentos da sua aventura, tanto durante as batalhas quanto nas situa96es em que você pode ter ou não sorte (detalhes sobre elas são dados nas próprias paginas), você pode apelar para a sua sorte para tornar o resultado mais favoravel. Mas tome cuidado! Usar a sorte e um neg6cio arriscado e, se você não tiver sorte, os resultados podem ser desastrosos.
 // 0 procedimento para usar a sua sorte e o seguinte: jogue dois dados. Seo	numero obtido for igual ou menor do que o seu índice de SORTE atual, você teve sorte, e o resultado sera a seu favor. Seo numero obtido for maior do que o seu índice de SORTE atual, você não teve sorte e sofrera as
 // consequ"enc1.as.
-// Este procedimento e conhecido como Testar a sua Sorte. Cada vez que você Testar a sua Sorte, tera que subtrair um ponto do seu índice de SORTE atual. Portanto, você logo compreendera que quanto mais confiar na sua sorte, mais arriscado isso se tornara.
+// Este procedimento e conhecido como Testar a sua Sorte. Cada vez que você Testar a sua Sorte, terá que subtrair um ponto do seu índice de SORTE atual. Portanto, você logo compreendera que quanto mais confiar na sua sorte, mais arriscado isso se tornara.
 
 // 0	Uso da Sorte nas Batalhas
 
-// Em certas paginas do livro, você sera orientado a Testar a sua Sorte e sera comunicado quanto as consequencias de ter ou não ter sorte. Porem, nas batalhas, você sempre tera a opção de usar a sua sorte, seja para causar um ferimento mais grave em uma criatura que você acabou de ferir, seja para minimizar os efeitos de um ferimento que a criatura acabou de causar em você.
+// Em certas paginas do livro, você sera orientado a Testar a sua Sorte e sera comunicado quanto as consequencias de ter ou não ter sorte. Porem, nas batalhas, você sempre terá a opção de usar a sua sorte, seja para causar um ferimento mais grave em uma criatura que você acabou de ferir, seja para minimizar os efeitos de um ferimento que a criatura acabou de causar em você.
 
-// Se você tiver acabado de ferir a criatura, pode Testar a sua Sorte conforme descrito acima. Se tiver sorte, tera causado um ferimento grave e podera subtrair dois pontos extras do índice de ENERGIA
-// da criatura. Porem, se não tiver sorte, o ferimento sera um mero arranhao, e você tera que devolver um ponto a ENERGIA da criatura (isto e, ao inves dos dois pontos normais de danos, você tera
+// Se você tiver acabado de ferir a criatura, pode Testar a sua Sorte conforme descrito acima. Se tiver sorte, terá causado um ferimento grave e podera subtrair dois pontos extras do índice de ENERGIA
+// da criatura. Porem, se não tiver sorte, o ferimento sera um mero arranhao, e você terá que devolver um ponto a ENERGIA da criatura (isto e, ao inves dos dois pontos normais de danos, você tera
 // conseguido apenas um).
 
 // Se a criatura tiver acabado de ferir você, você podera Testar a sua Sorte para tentar minimizar o ferimento. Se tiver sorte, conseguiu evitar que o golpe o atingisse com toda a força. você recupera um ponto de ENERGIA (isto e, ao inves de causar os dois pontos de danos, o golpe causa apenas um). Se não tiver sorte, você recebeu um ferimento mais grave. Subtraia um ponto extra de ENERGIA.
@@ -127,7 +127,7 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 
 // Habilidade
 
-// 0 seu índice de HABILIDADE não mudara muito durante a aventura. Ocasionalmente, podera haver instru95es em uma pagina para aumentar ou diminuir o seu índice de HABILIDADE. Uma Arma Magica pode aumentar a sua HABILIDADE,  mas lembre-se que você s6  pode usar uma arma de cada vez! você não pode receber dois premios de HABILIDADE por estar carregando duas Espadas Magicas. 0  seu índice de HABILIDADE  não podera nunca ultrapassar seu valor Inicial, a não ser quando especificamente autorizado. você s6 podera recuperar seu índice de HABILIDADE usando um Encanto da Habilidade (ver adiante).
+// 0 seu índice de HABILIDADE não mudara muito durante a aventura. Ocasionalmente, podera haver instru95es em uma pagina para aumentar ou diminuir o seu índice de HABILIDADE. Uma Arma Magica pode aumentar a sua HABILIDADE,  mas lembre-se que você s6  pode usar uma arma de cada vez! você não pode receber dois premios de HABILIDADE por estar carregando duas Espadas Magicas. O  seu índice de HABILIDADE  não podera nunca ultrapassar seu valor Inicial, a não ser quando especificamente autorizado. você s6 podera recuperar seu índice de HABILIDADE usando um Encanto da Habilidade (ver adiante).
 
 // Energia
 
@@ -138,7 +138,7 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 
 // 0	USO DA MAGIA
 
-// Alem dos indices de HABILIDADE, ENERGIA e SORTE, você tera que determinar tambem o seu indice de MAGIA de modo semelhante.
+// Alem dos indices de HABILIDADE, ENERGIA e SORTE, você terá que determinar tambem o seu indice de MAGIA de modo semelhante.
 
 // Jogue dois dados. Some seis ao numero obtido e registre este total no quadro MAGIA da sua Folha de Aventuras.
 
@@ -146,17 +146,17 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 
 // Se, por exemplo, você tirar um 4 e um 3, seu indice de MAGIA sera 13 (isto e, 4 + 3 + 6), o que significa que você podera usar 13 encantos durante a sua aventura. Da lista de encantos dada a seguir, você podera escolher 13 encantos  da sua preferencia.  Talvez você queira levar tres Encantos de Energia, cinco Encantos da Percepção Extra-Sensorial e cinco Encantos do Fogo - ou talvez você prefira um encanto de cada um dos 12 existentes, mais um Encanto de Cópia de Criatura extra. A escolha e sua.
 
-// Cada vez que você usar um encanto durante a aventura, tera que risca-lo da sua lista (mesmo que ele não tenha efeito). Se você tiver levado mais de um de qualquer dos encantos, tera que reduzir o
+// Cada vez que você usar um encanto durante a aventura, terá que risca-lo da sua lista (mesmo que ele não tenha efeito). Se você tiver levado mais de um de qualquer dos encantos, terá que reduzir o
 // ....
-// restante em um, a cada vez que usa-lo. As vezes você tera a opção de usar encantos e descobrira que
+// restante em um, a cada vez que usa-lo. As vezes você terá a opção de usar encantos e descobrira que
 // não os tem com você, ou que ja usou tudo que tinha. Nestes casos, você não podera escolher estas opçoes.
 
-// Como você não tera ideia dos perigos que espreitam  no interior da Cidadela na primeira vez que entrar, sem duvida escolhera encantos que não terao o efeito que você esperava  que tivessem.  Mas, nas aventuras subsequentes, você escolhera os seus encantos de maneira mais sabia. Tambem não se preocupe se o seu indice de MAGIA for baixo. Mesmo o indice mais baixo possfvel fomecera um numero de encantos suficiente para que você chegue ao fim de sua empreitada, se você fizer as escolhas certas e for abençoado com um pouco de sorte!
+// Como você não terá ideia dos perigos que espreitam  no interior da Cidadela na primeira vez que entrar, sem duvida escolhera encantos que não terao o efeito que você esperava  que tivessem.  Mas, nas aventuras subsequentes, você escolhera os seus encantos de maneira mais sabia. Tambem não se preocupe se o seu indice de MAGIA for baixo. Mesmo o indice mais baixo possfvel fomecera um numero de encantos suficiente para que você chegue ao fim de sua empreitada, se você fizer as escolhas certas e for abençoado com um pouco de sorte!
 // ENCANTOS MA.GICOS
 
 // Copia de Criatura
 
-// Este encanto permitira que você faça aparecer uma replica perfeita de qualquer criatura contra a qual você esteja lutando. A replica tera os mesmos indices de HABILIDADE e ENERGIA e os mesmos poderes do original. Mas a replica estara sob seu controle, e você podera, por exemplo, instrui-la para que ataque a criatura original e ficar assistindo a batalha de camarote!
+// Este encanto permitira que você faça aparecer uma replica perfeita de qualquer criatura contra a qual você esteja lutando. A replica terá os mesmos indices de HABILIDADE e ENERGIA e os mesmos poderes do original. Mas a replica estara sob seu controle, e você podera, por exemplo, instrui-la para que ataque a criatura original e ficar assistindo a batalha de camarote!
 
 // Percep ao Extra-Sensorial
 
@@ -173,7 +173,7 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 
 // Ilusão
 
-// Este e um encanto poderoso, mas que não e muito confiavel. Atraves deste encanto, você podera criar uma Ilusão convincente (por exemplo, que você se transformou em serpente, ou que o chão esta coberto de carvao em brasa) para enganar uma criatura. 0 encanto ficara imediatamente sem efeito se acontecer qualquer coisa que desfaça a Ilusão (por exemplo, você convence uma criatura
+// Este e um encanto poderoso, mas que não e muito confiavel. Atraves deste encanto, você podera criar uma Ilusão convincente (por exemplo, que você se transformou em serpente, ou que o chão esta coberto de carvao em brasa) para enganar uma criatura. O encanto ficara imediatamente sem efeito se acontecer qualquer coisa que desfaça a Ilusão (por exemplo, você convence uma criatura
 // que se  tran,, sformou  em  uma serpente  e  entao imediatamente  atinge  sua cabeça  com  um  golpe de espada!). E eficiente sobre tudo com criaturas inteligentes.
 
 // Levita ao
@@ -184,11 +184,11 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 
 // Este encanto, juntamente com os encantos de Habilidade e Energia, e especial porque pode ser lançado a qualquer momento durante a sua aventura, a não ser durante uma batalha. você não precisa esperar que apareça a opção em uma pagina. Uma vez lançado, recuperara o seu indice de SORTE em metade de seu indice de SORTE lnicial (se a sua SORTE inicial for um numero impar, subtraia o ½ de sobra). Este encanto nunca levara o seu indice de SORTE a um numero superior a seu nivel lnicial Portanto, se você lançar dois encantos da SORTE juntos, o seu indice de SORTE voltara apenas a ser igual a seu nivel lnicial.
 // Escudo
-// Ao lançar este encanto, você cria um escudo invisf vel a sua frente que o protegera de objetos ffsicos, por exemplo flechas, espadas ou criaturas. 0 escudo não tem efeito contra a magia e, evidentemente, se nada fora dele pode tocar em você, você tambem não podera tocar em nada fora dele.
+// Ao lançar este encanto, você cria um escudo invisf vel a sua frente que o protegera de objetos ffsicos, por exemplo flechas, espadas ou criaturas. O escudo não tem efeito contra a magia e, evidentemente, se nada fora dele pode tocar em você, você tambem não podera tocar em nada fora dele.
 
 // Habilidade
 
-// Este encanto restabelecera o seu índice de HABILIDADE, aumentando-o em metade de seu valor Inicial, e pode ser lançado a qualquer momento durante a sua aventura, a não ser em uma batalha. Para conhecer todas as regras, veja o Encanto da Sorte acima. 0 Encanto da Habilidade funciona exatamente da mesma maneira.
+// Este encanto restabelecera o seu índice de HABILIDADE, aumentando-o em metade de seu valor Inicial, e pode ser lançado a qualquer momento durante a sua aventura, a não ser em uma batalha. Para conhecer todas as regras, veja o Encanto da Sorte acima. O Encanto da Habilidade funciona exatamente da mesma maneira.
 
 // Energia
 
@@ -206,6 +206,6 @@ Como você não terá idéia dos perigos que espreitam no interior da Cidadela n
 
 // EQUIPAMENTO
 
-// você começara a sua aventura com um mfnimo essencial de equipamento. você esta armado com uma espada e vestido com uma armadura de couro. você esta levando uma lanterna para iluminar o seu caminho, e uma mochila para guardar quaisquer tesouros ou artefatos que possa encontrar no caminho. não se esqueça de registrar tudo que você achar no quadro de Equipamento da sua Folha de Aventuras. Quando eles forem usados em qualquer encontro especffico, a história dira a você se aquele item deve ser destrufdo ou deixado para tras. Se for perdido dessa forma, você tera que risca­ lo de sua lista de Equipamentos e não podera usa-lo mais tarde durante a sua aventura.
+// você começara a sua aventura com um mfnimo essencial de equipamento. você esta armado com uma espada e vestido com uma armadura de couro. você esta levando uma lanterna para iluminar o seu caminho, e uma mochila para guardar quaisquer tesouros ou artefatos que possa encontrar no caminho. não se esqueça de registrar tudo que você achar no quadro de Equipamento da sua Folha de Aventuras. Quando eles forem usados em qualquer encontro especffico, a história dira a você se aquele item deve ser destrufdo ou deixado para tras. Se for perdido dessa forma, você terá que risca  lo de sua lista de Equipamentos e não podera usa-lo mais tarde durante a sua aventura.
 
 
