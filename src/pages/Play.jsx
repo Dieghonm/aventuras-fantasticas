@@ -38,7 +38,8 @@ function Play(props) {
         storage[user][book].Energia = data.Energia + mod
       }
       if (ex.includes('itemAdd')){
-        const equip = [...data.Equip, ex[ex.indexOf('itemAdd')+1]]
+        const newItem = ex[ex.indexOf('itemAdd')+1]
+        const equip = [...data.Equip, ...newItem]
         storage[user][book].Equip = equip
       }
       if (ex.includes('itemRemov')){

@@ -69,6 +69,26 @@ const ex = {
       'habilidade': 6,
       'energia': 7,
     },
+    'BALTHUS DIRE':{
+      'habilidade': 12,
+      'energia': 19,
+    },
+    'GARK ENFRAQUECIDO':{
+      'habilidade': 5,
+      'energia': 5,
+    },
+    'ANÃO':{
+      'habilidade': 5,
+      'energia': 6,
+    },
+    'GOBLIN':{
+      'habilidade': 6,
+      'energia': 4,
+    },
+    'ORK':{
+      'habilidade': 7,
+      'energia': 5,
+    },
     '':{
       'habilidade': 0,
       'energia': 0,
@@ -86,7 +106,7 @@ const ex = {
     420: 'rolada de dado 384' ,
     450: 'Faca  Faquinha',
     500:'fim do jogo 400',
-    600: 'morte 376, 369, 82, 342, 72, 199, 202, 103',
+    600: 'morte 376, 369, 82, 342, 72, 199, 202, 103, 283, 153,194',
 
   },
   'jogo':{

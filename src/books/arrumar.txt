@@ -90,7 +90,7 @@ Como você não terá ideia dos perigos que espreitam no interior da Cidadela na
 // Ha também um quadro de SORTE. Jogue um dado, some seis a este numero e assinale este total no quadro de SORTE.
 // Por  razoes  que serao  explicadas  adiante,  os índices  de  HABILIDADE,  ENERGIA  e  SORTE
 // mudam constantemente durante uma aventura. você deve fazer um registro preciso destes índices e, por este motivo, e aconselhavel que você escreva numeros pequenos nos quadros, ou tenha uma borracha sempre a mão. Mas nunca apague os seus índices iniciais. Embora você possa conquistar
-// pontos adicionais de HABILIDADE, ENERGIA e SORTE, estes totais nunca poderáo exceder seus índices iniciais, a não ser em rarfssimas ocasioes, quando haverá instru96es  especificas para você em uma determinada pagina.
+// pontos adicionais de HABILIDADE, ENERGIA e SORTE, estes totais nunca poderáo exceder seus índices iniciais, a não ser em rarfssimas ocasioes, quando haverá instruções  especificas para você em uma determinada pagina.
 // 0 seu índice de HABILIDADE reflete a sua capacidade como espadachim e sua aptidao geral como lutador. O seu índice de ENERGIA reflete a sua constituição fisica geral, vontade de sobreviver, determinação  e condição fisica como um todo; quanto mais alto for o seu índice de ENERGIA, mais tempo você conseguira sobreviver. O seu índice de SORTE indica o quanto você e uma pessoa naturalmente de sorte. Sorte - e magia - são fatos da vida no reino da fantasia que você esta prestes a explorar.
 
 // Fuga
@@ -99,7 +99,7 @@ Como você não terá ideia dos perigos que espreitam no interior da Cidadela na
 
 // Lota Contra mais de uma Criatura
 
-// Se você se defrontar com mais de uma criatura em um determinado encontro, as instru96es na
+// Se você se defrontar com mais de uma criatura em um determinado encontro, as instruções na
 // pagina em questão dirao como lidar com a batalha. 'As vezes você as tratara como se fossem um
 //únicomonstro; as vezes lutara contra um de cada vez.
 
