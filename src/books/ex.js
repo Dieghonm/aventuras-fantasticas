@@ -94,6 +94,8 @@ const ex = {
       'energia': 0,
     },
   },
+
+  'senha': 'cimitarra',
   
   'fugir': 'quantidade de ataques',
   'nda':'vai direto para outra pagina',

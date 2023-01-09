@@ -15,6 +15,7 @@ const ex = {
   energia:'energia',
   gold: 'gold',
   addCharm: 'addCharm',
+  senha: 'senha',
 }
 
 const Livros = {
@@ -1262,24 +1263,26 @@ const Livros = {
         ]
       },
       116:{
-        text:`Suas mãos super poderosas agarram a maçaneta e puxam. Ela sai na sua mão. você fecha a mão e desfere um soco no meio da porta. A madeira racha e quebra, permitindo  que você entre  no aposento do outro lado. Vá para 210.
-        `,
+        text:`Suas mãos super poderosas agarram a maçaneta e puxam. Ela sai na sua mão. você fecha a mão e desfere um soco 
+        no meio da porta.`,
         options: [
-          {text:``, goTo:0},
+          {text:`A madeira racha e quebra, permitindo que você entre no aposento do outro lado.`, goTo:210},
         ]
       },
       117:{
-        text:`Quando você puxa a sua arma, o feiticeiro faz o mesmo. vocês estão agora próximos demais para que qualquer um dos dois possa usar magica e terão que terminar a batalha na luta de espadas mais difícil de toda a sua vida. Vá para 337.
-        `,
+        text:`Quando você puxa a sua arma, o feiticeiro faz o mesmo. vocês estão agora próximos demais para que qualquer um 
+        dos dois possa usar magica e terão que terminar a batalha na luta de espadas mais difícil de toda a sua vida.`,
         options: [
-          {text:``, goTo:0},
+          {text:`Continuar`, goTo:337},
         ]
       },
       118:{
-        text:`A porta abre e uma criatura grande e abrutalhada sai. Possui um chifre pontudo no meio da testa, e sua pele parece ser recoberta de armadura.  Rosna para saber o que você quer e exige a senha antes de deixar que você entre. você sabe a senha? Se souber, vá para 273. Se não, você terá que forçar a sua entrada (va para 198).
-        `,
+        text:`A porta abre e uma criatura grande e abrutalhada sai. Possui um chifre pontudo no meio da testa, e sua pele 
+        parece ser recoberta de armadura. Rosna para saber o que você quer e exige a senha antes de deixar que você entre. 
+        você sabe a senha?`,
         options: [
-          {text:``, goTo:0},
+          {text:`Se souber`, goTo:273, ex:[ex.senha, 'cimitarra']},
+          {text:`Se não, você terá que forçar a sua entrada`, goTo:198},
         ]
       },
       119:{
@@ -1431,10 +1434,17 @@ const Livros = {
         ]
       },
       134:{
-        text:`Eles ficam admirados com sua audacia. Ao invés de esperar que eles falem, você age agressivamente e exige saber como entrar na Cidadela. Eles apontam para a entrada principal, obviamente um tanto espantados com seus modos confiantes, e cochicham entre eles. O Ork diz a você que sera preciso uma senha, "Cimitarra", para entrar. você pergunta a respeito do frasco de liquido dentro da caixa, o que faz com que eles fiquem agitados. você os pressionara mais para obter maiores informações sobre o frasco (volte para 60), vai deixa-los de lado para ir na direção dos dois homens que você viu antes (va para 269) ou seguira adiante na direção da Torre Negra (va para 245)?
+        text:`Eles ficam admirados com sua audacia. Ao invés de esperar que eles falem, você age agressivamente e 
+        exige saber como entrar na Cidadela. Eles apontam para a entrada principal, obviamente um tanto 
+        espantados com seus modos confiantes, e cochicham entre eles. O Ork diz a você que sera preciso uma
+        senha, "Cimitarra", para entrar. você pergunta a respeito do frasco de liquido dentro da caixa, o que
+        faz com que eles fiquem agitados. você os pressionara mais para obter maiores informações sobre o 
+        frasco (volte para 60)
         `,
         options: [
           {text:``, goTo:0},
+          {text:`Deixa-los de lado para ir na direção dos dois homens que você viu antes`, goTo:269},
+          {text:`Seguir adiante na direção da Torre Negra`, goTo:245},
         ]
       },
       135:{
@@ -2425,11 +2435,12 @@ const Livros = {
         ]
       },
       240:{
-        text:`você ergue uma mão flamejante, passando-a pelas costas da vestimenta que esta apertando seu pesco o. A roupa se incendeia, e um grito silencioso sai da boca morta dentro dela. Os outros Fantasmas recuam. você ateia fogo a mais uns dois, enquanto eles batem em retirada. Infelizmente, eles estão perto demais, e você perde dois pontos de ENERGIA pelas queimaduras que sofre. Andando cuidadosamente
-        // para a frente, você mantêm os Fantasmas a distancia até passar em seguran a pela mulher. Volte para 6.
-        `,
+        text:`você ergue uma mão flamejante, passando-a pelas costas da vestimenta que esta apertando seu pesco o. 
+        A roupa se incendeia, e um grito silencioso sai da boca morta dentro dela. Os outros Fantasmas recuam. você 
+        ateia fogo a mais uns dois, enquanto eles batem em retirada. Infelizmente, eles estão perto demais, e você perde
+        dois pontos de ENERGIA pelas queimaduras que sofre.`,
         options: [
-          {text:``, goTo:0},
+          {text:`Andando cuidadosamente para a frente, você mantêm os Fantasmas a distancia até passar em seguran a pela mulher.`, goTo:6, ex:[ex.energia, -2]},
         ]
       },
       241:{
@@ -2443,7 +2454,7 @@ const Livros = {
         você vencer, poderá recuperar a sua espada e ir para 77.
         `,
         options: [
-          {text:``, goTo:77},
+          {text:``, goTo:0},
         ]
       },
       242:{
@@ -2557,18 +2568,19 @@ const Livros = {
         ]
       },
       252:{
-        text:`você la ou cinco ou seis das suas cabe as! Ela luta para se livrar do no. Com um bote, a Miriáde e arrancada da sua mão. Mas, ainda assim, a criatura foi suficientemente amea ada para permitir que você salte na direção da porta de outro lado do aposento. Volte para 229.
-        `,
+        text:`você la ou cinco ou seis das suas cabeças! Ela luta para se livrar do no. Com um bote, a Miriáde e arrancada 
+        da sua mão. Mas, ainda assim, a criatura foi suficientemente ameaçada para permitir que você salte na direção da 
+        porta de outro lado do aposento.`,
         options: [
-          {text:``, goTo:0},
+          {text:`Continuar`, goTo:229},
         ]
       },
       253:{
         text:`0	queijo esta realmente maduro demais, mas, ao come-lo, você se sente estranhamente reconfortado.
-        // 0	sabor, uma vez dentro de sua boca, e muito apreciavel, e você come diversos bocados. você pode acrescentar
-        // um ponto de HABILIDADE, três pontos de ENERGIA e um ponto de SORTE por esta refei ao, e depois pode sair.
-        // Se você decidir tentar a porta da parede de lado esquerdo, volte para 13. Se quiser experimentar a porta oposta a que
-        // você entrou, vá para 281.
+        O	sabor, uma vez dentro de sua boca, e muito apreciavel, e você come diversos bocados. você pode acrescentar
+        um ponto de HABILIDADE, três pontos de ENERGIA e um ponto de SORTE por esta refeição, e depois pode sair.
+        Se você decidir tentar a porta da parede de lado esquerdo, volte para 13. 
+        Se quiser experimentar a porta oposta a que você entrou, vá para 281.
         `,
         options: [
           {text:``, goTo:0},
@@ -2583,7 +2595,7 @@ const Livros = {
         ]
       },
       255:{
-        text:` A criatura olha para você. Seus olhos se estreitam. Ha uma lança longa em suas mãos, que ela 
+        text:`A criatura olha para você. Seus olhos se estreitam. Ha uma lança longa em suas mãos, que ela 
         rapidamente aponta na sua direção. "Esta não e a senha!" ela grita e sai para a batalha.
         // Teste a sua Sorte. Se você tiver sorte, pensa rapidamente em um blefe (volte para 198).
         // Se não tiver sorte, você gagueja e a criatura avan a para lutar (va para 290).`,
