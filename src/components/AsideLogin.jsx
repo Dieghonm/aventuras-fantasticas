@@ -23,7 +23,7 @@ class AsideLogin extends Component {
     this.setState({
       [name]:value
     }, () => {
-      if (Name && regex.test(Email)) {
+      if (Name && (regex.test(value) || regex.test(Email))) {
         this.setState({
           disabledButton: false
         })

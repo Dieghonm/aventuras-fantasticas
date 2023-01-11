@@ -36,63 +36,7 @@ const ex = {
   'modGold':'',
   'addCharm':'adciona encantamentos a escolha',
   'combate':{
-    'ELFO NEGRO':{
-      'habilidade': 4,
-      'energia': 4,
-    },
-    'GARK':{
-      'habilidade': 7,
-      'energia': 11,
-    },
-    'FERA DAS GARRAS':{
-      'habilidade': 9,
-      'energia': 14,
-      'extra':'Depois que você tiver atingido a criatura pela quarta vez, goTo:241, 30'
-    },
-    'Macaco-Cachorro':{
-      'habilidade': 4,
-      'energia': 7,
-    },//combate duplo 288
-    'Cachorro-Macaco':{
-      'habilidade': 6,
-      'energia': 6,
-    },
-    'Primeiro GIRA':{
-      'habilidade': 6,
-      'energia': 7,
-    },//combate duplo 346
-    'Segundo GIRA':{
-      'habilidade': 5,
-      'energia': 6,
-    },
-    'COBRA DE ESGOTO':{
-      'habilidade': 6,
-      'energia': 7,
-    },
-    'BALTHUS DIRE':{
-      'habilidade': 12,
-      'energia': 19,
-    },
-    'GARK ENFRAQUECIDO':{
-      'habilidade': 5,
-      'energia': 5,
-    },
-    'ANÃO':{
-      'habilidade': 5,
-      'energia': 6,
-    },
-    'GOBLIN':{
-      'habilidade': 6,
-      'energia': 4,
-    },
-    'ORK':{
-      'habilidade': 7,
-      'energia': 5,
-    },
-    '':{
-      'habilidade': 0,
-      'energia': 0,
-    },
+    
   },
 
   'senha': 'cimitarra',

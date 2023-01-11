@@ -28,7 +28,7 @@ class Charms extends Component {
           <div key={charm}>
             <p>{data[charm][0]} - {charms[charm]}</p> 
             {/* dado pare recuperar atribudo, ainda tenho que implementar */}
-            {roll.includes(charm)? <Dice roll={ this.roll } stats={charm}/>: null}
+            {roll.includes(charm)? <Dice roll={ this.roll } status={charm}/>: null}
           </div>
         ))}
       </S.CharmsDiv>

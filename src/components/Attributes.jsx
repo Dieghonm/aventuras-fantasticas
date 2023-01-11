@@ -8,15 +8,16 @@ import { ItensInitialAdd } from "../helpers/LocalStorage";
 
 class  Attributes extends Component {
   state={
-    rolled:0,
+    0:0,
+    1:0,
     diceNum:0,
-
   }
 
-  roll = (number) => {
-    const { rolled, diceNum } = this.state
+  roll = (number, status) => {
+    const { diceNum } = this.state
+    console.log(number, status, diceNum);
     this.setState({
-      rolled: rolled + 1,
+      [status]: number,
       diceNum: diceNum + number
     })
   }
@@ -29,20 +30,23 @@ class  Attributes extends Component {
       ItensInitialAdd(atribute[1].equipAdd, user.user, book.book )
     }
     indexFunc()
-    this.setState({ rolled:0, diceNum:0})
+    this.setState({ 0:0, 1:0, diceNum:0})
     changeAtribute([atribute[0], diceNum + atribute[1].sum])
   }
 
   render() {
     const { atribute } = this.props
-    const { rolled } = this.state
     const dicesNum = atribute[1].roll
     return (
       <div>
         <h3>{atribute[0]}</h3>
         {atribute[1].text.map((text, i) => <h5 key={atribute + i}>{text}</h5>)}
-        {Array.from({ length: dicesNum }).map((_, i) => <Dice roll={this.roll} value={rolled > i ? 1 : 0} key={atribute[0]+i}/>)}
-        <button disabled={ rolled !== dicesNum } onClick={this.nextButton}>Proximo</button>
+        {Array.from({ length: dicesNum }).map((_, i) => {
+          console.log(this.state);
+          console.log(dicesNum, 'dicesNum');
+        return <Dice roll={this.roll} value={this.state[i]} status={i} key={atribute[0]+i}/>
+        })}
+        <button disabled={ this.state[dicesNum - 1] === 0 } onClick={this.nextButton}>Proximo</button>
       </div>
     )
   }

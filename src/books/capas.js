@@ -1,6 +1,0 @@
-
-
-export const capas = {
-  Acidadeladocaos: '',
-
-}

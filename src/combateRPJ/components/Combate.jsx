@@ -1,13 +1,21 @@
 import React, { useEffect, useState } from "react";
-import Dice from '../../dice/Dice'
-import Status from "./Status";
+import { useSelector, useDispatch } from 'react-redux'
+import PropTypes from 'prop-types';
 
-import enemy from "../enemy/enemy";
+import Status from "./Status";
+import Dice from "../../dice/Dice";
+import Enemies from "../../books/Enemies";
 
 import * as S from './style/Combate'
+import { actionAttributes } from "../../redux/actions";
 
 function Combate(props) {
-  const { status, enemys, changeAtt, setmodal } = props
+  const { enemys, setmodal } = props
+
+  const globalState = useSelector((state) => state)
+  const {game} = globalState
+  const dispatch = useDispatch()
+
   const [turnRoll, setTurnRoll] = useState({
     p1: 0,
     p2: 0,
@@ -16,7 +24,7 @@ function Combate(props) {
   })
   const [enemyNum, setEnemyNum] = useState(0)
   const [enemyDamage, setEnemyDamage] = useState(0)
-  const { Energia, Habilidade} = enemy[enemys[enemyNum]]
+  const { Energia, Habilidade} = Enemies[enemys[enemyNum]]
   const [winner, setWinner] = useState(['white', 'white'])
   const [damage, setDamage] = useState('')
   const [useLuck, setuseLuck] = useState(false)
@@ -25,17 +33,16 @@ function Combate(props) {
   const {p1, p2, i1, i2} = turnRoll
 
   useEffect(() => {
-    console.log(enemyNum, enemys.length - 1);
     if (damage === 'enemy' && enemyDamage > Energia - 3) {
       setNexteEnemyButton(true)
     }
     if (damage === 'player') {
-      console.log('player dmg');
+      console.log('player dmg checar se morreu');
     }
   }, [damage])
 
   useEffect(() => {
-    const playerAtack = p1 + p2 + status.Habilidade
+    const playerAtack = p1 + p2 + game.Habilidade
     const enemyAttack = i1 + i2 + Habilidade
     const color = {winner: 'green', loser: 'red', tied: 'grey', new:'white'}
     if (i1 && i2 && p1 && p2) {
@@ -72,12 +79,13 @@ function Combate(props) {
 
   const luckFunc = () => {
     setuseLuck(true)
-    changeAtt('Sorte', 1)
+    dispatch(actionAttributes(['Sorte', game.Sorte - 1]))
   }
 
   const nextTurn = () => {
     if (damage === 'player') {
-      changeAtt('Energia', useLuck === true ? 0 : 2)
+      const dmg = useLuck === true ? 0 : 2
+      dispatch(actionAttributes(['Energia', game.Energia - dmg]))
     }
     if (damage === 'enemy') {
       setEnemyDamage( useLuck === true ? enemyDamage + 4 : enemyDamage + 2)
@@ -96,34 +104,33 @@ function Combate(props) {
     setuseLuck(false)
   }
 
-
-
   return (
     <S.CombatDiv>
         <div>
           <Status
-            status={status}
+            status={game}
             name={'Player'}
             damage={damage === 'player'}
             damageValue={0}
             luck={useLuck}
           />
           <span>
+            {console.log(p1)}
             <Dice roll={roll} status={'p1'} value={p1}/>
             <h1> + </h1>
             <Dice roll={roll} status={'p2'} value={p2}/>
             <h1> + </h1>
-            <h2>{status.Habilidade}</h2>
+            <h2>{game.Habilidade}</h2>
             <h1> = </h1>
             <div style={{background: winner[0]}}>
               <h3>Total ataque</h3>
-              <h2>{p1 && p2 ? p1 + p2 + status.Habilidade : 'roll'}</h2>
+              <h2>{p1 && p2 ? p1 + p2 + game.Habilidade : 'roll'}</h2>
             </div>
           </span>
         </div>
         <div>
           <Status
-            status={enemy[enemys[enemyNum]]}
+            status={Enemies[enemys[enemyNum]]}
             name={enemys[enemyNum]}
             damage={damage === 'enemy'}
             damageValue={enemyDamage}
@@ -145,7 +152,7 @@ function Combate(props) {
   {
     i1 && i2 && p1 && p2 ? 
     <div>
-      <p>{p1 + p2 + status.Habilidade > i1 + i2 + Habilidade ? 
+      <p>{p1 + p2 + game.Habilidade > i1 + i2 + Habilidade ? 
         'O seu ataque foi maior, seu inimigo':'O ataque do inimigo foi maior, voce' }
         perde 2 pontos de ENERGIA
       </p>
@@ -154,7 +161,7 @@ function Combate(props) {
       :
       <button onClick={() => nextTurn()}>Nova rodada</button>
     }
-      {p1 + p2 + status.Habilidade !== i1 + i2 + Habilidade ? <button disabled={useLuck} onClick={luckFunc}>Usar a Sorte</button>:null}
+      {p1 + p2 + game.Habilidade !== i1 + i2 + Habilidade ? <button disabled={useLuck} onClick={luckFunc}>Usar a Sorte</button>:null}
     </div>
     :
     <div>
@@ -167,5 +174,12 @@ function Combate(props) {
     </S.CombatDiv>
   )
 }
+
+Combate.propTypes = {
+  status: PropTypes.object,
+  enemys: PropTypes.array,
+  changeAtt: PropTypes.func,
+  setmodal: PropTypes.func,
+};
 
 export default Combate

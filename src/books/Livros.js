@@ -220,7 +220,7 @@ const Livros = {
           {text:`você se apresentara como um especialista em plantas medicinais?`, goTo:261},
           {text:`você dirá que e um comerciante?`, goTo:230},
           {text:`você pedirá abrigo para pernoitar?`, goTo:20},
-          // {text:`testes de extras`, goTo:20, ex:['itemRemov', 'espadas']}
+          {text:`testes de extras`, goTo:20, ex:[ex.combate, ['FERA DAS GARRAS', 'Cachorro-Macaco']]}
         ]
       },
       2:{

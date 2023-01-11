@@ -10,47 +10,28 @@ import SEI from './img/SEI.png'
 
 import * as S from './styles/dice'
 
-class  Dice extends Component {
+class Dice extends Component {
   state ={
-    dice: roll
+    0: roll,
+    1: UNO,
+    2: DUO,
+    3: TRE,
+    4: QUATTRO,
+    5: CINQUE,
+    6: SEI,
   }
 
-  roll = () => {
-    const { roll, stats } = this.props
+  rolling = () => {
+    const { roll, status } = this.props
     const value = Math.ceil (Math.random() * 6)
-    let dice = roll
-    switch (value) {
-      case 1:
-        dice = UNO
-      break;
-      case 2:
-        dice = DUO
-      break;
-      case 3:
-        dice = TRE
-      break;
-      case 4:
-        dice = QUATTRO
-      break;
-      case 5:
-        dice = CINQUE
-      break;
-      case 6:
-        dice = SEI
-      break;
-      default:
-        break;
-    }
-    this.setState({dice})
-    roll(value, stats)
+    roll(value, status)
   }
   
   render() {
     const { value = 0 } = this.props
-    const { dice } = this.state
     return (
-      <S.DiceButton disabled={value !== 0} onClick={this.roll}>
-        <img src={dice} alt="roll" />
+      <S.DiceButton disabled={value !== 0} onClick={this.rolling}>
+        <img src={this.state[value]} alt="roll" />
       </S.DiceButton>
     )
   }
@@ -58,7 +39,7 @@ class  Dice extends Component {
 
 Dice.propTypes = {
   roll: PropTypes.func,
-  stats: PropTypes.string,
+  status: PropTypes.string || PropTypes.number,
   value: PropTypes.number,
 };
 

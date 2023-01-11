@@ -4,10 +4,11 @@ import { Link, useParams } from "react-router-dom";
 import PropTypes from 'prop-types';
 
 import Status from "../components/Status"
-
 import Livros from '../books/Livros'
+
 import { actionCharms, actionGoTo, actionAttributes, actionEquipADD } from "../redux/actions";
 import { GetLocalStorage, SetLocalStorage } from '../helpers/LocalStorage'
+import CombatRPG from "../combateRPJ/CombatRPG";
 
 function Play(props) {
   const { charmsToRedux, globalState, goToToRedux, attibutesRedux, equipAddRedux } = props
@@ -52,16 +53,16 @@ function Play(props) {
   }
 
   const options = ({goTo, text, ex  }) => {
-    let disabledBitton = false
+    let disabledButton = false
     if (ex) {
       if (ex.includes('charm')){
-        disabledBitton = !(charms[ex[1]] > 0); 
+        disabledButton = !(charms[ex[1]] > 0); 
       }
       if (ex.includes('item')){
-        disabledBitton = !equip.includes(ex[1])
+        disabledButton = !equip.includes(ex[1])
       }
       if (ex.includes('combate')){
-        // disabledBitton = !(charms[ex[1]] > 0); 
+        // disabledButton = !(charms[ex[1]] > 0);
       }
     }
 
@@ -92,15 +93,21 @@ function Play(props) {
 
     return(
       <Link key={text} to={`/aventuras-fantasticas/Play/${goTo}`}>
-        <button onClick={()=>Selected(goTo)} disabled={disabledBitton}>{text}</button>
+        <button onClick={()=>Selected(goTo)} disabled={disabledButton}>{text}</button>
       </Link>
     )
+  }
+
+  const combatButton = () => {
+    const enemy = Livros[book].Pagina[goTo].options.find((option) => option.ex ? option.ex.includes('combate'): false)
+    return enemy ? <CombatRPG enemy={enemy.ex[enemy.ex.indexOf('combate') + 1]} /> : null
   }
 
   return(
     <div>
       <Status />
       <p>{Livros[book].Pagina[goTo].text}</p>
+      {combatButton()}
       {Livros[book].Pagina[goTo].options.map((option) => options(option))}
     </div>
   )
@@ -113,10 +120,8 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = (dispatch) => ({
   charmsToRedux: (data) => dispatch(actionCharms(data)),
   goToToRedux: (data) => dispatch(actionGoTo(data)),
-  attibutesRedux: (data) => dispatch(actionAttributes (data)),
+  attibutesRedux: (data) => dispatch(actionAttributes(data)),
   equipAddRedux: (data) => dispatch(actionEquipADD (data)),
-  
-  
 });
 
 Play.propTypes = {
@@ -125,7 +130,6 @@ Play.propTypes = {
   goToToRedux: PropTypes.func,
   attibutesRedux: PropTypes.func,
   equipAddRedux: PropTypes.func,
-  
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Play);

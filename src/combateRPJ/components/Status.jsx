@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from 'prop-types';
+
 import * as S from "./style/Status";
 
 function Status(props) {
@@ -32,5 +34,13 @@ function Status(props) {
     </S.StatusDiv>
   )
 }
+
+Status.propTypes = {
+  status: PropTypes.object,
+  name: PropTypes.string,
+  damage: PropTypes.bool,
+  damageValue: PropTypes.number,
+  luck: PropTypes.bool,
+};
 
 export default Status

@@ -1,18 +1,15 @@
 import React, { useState } from "react";
-import Ficha from "../ficha/Ficha";
+import PropTypes from 'prop-types';
+
+import Enemies from "../books/Enemies";
 import Combate from "./components/Combate";
 
-import enemy from "./enemy/enemy";
-
-function CombatRPG() {
-  const [status, setStatus] = useState({
-    Habilidade: 0,
-    Energia: 0,
-    Sorte:0})
+function CombatRPG(props) {
+  const { enemy } = props
   const [modal, setmodal] = useState('none')
 
   const arrSort = () => {
-    const arr = Object.keys(enemy)
+    const arr = Object.keys(Enemies)
     const enemyQ = arr.length - 1
 
     for (let i = enemyQ; i > 0; i--) {
@@ -22,23 +19,22 @@ function CombatRPG() {
     return arr;
   }
 
-  const play = (stats) => {
-    setStatus(stats)
-    setmodal('block')
-  }
   return (
     <div>
       <div>
-        {/* <button onClick={()=> setmodal('block')}>iniciar</button> */}
-        <Ficha play={play} />
+        <button onClick={()=> setmodal('block')}>Ir para o combate</button>
         <div style={{display : modal}}>
         </div>
           <div style={{display : modal}}>
-            <Combate status={status} setmodal={setmodal} enemys={ arrSort() }/>
+            <Combate setmodal={setmodal} enemys={ enemy ? enemy : arrSort() }/>
           </div>
       </div>
     </div>
   )
 }
 
-export default CombatRPG
+CombatRPG.propTypes = {
+  enemy: PropTypes.array,
+};
+
+export default CombatRPG;
