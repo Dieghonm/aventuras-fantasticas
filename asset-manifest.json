@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aventuras-fantasticas/static/css/main.e6c13ad2.css",
-    "main.js": "/aventuras-fantasticas/static/js/main.2c98685c.js",
+    "main.js": "/aventuras-fantasticas/static/js/main.279c0fc8.js",
     "static/js/787.db9d463f.chunk.js": "/aventuras-fantasticas/static/js/787.db9d463f.chunk.js",
     "static/media/ACidadeladoCaos.png": "/aventuras-fantasticas/static/media/ACidadeladoCaos.496c1b8bb9e5696a709d.png",
     "static/media/FOTO-FELIPE.png": "/aventuras-fantasticas/static/media/FOTO-FELIPE.2f1a5415321c073cec8b.png",
@@ -14,6 +14,7 @@
     "static/media/OFeiticeirodaMontanhadeFogo.png": "/aventuras-fantasticas/static/media/OFeiticeirodaMontanhadeFogo.cab3ef4bfeecd1a55606.png",
     "static/media/BRIDGE.png": "/aventuras-fantasticas/static/media/BRIDGE.8e9ba92a4d0162ce2ff8.png",
     "static/media/LOGOS.png": "/aventuras-fantasticas/static/media/LOGOS.3f84dfa4f2e77a917fca.png",
+    "static/media/DADO.png": "/aventuras-fantasticas/static/media/DADO.933439dc486b7ea5b803.png",
     "static/media/AcidadedosLadroes.png": "/aventuras-fantasticas/static/media/AcidadedosLadroes.cf890975277d8165c6d3.png",
     "static/media/logo.png": "/aventuras-fantasticas/static/media/logo.9cfde937cc4d171f6df8.png",
     "static/media/SEI.png": "/aventuras-fantasticas/static/media/SEI.bad98ade9b2432d1d7ff.png",
@@ -23,14 +24,13 @@
     "static/media/DUO.png": "/aventuras-fantasticas/static/media/DUO.45d99e24ba9ab45b7ac0.png",
     "static/media/CASTELO.png": "/aventuras-fantasticas/static/media/CASTELO.84421f98023da9278f5f.png",
     "static/media/UNO.png": "/aventuras-fantasticas/static/media/UNO.83c420e585be66cf6ceb.png",
-    "static/media/DADO.png": "/aventuras-fantasticas/static/media/DADO.933439dc486b7ea5b803.png",
     "index.html": "/aventuras-fantasticas/index.html",
     "main.e6c13ad2.css.map": "/aventuras-fantasticas/static/css/main.e6c13ad2.css.map",
-    "main.2c98685c.js.map": "/aventuras-fantasticas/static/js/main.2c98685c.js.map",
+    "main.279c0fc8.js.map": "/aventuras-fantasticas/static/js/main.279c0fc8.js.map",
     "787.db9d463f.chunk.js.map": "/aventuras-fantasticas/static/js/787.db9d463f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.2c98685c.js"
+    "static/js/main.279c0fc8.js"
   ]
 }
