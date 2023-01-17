@@ -12,27 +12,18 @@ import * as S from '../styles/pages/SavedGame'
 class SaveGame extends Component {
   saveCards = (book, save) => {
     const { Energia, Habilidade, Ouro, Sorte } = save
-    if (book === 'Email'){
-      return (
-        <h3 key={book}>Jogos salvos</h3>
-      )
-    }
-    
+    if (book !== 'Email'){
     return (
       <S.BookDiv key={book}>
         <img src={Livros[book].img} alt={Livros[book].name} />
         <h4>{Livros[book].name}</h4>
-        <span>
-          <div>
-            <p>Energia - {Energia}</p>
-            <p>Habilidade - {Habilidade}</p>
-            <p>Sorte - {Sorte}</p>
-            <p>Ouro - {Ouro}</p>
-          </div>
-        </span>
+        <p>Energia - {Energia}</p>
+        <p>Habilidade - {Habilidade}</p>
+        <p>Sorte - {Sorte}</p>
+        <p>Ouro - {Ouro}</p>
         <SavedButton book={book} />
       </S.BookDiv>
-    )
+    )}
   }
 
   render() {
@@ -42,10 +33,9 @@ class SaveGame extends Component {
     }
     const savedBooks = GetLocalStorage()[user.user]
     return(
-      <div>
-        <p>SaveGame</p>
+      <S.SaveDiv>
         {Object.keys(savedBooks).map((book) => this.saveCards(book, savedBooks[book]))}
-      </div>
+      </S.SaveDiv>
     )
   }
 }

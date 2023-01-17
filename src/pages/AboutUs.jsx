@@ -10,7 +10,6 @@ class AboutUs extends Component {
   render() {
     return(
       <S.MainDiv>
-        <p>SobreNos</p>
         <S.USDiv>
           <S.USSpan>
             <S.USFoto src={FOTOFELIPE} alt="FOTOFELIPE" />

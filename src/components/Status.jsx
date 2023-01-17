@@ -5,6 +5,7 @@ import {Navigate} from 'react-router-dom';
 import { GetGravatar } from "../helpers/Gravatar"
 
 import Livros from '../books/Livros'
+import CASTELO from '../imgs/CASTELO.png'
 
 import * as S from '../styles/components/Status'
 import { AtributeChange } from "../helpers/LocalStorage";
@@ -48,6 +49,7 @@ class Status extends Component {
     }
     return(
       <S.StatusDiv>
+        <S.CastleButtonImg src={CASTELO} alt="aba de status" />
         <h4>{Livros[book.book].name}</h4>
         {Object.keys(game).map((att) => this.criateAttribute(att, game[att]))}
         {this.charmsButton(charms)}

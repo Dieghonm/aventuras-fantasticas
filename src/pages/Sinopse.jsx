@@ -42,15 +42,15 @@ function Sinopse(props) {
 
   return(
     <S.SinopseDiv>
-      <h4>Sinopse</h4>
-      <h5>{Livros[book].name}</h5>
       <img src={ Livros[book].img } alt={Livros[book].name} />
       <p>{Livros[book].sinopse}</p>
-      <Link to="/aventuras-fantasticas/CreateCharacter">
-        <button onClick={gameSelect}>Novo Jogo</button>
-      </Link>
-      { savedEsxist()? <SavedButton book={book}/> : null }
-      {concluzao()}
+      <div>
+        <Link to="/aventuras-fantasticas/CreateCharacter">
+          <button disabled={Livros[book].sinopse === ''} onClick={gameSelect}>Novo Jogo</button>
+        </Link>
+        { savedEsxist()? <SavedButton book={book}/> : null }
+        {concluzao()}
+      </div>
     </S.SinopseDiv>
   )
 }

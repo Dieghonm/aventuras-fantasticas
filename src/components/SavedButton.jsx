@@ -3,8 +3,6 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 
-import * as S from '../styles/pages/SavedGame'
-
 import { GetLocalStorage } from "../helpers/LocalStorage"
 
 import { actionAttributes, actionbookChoice, actionCharms, actionEquipADD, actionGold, actionGoTo } from "../redux/actions";
@@ -43,11 +41,9 @@ class SavedButton extends Component {
     const { user } = this.props.globalState
     const savedBooks = GetLocalStorage()[user.user]
     return(
-      <S.BookDiv key={book}>
-        <Link to={`/aventuras-fantasticas/Play/${savedBooks[book].goTo}`}>
-          <button onClick={()=> this.selected(savedBooks[book], book)}>Jogo salvo</button>
-        </Link>
-      </S.BookDiv>
+      <Link key={book} to={`/aventuras-fantasticas/Play/${savedBooks[book].goTo}`}>
+        <button onClick={()=> this.selected(savedBooks[book], book)}>Jogo salvo</button>
+      </Link>
     )
   }
 }

@@ -12,6 +12,7 @@ function Tag() {
   const text = () => {
     let location = useLocation().pathname;
     const globalState = useSelector((state) => state).book
+    console.log(Livros, globalState.book);
 
     switch (location) {
       case "/aventuras-fantasticas":
@@ -33,7 +34,9 @@ function Tag() {
         return <p>Personagem</p>
 
         default:
-        return <p>{Livros[globalState.book].name}</p>
+          if (globalState.book) {
+            return <p>{Livros[globalState.book].name}</p>
+          }else return <p>Sinopse</p>
     }
   }
 

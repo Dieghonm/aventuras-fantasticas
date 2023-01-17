@@ -7,6 +7,10 @@ export const StatusDiv = styled.div`
   justify-content:space-between;
   border: 1px solid black;
 
+  img {
+
+  }
+
   h3 {
     margin: 0px 0px ;
   }
@@ -20,6 +24,13 @@ export const StatusDiv = styled.div`
   button {
 
   }
+`
+export const CastleButtonImg = styled.img `
+  height: 13em ;
+  position: fixed;
+  z-index: 2;
+  bottom: 0%;
+  right: 5%;
 `
 
 export const PlayerDiv = styled.div`
