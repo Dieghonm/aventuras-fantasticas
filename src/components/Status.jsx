@@ -12,13 +12,18 @@ import { AtributeChange } from "../helpers/LocalStorage";
 import Charms from "./Charms";
 
 class Status extends Component {
+  state = {
+    modal: 'none'
+  }
   criateAttribute = (att, value) => {
-    return(
-    <div key={att}>
-      <h4>{att}</h4>
-      <h3>{value}</h3>
-    </div>
-    )
+    if (att !== 'Magia') {
+      return(
+      <S.AttDiv key={att}>
+        <h5>{att}</h5>
+        <h4>{value}</h4>
+      </S.AttDiv>
+      )
+    }
   }
 
   componentDidUpdate(){
@@ -48,16 +53,28 @@ class Status extends Component {
       )
     }
     return(
-      <S.StatusDiv>
-        <S.CastleButtonImg src={CASTELO} alt="aba de status" />
-        <h4>{Livros[book.book].name}</h4>
-        {Object.keys(game).map((att) => this.criateAttribute(att, game[att]))}
-        {this.charmsButton(charms)}
-        <S.PlayerDiv>
-          <img src={GetGravatar(user.email)} alt={user.user} />
-          <h6>{user.user}</h6>
-        </S.PlayerDiv>
-      </S.StatusDiv>
+      <div>
+        <S.CastleButtonImg onClick={()=>this.setState({modal:this.state.modal === 'block'?'none':'block'})} src={CASTELO} alt="aba de status" />
+
+        <div style={{display : this.state.modal}}>
+          <S.StatusDiv >
+            <S.StatusBlock>
+              <h4>{Livros[book.book].name}</h4>
+              <S.PlayerDiv>
+                <img src={GetGravatar(user.email)} alt={user.user} />
+                <h6>{user.user}</h6>
+              </S.PlayerDiv>
+            </S.StatusBlock>
+            <S.StatusBlock>
+              {Object.keys(game).map((att) => this.criateAttribute(att, game[att]))}
+            </S.StatusBlock>
+            <S.StatusBlock>
+              {this.charmsButton(charms)}
+              <button>equipamento</button>
+            </S.StatusBlock>
+          </S.StatusDiv>
+        </div>
+      </div>
     )
   }
 }

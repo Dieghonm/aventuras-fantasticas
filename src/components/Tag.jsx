@@ -12,8 +12,6 @@ function Tag() {
   const text = () => {
     let location = useLocation().pathname;
     const globalState = useSelector((state) => state).book
-    console.log(Livros, globalState.book);
-
     switch (location) {
       case "/aventuras-fantasticas":
         return <p>Login</p>
