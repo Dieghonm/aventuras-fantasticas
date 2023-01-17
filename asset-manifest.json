@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aventuras-fantasticas/static/css/main.e6c13ad2.css",
-    "main.js": "/aventuras-fantasticas/static/js/main.1faa24b1.js",
+    "main.js": "/aventuras-fantasticas/static/js/main.2c98685c.js",
     "static/js/787.db9d463f.chunk.js": "/aventuras-fantasticas/static/js/787.db9d463f.chunk.js",
     "static/media/ACidadeladoCaos.png": "/aventuras-fantasticas/static/media/ACidadeladoCaos.496c1b8bb9e5696a709d.png",
     "static/media/FOTO-FELIPE.png": "/aventuras-fantasticas/static/media/FOTO-FELIPE.2f1a5415321c073cec8b.png",
@@ -21,15 +21,16 @@
     "static/media/QUATTRO.png": "/aventuras-fantasticas/static/media/QUATTRO.38aea6419e0d36b8ff3c.png",
     "static/media/TRE.png": "/aventuras-fantasticas/static/media/TRE.b7dc865f96da7c0f132d.png",
     "static/media/DUO.png": "/aventuras-fantasticas/static/media/DUO.45d99e24ba9ab45b7ac0.png",
+    "static/media/CASTELO.png": "/aventuras-fantasticas/static/media/CASTELO.84421f98023da9278f5f.png",
     "static/media/UNO.png": "/aventuras-fantasticas/static/media/UNO.83c420e585be66cf6ceb.png",
     "static/media/DADO.png": "/aventuras-fantasticas/static/media/DADO.933439dc486b7ea5b803.png",
     "index.html": "/aventuras-fantasticas/index.html",
     "main.e6c13ad2.css.map": "/aventuras-fantasticas/static/css/main.e6c13ad2.css.map",
-    "main.1faa24b1.js.map": "/aventuras-fantasticas/static/js/main.1faa24b1.js.map",
+    "main.2c98685c.js.map": "/aventuras-fantasticas/static/js/main.2c98685c.js.map",
     "787.db9d463f.chunk.js.map": "/aventuras-fantasticas/static/js/787.db9d463f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.1faa24b1.js"
+    "static/js/main.2c98685c.js"
   ]
 }
