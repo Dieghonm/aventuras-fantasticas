@@ -7,7 +7,7 @@ export const AsideDiv = styled.div`
   display: flex ;
   flex-direction: column;
   align-items: center;
-  width: 300px ;
+  width: 260px ;
   height: 100vh;
   background-color: white;
   background-position: bottom;

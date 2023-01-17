@@ -5,7 +5,7 @@ import Enemies from "../books/Enemies";
 import Combate from "./components/Combate";
 
 function CombatRPG(props) {
-  const { enemy } = props
+  const { enemy, enemiesCont } = props
   const [modal, setmodal] = useState('none')
 
   const arrSort = () => {
@@ -26,7 +26,7 @@ function CombatRPG(props) {
         <div style={{display : modal}}>
         </div>
           <div style={{display : modal}}>
-            <Combate setmodal={setmodal} enemys={ enemy ? enemy : arrSort() }/>
+            <Combate enemiesCont={enemiesCont} setmodal={setmodal} enemys={ enemy ? enemy : arrSort() }/>
           </div>
       </div>
     </div>
@@ -35,6 +35,7 @@ function CombatRPG(props) {
 
 CombatRPG.propTypes = {
   enemy: PropTypes.array,
+  enemiesCont:PropTypes.func
 };
 
 export default CombatRPG;

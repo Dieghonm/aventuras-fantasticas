@@ -5,13 +5,9 @@ export const CriarPerfilDiv = styled.div`
   display: flex ;
   flex-direction: column;
   align-items: center;
-  ${ media.laptop }{ 
-
-  }
-  ${ media.mobileM }{ 
-    /* border: 1px solid black; */
+  background: lightgrey;
+  /* border: 1px solid black; */
     padding: 0.5em ;
-    background: lightgrey;
     margin: 0.5em;
     input {
       margin: 0.4em;
@@ -25,6 +21,11 @@ export const CriarPerfilDiv = styled.div`
       background: 15% ;
       border-radius: 15px;
     }
+  ${ media.laptop }{ 
+
+  }
+  ${ media.mobileG }{ 
+    
   }
 `
 
@@ -32,8 +33,6 @@ export const EscolherPerfilDiv = styled.div`
   display: flex ;
   flex-direction: column;
   align-items: center;
-  width: 17em;
-  height: 10em;
   ${ media.laptop }{ 
 
   }

@@ -10,7 +10,7 @@ import * as S from './style/Combate'
 import { actionAttributes } from "../../redux/actions";
 
 function Combate(props) {
-  const { enemys, setmodal } = props
+  const { enemys, setmodal, enemiesCont } = props
 
   const globalState = useSelector((state) => state)
   const {game} = globalState
@@ -37,7 +37,7 @@ function Combate(props) {
       setNexteEnemyButton(true)
     }
     if (damage === 'player') {
-      console.log('player dmg checar se morreu');
+      console.log('player dmg, checar se morreu');
     }
   }, [damage])
 
@@ -96,12 +96,18 @@ function Combate(props) {
   }
 
   const nextEnemy = () => {
-    setEnemyNum(enemyNum + 1)
     setEnemyDamage(0)
     setNexteEnemyButton(false)
     setTurnRoll({p1: 0, p2: 0, i1: 0, i2: 0 }); 
     setDamage('')
     setuseLuck(false)
+    if (enemys.length > enemyNum + 1) {
+      setEnemyNum(enemyNum + 1)
+    } else {
+      setEnemyNum(0)
+      enemiesCont(enemys.length)
+      setmodal('none')
+    }
   }
 
   return (
@@ -115,7 +121,6 @@ function Combate(props) {
             luck={useLuck}
           />
           <span>
-            {console.log(p1)}
             <Dice roll={roll} status={'p1'} value={p1}/>
             <h1> + </h1>
             <Dice roll={roll} status={'p2'} value={p2}/>
@@ -157,7 +162,7 @@ function Combate(props) {
         perde 2 pontos de ENERGIA
       </p>
       {nextEnemyButton?
-      <button onClick={() => nextEnemy()}>Proximo Inimigo</button>
+      <button onClick={() => nextEnemy()}>{enemys.length > enemyNum + 1 ? 'Proximo Inimigo' : 'Sair do combate'}</button>
       :
       <button onClick={() => nextTurn()}>Nova rodada</button>
     }
@@ -170,7 +175,7 @@ function Combate(props) {
       {/* <button>Fugir</button> */}
     </div>
   }
-  <button onClick={() => setmodal('none') }>Sair</button>
+  {/* <button onClick={() => setmodal('none') }>Sair</button> */}
     </S.CombatDiv>
   )
 }
@@ -180,6 +185,7 @@ Combate.propTypes = {
   enemys: PropTypes.array,
   changeAtt: PropTypes.func,
   setmodal: PropTypes.func,
+  enemiesCont: PropTypes.func,
 };
 
 export default Combate

@@ -209,7 +209,7 @@ const Livros = {
       },
       1:{
         text:`0 sol se p6e. Enquanto o crepúsculo se transforma em escuridão, você começa a subir a colina na direção da ameaçadora forma que se desenha contra o céu noturno. A Cidadela fica a menos de uma hora de escalada.
-          A uma certa distancia de seus muros, você para para descansar - um erro, uma vez que, dessa posição, ela parece um espectro medonho do qual não se pode escapar. Os cabelos no seu pesco90 se arrepiam enquanto você a observa.
+          A uma certa distancia de seus muros, você para para descansar - um erro, uma vez que, dessa posição, ela parece um espectro medonho do qual não se pode escapar. Os cabelos no seu pescoço se arrepiam enquanto você a observa.
           Mas você se envergonha de seus medos. Com inflexível decisão, você marcha adiante na direção do portão principal, onde você sabe que encontrara guardas a sua espera. você considera suas opções.
           Já pensou em se apresentar como um especialista em plantas medicinais que veio tratar de um guarda com febre. Poderia também se dizer um comerciante ou artesão - talvez um carpinteiro. Poderia até mesmo ser um nômade que buscasse abrigo para a noite.
           Enquanto você pondera as possibilidades, e as histórias que terá que contar aos guardas, acaba chegando a trilha principal que conduz aos portões. Duas lanternas brilham em cada um dos lados
@@ -220,7 +220,7 @@ const Livros = {
           {text:`você se apresentara como um especialista em plantas medicinais?`, goTo:261},
           {text:`você dirá que e um comerciante?`, goTo:230},
           {text:`você pedirá abrigo para pernoitar?`, goTo:20},
-          {text:`testes de extras`, goTo:20, ex:[ex.combate, ['FERA DAS GARRAS', 'Cachorro-Macaco']]}
+          {text:`testes de extras`, goTo:20, ex:[ex.combate, ['Primeiro GIRA', 'Cachorro-Macaco']]}
         ]
       },
       2:{

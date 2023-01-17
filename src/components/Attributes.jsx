@@ -42,8 +42,6 @@ class  Attributes extends Component {
         <h3>{atribute[0]}</h3>
         {atribute[1].text.map((text, i) => <h5 key={atribute + i}>{text}</h5>)}
         {Array.from({ length: dicesNum }).map((_, i) => {
-          console.log(this.state);
-          console.log(dicesNum, 'dicesNum');
         return <Dice roll={this.roll} value={this.state[i]} status={i} key={atribute[0]+i}/>
         })}
         <button disabled={ this.state[dicesNum - 1] === 0 } onClick={this.nextButton}>Proximo</button>

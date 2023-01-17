@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { connect } from 'react-redux';
 import { Link, useParams } from "react-router-dom";
 import PropTypes from 'prop-types';
@@ -20,6 +20,7 @@ function Play(props) {
     user:{user},
     equip,
   } = globalState
+  const [enemiesCont, setEnemiesCont] = useState(0)
   let storage = GetLocalStorage()
 
   const reduxToStorage = (goTo, ex) => {
@@ -62,7 +63,7 @@ function Play(props) {
         disabledButton = !equip.includes(ex[1])
       }
       if (ex.includes('combate')){
-        // disabledButton = !(charms[ex[1]] > 0);
+        disabledButton = !(enemiesCont === ex[ex.indexOf('combate')+1].length);
       }
     }
 
@@ -100,12 +101,13 @@ function Play(props) {
 
   const combatButton = () => {
     const enemy = Livros[book].Pagina[goTo].options.find((option) => option.ex ? option.ex.includes('combate'): false)
-    return enemy ? <CombatRPG enemy={enemy.ex[enemy.ex.indexOf('combate') + 1]} /> : null
+    return enemy ? <CombatRPG enemiesCont={setEnemiesCont} enemy={enemy.ex[enemy.ex.indexOf('combate') + 1]}  /> : null
   }
 
   return(
     <div>
       <Status />
+      <h1>{enemiesCont}</h1>
       <p>{Livros[book].Pagina[goTo].text}</p>
       {combatButton()}
       {Livros[book].Pagina[goTo].options.map((option) => options(option))}

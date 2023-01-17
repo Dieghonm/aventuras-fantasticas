@@ -74,7 +74,7 @@ class AsideLogin extends Component {
     return(
       <>
         <S.CriarPerfilDiv>
-          <h4>Criar novo perfil</h4>
+          <h3>Criar nova conta</h3>
           <input
             type="text"
             name="Name"
@@ -98,15 +98,15 @@ class AsideLogin extends Component {
           <a href="https://br.gravatar.com/">
             Cadastre-se aqui para ter um avatar
           </a>
+          <S.EscolherPerfilDiv>
+            <h4>
+              Escolher perfil
+            </h4>
+            <S.ProfileIconDiv>
+              {bills.map((bill) => this.iconMaker(bill))}
+            </S.ProfileIconDiv>
+          </S.EscolherPerfilDiv>
         </S.CriarPerfilDiv>
-        <S.EscolherPerfilDiv>
-          <h4>
-            Escolher perfil
-          </h4>
-          <S.ProfileIconDiv>
-            {bills.map((bill) => this.iconMaker(bill))}
-          </S.ProfileIconDiv>
-        </S.EscolherPerfilDiv>
       </>
     )
   }

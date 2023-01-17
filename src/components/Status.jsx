@@ -34,7 +34,6 @@ class Status extends Component {
     }
   }
 
-
   render() {
     const { user, book, game, charms } = this.props.globalState
     if (!user.user) {

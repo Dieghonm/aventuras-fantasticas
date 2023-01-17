@@ -22,7 +22,7 @@ function App() {
     <S.AppDiv>
       <S.Icon><GiHamburgerMenu /></S.Icon>
       <BrowserRouter>
-      <Aside />
+        <Aside />
         <Routes>
           <Route path="/aventuras-fantasticas/NewGame" element={<NewGame />} />
           <Route path="/aventuras-fantasticas/SaveGame" element={<SaveGame />} />

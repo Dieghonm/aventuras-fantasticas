@@ -1,9 +1,11 @@
 import React, { Component } from "react"
-import AsideButtons from "../components/AsideButtons";
-import AsideLogin from "../components/AsideLogin"
 import PropTypes from 'prop-types';
 
+import AsideButtons from "../components/AsideButtons";
+import AsideLogin from "../components/AsideLogin"
 import Logo from '../imgs/logo.png'
+import Tag from "../components/Tag";
+
 import * as S from '../styles/pages/Aside'
 
 class Aside extends Component {
@@ -24,6 +26,7 @@ class Aside extends Component {
     return(
       <S.AsideDiv>
         <S.Logo src={Logo} alt="Logo" />
+        <Tag />
         {showButtons ?
           <AsideButtons changeLogin={this.changeLogin} /> :
           <AsideLogin changeLogin={this.changeLogin} />
