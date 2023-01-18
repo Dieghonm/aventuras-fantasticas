@@ -1,19 +1,19 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from 'react-redux'
 import PropTypes from 'prop-types';
+import { actionAttributes } from "../../redux/actions";
 
 import Status from "./Status";
 import Dice from "../../dice/Dice";
 import Enemies from "../../books/Enemies";
 
 import * as S from './style/Combate'
-import { actionAttributes } from "../../redux/actions";
 
 function Combate(props) {
   const { enemys, setmodal, enemiesCont } = props
 
   const globalState = useSelector((state) => state)
-  const {game} = globalState
+  const {game, user} = globalState
   const dispatch = useDispatch()
 
   const [turnRoll, setTurnRoll] = useState({
@@ -112,10 +112,10 @@ function Combate(props) {
 
   return (
     <S.CombatDiv>
-        <div>
+        <S.BlockDiv>
           <Status
             status={game}
-            name={'Player'}
+            name={user.user}
             damage={damage === 'player'}
             damageValue={0}
             luck={useLuck}
@@ -132,8 +132,8 @@ function Combate(props) {
               <h2>{p1 && p2 ? p1 + p2 + game.Habilidade : 'roll'}</h2>
             </div>
           </span>
-        </div>
-        <div>
+        </S.BlockDiv>
+        <S.BlockDiv>
           <Status
             status={Enemies[enemys[enemyNum]]}
             name={enemys[enemyNum]}
@@ -153,7 +153,7 @@ function Combate(props) {
               <h2 >{i1 && i2 ? i1 + i2 + Habilidade : 'roll'}</h2>
             </div>
           </span>
-        </div>
+        </S.BlockDiv>
   {
     i1 && i2 && p1 && p2 ? 
     <div>

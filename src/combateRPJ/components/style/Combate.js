@@ -1,27 +1,35 @@
 import styled from "styled-components";
 
 export const CombatDiv = styled.div`
-  /* position: fixed;
-  z-index: 2;
+  position: fixed;
+  z-index: 4;
   top: 10%;
-  overflow: auto; */
+  overflow: auto;
   background: lightgray;
   padding: 3px;
-  width: 500px;
+  width: 600px;
   height: 450px;
+  border: 10px green double;
+  text-align: center;
 
+  button {
+    padding: 5px;
+    margin: 2px;
+    cursor: pointer;
+  }
+
+`
+
+export const BlockDiv = styled.div`
+  padding: 10px 20px 0px;
+  
   span{
     display: flex;
+    padding: 15px 30px 0px;
   }
-
-  div {
-    border: 2px black solid;
-  }
-
   h1 {
     padding: 25px 10px;
     margin: 1px;
-
   }
 
   h2 {
@@ -29,15 +37,13 @@ export const CombatDiv = styled.div`
     justify-content: center;
     align-items: center;
     margin: 1px;
+    min-width: 50px;
   }
 
   h3 {
     margin: 1px;
-    padding: 5px 5px 5px 0px;
-  }
-
-  button {
-    padding: 0px 0px 0px 0px;
+    padding: 10px;
   }
 
 `
+

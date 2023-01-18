@@ -11,7 +11,6 @@ export const TagDiv = styled.div`
   width: 170px ;
   margin: 50px 0px 0px 410px;
   
-  
   img {
     height: 1.5em;
     margin: 0px 5px 0px 5px;
@@ -22,7 +21,8 @@ export const TagDiv = styled.div`
   }
 
   ${ media.laptop }{ 
-
+    margin: 35px 0px 0px 410px;
+    font-size: 0.8em;
   }
   ${ media.mobileM }{ 
 

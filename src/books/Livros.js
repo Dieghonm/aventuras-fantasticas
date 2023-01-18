@@ -208,7 +208,7 @@ const Livros = {
       }]
       },
       1:{
-        text:`0 sol se p6e. Enquanto o crepúsculo se transforma em escuridão, você começa a subir a colina na direção da ameaçadora forma que se desenha contra o céu noturno. A Cidadela fica a menos de uma hora de escalada.
+        text:`0 sol se põe. Enquanto o crepúsculo se transforma em escuridão, você começa a subir a colina na direção da ameaçadora forma que se desenha contra o céu noturno. A Cidadela fica a menos de uma hora de escalada.
           A uma certa distancia de seus muros, você para para descansar - um erro, uma vez que, dessa posição, ela parece um espectro medonho do qual não se pode escapar. Os cabelos no seu pescoço se arrepiam enquanto você a observa.
           Mas você se envergonha de seus medos. Com inflexível decisão, você marcha adiante na direção do portão principal, onde você sabe que encontrara guardas a sua espera. você considera suas opções.
           Já pensou em se apresentar como um especialista em plantas medicinais que veio tratar de um guarda com febre. Poderia também se dizer um comerciante ou artesão - talvez um carpinteiro. Poderia até mesmo ser um nômade que buscasse abrigo para a noite.
@@ -758,14 +758,14 @@ const Livros = {
         ]
       },
       61:{
-        text:`você avança com sua espada. O  Devlin para... e  salta sobre você!.  você golpeia com sua espada, mas não consegue 
+        text:`você avança com sua espada. O  Devlin para... e salta sobre você!.  você golpeia com sua espada, mas não consegue 
         fazer nenhum mal a criatura, que esta agora em cima de você. O corpo incandescente dele esta queimando a sua carne e você
         esta em grande agonia. Ainda assim, ele se mantêm firme e você desmaia em choque. você cai no chão para nunca mais acorda
-        r, e o Devlin s6 larga quando já tem certeza de que seu corpo esta queimado alem de qualquer possibilidade de 
+        r, e o Devlin só larga quando já tem certeza de que seu corpo esta queimado alem de qualquer possibilidade de 
         recuperação. Afinal, você sera mesmo a próxima refeição das criaturas da Torre Negra...
         `,
         options: [
-          {text:``, goTo:0},
+          {text:`Voce falhou...`, goTo:600},
         ]
       },
       62:{
@@ -804,7 +804,10 @@ const Livros = {
         ]
       },
       66:{
-        text:`Eles olham um para o outro e conversam. Um deles se adianta e estende a mão com um pequeno cubo, que parece ter sido feito de algum tipo de pão ou bolo. A pedido dele, você p6e isso na boca e mastiga. Quando engole, você se sente subitamente forte de novo. Retorne a seus nfveis iniciais de HABILIDADE  e ENERGIA e  acrescente  um ponto de SORTE.  você agradece  a ele pela comida e a todos pela companhia, depois parte na direção das portas. Vá para 270.
+        text:`Eles olham um para o outro e conversam. Um deles se adianta e estende a mão com um pequeno cubo, que parece ter sido 
+          feito de algum tipo de pão ou bolo. A pedido dele, você põe isso na boca e mastiga. Quando engole, você se sente 
+          subitamente forte de novo. Retorne a seus níveis iniciais de HABILIDADE  e ENERGIA e  acrescente um ponto de SORTE.  
+          você agradece a ele pela comida e a todos pela companhia, depois parte na direção das portas. Vá para 270.
         `,
         options: [
           {text:``, goTo:0},

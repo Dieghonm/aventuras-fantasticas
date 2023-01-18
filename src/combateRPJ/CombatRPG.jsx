@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 import Enemies from "../books/Enemies";
 import Combate from "./components/Combate";
 
+import * as S from './components/style/CombatRPG'
+
 function CombatRPG(props) {
   const { enemy, enemiesCont } = props
   const [modal, setmodal] = useState('none')
@@ -22,9 +24,9 @@ function CombatRPG(props) {
   return (
     <div>
       <div>
-        <button onClick={()=> setmodal('block')}>Ir para o combate</button>
-        <div style={{display : modal}}>
-        </div>
+        <S.CombatButton onClick={()=> setmodal('block')}>Ir para o combate</S.CombatButton>
+        <S.CombatBlockDiv style={{display : modal}}>
+        </S.CombatBlockDiv>
           <div style={{display : modal}}>
             <Combate enemiesCont={enemiesCont} setmodal={setmodal} enemys={ enemy ? enemy : arrSort() }/>
           </div>

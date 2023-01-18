@@ -1,14 +1,15 @@
 import React, { useState } from "react"
 import { connect } from 'react-redux';
 import { Link, useParams } from "react-router-dom";
+import { actionCharms, actionGoTo, actionAttributes, actionEquipADD } from "../redux/actions";
+import { GetLocalStorage, SetLocalStorage } from '../helpers/LocalStorage'
 import PropTypes from 'prop-types';
 
+import CombatRPG from "../combateRPJ/CombatRPG";
 import Status from "../components/Status"
 import Livros from '../books/Livros'
 
-import { actionCharms, actionGoTo, actionAttributes, actionEquipADD } from "../redux/actions";
-import { GetLocalStorage, SetLocalStorage } from '../helpers/LocalStorage'
-import CombatRPG from "../combateRPJ/CombatRPG";
+import * as S from '../styles/pages/Play'
 
 function Play(props) {
   const { charmsToRedux, globalState, goToToRedux, attibutesRedux, equipAddRedux } = props
@@ -105,13 +106,14 @@ function Play(props) {
   }
 
   return(
-    <div>
+    <S.PlayDiv>
       <Status />
-      <h1>{enemiesCont}</h1>
-      <p>{Livros[book].Pagina[goTo].text}</p>
-      {combatButton()}
-      {Livros[book].Pagina[goTo].options.map((option) => options(option))}
-    </div>
+      <S.PlayTextP>{Livros[book].Pagina[goTo].text}</S.PlayTextP>
+        {combatButton()}
+      <S.PlayButtonDiv>
+        {Livros[book].Pagina[goTo].options.map((option) => options(option))}
+      </S.PlayButtonDiv>
+    </S.PlayDiv>
   )
 }
 

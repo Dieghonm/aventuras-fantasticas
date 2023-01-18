@@ -23,9 +23,16 @@ export const SinopseDiv = styled.div`
     margin: 5px;
   }
 
-  ${ media.laptop }{ 
-    /* width: 15em ;
-    height: 47em; */
+  ${ media.laptop }{
+    height: 25em ;
+    img {
+      display:flex;
+      width: 8em;
+      height: 12em;
+    }
+    p {
+      font-size: 0.8em;
+    }
   }
   ${ media.mobileG }{ 
     /* width: 80% ;

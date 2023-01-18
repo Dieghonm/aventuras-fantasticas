@@ -12,7 +12,7 @@ export const StatusDiv = styled.div`
   position: fixed;
   z-index: 1;
   bottom: 2%;
-  right: 6.4%;
+  right: 73px;
   background: white;
   height: 15em;
   width: 17.3em;
@@ -35,7 +35,7 @@ export const CastleButtonImg = styled.img `
   position: fixed;
   z-index: 2;
   bottom: 0%;
-  right: 5%;
+  right: 50px;
 `
 
 export const PlayerDiv = styled.div`

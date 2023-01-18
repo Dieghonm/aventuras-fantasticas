@@ -3,7 +3,12 @@ import { media } from "../media";
 
 export const NewGameDiv = styled.div`
   margin: 5em ;
+  ${ media.laptop }{ 
+    margin: 5em 3em ;
+  }
+  ${ media.mobileM }{ 
 
+  }
 ` 
 
 export const BooksCards = styled.div`
@@ -39,8 +44,20 @@ export const BookDiv = styled.div`
   }
 
   ${ media.laptop }{ 
-    /* width: 15em ;
-    height: 47em; */
+    width: 10.5em;
+    height: 17em;
+    margin: 0.3em;
+    img {
+    margin:0.5em;
+    width: 8em;
+    height: 12em;
+  }
+  h4 {
+    font-size: 0.8em;
+    margin: 5px;
+    height: 2em;
+    width: 11em;
+  }
   }
   ${ media.mobileM }{ 
     /* width: 80% ;

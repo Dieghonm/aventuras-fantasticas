@@ -24,7 +24,7 @@ function Status(props) {
 
   return (
     <S.StatusDiv>
-      <h5>{name}</h5>
+      <S.Name>{name}</S.Name>
       {Object.keys(status).map((stat) => (
       <div key={stat}>
         <h5>{stat}</h5>
