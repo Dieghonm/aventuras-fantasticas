@@ -59,10 +59,10 @@ class Status extends Component {
         <div style={{display : this.state.modal}}>
           <S.StatusDiv >
             <S.StatusBlock>
-              <h4>{Livros[book.book].name}</h4>
+              <img src={GetGravatar(user.email)} alt={user.user} />
               <S.PlayerDiv>
-                <img src={GetGravatar(user.email)} alt={user.user} />
-                <h6>{user.user}</h6>
+                <h4>{Livros[book.book].name}</h4>
+                <h5>{user.user}</h5>
               </S.PlayerDiv>
             </S.StatusBlock>
             <S.StatusBlock>

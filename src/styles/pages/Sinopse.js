@@ -3,8 +3,6 @@ import { media } from "../media";
 
 export const SinopseDiv = styled.div`
   display: flex ;
-  flex-direction: column;
-  justify-content:center;
   align-items:center; 
   margin: 5em;
   word-break: break-word;
@@ -13,25 +11,27 @@ export const SinopseDiv = styled.div`
   height: 43em ;
   border: 10px green double;
   padding: 1em ;
-
   img {
-    display:flex;
     width: 10em;
     height: 15em;
   }
-  h4 {
-    margin: 5px;
+  p {
+    padding: 1.5em;
+  }
+  button {
+    min-width: 127px;
+    cursor: pointer;
+    margin: 5px 0px;
   }
 
   ${ media.laptop }{
     height: 25em ;
     img {
-      display:flex;
       width: 8em;
       height: 12em;
     }
     p {
-      font-size: 0.8em;
+      font-size: 1em;
     }
   }
   ${ media.mobileG }{ 

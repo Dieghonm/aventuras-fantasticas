@@ -32,6 +32,7 @@ export const AppDiv = styled.div`
     color: rgba(255, 255, 255, 1);
     :disabled {
     opacity: 0.4;
+    cursor: pointer;
     }
   }
 `;

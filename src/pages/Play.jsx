@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { connect } from 'react-redux';
 import { Link, useParams } from "react-router-dom";
 import { actionCharms, actionGoTo, actionAttributes, actionEquipADD } from "../redux/actions";
@@ -21,7 +21,6 @@ function Play(props) {
     user:{user},
     equip,
   } = globalState
-  const [enemiesCont, setEnemiesCont] = useState(0)
   let storage = GetLocalStorage()
 
   const reduxToStorage = (goTo, ex) => {
@@ -50,7 +49,6 @@ function Play(props) {
         storage[user][book].Equip = equip
       }
     }
-    console.log(storage);
     SetLocalStorage(storage)
   }
 
@@ -64,7 +62,7 @@ function Play(props) {
         disabledButton = !equip.includes(ex[1])
       }
       if (ex.includes('combate')){
-        disabledButton = !(enemiesCont === ex[ex.indexOf('combate')+1].length);
+        // disabledButton = !(enemiesCont === ex[ex.indexOf('combate')+1].length);
       }
     }
 
@@ -88,28 +86,24 @@ function Play(props) {
         if (ex.includes('itemRemov')){
           equipAddRedux([ex[ex.indexOf('itemRemov')+1],'remove'])
         }
-        
       }
       reduxToStorage(goTo, ex)
+    }
+    if (ex && ex.includes('combate')){
+      return <CombatRPG key={text} goTo={goTo} text={text} enemy={ex[ex.indexOf('combate') + 1]}  />
     }
 
     return(
       <Link key={text} to={`/aventuras-fantasticas/Play/${goTo}`}>
-        <button onClick={()=>Selected(goTo)} disabled={disabledButton}>{text}</button>
+        <S.OptionsButton onClick={()=>Selected(goTo)} disabled={disabledButton}>{text}</S.OptionsButton>
       </Link>
     )
-  }
-
-  const combatButton = () => {
-    const enemy = Livros[book].Pagina[goTo].options.find((option) => option.ex ? option.ex.includes('combate'): false)
-    return enemy ? <CombatRPG enemiesCont={setEnemiesCont} enemy={enemy.ex[enemy.ex.indexOf('combate') + 1]}  /> : null
   }
 
   return(
     <S.PlayDiv>
       <Status />
       <S.PlayTextP>{Livros[book].Pagina[goTo].text}</S.PlayTextP>
-        {combatButton()}
       <S.PlayButtonDiv>
         {Livros[book].Pagina[goTo].options.map((option) => options(option))}
       </S.PlayButtonDiv>

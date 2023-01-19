@@ -2,13 +2,20 @@ import styled from "styled-components";
 import { media } from "../media";
 
 export const EnchantmentsDiv = styled.div`
-  /* display: flex; */
+  margin: 4em 0em 0em 2em;
+  h4{
+    margin: 1px;
+  }
+`
+
+export const EnchantmentsCardsDiv = styled.div`
   display: flex ;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
   height: 80vh;
   overflow-y: scroll;
+  height: 480px;
 `
 
 export const EnchantmentCardDiv = styled.div`
@@ -46,3 +53,10 @@ export const CardButtonsDiv = styled.div`
     align:center
   }
 `
+
+export const ButtonsDiv = styled.button`
+  min-width: 150px;
+  padding: 5px;
+  margin: 10px;
+`
+

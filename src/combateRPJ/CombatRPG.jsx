@@ -7,7 +7,7 @@ import Combate from "./components/Combate";
 import * as S from './components/style/CombatRPG'
 
 function CombatRPG(props) {
-  const { enemy, enemiesCont } = props
+  const { enemy, enemiesCont, text = 'Ir para o combate', goTo } = props
   const [modal, setmodal] = useState('none')
 
   const arrSort = () => {
@@ -24,11 +24,11 @@ function CombatRPG(props) {
   return (
     <div>
       <div>
-        <S.CombatButton onClick={()=> setmodal('block')}>Ir para o combate</S.CombatButton>
+        <S.CombatButton onClick={()=> setmodal('block')}>{text}</S.CombatButton>
         <S.CombatBlockDiv style={{display : modal}}>
         </S.CombatBlockDiv>
           <div style={{display : modal}}>
-            <Combate enemiesCont={enemiesCont} setmodal={setmodal} enemys={ enemy ? enemy : arrSort() }/>
+            <Combate enemiesCont={enemiesCont} setmodal={setmodal} goTo={goTo} enemys={ enemy ? enemy : arrSort() }/>
           </div>
       </div>
     </div>
@@ -37,7 +37,9 @@ function CombatRPG(props) {
 
 CombatRPG.propTypes = {
   enemy: PropTypes.array,
-  enemiesCont:PropTypes.func
+  enemiesCont:PropTypes.func,
+  text: PropTypes.string,
+  goTo: PropTypes.number
 };
 
 export default CombatRPG;

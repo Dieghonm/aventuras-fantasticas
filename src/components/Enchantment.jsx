@@ -61,13 +61,13 @@ class Enchantment extends Component {
     const data = Livros[book.book].character.Encantamentos;
     const list = Object.keys(data)
     return (
-      <div>
+      <S.EnchantmentsDiv>
         <h4>Vocé pode escolher {this.state.charms} encantamentos para levar na sua jornada</h4>
-        <S.EnchantmentsDiv>
+        <S.EnchantmentsCardsDiv>
           {list.map((encantment) => this.enchantmentCard(encantment, data[encantment]))}
-        </S.EnchantmentsDiv>
-        <button disabled={this.state.charms !== 0 } onClick={this.buttonNext} >próxima</button>
-      </div>
+        </S.EnchantmentsCardsDiv>
+        <S.ButtonsDiv disabled={this.state.charms !== 0 } onClick={this.buttonNext} >próxima</S.ButtonsDiv>
+      </S.EnchantmentsDiv>
     )
   }
 }

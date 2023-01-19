@@ -8,10 +8,10 @@ import Dice from "../../dice/Dice";
 import Enemies from "../../books/Enemies";
 
 import * as S from './style/Combate'
+import { Link } from "react-router-dom";
 
 function Combate(props) {
-  const { enemys, setmodal, enemiesCont } = props
-
+  const { enemys, setmodal, goTo } = props
   const globalState = useSelector((state) => state)
   const {game, user} = globalState
   const dispatch = useDispatch()
@@ -105,7 +105,6 @@ function Combate(props) {
       setEnemyNum(enemyNum + 1)
     } else {
       setEnemyNum(0)
-      enemiesCont(enemys.length)
       setmodal('none')
     }
   }
@@ -162,7 +161,12 @@ function Combate(props) {
         perde 2 pontos de ENERGIA
       </p>
       {nextEnemyButton?
-      <button onClick={() => nextEnemy()}>{enemys.length > enemyNum + 1 ? 'Proximo Inimigo' : 'Sair do combate'}</button>
+        enemys.length > enemyNum + 1 ? 
+          <button onClick={() => nextEnemy()}>Proximo Inimigo</button>
+          :
+          <Link to={`/aventuras-fantasticas/Play/${goTo}`}>
+            <button onClick={() => nextEnemy()}>Sair do combate</button>
+          </Link>
       :
       <button onClick={() => nextTurn()}>Nova rodada</button>
     }
@@ -186,6 +190,7 @@ Combate.propTypes = {
   changeAtt: PropTypes.func,
   setmodal: PropTypes.func,
   enemiesCont: PropTypes.func,
+  goTo: PropTypes.number,
 };
 
 export default Combate

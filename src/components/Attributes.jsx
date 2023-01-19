@@ -6,7 +6,9 @@ import { actionAttributes, actionEquipADD } from "../redux/actions";
 import Dice from "../dice/Dice";
 import { ItensInitialAdd } from "../helpers/LocalStorage";
 
-class  Attributes extends Component {
+import * as S from '../styles/components/Attributes'
+
+class Attributes extends Component {
   state={
     0:0,
     1:0,
@@ -15,7 +17,6 @@ class  Attributes extends Component {
 
   roll = (number, status) => {
     const { diceNum } = this.state
-    console.log(number, status, diceNum);
     this.setState({
       [status]: number,
       diceNum: diceNum + number
@@ -38,14 +39,17 @@ class  Attributes extends Component {
     const { atribute } = this.props
     const dicesNum = atribute[1].roll
     return (
-      <div>
-        <h3>{atribute[0]}</h3>
-        {atribute[1].text.map((text, i) => <h5 key={atribute + i}>{text}</h5>)}
+      <S.AttributesDiv>
+        <div>
+
+          <h3>{atribute[0]}</h3>
+          {atribute[1].text.map((text, i) => <p key={atribute + i}>{text}</p>)}
+        </div>
         {Array.from({ length: dicesNum }).map((_, i) => {
         return <Dice roll={this.roll} value={this.state[i]} status={i} key={atribute[0]+i}/>
         })}
-        <button disabled={ this.state[dicesNum - 1] === 0 } onClick={this.nextButton}>Proximo</button>
-      </div>
+        <S.AttributesButton disabled={ this.state[dicesNum - 1] === 0 } onClick={this.nextButton}>Proximo</S.AttributesButton>
+      </S.AttributesDiv>
     )
   }
 }

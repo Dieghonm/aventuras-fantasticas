@@ -12,10 +12,11 @@ export const StatusDiv = styled.div`
   position: fixed;
   z-index: 1;
   bottom: 2%;
-  right: 73px;
+  right: 67px;
   background: white;
-  height: 15em;
-  width: 17.3em;
+  height: 12em;
+  width: 17em;
+  padding: 5px;
   h3 {
     margin: 0px 0px ;
   }
@@ -28,24 +29,27 @@ export const StatusDiv = styled.div`
 
 `
 export const StatusBlock = styled.div`
-    display: flex ;
+  display: flex ;
+  h4 {
+    margin: 0px 0px ;
+  }
+  h5 {
+    margin: 0px 0px ;
+  }
+  img {
+    height: 3em
+  }
 `
 export const CastleButtonImg = styled.img `
   height: 13em ;
   position: fixed;
   z-index: 2;
   bottom: 0%;
-  right: 50px;
+  right: 42px;
 `
 
 export const PlayerDiv = styled.div`
-margin: 0.5em;
-  img {
-    height: 3em
-  }
-  h6 {
-    margin: 1%
-  }
+  margin: 0.5em;
 
 `
 export const AttDiv = styled.div`

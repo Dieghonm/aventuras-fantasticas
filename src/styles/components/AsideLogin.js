@@ -20,6 +20,7 @@ export const CriarPerfilDiv = styled.div`
     width: 17em ;
     background: 15% ;
     border-radius: 15px;
+    cursor: pointer;
   }
   ${ media.laptop }{ 
     padding: 0.5em ;
@@ -73,6 +74,7 @@ export const ProfileIconDiv = styled.div`
     width: 6em;
     height: 6em;
     align-items: center;
+    cursor: pointer;
   }
   img {
     height: 3em;

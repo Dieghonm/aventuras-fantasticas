@@ -6,7 +6,6 @@ export const CombatButton = styled.button`
   padding: 5px;
   margin: 2px;
   cursor: pointer;
-
   ${ media.laptop }{ 
     font-size: 0.8em;
 

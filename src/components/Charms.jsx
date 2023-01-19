@@ -25,11 +25,11 @@ class Charms extends Component {
     return(
       <S.CharmsDiv hidden={isHiden}>
         {list.map((charm) => (
-          <div key={charm}>
+          <S.DiceDiv key={charm}>
             <p>{data[charm][0]} - {charms[charm]}</p> 
             {/* dado pare recuperar atribudo, ainda tenho que implementar */}
             {roll.includes(charm)? <Dice roll={ this.roll } status={charm}/>: null}
-          </div>
+          </S.DiceDiv>
         ))}
       </S.CharmsDiv>
     )
@@ -38,7 +38,7 @@ class Charms extends Component {
   render() {
     return (
       <div>
-        <button onClick={() => this.setState({isHiden: !this.state.isHiden})}>Feitiços</button>
+        <S.CharmButton onClick={() => this.setState({isHiden: !this.state.isHiden})}>Feitiços</S.CharmButton>
         {this.showCharm()}
       </div>
     )
