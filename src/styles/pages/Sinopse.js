@@ -4,13 +4,14 @@ import { media } from "../media";
 export const SinopseDiv = styled.div`
   display: flex ;
   align-items:center; 
-  margin: 5em;
+  margin: 4em;
   word-break: break-word;
   background: white;
+  overflow-y: scroll;
   width: 60em ;
   height: 43em ;
   border: 10px green double;
-  padding: 1em ;
+  padding: 4em 2em 1em ;
   img {
     width: 10em;
     height: 15em;
@@ -25,7 +26,7 @@ export const SinopseDiv = styled.div`
   }
 
   ${ media.laptop }{
-    height: 25em ;
+    height: 22em ;
     img {
       width: 8em;
       height: 12em;

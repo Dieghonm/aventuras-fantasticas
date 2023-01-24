@@ -36,9 +36,6 @@ function Combate(props) {
     if (damage === 'enemy' && enemyDamage > Energia - 3) {
       setNexteEnemyButton(true)
     }
-    if (damage === 'player') {
-      console.log('player dmg, checar se morreu');
-    }
   }, [damage])
 
   useEffect(() => {
@@ -153,7 +150,11 @@ function Combate(props) {
             </div>
           </span>
         </S.BlockDiv>
-  {
+  { game.Energia === 0 ? (
+    <Link to={`/aventuras-fantasticas/Play/${600}`}>
+      <button>Voce perdeu</button>
+    </Link>
+  ) : 
     i1 && i2 && p1 && p2 ? 
     <div>
       <p>{p1 + p2 + game.Habilidade > i1 + i2 + Habilidade ? 
@@ -176,10 +177,8 @@ function Combate(props) {
     <div>
       <p>Click em cada dado para jogar seu ataque ou no botão para jogar todos de uma só vez </p>
       <button onClick={rollAll}>Rolar todos</button>
-      {/* <button>Fugir</button> */}
     </div>
   }
-  {/* <button onClick={() => setmodal('none') }>Sair</button> */}
     </S.CombatDiv>
   )
 }

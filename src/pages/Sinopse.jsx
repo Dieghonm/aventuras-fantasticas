@@ -32,7 +32,6 @@ function Sinopse(props) {
     const goTo = Livros[book].Pagina
     let cont = 0
     for (const key in goTo) {
-      console.log()
       if (goTo[key].options[0].goTo === 0) {
         cont++
       }
@@ -48,6 +47,9 @@ function Sinopse(props) {
           <button disabled={Livros[book].sinopse === ''} onClick={gameSelect}>Novo Jogo</button>
         </Link>
         { savedEsxist()? <SavedButton book={book}/> : null }
+        <Link to={"/aventuras-fantasticas/NewGame"} >
+          <button>Voltar</button>
+        </Link>
         {concluzao()}
       </div>
       <p>{Livros[book].sinopse}</p>
