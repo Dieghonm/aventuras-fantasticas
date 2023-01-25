@@ -56,7 +56,6 @@ class Enchantment extends Component {
     let data = Object.keys(this.state).filter((att) =>this.state[att] !== 0 && typeof this.state[att] === 'number')
     const obj = {}
     data.forEach((att) => obj[att]= this.state[att] )
-    console.log(obj);
     charmsToRedux(obj);
     StorageCharmList(obj, user.user, book.book)
     killMagic()

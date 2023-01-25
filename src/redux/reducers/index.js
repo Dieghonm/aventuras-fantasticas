@@ -6,6 +6,7 @@ import game from './game';
 import charms from './charms';
 import equip from './equip';
 import status from './status'
+import attInitial from './attInitial';
 
 const rootReducer = combineReducers({
   user,
@@ -13,7 +14,8 @@ const rootReducer = combineReducers({
   game,
   charms,
   equip,
-  status
+  status,
+  attInitial,
 });
 
 export default rootReducer;

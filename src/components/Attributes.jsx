@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import { actionAttributes, actionEquipADD, oppenStatusPage } from "../redux/actions";
+import { actionAttributes, actionEquipADD, attInitial, oppenStatusPage } from "../redux/actions";
 import Dice from "../dice/Dice";
 import { ItensInitialAdd } from "../helpers/LocalStorage";
 
@@ -24,7 +24,7 @@ class Attributes extends Component {
   }
 
   nextButton = () => {
-    const { indexFunc, changeAtribute, atribute, oppenStatusDispatch, equipAdd, globalState:{user,book} } = this.props
+    const { indexFunc, initialAttDispatch, changeAtribute, atribute, oppenStatusDispatch, equipAdd, globalState:{user,book} } = this.props
     const { diceNum } = this.state
     if (atribute[0] === 'Equipamento') {
       equipAdd(atribute[1].equipAdd)
@@ -33,6 +33,7 @@ class Attributes extends Component {
     indexFunc()
     this.setState({ 0:0, 1:0, diceNum:0})
     changeAtribute([atribute[0], diceNum + atribute[1].sum])
+    initialAttDispatch([atribute[0], diceNum + atribute[1].sum])
     oppenStatusDispatch()
     setTimeout(oppenStatusDispatch, 1500)
   }
@@ -59,6 +60,7 @@ const mapDispatchToProps = (dispatch) => ({
   changeAtribute: (data) => dispatch(actionAttributes(data)),
   equipAdd: (data) => dispatch(actionEquipADD(data)),
   oppenStatusDispatch: (data) => dispatch(oppenStatusPage(data)),
+  initialAttDispatch: (data) => dispatch(attInitial(data))
 });
 
 const mapStateToProps = (state) => ({
@@ -71,6 +73,7 @@ Attributes.propTypes = {
   changeAtribute: PropTypes.func,
   equipAdd: PropTypes.func,
   oppenStatusDispatch: PropTypes.func,
+  initialAttDispatch: PropTypes.func,
   globalState: PropTypes.object,
 };
 

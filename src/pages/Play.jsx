@@ -26,7 +26,6 @@ function Play(props) {
   const reduxToStorage = (goTo, ex) => {
     const data = storage[user][book]
     data.goTo = goTo
-    // console.log(data);
     if (ex) {
       if (ex.includes('charm')){
         storage[user][book].charmList[ex[1]] = data.charmList[ex[1]] - 1

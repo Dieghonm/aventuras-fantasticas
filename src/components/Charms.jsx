@@ -6,6 +6,7 @@ import * as S from '../styles/components/Charms'
 
 import Livros from '../books/Livros'
 import Dice from "../dice/Dice";
+import { actionAttributes, actionCharms } from "../redux/actions";
 
 class Charms extends Component {
   state = {
@@ -13,7 +14,11 @@ class Charms extends Component {
   }
 
   roll = (num, charm) => {
-    console.log('rolar', num, charm);
+    const { globalState, attibutesRedux, charmsToRedux} = this.props
+    const { book, game } = globalState
+    const data = Livros[book.book].character.Encantamentos
+    attibutesRedux([data[charm][0], game[data[charm][0]] + num])
+    charmsToRedux(charm)
   }
 
   showCharm = () => {
@@ -24,13 +29,14 @@ class Charms extends Component {
     const roll = ['sorte', 'habilidade', 'energia']
     return(
       <S.CharmsDiv hidden={isHiden}>
-        {list.map((charm) => (
+        {list.map((charm) => {
+          return charms[charm] > 0 ? (
           <S.DiceDiv key={charm}>
-            <p>{data[charm][0]} - {charms[charm]}</p> 
-            {/* dado pare recuperar atribudo, ainda tenho que implementar */}
+            <p>{data[charm][0]} - {charms[charm]}</p>
             {roll.includes(charm)? <Dice roll={ this.roll } status={charm}/>: null}
           </S.DiceDiv>
-        ))}
+        ): null
+        })}
       </S.CharmsDiv>
     )
   }
@@ -46,21 +52,18 @@ class Charms extends Component {
 }
 
 Charms.propTypes = {
-  indexFunc: PropTypes.func,
   globalState: PropTypes.object,
+  attibutesRedux: PropTypes.func,
   charmsToRedux: PropTypes.func,
-  killMagic: PropTypes.func,
 };
 
-// const mapDispatchToProps = (dispatch) => ({
-  // charmsToRedux: (data) => dispatch(actionCharms(data)),
-  // killMagic: (data) => dispatch(actionKillMagic (data)),
-// });
+const mapDispatchToProps = (dispatch) => ({
+  attibutesRedux: (data) => dispatch(actionAttributes (data)),
+  charmsToRedux: (data) => dispatch(actionCharms(data)),
+});
 
 const mapStateToProps = (state) => ({
   globalState: state,
 });
 
-export default connect(mapStateToProps, 
-  // mapDispatchToProps
-  )(Charms);
+export default connect(mapStateToProps, mapDispatchToProps)(Charms);
