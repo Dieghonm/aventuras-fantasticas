@@ -28,8 +28,8 @@ export const AttributesDiv = styled.div`
 `
 
 export const AttributesButton = styled.button`
-  /* min-width: 150px;
+  min-width: 150px;
   padding: 5px;
-  margin: 10px; */
+  margin: 10px;
 `
 

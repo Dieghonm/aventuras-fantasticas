@@ -49,7 +49,7 @@ class Attributes extends Component {
         {Array.from({ length: dicesNum }).map((_, i) => {
         return <Dice roll={this.roll} value={this.state[i]} status={i} key={atribute[0]+i}/>
         })}
-        <S.AttributesButton disabled={ this.state[dicesNum - 1] === 0 } onClick={this.nextButton}>Proximo</S.AttributesButton>
+        <S.AttributesButton disabled={ this.state[dicesNum - 1] === 0 } onClick={this.nextButton}>Próximo</S.AttributesButton>
       </S.AttributesDiv>
     )
   }

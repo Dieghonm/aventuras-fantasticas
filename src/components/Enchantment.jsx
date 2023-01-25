@@ -9,7 +9,10 @@ import { actionCharms, actionKillMagic } from "../redux/actions";
 import { StorageCharmList } from "../helpers/LocalStorage";
 
 class Enchantment extends Component {
-  state = {}
+  state = {
+    name:'Clique no encantamento para ver a descrição',
+    description:'Clique nos botoes de + ou - para escolher os encantamentos para levar em sua jornada.'
+  }
 
   cheiceEnchant = (code, num) => {
     this.setState({
@@ -30,26 +33,30 @@ class Enchantment extends Component {
     )
   }
 
+  showDescription = (name, description) => {
+    this.setState({name,description})
+  }
+
   enchantmentCard = (code, [name, description]) => {
     return (
-      <S.EnchantmentCardDiv key={code}>
-        <h3>{name}</h3>
-        <p>{description}</p>
-        <S.CardButtonsDiv>
-          <button disabled={this.state.charms === 0} onClick={ () => this.cheiceEnchant(code, 1)}>+</button>
+      <div onClick={() =>this.showDescription(name, description)}>
+        <S.EnchantmentCardDiv key={code}>
           <button disabled={this.state[code] < 1} onClick={ () => this.cheiceEnchant(code, -1)}>-</button>
-          <h3>{this.state[code] || 0} Feitiços</h3>
-        </S.CardButtonsDiv>
-      </S.EnchantmentCardDiv>
+          <h3>{this.state[code] || 0}</h3>
+          <button disabled={this.state.charms === 0} onClick={ () => this.cheiceEnchant(code, 1)}>+</button>
+          <h3>{name}</h3>
+        </S.EnchantmentCardDiv>
+      </div>
     )
   }
 
   buttonNext = () => {
     const { indexFunc, globalState, charmsToRedux, killMagic } = this.props
     const { user, book } = globalState
-    const data = Object.keys(this.state).filter((att) =>this.state[att] !== 0 )
+    let data = Object.keys(this.state).filter((att) =>this.state[att] !== 0 && typeof this.state[att] === 'number')
     const obj = {}
     data.forEach((att) => obj[att]= this.state[att] )
+    console.log(obj);
     charmsToRedux(obj);
     StorageCharmList(obj, user.user, book.book)
     killMagic()
@@ -59,14 +66,18 @@ class Enchantment extends Component {
   render() {
     const { book }= this.props.globalState
     const data = Livros[book.book].character.Encantamentos;
+    const { name, description} = this.state
     const list = Object.keys(data)
     return (
       <S.EnchantmentsDiv>
         <h4>Vocé pode escolher {this.state.charms} encantamentos para levar na sua jornada</h4>
-        <S.EnchantmentsCardsDiv>
-          {list.map((encantment) => this.enchantmentCard(encantment, data[encantment]))}
-        </S.EnchantmentsCardsDiv>
-        <S.ButtonsDiv disabled={this.state.charms !== 0 } onClick={this.buttonNext} >próxima</S.ButtonsDiv>
+        <S.EnchantmentsMainnDiv>
+          <S.EnchantmentsCardsDiv>
+            {list.map((encantment) => this.enchantmentCard(encantment, data[encantment]))}
+          </S.EnchantmentsCardsDiv>
+          <S.EnchantmentsTextP>{`${name} - ${description}`}</S.EnchantmentsTextP>
+        </S.EnchantmentsMainnDiv>
+        <S.NextButton disabled={this.state.charms !== 0 } onClick={this.buttonNext}>próxima</S.NextButton>
       </S.EnchantmentsDiv>
     )
   }
