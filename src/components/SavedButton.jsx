@@ -49,11 +49,11 @@ class SavedButton extends Component {
 }
 
 const mapDispatchToProps = (dispatch) => ({
-  bookToRedux: (data) => dispatch(actionbookChoice (data)),
-  attibutesRedux: (data) => dispatch(actionAttributes (data)),
+  bookToRedux: (data) => dispatch(actionbookChoice(data)),
+  attibutesRedux: (data) => dispatch(actionAttributes(data)),
   goToToRedux: (data) => dispatch(actionGoTo(data)),
   charmsToRedux: (data) => dispatch(actionCharms(data)),
-  equipAddRedux: (data) => dispatch(actionEquipADD (data)),
+  equipAddRedux: (data) => dispatch(actionEquipADD(data)),
   goldRedux: (data) => dispatch(actionGold(data)),
 });
 

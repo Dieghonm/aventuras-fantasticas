@@ -4,12 +4,15 @@ import PropTypes from 'prop-types';
 import {Navigate} from 'react-router-dom';
 import { GetGravatar } from "../helpers/Gravatar"
 
+import Charms from "./Charms";
+import Equipaments from "./Equipaments";
+import { AtributeChange } from "../helpers/LocalStorage";
+import { oppenStatusPage } from "../redux/actions";
+
 import Livros from '../books/Livros'
 import CASTELO from '../imgs/CASTELO.png'
 
 import * as S from '../styles/components/Status'
-import { AtributeChange } from "../helpers/LocalStorage";
-import Charms from "./Charms";
 
 class Status extends Component {
   state = {
@@ -40,8 +43,18 @@ class Status extends Component {
     }
   }
 
+  equipamentsButton = (equips) => {
+    if (equips.length) {
+      return (
+        <Equipaments equips={equips} />
+      )
+    }
+  }
+
   render() {
-    const { user, book, game, charms } = this.props.globalState
+    const { oppenStatusDispatch, globalState } = this.props
+    const { user, book, game, charms, status, equip } = globalState
+
     if (!user.user) {
       return(
         <Navigate to="/aventuras-fantasticas" />
@@ -54,9 +67,8 @@ class Status extends Component {
     }
     return(
       <div>
-        <S.CastleButtonImg onClick={()=>this.setState({modal:this.state.modal === 'block'?'none':'block'})} src={CASTELO} alt="aba de status" />
-
-        <div style={{display : this.state.modal}}>
+        <S.CastleButtonImg onClick={ () => oppenStatusDispatch() } src={CASTELO} alt="aba de status" />
+        <div style={{display : status}}>
           <S.StatusDiv >
             <S.StatusBlock>
               <img src={GetGravatar(user.email)} alt={user.user} />
@@ -70,7 +82,7 @@ class Status extends Component {
             </S.StatusBlock>
             <S.StatusBlock>
               {this.charmsButton(charms)}
-              <button>equipamento</button>
+              {this.equipamentsButton(equip)}
             </S.StatusBlock>
           </S.StatusDiv>
         </div>
@@ -83,8 +95,15 @@ const mapStateToProps = (state) => ({
   globalState: state,
 });
 
+const mapDispatchToProps = (dispatch) => ({
+  oppenStatusDispatch: (data) => dispatch(oppenStatusPage(data)),
+})
+
+
+
 Status.propTypes = {
   globalState: PropTypes.object,
+  oppenStatusDispatch: PropTypes.func
 };
 
-export default connect(mapStateToProps)(Status);
+export default connect(mapStateToProps, mapDispatchToProps)(Status);

@@ -5,6 +5,7 @@ import book from './book';
 import game from './game';
 import charms from './charms';
 import equip from './equip';
+import status from './status'
 
 const rootReducer = combineReducers({
   user,
@@ -12,6 +13,7 @@ const rootReducer = combineReducers({
   game,
   charms,
   equip,
+  status
 });
 
 export default rootReducer;

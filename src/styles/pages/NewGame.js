@@ -4,7 +4,7 @@ import { media } from "../media";
 export const NewGameDiv = styled.div`
   margin: 5em ;
   ${ media.laptop }{ 
-    margin: 5em 3em ;
+    margin: 3.5em 3em ;
   }
   ${ media.mobileM }{ 
 

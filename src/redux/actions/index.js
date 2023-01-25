@@ -7,6 +7,7 @@ export const [
   KILLMAGIC,
   EQUIP,
   GOLD,
+  STATUS
 ] = [
   'LOGIN',
   'BOOK',
@@ -16,6 +17,7 @@ export const [
   'KILLMAGIC',
   'EQUIP',
   'GOLD',
+  'STATUS'
 ];
 
 export function actionLogin(dataAction) {
@@ -70,6 +72,14 @@ export function actionEquipADD(dataAction) {
 export function actionGold(dataAction) {
   return {
     type: GOLD,
+    payload: dataAction,
+  };
+  
+}
+
+export function oppenStatusPage(dataAction) {
+  return {
+    type: STATUS,
     payload: dataAction,
   };
   
