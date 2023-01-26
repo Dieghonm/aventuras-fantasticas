@@ -220,7 +220,7 @@ const Livros = {
           {text:`você se apresentara como um especialista em plantas medicinais?`, goTo:261},
           {text:`você dirá que e um comerciante?`, goTo:230},
           {text:`você pedirá abrigo para pernoitar?`, goTo:20},
-          {text:`testes de extras`, goTo:20, ex:[ex.combate, ['Primeiro GIRA', 'Cachorro-Macaco']]}
+          // {text:`testes de extras`, goTo:20, ex:[ex.combate, ['MACACO-CACHORRO', 'CACHORRO-MACACO']]}
         ]
       },
       2:{
@@ -1709,7 +1709,7 @@ const Livros = {
 
         `,
         options: [
-          {text:`Se vencer, poderá recuperar a sua espada. Sua força retomara ao normal.`, goTo:32, ex:[ex.combate,['MACACO-CACHORRO', 'CACHORRO-MACACO']]},
+          {text:`Se vencer, poderá recuperar a sua espada. Sua força retomara ao normal.`, goTo:32, ex: [ex.combate,['MACACO-CACHORRO', 'CACHORRO-MACACO']]},
         ]
       },
       163:{
@@ -2941,7 +2941,7 @@ const Livros = {
         options: [
           {text:`Um Encanto da Força`, goTo:162, ex:[ex.charm,'forca']},
           {text:`Um Encanto da Levitação`, goTo:86, ex:[ex.charm,'levitacao']},
-          {text:`Ou poderá lutar com um de cada vez`, goTo:32, ex:[ex.combate,['Macaco-Cachorro','Cachorro-Macaco']]},
+          {text:`Ou poderá lutar com um de cada vez`, goTo:32, ex:[ex.combate,['MACACO-CACHORRO', 'CACHORRO-MACACO']]},
         ]
       },
       289:{

@@ -12,11 +12,11 @@ const Enemies = {
     Habilidade: 9,
     // 'extra':'Depois que você tiver atingido a criatura pela quarta vez, goTo:241, 30'
   },
-  'Macaco-Cachorro':{
+  'MACACO-CACHORRO':{
     Energia: 7,
     Habilidade: 4,
   },//combate duplo 288
-  'Cachorro-Macaco':{
+  'CACHORRO-MACACO':{
     Energia: 6,
     Habilidade: 6,
   },
