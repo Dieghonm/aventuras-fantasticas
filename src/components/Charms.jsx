@@ -17,9 +17,10 @@ class Charms extends Component {
     const { globalState, attibutesRedux, charmsToRedux} = this.props
     const { book, game, attInitial } = globalState
     const data = Livros[book.book].character.Encantamentos
-    console.log(attInitial, [data[charm][0], game[data[charm][0]] + num], charm);
-    console.log(attInitial[data[charm][0]], game[data[charm][0]]);
-    attibutesRedux([data[charm][0], game[data[charm][0]] + num])
+    const value = game[data[charm][0]] + num
+    const initialValue = attInitial[data[charm][0]]
+    const returnValue = initialValue < value ? initialValue : value
+    attibutesRedux([data[charm][0], returnValue])
     charmsToRedux(charm)
   }
 
@@ -44,7 +45,6 @@ class Charms extends Component {
     const { isHiden } = this.state
     const list = Object.keys(charms)
     const data = Livros[book.book].character.Encantamentos
-    const roll = ['sorte', 'habilidade', 'energia']
     return(
       <S.CharmsDiv hidden={isHiden}>
         {list.map((charm) => {
@@ -52,7 +52,6 @@ class Charms extends Component {
           <S.DiceDiv key={charm}>
             <p>{data[charm][0]} - {charms[charm]}</p>
             {this.recoverAttRoll(charm, game, attInitial)}
-            {roll.includes(charm)? <Dice roll={ this.roll } status={charm}/>: null}
           </S.DiceDiv>
         ): null
         })}
