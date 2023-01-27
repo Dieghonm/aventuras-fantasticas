@@ -74,7 +74,10 @@ class Status extends Component {
               <img src={GetGravatar(user.email)} alt={user.user} />
               <S.PlayerDiv>
                 <h4>{Livros[book.book].name}</h4>
-                <h5>{user.user}</h5>
+                <span>
+                  <h5>{user.user}</h5>
+                  <h5>Ouro {book.gold}</h5>
+                </span>
               </S.PlayerDiv>
             </S.StatusBlock>
             <S.StatusBlock>

@@ -50,6 +50,10 @@ export const CastleButtonImg = styled.img `
 
 export const PlayerDiv = styled.div`
   margin: 0.5em;
+  span {
+    display: flex;
+    justify-content: space-between
+  }
 
 `
 export const AttDiv = styled.div`

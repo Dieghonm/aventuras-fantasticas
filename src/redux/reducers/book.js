@@ -21,7 +21,7 @@ export default (state = initialState, action) => {
     case GOLD:
       return {
         ...state,
-        gold: state.gold + action.payload,
+        gold: state.gold + action.payload > 0 ? state.gold + action.payload : 0
       };
 
   default:

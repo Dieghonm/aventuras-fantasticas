@@ -1,7 +1,7 @@
 import React from "react"
 import { connect } from 'react-redux';
 import { Link, useParams } from "react-router-dom";
-import { actionCharms, actionGoTo, actionAttributes, actionEquipADD } from "../redux/actions";
+import { actionCharms, actionGoTo, actionAttributes, actionEquipADD, actionGold } from "../redux/actions";
 import { GetLocalStorage, SetLocalStorage } from '../helpers/LocalStorage'
 import PropTypes from 'prop-types';
 
@@ -12,7 +12,7 @@ import Livros from '../books/Livros'
 import * as S from '../styles/pages/Play'
 
 function Play(props) {
-  const { charmsToRedux, globalState, goToToRedux, attibutesRedux, equipAddRedux } = props
+  const { charmsToRedux, globalState, goToToRedux, attibutesRedux, equipAddRedux, goldToRedux } = props
   const { goTo } = useParams ();
   const {
     book:{book},
@@ -47,11 +47,16 @@ function Play(props) {
         const equip = data.Equip.filter((item) => item !== ex[ex.indexOf('itemRemov')+1])
         storage[user][book].Equip = equip
       }
+      if (ex.includes('modGold')){
+        const gold = storage[user][book].Ouro + ex[ex.indexOf('modGold')+1]
+        storage[user][book].Ouro = gold > 0 ? gold : 0
+      }
     }
+    console.log(storage);
     SetLocalStorage(storage)
   }
 
-  const options = ({goTo, text, ex  }) => {
+  const options = ({goTo, text, ex }) => {
     let disabledButton = false
     if (ex) {
       if (ex.includes('charm')){
@@ -59,9 +64,6 @@ function Play(props) {
       }
       if (ex.includes('item')){
         disabledButton = !equip.includes(ex[1])
-      }
-      if (ex.includes('combate')){
-        // disabledButton = !(enemiesCont === ex[ex.indexOf('combate')+1].length);
       }
     }
 
@@ -84,6 +86,9 @@ function Play(props) {
         }
         if (ex.includes('itemRemov')){
           equipAddRedux([ex[ex.indexOf('itemRemov')+1],'remove'])
+        }
+        if (ex.includes('modGold')){
+          goldToRedux(ex[ex.indexOf('modGold')+1])
         }
       }
       reduxToStorage(goTo, ex)
@@ -119,6 +124,8 @@ const mapDispatchToProps = (dispatch) => ({
   goToToRedux: (data) => dispatch(actionGoTo(data)),
   attibutesRedux: (data) => dispatch(actionAttributes(data)),
   equipAddRedux: (data) => dispatch(actionEquipADD (data)),
+  goldToRedux: (data) => dispatch(actionGold(data)),
+  
 });
 
 Play.propTypes = {
@@ -127,6 +134,7 @@ Play.propTypes = {
   goToToRedux: PropTypes.func,
   attibutesRedux: PropTypes.func,
   equipAddRedux: PropTypes.func,
+  goldToRedux: PropTypes.func,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Play);

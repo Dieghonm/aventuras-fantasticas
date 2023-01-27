@@ -31,13 +31,13 @@ const ex = {
   'itemRemov':{
   
   },
-
-// falta resolver logica
-  'modGold':'',
-  'addCharm':'adciona encantamentos a escolha',
   'combate':{
     
   },
+  'modGold':'',
+
+// falta resolver logica
+  'addCharm':'adciona encantamentos a escolha',
 
   'senha': 'cimitarra',
   

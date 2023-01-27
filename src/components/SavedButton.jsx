@@ -26,14 +26,16 @@ class SavedButton extends Component {
       equipAddRedux,
       goldRedux,
     } = this.props
+    equipAddRedux('clean')
+    goldRedux(-99999999)
     bookToRedux(book)
-    goldRedux(Ouro)
     goToToRedux(goTo)
-    equipAddRedux(Equip)
     charmsToRedux(charmList)
     attibutesRedux(['Energia', Energia])
     attibutesRedux(['Habilidade', Habilidade])
     attibutesRedux(['Sorte', Sorte])
+    goldRedux(Ouro)
+    equipAddRedux(Equip)
   }
 
   render() {
